@@ -1,0 +1,202 @@
+---
+layout: post
+title: "Frequently Asked Questions"
+date: 2012-02-16 18:11:58 +0100
+tags: []
+---
+
+<p>If you encountered an issue, make sure the solution is not listed on this page, then contact <a href="https://listengine.tuxfamily.org/lists.galette.eu/users/">Galette's mailing list</a> with as many informations as possible (in particular related logs lines - see <code>logs/galette.log</code> file and your webserver logs [when possible...]).</p>
+
+<!--
+<div class="admonition warning">
+<p class="admonition-title">No longer maintained page</p>
+<p>This FAQ is now deprecated, please use <a href="https://forums.galette.eu/viewforum.php?id=6">dedicated forum</a></p>
+</div>
+-->
+
+
+
+<h2>Mandatory field empty</h2>
+
+
+<p>When adding a new member, I got a message "Mandatory field empty"; even if I've properly filled all required fields.</p>
+
+
+<p>In this case, install <a href="/documentation/fr/plugins/admintools.html">AdminTools plugin</a> and run "Reinitialize fields configuration". You will be able to enter new members again.</p>
+
+
+<h2>I see a blank page - My data are not stored - etc (Galette 0.7.x)</h2>
+
+
+<p>A blank page means server has encountered a problem. If you got only a blank page the first time you run Galette, make sure you are using PHP 5.3 at least.</p>
+
+
+<p>In other cases, before asking on the mailing list, you'll have to take a look at the log files. There are two types of log files :</p>
+
+<ul>
+<li>Galette's logs, you could find them in <em>logs/galette.log</em> file,</li>
+<li>server's logs, whose path differs from an installation to another.
+<ul>
+<li>on RedHat/Fedora (and similar) sevrers, you'll find them in <em>/var/log/httpd/error_log</em>,</li>
+<li>on other Linux distributions, <em>httpd</em>  can be called <em>apache</em>,</li>
+<li>under Windows/MacOS with XAMPP based solutions, there is a <em>logs</em> directory in the installation directory,</li>
+<li>if you cannot read server's logs file (typical on grouped hostings), please refer to the next section.</li>
+</ul></li>
+</ul>
+
+
+<p>Error that appears in those files will probably help to fix your problem.</p>
+
+
+<h2>Display errors (Galette &gt;= 0.7.3)</h2>
+
+<div class="admonition warning">
+<p class="admonition-title">Only for debug!!</p>
+<p>Displaying errors on the page may provides some informations that should not be publically visible. On production, it is <strong>strongly inadvisable </strong> to display them, below solution must be only temporary, just the time for you to get informations on the issue.</p>
+</div>
+
+
+
+<p>On grouped hostings, you cannot access server logs. In that case, you could (<strong>temporary</strong>) display errors on pages. To achieve that, create the <em>galette/config/behavior.inc.php</em> with the following content:</p>
+<pre>\r
+&lt;?php\r
+define('GALETTE_DISPLAY_ERRORS', 1);\r
+</pre>
+
+
+<p>When a problem occurs, errors that are sent to server's logs will appear on the screen.</p>
+
+
+<h2>Error sending mails with php mail() function (Galette 0.7.0)</h2>
+
+
+<p>If you have selected the php <code>mail()</code> function in the preferences, you may obtain an error like:</p>
+<pre>\r
+Unable to execute: /usr/sbin/sendmail.\r
+</pre>
+
+
+<p>It is a <a href="http://bugs.galette.eu/issues/215">bug that will be corrected in the next release</a>. To avoid that issue, you can either use a SMTP server in the preferences, or comment the following lines in <code>galette/classs/galette_mail.php</code> file:</p>
+<pre>\r
+case self::METHOD_SENDMAIL:\r
+    // telling the class to use Sendmail transport\r
+    $this-&gt;_mail-&gt;IsSendmail();\r
+    break;\r
+</pre>
+
+
+<h2>How to find an old version?</h2>
+
+
+<p>It may be useful sometimes to retrieve an old release of Galette or one of its plugins; see <a href="http://download.tuxfamily.org/galette/">Galette download</a>; you will find all to make you happy!</p>
+
+
+<h2>Call to undefined function: bindtextdomain()</h2>
+
+
+<p>This error appears typically when gettext php module is not loaded on your webserver.</p>
+
+<ul>
+<li>With EasyPHP : you have to load the extension which is present, but not loaded. To do this, right click on EasyPHP icon, then configuration -&gt; php extensions and check php-gettext.</li>
+</ul>
+
+
+<p>PHP gettext extension is available on most linux distributions. If your hosting does not provide it, try to contact them for gettext to be loaded on their servers.</p>
+
+
+<h2>Galette does not install with my web site provider (ISP)</h2>
+
+
+<p>Try creating a folder called “sessions” at the root of the site. It is a recurring problem with many ISP (notably Free).</p>
+
+
+<h2>I cannot log in</h2>
+
+
+<p>You need to activate cookies in the browser used to consult Galette online.</p>
+
+
+<h2>Registration to the CNIL (French Government Entity for the Protection of Personal Data)</h2>
+
+
+<p>It seems that it is no longer any legal obligation to submit the membership file to the CNIL.<br />
+Anyways, nothing prevents you from doing a simplified registration.</p>
+
+
+<h2>PostgreSQL : cannot connect database</h2>
+
+
+<p>Problem may be solved that way  :</p>
+
+<ul>
+<li>Remove old galette database :</li>
+</ul>
+
+<pre>\r
+$ su -\r
+Password:\r
+# su - postgres\r
+$ psql template1\r
+template1=# DROP DATABASE galette;\r
+DROP DATABASE\r
+template1=#\\q\r
+</pre>
+
+
+<p>Stay with postgres identity: probably create user (do not use empty password):</p>
+
+<pre>\r
+$ createuser -A -D -P adh\r
+Enter password for new user:\r
+Enter it again:\r
+CREATE USER\r
+</pre>
+
+<ul>
+<li>(re)create database :</li>
+</ul>
+
+<pre>\r
+$ createdb -O adh galette\r
+CREATE DATABASE\r
+</pre>
+
+
+<p>Where <code>adh</code> is the username, and <code>galette</code> the database name.</p>
+
+
+<p>There was also an problem in <code>pg_hba.conf</code> file, the following configuration should work for any PostgreSQL versions :</p>
+
+<pre>\r
+#/etc/postgresql/pg_hba.conf (debian)\r
+local   all     postgres        ident sameuser\r
+\r
+local   all     all             md5\r
+host    all     all             127.0.0.1       255.255.255.255 md5 \r
+</pre>
+
+
+<h2>MySql: Error creating tables or inefficient changes save</h2>
+
+
+<p>Bug detected with MySql 5.0.27 under Windows XP.</p>
+
+
+<p>If MySQL configuration file contains the following option:</p>
+<pre>\r
+# Set the SQL mode to strict\r
+sql-mode=&quot;STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION&quot; \r
+</pre>
+
+
+<p>Galette installation will not work.</p>
+
+
+<p>If Galette is already installed, it won't work as excpected. For example, adding a new member will fail. You'll get no error message, Galette's logs will say member has been successfully added, but the new member will never reach database.</p>
+
+
+<p>You have to deactivate this option:</p>
+<pre>\r
+# Set the SQL mode to strict\r
+# sql-mode=&quot;STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION&quot; \r
+</pre>

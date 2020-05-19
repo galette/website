@@ -1,0 +1,201 @@
+---
+layout: post
+title: "Foire aux questions"
+date: 2012-02-16 18:11:58 +0100
+tags: []
+---
+
+<p>Si vous avez un problème ; assurez-vous que la solution ne se trouve pas sur la présente page, puis contactez <a href="https://listengine.tuxfamily.org/lists.galette.eu/users/">la liste de discussion de Galette</a> avec le plus d'informations possible (notamment les erreurs renvoyées dans les fichiers de log - voyez le fichier <code>logs/galette.log</code> et les fichiers logs de votre serveur Web [si possible...]).</p>
+
+<!--
+<div class="admonition warning">
+<p class="admonition-title">Page non maintenue</p>
+<p>La présente foire aux questions est désormais dépréciée en faveur du <a href="https://forums.galette.eu/viewforum.php?id=6">forum de discussion dédié</a></p>
+</div>
+-->
+
+
+
+<h2>Champ obligatoire non renseigné</h2>
+
+
+<p>Lors de la saisie d'un nouvel adhérent, j'obtiens le message «  Champ obligatoire non renseigné » ; alors que j'ai bien rempli tous les champs obligatoires.</p>
+
+
+<p>Dans ce cas de figure, tentez d'installer le <a href="/documentation/fr/plugins/admintools.html">plugin AdminTools</a>, et lancez la « Réinitialisation de la configuration des champs ». Vous serez ensuite en mesure de renseigner vos nouveaux adhérents.</p>
+
+
+<h2>J'obtiens une page blanche - Mes données ne sont pas enregistrées - etc (Galette 0.7.x)</h2>
+
+
+<p>La page blanche signifie que le serveur a rencontré un problème. Si vous obtenez une page blanche directement au lancement de Galette, assurez-vous d'avoir PHP en version 5.3 minimum.</p>
+
+
+<p>Dans les autres cas, avant de contacter la liste de diffusion, il faudra aller voir ce que disent les fichiers de log. Deux types de fichiers de log sont à distinguer :</p>
+
+<ul>
+<li>les logs de Galette, que vous trouverez dans le fichier <em>logs/galette.log</em>,</li>
+<li>les logs du serveur, dont l'emplacement peut différer d'une installation à l'autre
+<ul>
+<li>sur des serveurs RedHat/Fedora (et assimilés), vous les trouverez dans <em>/var/log/httpd/error_log</em>,</li>
+<li>sous d'autres distributions Linux, <em>httpd</em> peut se nommer <em>apache</em>,</li>
+<li>sous Windows/MacOS avec des solutions de type XAMPP, il y a un dossier <em>logs</em> dans le répertoire d'installation,</li>
+<li>Si vous n'avez pas accès aux logs du serveur (typique sur des hébergements mutualisés), reportez-vous à la section suivante.</li>
+</ul></li>
+</ul>
+
+
+<p>Les erreurs affichées dans ces différents fichiers pourront probablement aider à la résolution de votre problème.</p>
+
+
+<h2>Afficher les erreurs (Galette &gt;= 0.7.3)</h2>
+
+<div class="admonition warning">
+<p class="admonition-title">Uniquement pour corriger !!</p>
+<p>Afficher les erreurs sur la page fournit parfois des informations qui ne devraient pas être rendues publiques. En mode production, il est <strong>fortement déconseillé</strong> de les afficher, la solution décrite ci-dessous ne doit donc être que temporaire, le temps d'obtenir des informations sur le problème rencontré.</p>
+</div>
+
+
+
+<p>Sur les hébergements mutualisés, vous n'aurez pas accès aux logs du serveur. Dans ce cas, il faudra (<strong>temporairement</strong>) afficher les erreurs sur la page. Pour ce faire, créez un fichier <em>galette/config/behavior.inc.php</em> avec le contenu suivant :</p>
+<pre>\r
+&lt;?php\r
+define('GALETTE_DISPLAY_ERRORS', 1);\r
+</pre>
+
+
+<p>Lorsque le problème se reproduira, les erreurs qui sont normalement envoyées dans les logs du serveur seront affichées à l'écran.</p>
+
+
+<h2>Erreur d'envoi de mails avec la fonction php mail() (Galette 0.7.0)</h2>
+
+
+<p>Si vous avez sélectionné l'utilisation de la fonction php <code>mail()</code> dans les préférences, il se peut que vous obteniez un message d'erreur du type :</p>
+<pre>\r
+Impossible de lancer l'exécution : /usr/sbin/sendmail.\r
+</pre>
+
+
+<p>Il s'agit d'un <a href="http://bugs.galette.eu/issues/215">bogue qui sera corrigé dans la prochaine version</a>. Pour le contourner, vous pouvez soit définir l'utilisation d'un serveur SMTP dans les préférences, soit commenter dans le fichier <code>galette/classs/galette_mail.php</code>, les lignes suivantes :</p>
+<pre>\r
+case self::METHOD_SENDMAIL:\r
+    // telling the class to use Sendmail transport\r
+    $this-&gt;_mail-&gt;IsSendmail();\r
+    break;\r
+</pre>
+
+
+<h2>Comment trouver une ancienne version ?</h2>
+
+
+<p>Il est parfois utile de pouvoir retrouver une ancienne version de Galette ou de l'un de ses plugins; voyez <a href="http://download.tuxfamily.org/galette/">l'espace de téléchargement de Galette</a>, vous devriez y trouver votre bonheur !</p>
+
+
+<h2>Call to undefined function: bindtextdomain()</h2>
+
+
+<p>Cette erreur est typique lorsque le module php gettext n'est pas chargé sur votre serveur Web.</p>
+
+<ul>
+<li>Sous EasyPHP : il faut activer l'extension qui est présente, mais non chargée. Pour l'activer, faites un click droit sur l'icône de EasyPHP, -Puis configuration -&gt; extension php et cocher php-gettext.</li>
+</ul>
+
+
+<p>L'extension PHP GetText est disponible sur la majorité des distributions linux. Si votre hébergeur ne la propose pas, rapprochez-vous de lui pour qu'elle soit activée sur leurs serveurs.</p>
+
+
+<h2>Galette ne s'installe pas chez mon hébergeur web</h2>
+
+
+<p>Essayez de créer un dossier "sessions" à la racine du site. C'est un problème récurrent chez plusieurs hébergeurs (notamment Free).</p>
+
+
+<h2>Je n'arrive pas à m'identifier</h2>
+
+
+<p>Il faut activer les cookies dans votre navigateur pour le site qui héberge Galette.</p>
+
+
+<h2>Déclaration à la CNIL</h2>
+
+
+<p>Il semblerait ne plus y avoir d'obligation légale de déclarer le fichier adhérent à la CNIL.<br />
+Rien ne vous empêche toutefois de faire une déclaration simplifiée quand même.</p>
+
+
+<h2>PostgreSQL : Connexion à la base impossible</h2>
+
+
+<p>Le problème peut être résolu ainsi :</p>
+
+<ul>
+<li>Destruction de l'ancienne base galette :</li>
+</ul>
+
+<pre>\r
+$ su -\r
+Password:\r
+# su - postgres\r
+$ psql template1\r
+template1=# DROP DATABASE galette;\r
+DROP DATABASE\r
+template1=#\\q\r
+</pre>
+
+
+<p>Toujours en tant que user postgres : éventuellement création de l'utilisateur (ne pas mettre de mot de passe vide) :</p>
+
+<pre>\r
+$ createuser -A -D -P adh\r
+Enter password for new user:\r
+Enter it again:\r
+CREATE USER\r
+</pre>
+
+<ul>
+<li>(re)création de la base :</li>
+</ul>
+
+<pre>\r
+$ createdb -O adh galette\r
+CREATE DATABASE\r
+</pre>
+
+
+<p>Où <code>adh</code> est l'utilisateur, et <code>galette</code> le nom de la base</p>
+
+
+<p>Il y avait aussi un problème dans le pg_hba.conf, la configuration qui suit devrait fonctionner pour n'importe quelle version de postgresql :</p>
+
+<pre>\r
+#/etc/postgresql/pg_hba.conf (debian)\r
+local   all     postgres        ident sameuser\r
+\r
+local   all     all             md5\r
+host    all     all             127.0.0.1       255.255.255.255 md5 \r
+</pre>
+
+
+<h2>MySql : Erreur de création de tables ou d'enregistrement infructueux</h2>
+
+
+<p>Bug détecté sur MySql 5.0.27 sous Windows XP.</p>
+
+
+<p>Si la configuration de MySql (dans le fichier My.ini) contient la directive suivante,</p>
+<pre>\r
+# Set the SQL mode to strict\r
+sql-mode=&quot;STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION&quot; \r
+</pre>
+
+<p>L'installation de Galette ne fonctionnera pas.</p>
+
+
+<p>Si Galette est déja installé, il ne fonctionnera pas normalement. Par exemple, la création d'un nouvel adhérent échouera. Vous n'aurez pas de message d'erreur, le log de Galette indiquera que la création s'est bien passée, mais le nouvel adhérent ne sera pas ajouté à la base.</p>
+
+
+<p>Il faut désactiver cette option.</p>
+<pre>\r
+# Set the SQL mode to strict\r
+# sql-mode=&quot;STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION&quot; \r
+</pre>
