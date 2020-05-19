@@ -1,10 +1,10 @@
 global:
   tagline: English
-  about: About
   twitter: Twitter
-  github: GitHub
+  About: About
 langs:
   en: English
   fr: French
 pages:
   about: About
+  home: Home

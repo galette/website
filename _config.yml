@@ -17,7 +17,7 @@ title: Galette
 email: contact@galette.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/dc" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: galette_soft
 github_username:  galette
@@ -25,12 +25,14 @@ github_username:  galette
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-admin
   - jekyll-multiple-languages-plugin
   - jekyll-paginate
+  - jekyll-seo-tag
 
 languages: ["en", "fr"]
 
