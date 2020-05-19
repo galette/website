@@ -1,0 +1,9 @@
+global:
+  tagline: Français
+  about: À propos
+  twitter: Twitter
+  github: GitHub
+langs:
+  fr: Français
+pages:
+  about: À propos

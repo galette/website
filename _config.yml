@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Galette
+email: contact@galette.eu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: galette_soft
+github_username:  galette
+#permalink: /:title/
 
 # Build settings
 markdown: kramdown
@@ -30,6 +29,17 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+languages: ["en", "fr"]
+
+# Paginate
+paginate: 1
+paginate_path: "/pagination/page:num/"
+
+#exclude: ["LICENSE.txt", "README.md"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

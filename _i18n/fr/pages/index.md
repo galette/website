@@ -1,10 +1,3 @@
----
-layout: post
-title: "Accueil"
-date: 2012-02-15 18:25:08 +0100
-tags: []
----
-
 <h2>Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace</h2>
 
 
