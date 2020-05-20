@@ -2,8 +2,7 @@
 
 Galette is a membership management web application towards non profit organizations. A <a href="/dc/index.php/pages/%C3%80-propos">detailled presentation</a> is also available.
 
-<img src="{{ site.baseurl_root }}/assets/images/screenshots/desktop_s.jpg" alt="Galette&#039;s dashboard" style="float:right; margin: 0 0 1em 1em;" title="Galette&#039;s dashboard, feb. 2012" />
-
+{% responsive_image path: assets/images/screenshots/desktop.png alt: "Galette dashboard" title: "A dashboard welcomes you once logged." %}
 
 It allows board members to know which fees will soon reach their due dates.
 Moreover, each member can review and update his personal information.

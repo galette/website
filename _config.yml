@@ -33,6 +33,7 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-responsive-image
 
 languages: ["en", "fr"]
 
@@ -42,6 +43,12 @@ paginate_path: "/pagination/page:num/"
 
 #exclude: ["LICENSE.txt", "README.md"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 800
+    - width: 400
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
