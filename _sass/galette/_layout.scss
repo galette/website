@@ -1,0 +1,67 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+
+/** main header */
+body > header:first-child {
+  position: relative;
+  height: 100px;
+  width: auto;
+  padding: 0;
+  margin: 0 auto;
+  z-index: 10;
+
+  h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 3.5em;
+
+    a {
+      color: #9ac528;
+      text-decoration: none;
+      display: inline-block;
+      width: 208px;
+      height: 100px;
+      background: url(img/galette.png) top left no-repeat;
+      text-indent: 210px;
+      overflow: hidden;
+    }
+  }
+}
+
+/** main footer */
+body > footer:last-child {
+  color: rgba(255, 255, 255, 0.7);
+
+  a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  clear: both;
+
+  width: auto;
+  margin: 3em auto 0;
+
+  p {
+    margin: 0;
+    padding: .5em 2em;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+  }
+}

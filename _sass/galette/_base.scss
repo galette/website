@@ -1,0 +1,81 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $background-color url(img/bg.png) top left no-repeat;
+
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+img {
+    max-width:500px;
+}
+
+a {
+  color: #279ac4;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    color: #708FAB;
+    text-decoration: underline;
+  }
+
+  img {
+    border: none;
+  }
+}
+
+pre {
+  white-space: pre;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+sup {
+  font-size: $small-font-size;
+  line-height: 50%;
+}
+
+p {
+    text-align: justify;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

@@ -1,34 +1,9 @@
-<footer class="site-footer h-card">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
+<footer>
+    <p>
+        Propulsé par <a href="https://jekyllrb.com/">Jekyll</a> - Theme by <a href="https://galette.eu">Johan Cwiklinski</a><br/>
+        <a href="https://twitter.com/galette_soft">Twitter</a> - <a href="https://framapiaf.org/@galette">Mastodon</a>
+        {% comment %}
         {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
+        {% endcomment %}
+    </p>
 </footer>
