@@ -29,7 +29,6 @@ markdown: kramdown
 #theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
-  - jekyll-admin
   - jekyll-multiple-languages-plugin
   - jekyll-paginate
   - jekyll-seo-tag
