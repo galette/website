@@ -1,6 +1,6 @@
 ## Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
 
-Galette est un outil de gestion d'adhérents et de cotisations en ligne à destination des associations. Une <a href="/dc/index.php/pages/%C3%80-propos">présentation détaillée de Galette</a> est également disponible.
+Galette est un outil de gestion d'adhérents et de cotisations en ligne à destination des associations. Une <a href="{% tl about %}">présentation détaillée de Galette</a> est également disponible.
 
 <img src="{{ site.baseurl_root }}/assets/images/screenshots/desktop_s.jpg" alt="Tableau de bord Galette" style="float:right; margin: 0 0 1em 1em;" title="Tableau de bord Galette, fév. 2012" />
 

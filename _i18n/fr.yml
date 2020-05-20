@@ -7,3 +7,13 @@ langs:
 pages:
   about: À propos
   home: Accueil
+  notfound: Page non trouvée :'(
+menus:
+  main: Navigation
+  faq: Foire Aux Questions
+  bugs: Bogues et Tâches
+  demo: Démo
+  doc: Documentation
+  docinstall: Guide d'installation
+  docuser: Manuel de l'utilisateur
+  docplugins: Plugins

@@ -1,11 +1,37 @@
-<div id="sidebar">
-  <div class="sidebar-wrapper">
-    <div id="blognav">
-      {{tpl:Widgets type="nav"}}
-    </div> <!-- End #blognav -->
+<aside id="sidebar" role="nav">
+    {% for menu in site.galette.menus %}
+        {% assign key = menu[0] %}
+        {% assign entries = menu[1] %}
+        <h3>{% t menus.{{key}} %}</h3>
+        {% comment %}
+        {% if key != 'main' %}
+            <h3>{% t menus.{{key}} %}</h3>
+        {% endif %}
+        {% endcomment %}
+        <ul>
+        {% if key == 'main' %}
+            {% assign pages = site.pages | sort: 'weight' %}
+            {% for p in pages %}
+                {% if p.nomenu == nil and p.title != nil %}
+                    <li{% if p.url == page.url %} class="active"{% endif %}>
+                        {% assign tkeys = p.title | split: "." %}
+                        {% assign tkey = tkeys[1] %}
+                        <a href="{{ site.baseurl }}{{ p.url }}">{{ site.translations[site.lang]['pages'][tkey]}}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% for entry in entries %}
+            <li{% if entry.url == page.url %} class="active"{% endif %}>
+                {% assign tkeys = entry.name | split: "." %}
+                {% assign tkey = tkeys[1] %}
 
-    <div id="blogextra">
-      {{tpl:Widgets type="extra"}}
-    </div> <!-- End #blogextra -->
-  </div>
-</div>
+                {% assign tdoc_url = site.galette.doc_url | append: '/' | append: site.lang %}
+                {% assign murl = entry.url | replace: "DOC_URL", tdoc_url %}
+                <a href="{{ murl }}">{{ site.translations[site.lang]['menus'][tkey]}}</a>
+            </li>
+
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</aside>

@@ -61,6 +61,7 @@ $light-text-color:  #fff !default;
 $background-color:  #636B70 !default;
 $galette-orange:    #ffb619 !default;
 $galette-grey:      #e6e6e6 !default;
+$action-color:      #279ac4 !default;
 
 $galette-light-orange: lighten($galette-orange, 20%) !default;
 $galette-dark-orange:  darken($galette-orange, 15%) !default;
@@ -186,87 +187,6 @@ $on-laptop:        800px !default;*/
   a {
     color: #ededed;
     text-decoration: none;
-  }
-}
-
-#content {
-  padding: 0 25px;
-}
-
-#sidebar {
-  background: #fff;
-  width: 200px;
-  float: right;
-}
-
-/* Sidebar styles
--------------------------------------------------------- */
-
-#sidebar {
-  .sidebar-wrapper {
-    position: relative;
-  }
-
-  h2 {
-    margin: 0;
-    text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
-
-    /*border-bottom: 1px #f2a104 solid;*/
-    border-bottom: 1px $background-color dotted;
-    color: $background-color;
-  }
-
-  h3 {
-    margin: 1em 0 0.5em;
-    color: #279ac4;
-  }
-
-  div div {
-    margin-bottom: 1.5em;
-  }
-
-  ul {
-    list-style: none;
-    margin: 1em 0;
-    padding: 0;
-
-    /*	border-top: 1px solid #F8C363;*/
-  }
-
-  li {
-    display: block;
-    margin: 0;
-    padding: 4px 0;
-
-    /*	border-bottom: 1px solid #F8C363;*/
-
-    a {
-      color: $text-color;
-      text-decoration: none;
-
-      &:hover, &:focus, &:active {
-        color: #9ac528;
-      }
-    }
-  }
-
-  ul ul {
-    list-style: disc;
-    margin: 0;
-    padding: 0 0 0 15px;
-    border: none;
-  }
-
-  li li {
-    display: list-item;
-    margin: 0.5em 0 0 0;
-    padding: 0 0;
-    border: none;
-  }
-
-  .simple-menu li.li-last {
-    background: url(img/icon-save.png) no-repeat 0 50%;
-    padding-left: 20px;
   }
 }
 
@@ -407,9 +327,9 @@ ul.tags {
 -------------------------------------------------------- */
 
 h2, h3, h4 {
-  margin: 1.25em 0 .3em;
+  /*margin: 1.25em 0 .3em;
   padding: 0;
-  text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
+  text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);*/
   color: #0486b5;
   //line-height: 115%;
 }
@@ -452,7 +372,7 @@ h4 {
   /*font-size: 1em;
   margin: 0 0 0.5em;
   text-align: right;
-  color: #279ac4;*/
+  color: $action-color;*/
 }
 
 .post {
@@ -460,14 +380,11 @@ h4 {
 }
 
 .post-title {
-  text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
-  border-bottom: 1px #f2a104 solid;
-  font-size: 1.7em;
+  border-bottom: 1px solid $galette-orange;
   color: $background-color;
 
   a {
     color: $text-color;
-    text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
 
     &:hover {
       text-decoration: none;
@@ -735,7 +652,7 @@ div:not(#news) > .post h2.post-title {
 
   input, textarea {
     font: 1em "Lucida Grande",Arial,sans-serif;
-    color: #279ac4;
+    color: $action-color;
     border: 1px solid #cdcdcd;
     padding: 1px 2px;
     width: 68%;
@@ -755,7 +672,7 @@ div:not(#news) > .post h2.post-title {
     &.preview {
       margin-left: 30%;
       width: auto;
-      color: #279ac4;
+      color: $action-color;
       background: #fff;
       font-size: 1em;
       font-weight: bold;
@@ -765,7 +682,7 @@ div:not(#news) > .post h2.post-title {
 
     &.submit {
       width: auto;
-      color: #279ac4;
+      color: $action-color;
       background: #fff;
       font-size: 1em;
       font-weight: bold;

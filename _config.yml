@@ -33,15 +33,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
-  - jekyll-paginate
+    #  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-responsive-image
 
 languages: ["en", "fr"]
 
 # Paginate
-paginate: 1
-paginate_path: "/pagination/page:num/"
+#paginate: 1
+#paginate_path: "/pagination/page:num/"
 
 #exclude: ["LICENSE.txt", "README.md"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
@@ -68,3 +68,21 @@ galette:
   last_release: 0.9.3.1
   stable_url: http://download.tuxfamily.org/galette/galette-0.9.3.1.tar.bz2
   nightly_url: http://download.tuxfamily.org/galette/galette-dev.tar.bz2
+  doc_url: https://doc.galette.eu
+  menus:
+    main:
+      - name: menus.faq
+        url: DOC_URL/develop/faq/index.html
+      - name: menus.bugs
+        url: https://bugs.galette.eu/projects/galette/
+      - name: menus.demo
+        url: https://demo.galette.eu
+    doc:
+      - name: menus.doc
+        url: DOC_URL/master
+      - name: menus.docinstall
+        url: DOC_URL/master/installation/
+      - name: menus.docuser
+        url: DOC_URL/master/usermanual/
+      - name: menus.docplugins
+        url: DOC_URL/master/plugins/

@@ -60,7 +60,7 @@ body > section #content {
 
 article#content {
     /*border-right: 1px solid #bfbfbf;*/
-    border-right: 1px red dotted;
+    /*border-right: 1px red dotted;*/
     margin-right: $sidebar-width;
     position: relative;
     /*background: #fff;*/
@@ -68,6 +68,78 @@ article#content {
     transition: transform .2s;
     will-change: transform;
     min-height: 600px;
+    padding: 0 1em;
+}
+
+aside#sidebar {
+  margin-top: 4em;
+  background: #fff;
+  width: $sidebar-width;
+  float: right;
+
+  h2 {
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
+
+    /*border-bottom: 1px #f2a104 solid;*/
+    border-bottom: 1px $background-color dotted;
+    color: $background-color;
+  }
+
+  h3 {
+    margin: 1em 0 0.5em;
+    color: #6b6b6b; /* $action-color; */
+  }
+
+  div div {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0em 0;
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    margin: 0;
+
+    a {
+      color: $text-color;
+      display: block;
+      text-decoration: none;
+      padding: .2em .3em;
+
+      &:hover, &:focus, &:active {
+        color: $action-color;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+
+  li.active a {
+    border-bottom: 1px solid $galette-orange;
+  }
+
+  ul ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0 0 0 15px;
+    border: none;
+  }
+
+  li li {
+    display: list-item;
+    margin: 0.5em 0 0 0;
+    padding: 0 0;
+    border: none;
+  }
+
+  .simple-menu li.li-last {
+    background: url(img/icon-save.png) no-repeat 0 50%;
+    padding-left: 20px;
+  }
 }
 
 /** main footer */
@@ -76,6 +148,12 @@ body > footer:last-child {
 
   a {
     color: rgba(255, 255, 255, 0.7);
+    padding: .1em .3em;
+
+    &:hover {
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
   }
 
   clear: both;

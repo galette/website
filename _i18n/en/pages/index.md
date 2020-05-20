@@ -1,6 +1,6 @@
 ## Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
 
-Galette is a membership management web application towards non profit organizations. A <a href="/dc/index.php/pages/%C3%80-propos">detailled presentation</a> is also available.
+Galette is a membership management web application towards non profit organizations. A <a href="{% tl about %}">detailled presentation</a> is also available.
 
 {% responsive_image path: assets/images/screenshots/desktop.png alt: "Galette dashboard" title: "A dashboard welcomes you once logged." %}
 

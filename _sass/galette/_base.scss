@@ -38,7 +38,7 @@ img {
 }
 
 a {
-  color: #279ac4;
+  color: $action-color;
   text-decoration: none;
 
   &:hover, &:active, &:focus {
@@ -92,6 +92,7 @@ p {
 
 /** Galette BOX */
 aside#galette {
+    z-index: 500;
     position:absolute;
     right:20px;
     top:20px;
@@ -151,4 +152,13 @@ aside#galette {
       }
     }
   }
+}
+
+article#content {
+    h1 {
+        display: inline-block;
+        border-bottom: 1px solid $galette-orange;
+        line-height: 1.2em;
+        margin: .4em 0;
+    }
 }

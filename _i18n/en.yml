@@ -8,3 +8,13 @@ langs:
 pages:
   about: About
   home: Home
+  notfound: Page not found :(
+menus:
+  main: Navigate
+  faq: Frequently Asked Questions
+  bugs: Bugs and Tasks
+  demo: Demo
+  doc: Documentation
+  docinstall: Installation guide
+  docuser: User manual
+  docplugins: Plugins
