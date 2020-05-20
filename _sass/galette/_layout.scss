@@ -45,11 +45,13 @@ body > header:first-child {
 /** Page contents */
 body > section.wrapper {
     /*width: 980px;*/
+    position: relative;
     overflow: hidden;
     margin: 0 auto 0 auto;
     background: #fff;
     border-radius: 6px;
     padding-top: 2em;
+    z-index: 2; //tof fix galettebox shadow
 }
 
 body > section #content {
@@ -61,7 +63,7 @@ article#content {
     border-right: 1px red dotted;
     margin-right: $sidebar-width;
     position: relative;
-    background: #fff;
+    /*background: #fff;*/
     transform: translateX(0) translateZ(0);
     transition: transform .2s;
     will-change: transform;
@@ -79,12 +81,7 @@ body > footer:last-child {
   clear: both;
 
   width: auto;
-  margin: 3em auto 0;
-
-  p {
-    margin: 0;
-    padding: .5em 2em;
-    text-align: center;
-    border-radius: 6px 6px 0 0;
-  }
+  margin: 0 auto;
+  padding: 1em 2em;
+  text-align: center;
 }

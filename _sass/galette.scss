@@ -50,17 +50,20 @@
     font-style: italic;
 }
 
-$base-font-family: PtSans, Arial, sans-serif !default;
-$base-font-size:   14px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.4em !default;
+$base-font-family:  PtSans, Arial, sans-serif !default;
+$base-font-size:    14px !default;
+$base-font-weight:  400 !default;
+$small-font-size:   $base-font-size * 0.875 !default;
+$base-line-height:  1.4em !default;
 
-$text-color: #6b6b6b !default;
-$light-text-color: #fff !default;
-$background-color: #636B70 !default;
+$text-color:        #6b6b6b !default;
+$light-text-color:  #fff !default;
+$background-color:  #636B70 !default;
+$galette-orange:    #ffb619 !default;
+$galette-grey:      #e6e6e6 !default;
 
-// Define defaults for each variable.
+$galette-light-orange: lighten($galette-orange, 20%) !default;
+$galette-dark-orange:  darken($galette-orange, 15%) !default;
 
 $content-width:    800px !default;
 $sidebar-width:    200px !default;

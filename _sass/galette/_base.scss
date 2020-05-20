@@ -79,3 +79,76 @@ p {
 .right {
   float: right;
 }
+
+.social-media-list a {
+    margin: 0 .5em;
+}
+.social-media-list svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    padding-right: .2em
+}
+
+/** Galette BOX */
+aside#galette {
+    position:absolute;
+    right:20px;
+    top:20px;
+    background:rgba(#000, 0.1);
+    border-radius:5px;
+    padding: .5em;
+
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:38px;
+    padding:1px 0;
+    background:$galette-orange;
+    background: linear_gradient(#77B9FB, #3782CD);
+    border-radius:5px;
+    box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
+    width:auto;
+
+    li {
+      float:left;
+      border-right:1px solid $galette-dark-orange;
+      border-left:1px solid $galette-light-orange;
+      height:38px;
+      padding: 0 1em;
+
+      &:hover {
+        background-color: $galette-dark-orange;
+      }
+    }
+
+    li:first-child {
+        border-left: none;
+    }
+
+    li:last-child {
+      border-right:none;
+    }
+
+    a {
+      line-height:1;
+      font-size:12px;
+      color:#fff;
+      color:rgba(#fff, 0.8);
+      display:block;
+      text-align:center;
+      font-weight:400;
+      padding-top:6px;
+      height:40px;
+      /*text-shadow:rgba(#000, 0.4) 0 -1px 0;*/
+      text-decoration: none;
+
+      strong {
+        font-size:16px;
+        display:block;
+        -webkit-font-smoothing:antialiased;
+      }
+    }
+  }
+}
