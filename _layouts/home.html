@@ -33,9 +33,8 @@ layout: default
   {% endcomment %}
 
     <!-- This loops through the paginated posts -->
-    {{ paginator | inspect }}
     {% for post in paginator.posts %}
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <div class="content">
         {{ post.content }}
       </div>

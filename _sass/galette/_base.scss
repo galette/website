@@ -40,6 +40,7 @@ img {
 a {
   color: $action-color;
   text-decoration: none;
+  cursor: hand;
 
   &:hover, &:active, &:focus {
     color: #708FAB;
@@ -152,13 +153,4 @@ aside#galette {
       }
     }
   }
-}
-
-article#content {
-    h1 {
-        display: inline-block;
-        border-bottom: 1px solid $galette-orange;
-        line-height: 1.2em;
-        margin: .4em 0;
-    }
 }

@@ -58,7 +58,7 @@ body > section #content {
     width: $content-width;
 }
 
-article#content {
+section#content {
     /*border-right: 1px solid #bfbfbf;*/
     /*border-right: 1px red dotted;*/
     margin-right: $sidebar-width;
@@ -69,6 +69,13 @@ article#content {
     will-change: transform;
     min-height: 600px;
     padding: 0 1em;
+
+    h1 {
+        display: inline-block;
+        border-bottom: 1px solid $galette-orange;
+        line-height: 1.2em;
+        margin: .4em 0;
+    }
 }
 
 aside#sidebar {
