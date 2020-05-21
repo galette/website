@@ -10,6 +10,7 @@ pages:
   home: Home
   contribute: Contribute
   contact: Contact
+  posts: Posts
   notfound: Page not found :(
 menus:
   main: Navigate

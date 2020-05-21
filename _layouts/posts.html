@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-
-<div class="home">
+{{ paginator.posts |inspect}}
+<div class="posts">
   {%- if page.title -%}
     <h1 class="page-heading">{% t page.title %}</h1>
   {%- endif -%}
-
-  {{ content }}
 
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
