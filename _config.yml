@@ -36,6 +36,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-responsive-image
+  - jekyll-redirect-from
 
 languages: ["en", "fr"]
 
