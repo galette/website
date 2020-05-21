@@ -33,15 +33,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
-    #  - jekyll-paginate
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-responsive-image
 
 languages: ["en", "fr"]
 
 # Paginate
-#paginate: 1
-#paginate_path: "/pagination/page:num/"
+paginate: 10
+paginate_path: "/archives/page:num/"
 
 #exclude: ["LICENSE.txt", "README.md"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]

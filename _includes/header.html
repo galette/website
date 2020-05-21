@@ -1,5 +1,21 @@
 <header>
     <h1><a href="https://galette.eu/dc/index.php/">Galette</a></h1>
+    <nav class="langselector">
+      {%- for lang in site.languages -%}
+        {% assign pvar = "permalink" %}
+        {% assign plink = page[pvar] %}
+
+        {%- if lang != 'en' -%}
+            {% assign pvar = "permalink_" | append: lang %}
+            {% assign plink = "/" |append: lang | append: page[pvar] %}
+        {%- endif -%}
+
+        <a href="{{ site.baseurl_root }}{{ plink }}"{% if site.lang == lang %} class="active"{% endif %}>{% t langs.{{ lang }} %}</a>
+        {%- if forloop.last != true -%}
+            <span class="separator"> &bull; </span>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
     {% comment %}
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}

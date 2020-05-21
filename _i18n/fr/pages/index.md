@@ -2,7 +2,7 @@
 
 Galette est un outil de gestion d'adhérents et de cotisations en ligne à destination des associations. Une <a href="{% tl about %}">présentation détaillée de Galette</a> est également disponible.
 
-<img src="{{ site.baseurl_root }}/assets/images/screenshots/desktop_s.jpg" alt="Tableau de bord Galette" style="float:right; margin: 0 0 1em 1em;" title="Tableau de bord Galette, fév. 2012" />
+{% responsive_image path: assets/images/screenshots/desktop.png alt: "Galette dashboard" title: "Un tableau de bord vous accueille après connexion." %}
 
 Il permet principalement aux membres du bureau de savoir à tout instant quelles adhésions arrivent bientôt à échéance.
 Chaque adhérent dispose par ailleurs d'identifiants personnels lui permettant d'aller consulter (et modifier) les informations le concernant.
