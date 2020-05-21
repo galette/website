@@ -4,7 +4,7 @@
 <p><a id="mailing_lists"></a></p>
 
 
-<h3>Mailing lists</h3>
+## Mailing lists
 
 
 <p><strong>REMEMBER TO SUBSCRIBE BEFORE POSTING, THANK YOU</strong></p>
@@ -26,13 +26,13 @@
 <p><a id="irc"></a></p>
 
 
-<h3>IRC</h3>
+## IRC
 <ul>
 <li>The IRC channel: #galette on irc.oftc.net</li>
 </ul>
 
 
-<h3>Bug reports and Requests For Enhancement</h3>
+## Bug reports and Requests For Enhancement
 
 
 <p>Before <a href="http://bugs.galette.eu/projects/galette">reporting any bug</a> or <a href="http://bugs.galette.eu/projects/galette/">asking for a new functionnality</a>, make sure that is not yet done :-)</p>
@@ -43,7 +43,7 @@
 </ul>
 
 
-<h3>Useful URLs</h3>
+## Useful URLs
 
 <ul>
 <li>Project website : <a href="http://galette.eu">http://galette.eu</a></li>
@@ -51,7 +51,7 @@
 </ul>
 
 
-<h3>Useless URLs</h3>
+## Useless URLs
 
 <ul>
 <li>Twitter : <a href="https://twitter.com/#!/galette_soft" title="https://twitter.com/#!/galette_soft">https://twitter.com/#!/galette_soft</a></li>

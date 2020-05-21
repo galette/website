@@ -18,13 +18,13 @@
 <p>Il y a tout de même quelques petites choses à savoir avant de commencer... :)</p>
 
 
-<h2>Le code de Galette</h2>
+## Le code de Galette
 
 
 <p>Toutes les <a href="https://doc.galette.eu/fr/develop/development/git.html">informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation de développement</a>.</p>
 
 
-<h2>Tester</h2>
+## Tester
 
 
 <p>Tester le code de Galette se résume généralement à l'installer et à l'utiliser :-) Aucune connaissance technique particulière n'est requise.</p>
@@ -33,7 +33,7 @@
 <p>Les différents moyens de contact sont à votre disposition pour obtenir de l'aide ou des conseils, les différents trackers vous permettront de rapporter les bogues rencontrés, de demander d'éventuelles améliorations ou fonctionnalités, et éventuellement de soumettre des patchs.</p>
 
 
-<h2>La documentation de Galette</h2>
+## La documentation de Galette
 
 
 <p>Le code source de la documentation de Galette est hébergé sur un dépôt GIT, <a href="https://doc.galette.eu/en/develop/development/git.html">référez-vous à la documentation pour plus de détails</a>.</p>
@@ -45,13 +45,13 @@
 <p>Ces informations peuvent vous paraître un poil techniques, mais somme toute, la documentation est rédigée via de simples fichiers textes, avec un syntaxe particulière (fort bien documentée) s'apparentant quelque peu à une syntaxe wiki ; tout en offrant de nombreuses fonctionnalités supplémentaires ; il ne faut donc pas de connaissances techniques particulières ici non plus.</p>
 
 
-<h2>Le site de Galette</h2>
+## Le site de Galette
 
 
 <p>Le site de Galette est propulsé par DotClear. Le <a href="https://bitbucket.org/trashy/galette_dc_theme">thème DotClear pour Galette est disponible via un dépôt GIT</a>. Si vous corrigez une erreur ; je serai ravi de l'intégrer ;-)</p>
 
 
-<h2>Les traductions</h2>
+## Les traductions
 
 
 <p>Les traductions dans Galette sont basées sur gettext via des fichiers po. Il existe différents outils d'édition de fichiers PO ; qui permettent de trouver facilement les chaînes nouvelles, modifiées ou absentes. Une partie de la <a href="https://doc.galette.eu/fr/develop/development/i18n.html">documentation de la Galette traite spécifiquement l'internationalisation</a>, si vous souhaitez en savoir d'avantage.</p>

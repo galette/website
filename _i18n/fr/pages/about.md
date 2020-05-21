@@ -1,113 +1,38 @@
-<p>Galette est avant toute chose un <strong>logiciel libre</strong>, sous licence GPL version 3, développé, testé et maintenu grâcieusement par des bénévoles.</p>
+Galette est avant toute chose un **logiciel libre**, sous licence GPL version 3, développé, testé et maintenu grâcieusement par des bénévoles.
 
+## Fonctionnalités de Galette
 
-<h2>Fonctionnalités de Galette</h2>
+* Calcul de l'échéance des adhésions
+* Mailings adhérents
+* Edition d'étiquettes (pour envois postaux)
+* Fiches adhérents avec photo (facultative)
+* Chaque adhérent peut modifier sa fiche
+* Filtres d'affichage multi-critères
+* Multilingue
+* Historique d'utilisation
+* ...
 
-<ul>
-<li>Calcul de l'échéance des adhésions</li>
-<li>Mailings adhérents</li>
-<li>Edition d'étiquettes (pour envois postaux)</li>
-<li>Fiches adhérents avec photo (facultative)</li>
-<li>Chaque adhérent peut modifier sa fiche</li>
-<li>Filtres d'affichage multi-critères</li>
-<li>Multilingue</li>
-<li>Historique d'utilisation</li>
-<li>...</li>
-</ul>
+## D'un point de vue technique...
 
+* Fonctionne aussi bien avec MySQL que PostgreSQL (base de données)
+* Accessibilité accrue (utilisation et respect des standards du web)
+* Script d'installation ergonomique
+* ...
 
-<h2>D'un point de vue technique...</h2>
+## Histoire de Galette
 
-<ul>
-<li>Fonctionne aussi bien avec MySQL que PostgreSQL (base de données)</li>
-<li>Accessibilité accrue (utilisation et respect des standards du web)</li>
-<li>Script d'installation ergonomique</li>
-<li>...</li>
-</ul>
+L'histoire du projet Galette est détaillée sur <a href="{{ site.baseurl }}/historique">cette page</a>
 
+## Ils utilisent Galette
 
-<h2>Histoire de Galette</h2>
+La <a href="https://telemetry.galette.eu/reference" hreflang="en">liste des utilisateurs de Galette</a> peut être consultée sur notre application de télémétrie :)
+<a href="http://telemetry.odysseus.x-tnd.be/reference?showmodal" hreflang="en">Enregistrez-vous si vous utilisez Galette</a> !
 
+Notez que vous pouvez également <a href="http://galette.readthedocs.io/fr/develop/usermanual/generalites.html#telemetrie" hreflang="fr">vous enregistrer depuis Galette</a> (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.
 
-<p>L'histoire du projet Galette est détaillé sur <a href="/dc/index.php/pages/Histoire">cette page</a></p>
+## Fortunes
 
-
-<h2>Ils utilisent Galette</h2>
-
-
-<p>La <a href="https://telemetry.galette.eu/reference" hreflang="en">liste des utilisateurs de Galette</a> peut être consultée sur notre application de télémétrie :)<br />
-<a href="http://telemetry.odysseus.x-tnd.be/reference?showmodal" hreflang="en">Enregistrez-vous si vous utilisez Galette</a> !</p>
-
-
-<p>Notez que vous pouvez également <a href="http://galette.readthedocs.io/fr/develop/usermanual/generalites.html#telemetrie" hreflang="fr">vous enregistrer depuis Galette</a> (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.</p>
-
-
-<p>L'ancienne liste des utilisateurs (sera supprimée dans quelque temps) :</p>
-
-<ul>
-<li><a href="http://www.aldil.org/">ALDIL</a></li>
-<li><a href="http://www.traduc.org/">Traduc.org</a></li>
-<li>Club Informatique de Saintry s/ Seine</li>
-<li><a href="http://www.tuxfamily.org/">TuxFamily</a></li>
-<li><a href="http://www.ofset.org/">OFSET</a></li>
-<li><a href="http://linucie.net/">Linucie</a></li>
-<li>TeamBlackeagle</li>
-<li><a href="http://www.adella.org/">ADELLA</a></li>
-<li><a href="http://bachant.free.fr/">AssoBachant</a></li>
-<li><a href="http://www.gaule.org/">Gaule</a></li>
-<li><a href="http://veloentet.free.fr/">Vélo En Têt</a></li>
-<li><a href="http://www.sarcoidose-infos.com/">Réseau International de Soutien des Malades de la Sarcoïdose</a></li>
-<li><a href="http://association-marilou.org/">Association Marilou</a></li>
-<li><a href="http://www.acmoi.org/">Aujourd'hui C'est Moi</a></li>
-<li><a href="http://aipst.free.fr/">Association des ingénieurs CNAM Dauphiné Savoie</a></li>
-<li><a href="http://www.perigny-ping.net/">Club de Tennis de Table de Périgny</a></li>
-<li><a href="http://www.aaf.netasso.net/">Association des Anciens et Amis de la Fage</a></li>
-<li><a href="http://www.zaurusfr.org/">Association ZaurusFR</a></li>
-<li><a href="http://scideralle.org/">Association Scideralle</a></li>
-<li><a href="http://www.campux.org/">Campux</a></li>
-<li>Attac Villefranche</li>
-<li><a href="http://rotomalug.org/">RotomaLUG (LUG de Rouen)</a></li>
-<li><a href="http://www.jjgoldman.net/">Association Là-bas</a></li>
-<li><a href="http://tondeuse.eu.org/">Association La Tondeuse à Roazhon</a></li>
-<li><a href="http://www.gt-turbo.org/">Club Super 5 GT Turbo</a></li>
-<li><a href="http://www.web4all.fr/">Association Web4All</a></li>
-<li><a href="http://www.oisux.org/">Association Oisux</a></li>
-<li><a href="http://jmvef30.free.fr/">Association humanitaire Gardoise</a></li>
-<li><a href="http://dlcyclisme.free.fr/">Dunkerque Littoral Cyclisme</a></li>
-<li><a href="http://france.debian.net/">Association Debian France</a></li>
-<li><a href="http://www.microtel-torcy.org/">Association Club Informatique Microtel Torcy</a></li>
-<li><a href="Association Bordelaise des Utilisateurs de Logiciels Libreshttp://abul.org" title="Association Bordelaise des Utilisateurs de Logiciels Libreshttp://abul.org">Association Bordelaise des Utilisat...</a></li>
-<li><a href="http://www.usbtt.com/">US Bouscat tennis de table</a></li>
-<li><a href="http://www.club-info-vercors.fr/">Club Inform@tik du Vercors</a></li>
-<li><a href="http://www.rhizomes.org/">Association Rhizomes (GULL du Morbihan)</a></li>
-<li><a href="http://www.lstilde.org">Association "ls tilde"</a></li>
-<li><a href="http://borsalinux-fr.org">Association des utilisateurs francophones de Fedora</a></li>
-<li><a href="http://www.eas-asso.org/">Association EAS (EDF Actionnariat Salarié)</a></li>
-<li><a href="http://abul.asso.fr/">Association Berrichonne d'Ultra Légers (ABUL)</a></li>
-<li><a href="http://www.mo5.com/">Association MO5.COM pour la préservation du patrimoine informatique et vidéoludique</a></li>
-<li>Dynamic Basket Lot Corrèze</li>
-<li><a href="http://www.aikido-rennes.fr/">Club d'aïkido, Rennes</a></li>
-<li><a href="http://aful.org/" hreflang="fr">Association Francophone des Utilisateurs de Logiciels Libres (AFUL)</a></li>
-<li><a href="http://www.asso-role.fr/" hreflang="fr">Association GN Role !</a></li>
-<li><a href="http://velocampus.velobesancon.info/" hreflang="fr">Vélocampus Besançon</a></li>
-<li><a href="http://openstreetmap.fr" hreflang="fr">OpenStreetMap France</a></li>
-<li><a href="http://www.perpinux.org/" hreflang="fr">Perpinux (GUL de la région de Perpignan)</a></li>
-<li><a href="http://www.non-au-mercure-dentaire.org" hreflang="fr">Non Au Mercure Dentaire</a></li>
-<li><a href="http://www.reseau-environnement-sante.fr" hreflang="fr">Réseau Environnement Santé</a></li>
-<li><a href="http://osgeo.asso.fr/" hreflang="fr">OSGeo-fr</a></li>
-<li>...</li>
-</ul>
-
-<ul>
-<li>Galette est diffusée dans la <a href="http://free-eos.org/">solution "clef en main" Free-EOS</a></li>
-</ul>
-
-
-
-<h2>Fortunes</h2>
-
-
-<p>(section des fortunes mail/irc/etc, par ordre anti-chronologeek)</p>
+(section des fortunes mail/irc/etc, par ordre anti-chronologeek)
 
 <pre>
 * trashy_ en panne d'inspi pour une annonce des 10 ans :'''''(

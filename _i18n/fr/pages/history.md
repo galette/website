@@ -1,4 +1,4 @@
-<h2>Histoire de la Galette</h2>
+## Histoire de la Galette
 
 
 <p>L'<a href="http://www.aldil.org/">ALDIL</a>, GULL de Lyon, se cherchait un système de gestion des adhérents (vers 2000 ~ 2001). Après avoir testé PhpLugMembers et quelques autres outils, rien ne convenait.<br />
@@ -27,7 +27,7 @@ Gna est en charge de l'hébergement du dépôt SVN, des listes de diffusion et d
 <p>Début 2017, les listes de diffusion passent également chez Tuxfamily, Gna ayant annoncé la fin de leurs bons et loyaux services.</p>
 
 
-<h2>Mail Originel</h2>
+## Mail Originel
 
 
 <p>Ceci est le <strong>mail originel</strong> annonçant la création de Galette. Depuis, la liste Code de l'<a href="http://www.aldil.org">ALDIL</a> a disparue, ses archives aussi.
@@ -74,7 +74,7 @@ https://listes.aldil.org/mailman/listinfo/code
 </pre>
 
 
-<h2>D'où vient le nom Galette</h2>
+## D'où vient le nom Galette
 
 
 <p>Les membres de l'<a href="http://www.aldil.org/">ALDIL</a> ont longuement cherché un nom pour ce logiciel. Voici un rapide résumé :</p>

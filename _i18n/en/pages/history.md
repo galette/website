@@ -1,4 +1,4 @@
-<h2>History of the Galette</h2>
+## History of the Galette
 
 
 <p><a href="http://www.aldil.org/">ALDIL</a>, LUG from Lyon (France), was looking for a membership management application (around 2000~2001). After tests of PhpLugMembers and some other tools, nothing was doing the trick.<br />
@@ -27,7 +27,7 @@ Gna is in charge of the hosting of SVN repository, mailing lists and trackers; w
 <p>At the begining of 2017, mailing lists are also switched to Tuxfamily, since Gna has announced the end of their services.</p>
 
 
-<h2>Original Email</h2>
+## Original Email
 
 
 <p>This is the <strong>original mail</strong> (in french) which anounce Galette creation. Since then, the Code mailing-list from <a href="http://www.aldil.org">ALDIL</a> as disappeared, archives too.
@@ -74,7 +74,7 @@ https://listes.aldil.org/mailman/listinfo/code
 </pre>
 
 
-<h2>From where Galette's name come?</h2>
+## From where Galette's name come?
 
 
 <p><a href="http://www.aldil.org/">ALDIL</a> members have long sought a name for this software. Here's a quick summary (in frenglish):</p>

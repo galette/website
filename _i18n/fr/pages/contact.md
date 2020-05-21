@@ -4,7 +4,7 @@
 <p><a id="mailing_lists"></a></p>
 
 
-<h3>Listes de discussion</h3>
+## Listes de discussion
 
 
 <p><strong>PENSEZ À VOUS INSCRIRE AVANT DE POSTER, MERCI</strong></p>
@@ -26,13 +26,13 @@
 <p><a id="irc"></a></p>
 
 
-<h3>IRC</h3>
+## IRC
 <ul>
 <li>Le canal IRC : #galette sur irc.oftc.net</li>
 </ul>
 
 
-<h3>Rapports de bogues et demandes d'évolutions</h3>
+## Rapports de bogues et demandes d'évolutions
 
 
 <p>Avant de nous <a href="http://bugs.galette.eu/projects/galette">rapporter un bogue</a> ou d'<a href="http://bugs.galette.eu/projects/galette/">exprimer une demande de fonctionnalité</a>, vérifier que ce n'est pas déjà fait :-)</p>
@@ -43,7 +43,7 @@
 </ul>
 
 
-<h3>URL utiles</h3>
+## URL utiles
 
 <ul>
 <li>Le site du projet : <a href="http://galette.eu">http://galette.eu</a></li>
@@ -51,7 +51,7 @@
 </ul>
 
 
-<h3>URL inutiles</h3>
+## URL inutiles
 
 <ul>
 <li>Twitter : <a href="https://twitter.com/#!/galette_soft" title="https://twitter.com/#!/galette_soft">https://twitter.com/#!/galette_soft</a></li>
