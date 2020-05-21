@@ -1,10 +1,3 @@
----
-layout: post
-title: "Histoire"
-date: 2012-02-21 09:34:20 +0100
-tags: []
----
-
 <h2>Histoire de la Galette</h2>
 
 
@@ -40,44 +33,44 @@ Gna est en charge de l'hébergement du dépôt SVN, des listes de diffusion et d
 <p>Ceci est le <strong>mail originel</strong> annonçant la création de Galette. Depuis, la liste Code de l'<a href="http://www.aldil.org">ALDIL</a> a disparue, ses archives aussi.
 De même, le premier site wiki du projet a disparu aussi...</p>
 
-<pre>\r
-Message-ID: &lt;033501c3afbf$e6f954a0$0200a8c0@deetanic&gt;\r
-From: Frédéric Jacquot &lt;deelight _AT_ poulet.org&gt;\r
-To: &lt;code _AT_ listes.aldil.org&gt;\r
-Subject: [Code] Une petite Galette pour la route ?\r
-Date: Fri, 21 Nov 2003 00:41:58 +0100\r
-\r
-Hello,\r
-\r
-Comme je n'ai toujours pas posté ici concernant Galette, je le fais.\r
-Comme il est assez tard, je serai bref, quitte à être plus bavard par la\r
-suite :)\r
-\r
-Tout est dispo sur le wiki de Galette (sources, un peu de doc, demo...) :\r
-http://www.zopeuse.org/projets/galette/Wiki_galette/FrontPage\r
-\r
-C'est certainement assez brut de décoffrage mais ça fait ce qu'on lui\r
-demande. Si certains se sentent de fouiller un peu de le code pour voir s'il\r
-peuvent y apporter leur touche personelle, n'hésitez pas à me le dire et je\r
-mettrai les mains dans le camboui pour monter un CVS pour l'occasion si\r
-nécessaire.\r
-\r
-Comme le montre la Todolist du wiki, il reste pas mal de choses, notamment\r
-essayer de tuner tout ça pour que ca tourne sur du PostgresSQL (j'utilise la\r
-librairie ADODB donc à priori, on doit pouvoir y arriver sans trop de mal),\r
-puisque c'est ce qui sera utilisé en définitif.\r
-\r
-Actuellement, ça s'installe et sa tourne sans problème apparent sur du\r
-MySQL.\r
-Je serais vraiment content d'avoir des retours constructifs pour pouvoir\r
-améliorer l'appli et plus globalement ma façon de coder.\r
-\r
-Wiki, mail, forum... il y a le choix ;)\r
-\r
-Deelight\r
-----\r
-ALDIL - Code (Code _AT_ listes.aldil.org)\r
-https://listes.aldil.org/mailman/listinfo/code\r
+<pre>
+Message-ID: &lt;033501c3afbf$e6f954a0$0200a8c0@deetanic&gt;
+From: Frédéric Jacquot &lt;deelight _AT_ poulet.org&gt;
+To: &lt;code _AT_ listes.aldil.org&gt;
+Subject: [Code] Une petite Galette pour la route ?
+Date: Fri, 21 Nov 2003 00:41:58 +0100
+
+Hello,
+
+Comme je n'ai toujours pas posté ici concernant Galette, je le fais.
+Comme il est assez tard, je serai bref, quitte à être plus bavard par la
+suite :)
+
+Tout est dispo sur le wiki de Galette (sources, un peu de doc, demo...) :
+http://www.zopeuse.org/projets/galette/Wiki_galette/FrontPage
+
+C'est certainement assez brut de décoffrage mais ça fait ce qu'on lui
+demande. Si certains se sentent de fouiller un peu de le code pour voir s'il
+peuvent y apporter leur touche personelle, n'hésitez pas à me le dire et je
+mettrai les mains dans le camboui pour monter un CVS pour l'occasion si
+nécessaire.
+
+Comme le montre la Todolist du wiki, il reste pas mal de choses, notamment
+essayer de tuner tout ça pour que ca tourne sur du PostgresSQL (j'utilise la
+librairie ADODB donc à priori, on doit pouvoir y arriver sans trop de mal),
+puisque c'est ce qui sera utilisé en définitif.
+
+Actuellement, ça s'installe et sa tourne sans problème apparent sur du
+MySQL.
+Je serais vraiment content d'avoir des retours constructifs pour pouvoir
+améliorer l'appli et plus globalement ma façon de coder.
+
+Wiki, mail, forum... il y a le choix ;)
+
+Deelight
+----
+ALDIL - Code (Code _AT_ listes.aldil.org)
+https://listes.aldil.org/mailman/listinfo/code
 </pre>
 
 

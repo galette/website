@@ -2,6 +2,11 @@ global:
   tagline: English
   twitter: Twitter
   About: About
+  older: Older
+  newer: Newer
+  page: Page
+  of: of
+  license: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
 langs:
   en: English
   fr: French
@@ -11,6 +16,7 @@ pages:
   contribute: Contribute
   contact: Contact
   posts: Posts
+  history: History
   notfound: Page not found :(
 menus:
   main: Navigate

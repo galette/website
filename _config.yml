@@ -24,12 +24,9 @@ github_username:  galette
 mastodon:
   - username: galette
     instance: framapiaf.org
-#permalink: /:title/
 
 # Build settings
 markdown: kramdown
-#theme: minima
-#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -40,15 +37,13 @@ plugins:
 
 languages: ["en", "fr"]
 
-# Paginate v1
-#paginate: 10
-#paginate_path: "/posts/page:num/"
 # Paginate v2
 pagination:
   enabled: true
   debug: true
-  permalink: '/posts/:num/'
+  permalink: '/page/:num/'
   sort_reverse: true
+  per_page: 5
 
 #exclude: ["LICENSE.txt", "README.md"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]

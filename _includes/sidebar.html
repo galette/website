@@ -12,7 +12,7 @@
         {% if key == 'main' %}
             {% assign pages = site.pages | sort: 'weight' %}
             {% for p in pages %}
-                {% if p.namespace == 'pages' %}{% unless p.url contains '/posts/' %}
+                {% if p.namespace == 'pages' %}{% unless p.url contains '/page/' %}
                     <li{% if p.url == page.url %} class="active"{% endif %}>
                         {% assign tkeys = p.title | split: "." %}
                         {% assign tkey = tkeys[1] %}

@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-{{ paginator.posts |inspect}}
 <div class="posts">
   {%- if page.title -%}
-    <h1 class="page-heading">{% t page.title %}</h1>
+    {%- if page.autogen != nil %}
+        {% assign parts = page.title | split: ' - ' %}
+        <h1 class="page-heading">{% t parts[0] %} - {{ parts[1] | join: ' - ' }}</h1>
+    {%- else -%}
+        <h1 class="page-heading">{% t page.title %}</h1>
+    {%- endif -%}
   {%- endif -%}
 
     <!-- This loops through the paginated posts -->
