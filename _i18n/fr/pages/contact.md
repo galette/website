@@ -1,59 +1,38 @@
-<p>Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)</p>
-
-
-<p><a id="mailing_lists"></a></p>
-
+Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)
 
 ## Listes de discussion
 
+**PENSEZ À VOUS INSCRIRE AVANT DE POSTER, MERCI**
 
-<p><strong>PENSEZ À VOUS INSCRIRE AVANT DE POSTER, MERCI</strong></p>
+* [utilisateurs](https://listengine.tuxfamily.org/lists.galette.eu/users/) : discussions générales, entraide, FAQ, ...
+* [développement](https://listengine.tuxfamily.org/lists.galette.eu/devel) : liste de discussion développeurs, bogues, tâches, ...
+* [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : diffusion des commits : **CECI N'EST PAS UNE LISTE DE DISCUSSION**
 
-<ul>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/users/">utilisateurs</a> : discussions générales, entraide, FAQ, ...</li>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/devel/">développement</a> : liste de discussion développeurs, bogues, tâches, ...</li>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/commits/">commits</a> : diffusion des commits : <strong>CECI N'EST PAS UNE LISTE DE DISCUSSION</strong></li>
-</ul>
+Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes :
 
-
-<p>Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes :</p>
-<ul>
-<li><a href="http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-discussion/index.html">utilisateurs</a>,</li>
-<li><a href="http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-devel/index.html">developpement</a>,</li>
-</ul>
-
-
-<p><a id="irc"></a></p>
-
+* [utilisateurs](http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-discussion/index.html),
+* [développement](http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-devel/index.html).
 
 ## IRC
-<ul>
-<li>Le canal IRC : #galette sur irc.oftc.net</li>
-</ul>
 
+* Le canal IRC : #galette sur irc.oftc.net
+
+Notez que le canal IRC est lié au salon Matrix, voyez en bas de cette page ;)
 
 ## Rapports de bogues et demandes d'évolutions
 
+Avant de [rapporter un bogue](http://bugs.galette.eu/projects/galette) ou [d'exprimer une demande de fonctionnalité](http://bugs.galette.eu/projects/galette/), vérifier que ce n'est pas déjà fait :-)
 
-<p>Avant de nous <a href="http://bugs.galette.eu/projects/galette">rapporter un bogue</a> ou d'<a href="http://bugs.galette.eu/projects/galette/">exprimer une demande de fonctionnalité</a>, vérifier que ce n'est pas déjà fait :-)</p>
-
-<ul>
-<li><a href="http://bugs.galette.eu/projects/galette/issues?query_id=2">liste des bogues ouverts</a></li>
-<li><a href="http://bugs.galette.eu/projects/galette/issues?query_id=3">liste des tâches ouvertes</a></li>
-</ul>
-
+* [liste des bogues ouverts](http://bugs.galette.eu/projects/galette/issues?query_id=2)
+* [liste des tâches ouvertes](http://bugs.galette.eu/projects/galette/issues?query_id=3)
 
 ## URL utiles
 
-<ul>
-<li>Le site du projet : <a href="http://galette.eu">http://galette.eu</a></li>
-<li>Développement : <a href="http://bugs.galette.eu/projects/galette/">http://bugs.galette.eu/projects/galette/</a></li>
-</ul>
-
+* Le site du projet : <https://galette.eu>
+* Développement : <https://bugs.galette.eu/projects/galette/>
 
 ## URL inutiles
 
-<ul>
-<li>Twitter : <a href="https://twitter.com/#!/galette_soft" title="https://twitter.com/#!/galette_soft">https://twitter.com/#!/galette_soft</a></li>
-<li>Mastodon : <a href="https://framapiaf.org/@galette" title="https://framapiaf.org/@galette">https://framapiaf.org/@galette</a></li>
-</ul>
+* Twitter : [@galette_soft](https://twitter.com/galette_soft)
+* Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
+* Salon Matrix : [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org) et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)

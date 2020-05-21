@@ -1,59 +1,40 @@
-<p>Want to know how to contact us? There are several ways ;-)</p>
-
-
-<p><a id="mailing_lists"></a></p>
+Want to know how to contact us? There are several ways ;-)
 
 
 ## Mailing lists
 
+**REMEMBER TO SUBSCRIBE BEFORE POSTING, THANK YOU**
 
-<p><strong>REMEMBER TO SUBSCRIBE BEFORE POSTING, THANK YOU</strong></p>
-
-<ul>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/users/">users</a>: general mailing list, help, FAQ</li>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/devel/">devel</a>: developpers mailing list, bugs, tasks</li>
-<li><a href="https://listengine.tuxfamily.org/lists.galette.eu/commits/">commits</a>: just commits : <strong>THIS IS NOT A MAILING LIST</strong></li>
-</ul>
+* [users](https://listengine.tuxfamily.org/lists.galette.eu/users/): general mailing list, help, FAQ
+* [devel](https://listengine.tuxfamily.org/lists.galette.eu/devel): developpers mailing list, bugs, tasks
+* [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/): just commits : **THIS IS NOT A MAILING LIST**
 
 
-<p>Lists archives beetween 2004 and 2017 are available at :</p>
-<ul>
-<li><a href="http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-discussion/index.html">users</a>,</li>
-<li><a href="http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-devel/index.html">devel</a>,</li>
-</ul>
+Lists archives beetween 2004 and 2017 are available at:
 
-
-<p><a id="irc"></a></p>
-
+* [users](http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-discussion/index.html),
+* [devel](http://download.tuxfamily.org/galette/listes-galette/mail.gna.org/assets/images/galette-devel/index.html).
 
 ## IRC
-<ul>
-<li>The IRC channel: #galette on irc.oftc.net</li>
-</ul>
 
+* The IRC channel: #galette on irc.oftc.net
+
+Note that IRC channel is linked with  Matrix room, see at the bottom of current page ;)
 
 ## Bug reports and Requests For Enhancement
 
+Before [reporting any bug](https://bugs.galette.eu/projects/galette) or [asking for a new functionnality](https://bugs.galette.eu/projects/galette/), make sure that is not yet done :-)
 
-<p>Before <a href="http://bugs.galette.eu/projects/galette">reporting any bug</a> or <a href="http://bugs.galette.eu/projects/galette/">asking for a new functionnality</a>, make sure that is not yet done :-)</p>
-
-<ul>
-<li><a href="http://bugs.galette.eu/projects/galette/issues?query_id=2">open bugs list</a></li>
-<li><a href="http://bugs.galette.eu/projects/galette/issues?query_id=3">open tasks list</a></li>
-</ul>
-
+* [open bugs list](https://bugs.galette.eu/projects/galette/issues?query_id=2)
+* [open tasks list](https://bugs.galette.eu/projects/galette/issues?query_id=3)
 
 ## Useful URLs
 
-<ul>
-<li>Project website : <a href="http://galette.eu">http://galette.eu</a></li>
-<li>Development : <a href="http://bugs.galette.eu/projects/galette/">http://bugs.galette.eu/projects/galette/</a></li>
-</ul>
-
+* Project website: <https://galette.eu>
+* Development: <https://bugs.galette.eu/projects/galette/>
 
 ## Useless URLs
 
-<ul>
-<li>Twitter : <a href="https://twitter.com/#!/galette_soft" title="https://twitter.com/#!/galette_soft">https://twitter.com/#!/galette_soft</a></li>
-<li>Mastodon : <a href="https://framapiaf.org/@galette" title="https://framapiaf.org/@galette">https://framapiaf.org/@galette</a></li>
-</ul>
+* Twitter: [@galette_soft](https://twitter.com/galette_soft)
+* Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
+* Matrix room: [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org) and community: [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
