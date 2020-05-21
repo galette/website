@@ -91,18 +91,23 @@ sup {
   line-height: 50%;
 }
 
-.left {
+.fleft {
   float: left;
 }
 
 .right {
+  text-align: right;
+}
+
+.fright {
   float: right;
 }
 
 .social-media-list a {
     margin: 0 .5em;
 }
-.social-media-list svg {
+
+.social-media-list svg, .rss-subscribe svg {
     width: 16px;
     height: 16px;
     vertical-align: middle;

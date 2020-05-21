@@ -13,21 +13,23 @@
             {% assign pages = site.pages | sort: 'weight' %}
             {% for p in pages %}
                 {% if p.namespace == 'pages' %}{% unless p.url contains '/page/' %}
-                    <li{% if p.url == page.url %} class="active"{% endif %}>
-                        {% assign tkeys = p.title | split: "." %}
-                        {% assign tkey = tkeys[1] %}
+                    {% assign tkeys = p.title | split: "." %}
+                    {% assign tkey = tkeys[1] %}
+
+                    <li{% if p.url == page.url or tkey == 'posts' and page.url contains '/page/' %} class="active"{% endif %}>
                         <a href="{{ site.baseurl }}{{ p.url }}">{{ site.translations[site.lang]['pages'][tkey]}}</a>
                     </li>
                 {% endunless %}{% endif %}
             {% endfor %}
         {% endif %}
         {% for entry in entries %}
-            <li{% if entry.url == page.url %} class="active"{% endif %}>
-                {% assign tkeys = entry.name | split: "." %}
-                {% assign tkey = tkeys[1] %}
+            {% assign tkeys = entry.name | split: "." %}
+            {% assign tkey = tkeys[1] %}
 
-                {% assign tdoc_url = site.galette.doc_url | append: '/' | append: site.lang %}
-                {% assign murl = entry.url | replace: "DOC_URL", tdoc_url %}
+            {% assign tdoc_url = site.galette.doc_url | append: '/' | append: site.lang %}
+            {% assign murl = entry.url | replace: "DOC_URL", tdoc_url %}
+
+            <li{% if entry.url == page.url %} class="active"{% endif %}>
                 <a href="{{ murl }}">{{ site.translations[site.lang]['menus'][tkey]}}</a>
             </li>
 
@@ -35,5 +37,11 @@
         </ul>
     {% endfor %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">
+        <a href="{{ "/feed.xml" | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>{% t global.subscribe_rss %}</span>
+        </a>
+    </p>
 </aside>
