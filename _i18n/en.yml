@@ -2,11 +2,13 @@ global:
   tagline: English
   twitter: Twitter
   About: About
+  slogan: Galette membership management
   older: Older
   newer: Newer
   page: Page
   of: of
   license: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+  built: Built with
 langs:
   en: English
   fr: French

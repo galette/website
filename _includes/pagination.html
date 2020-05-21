@@ -1,0 +1,17 @@
+{% if paginator.total_pages > 1 %}.
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">{% t global.newer %}</a>
+      {% else %}
+      <span class="previous">{% t global.newer %}</span>
+      {% endif %}
+      <span class="page_number ">{% t global.page %} {{ paginator.page }} {% t global.of %} {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{% t global.older %}</a>
+      {% else %}
+      <span class="next ">{% t global.older %}</span>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

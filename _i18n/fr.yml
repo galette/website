@@ -2,11 +2,13 @@ global:
   tagline: Français
   twitter: Twitter
   About: À propos
+  slogan: Galette gestion d'adhésions
   older: Plus ancien
   newer: Plus récent
   page: Page
   of: de
   license: Attribution - Pas de Modification 4.0 International (CC BY-ND 4.0)
+  built: Construit par
 langs:
   fr: Français
 pages:

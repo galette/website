@@ -70,6 +70,14 @@ section#content {
     min-height: 600px;
     padding: 0 1em;
 
+    p {
+        text-align: justify;
+    }
+
+    .content a {
+        text-decoration: underline;
+    }
+
     h1 {
         display: inline-block;
         border-bottom: 1px solid $galette-orange;
