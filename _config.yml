@@ -19,7 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
 baseurl: "/new" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: Johan Cwiklinski
 twitter_username: galette_soft
+twitter:
+  username: galette_soft
+  card: summary
 github_username:  galette
 mastodon:
   - username: galette

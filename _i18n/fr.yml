@@ -2,7 +2,7 @@ global:
   tagline: Français
   twitter: Twitter
   About: À propos
-  slogan: Galette gestion d'adhésions
+  slogan: Galette - Gestion web des adhérents et contributions pour les associations
   older: Plus ancien
   newer: Plus récent
   page: Page
@@ -19,6 +19,8 @@ pages:
   posts: Publications
   history: Historique
   notfound: Page non trouvée :'(
+  descriptions:
+    home: Open source web membership management application for associations
 menus:
   main: Navigation
   faq: Foire Aux Questions

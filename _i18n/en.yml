@@ -3,6 +3,7 @@ global:
   twitter: Twitter
   About: About
   slogan: Galette membership management
+  slogan: Galette - Web mangement of members and memberships for associations
   older: Older
   newer: Newer
   page: Page
@@ -20,6 +21,8 @@ pages:
   posts: Posts
   history: History
   notfound: Page not found :(
+  descriptions:
+    home: Open source web membership management application for associations
 menus:
   main: Navigate
   faq: Frequently Asked Questions

@@ -2,8 +2,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% t page.title %} | Galette</title>
-  {%- seo title=false -%}
+
+  {%- if page.title contains "pages." -%}
+  <title>{% t page.title %} | {% t global.slogan %}</title>
+    <meta property="og:title" content="{% t page.title %}" />
+    {%- seo title=false -%}
+  {% else %}
+    {%- seo -%}
+  {% endif %}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
 </head>
