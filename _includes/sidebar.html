@@ -12,7 +12,7 @@
         {% if key == 'main' %}
             {% assign pages = site.pages | sort: 'weight' %}
             {% for p in pages %}
-                {% if p.namespace == 'pages' %}{% unless p.url contains '/page/' %}
+                {% if p.namespace == 'pages' or p.category == 'pages' %}{% unless p.url contains '/page/' %}
                     {% assign tkeys = p.title | split: "." %}
                     {% assign tkey = tkeys[1] %}
 

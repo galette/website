@@ -8,7 +8,11 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    {%- if page.toc -%}
+        <h4 class="toc">{% t global.toc %}</h4>
+    {%- endif -%}
+
+    {{ content | toc }}
   </div>
 
 </article>

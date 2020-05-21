@@ -39,6 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-responsive-image
   - jekyll-redirect-from
+  - jekyll-toc
 
 languages: ["en", "fr"]
 

@@ -24,7 +24,7 @@
 <p>Toutes les <a href="https://doc.galette.eu/fr/develop/development/git.html">informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation de développement</a>.</p>
 
 
-## Tester
+### Tester
 
 
 <p>Tester le code de Galette se résume généralement à l'installer et à l'utiliser :-) Aucune connaissance technique particulière n'est requise.</p>
