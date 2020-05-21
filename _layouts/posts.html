@@ -11,12 +11,14 @@ layout: default
     {%- endif -%}
   {%- endif -%}
 
+  <article>
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="content">
+      <div class="post-content">
         {{ post.content }}
       </div>
+  </article>
     {% endfor %}
 
     {%- include pagination.html -%}
