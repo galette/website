@@ -8,6 +8,8 @@ langs:
 pages:
   about: About
   home: Home
+  contribute: Contribute
+  contact: Contact
   notfound: Page not found :(
 menus:
   main: Navigate

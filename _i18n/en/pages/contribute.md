@@ -1,10 +1,3 @@
----
-layout: post
-title: "Contribute"
-date: 2012-02-17 07:24:16 +0100
-tags: []
----
-
 <p>There are numerous ways to contribute to a project like Galette. Here is a non exhaustive list:</p>
 
 <ul>

@@ -7,6 +7,8 @@ langs:
 pages:
   about: À propos
   home: Accueil
+  contribute: Contribuer
+  contact: Contact
   notfound: Page non trouvée :'(
 menus:
   main: Navigation

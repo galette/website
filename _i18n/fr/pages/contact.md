@@ -1,10 +1,3 @@
----
-layout: post
-title: "Contact"
-date: 2012-02-16 15:23:59 +0100
-tags: []
----
-
 <p>Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)</p>
 
 
