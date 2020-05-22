@@ -27,6 +27,7 @@ pages:
     home: Open source web membership management application for associations
   titles:
     history: History of the Galette
+    contribute: Contribute to Galette
 menus:
   main: Navigate
   faq: Frequently Asked Questions
