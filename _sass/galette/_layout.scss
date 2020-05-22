@@ -22,12 +22,12 @@ body > header:first-child {
   width: auto;
   padding: 0;
   margin: 0 auto;
-  z-index: 10;
 
   h1 {
     width: 100%;
     text-align: center;
     font-size: 3.5em;
+    margin: 0;
 
     a {
       color: $light-text-color;;
@@ -44,31 +44,15 @@ body > header:first-child {
 
 /** Page contents */
 body > section.wrapper {
-    /*width: 980px;*/
     position: relative;
-    overflow: hidden;
-    margin: 0 auto 0 auto;
+    max-width: $galette-max-width;
+    margin: 0 auto;
     background: #fff;
-    border-radius: 6px;
-    padding-top: 2em;
-    z-index: 2; //tof fix galettebox shadow
-}
-
-body > section #content {
-    width: $content-width;
 }
 
 section#content {
-    /*border-right: 1px solid #bfbfbf;*/
-    /*border-right: 1px red dotted;*/
-    margin-right: $sidebar-width;
-    position: relative;
-    /*background: #fff;*/
-    transform: translateX(0) translateZ(0);
-    transition: transform .2s;
-    will-change: transform;
-    min-height: 600px;
-    padding: 0 1em;
+    grid-column: 1;
+    grid-row: 1 / 3;
 
     p {
         text-align: justify;
@@ -87,28 +71,20 @@ section#content {
 }
 
 aside#sidebar {
-  margin-top: 4em;
-  margin-left: 3em;
-  background: #fff;
-  width: $sidebar-width;
-  float: right;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background: #fff;
 
   h2 {
     margin: 0;
     text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
 
-    /*border-bottom: 1px #f2a104 solid;*/
     border-bottom: 1px $background-color dotted;
     color: $background-color;
   }
 
   h3 {
-    margin: 1em 0 0.5em;
-    color: #6b6b6b; /* $action-color; */
-  }
-
-  div div {
-    margin-bottom: 1.5em;
+    color: #6b6b6b; /*$action-color; */
   }
 
   ul {
@@ -137,25 +113,6 @@ aside#sidebar {
   li.active a {
     border-bottom: 1px solid $galette-orange;
   }
-
-  ul ul {
-    list-style: disc;
-    margin: 0;
-    padding: 0 0 0 15px;
-    border: none;
-  }
-
-  li li {
-    display: list-item;
-    margin: 0.5em 0 0 0;
-    padding: 0 0;
-    border: none;
-  }
-
-  .simple-menu li.li-last {
-    background: url(img/icon-save.png) no-repeat 0 50%;
-    padding-left: 20px;
-  }
 }
 
 /** main footer */
@@ -173,9 +130,34 @@ body > footer:last-child {
   }
 
   clear: both;
-
-  width: auto;
-  margin: 0 auto;
-  padding: 1em 2em;
   text-align: center;
+}
+
+@media screen and (min-width: 50em) {
+    body > section.wrapper {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: min-content min-content 1fr;
+        column-gap: 20px;
+        border-radius: 6px;
+    }
+
+    body > header:first-child {
+        h1 {
+            margin: 0;
+            padding-top: .6em;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    aside#sidebar {
+        margin-top: 4em;
+    }
+
+    section#content {
+        padding: 0 1em;
+        z-index: 2;
+    }
+
 }

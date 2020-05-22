@@ -9,10 +9,11 @@
 
     <section class="wrapper">
         {%- include galettebar.html -%}
-        {%- include sidebar.html -%}
         <section id="content" aria-label="Content">
+            {%- include langselector.html -%}
             {{ content }}
         </section>
+        {%- include sidebar.html -%}
     </section>
 
     {%- include footer.html -%}
