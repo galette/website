@@ -72,6 +72,8 @@ $galette-max-width: 1024px;
 $content-width:    800px !default;
 $sidebar-width:    200px !default;
 
+$galette-large:     767px !default;
+$galette-large-lang: 1080px !default; //lang selector is placed on the side.
 // Import partials.
 @import
   "galette/normalize",
@@ -685,7 +687,7 @@ div {
 }*/
 
 /** Mobile devices */
-@media (max-width: 767px) {
+@media (max-width: $galette-large) {
   /*[class^="nav-button"] {
     display: block;
     width: 75px;

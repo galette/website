@@ -44,7 +44,6 @@ body > header:first-child {
 
 /** Page contents */
 body > section.wrapper {
-    position: relative;
     max-width: $galette-max-width;
     margin: 0 auto;
     background: #fff;
@@ -145,6 +144,7 @@ aside#sidebar {
 /** main footer */
 body > footer:last-child {
   color: rgba(255, 255, 255, 0.7);
+  margin-bottom: .5em;
 
   a {
     color: rgba(255, 255, 255, 0.7);
@@ -160,8 +160,9 @@ body > footer:last-child {
   text-align: center;
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: $galette-large) {
     body > section.wrapper {
+        position: relative;
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-template-rows: min-content min-content 1fr;
@@ -188,7 +189,7 @@ body > footer:last-child {
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: $galette-large-lang) {
     .langselector {
         position: absolute;
         left: -2em;
