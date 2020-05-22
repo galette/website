@@ -686,7 +686,6 @@ div {
 
 /** Mobile devices */
 @media (max-width: 767px) {
-  
   /*[class^="nav-button"] {
     display: block;
     width: 75px;
@@ -741,23 +740,8 @@ div {
 
   #prelude {
     display: none;
-  }
-
-  .pagination {
-    text-align: center;
-
-    a {
-      display: block;
-
-      &.prev {
-        text-align: left;
-      }
-
-      &.next {
-        text-align: right;
-      }
-    }
   }*/
+
 }
 
 /*@media (max-width: 979px) {

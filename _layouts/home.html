@@ -8,14 +8,14 @@ layout: default
   {%- endif -%}
 
     <div class="post-content">
-  {{ content }}
+        {{ content }}
     </div>
 
     <div id="news">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="content">
+      <div class="post-content">
         {{ post.content }}
       </div>
     {% endfor %}

@@ -3,8 +3,8 @@ global:
   twitter: Twitter
   About: À propos
   slogan: Galette - Gestion web des adhérents et contributions pour les associations
-  older: Plus ancien
-  newer: Plus récent
+  next: Suivante
+  previous: Précédente
   page: Page
   of: de
   license: Attribution - Pas de Modification 4.0 International (CC BY-ND 4.0)
