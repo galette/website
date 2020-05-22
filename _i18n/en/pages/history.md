@@ -9,7 +9,7 @@ The first "stable" version has probably been version 0.37b. Since, project conti
 
 In early 2007, Johan (aka trashy) joined the project. In April, Loïs gives him the "keys of the truck" and Johan took charge of the project Galette.
 
-Project is hosted on `Gna!` since 2004. Early 2005, a project Galette is also opened at [TuxFamily](https://tuxfamily.org)>.
+Project is hosted on `Gna!` since 2004. Early 2005, a project Galette is also opened at [TuxFamily](https://tuxfamily.org).
 Gna is in charge of the hosting of SVN repository, mailing lists and trackers; while TuxFamily is in charge of website and downloads hosting.
 
 In 2012, project source code is switched to Git ; and repositories are moved to Tuxfamily. Gna! tracker is abandoned as well.

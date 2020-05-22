@@ -9,7 +9,7 @@ La première version "stable" a du être la version 0.37b. Jusqu'en 2005, le pro
 
 Début 2007, Johan (aka trashy) rejoint le projet. En avril, Loïs lui cède les "clefs du camion" et Johan prend la responsabilité du projet Galette.
 
-Le projet est herbégé sur `Gna!` depuis 2004. Début 2005, un projet Galette a également été créé chez [TuxFamilyi](https://tuxfamily.org).
+Le projet est herbégé sur `Gna!` depuis 2004. Début 2005, un projet Galette a également été créé chez [TuxFamily](https://tuxfamily.org).
 Gna est en charge de l'hébergement du dépôt SVN, des listes de diffusion et des tracker ; tandis que TuxFamily se charge de l'hébergement du site web et des téléchargements.
 
 Courant 2012, le code source du projet passe à Git ; l'hébergement des dépôts de fait chez Tuxfamily également. Le tracker Gna! est également abandonné.
