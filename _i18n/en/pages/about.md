@@ -25,10 +25,10 @@ History of Galette project is detailled <a href="{{ site.baseurl }}/history">her
 
 ## They use Galette
 
-<a href="https://telemetry.galette.eu/reference" hreflang="en">Galette's users list </a> is available from our telemetry application :)
-<a href="http://telemetry.odysseus.x-tnd.be/reference?showmodal" hreflang="en">Register yourself if you use Galette</a>!
+[Galette's users list](https://telemetry.galette.eu/reference) is available from our telemetry application :)
+[Register yourself if you use Galette](https://telemetry.galette.eu/reference?showmodal)
 
-Note that you can also <a href="http://galette.readthedocs.io/fr/develop/usermanual/generalites.html#telemetrie" hreflang="fr">register from Galette</a> (since 0.9); you will be able to edit your data using this.
+Note that you can also [register from Galette]("https://doc.galette.eu/en/develop/usermanual/generalites.html#telemetrie) (since 0.9); you will be able to edit your data using this.
 
 ## Fortunes
 

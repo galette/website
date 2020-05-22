@@ -21,14 +21,14 @@ Galette est avant toute chose un **logiciel libre**, sous licence GPL version 3,
 
 ## Histoire de Galette
 
-L'histoire du projet Galette est détaillée sur <a href="{{ site.baseurl }}/historique">cette page</a>
+L'histoire du projet Galette est détaillée sur <a href="{% tl history %}">cette page</a>
 
 ## Ils utilisent Galette
 
 La <a href="https://telemetry.galette.eu/reference" hreflang="en">liste des utilisateurs de Galette</a> peut être consultée sur notre application de télémétrie :)
 <a href="http://telemetry.odysseus.x-tnd.be/reference?showmodal" hreflang="en">Enregistrez-vous si vous utilisez Galette</a> !
 
-Notez que vous pouvez également <a href="http://galette.readthedocs.io/fr/develop/usermanual/generalites.html#telemetrie" hreflang="fr">vous enregistrer depuis Galette</a> (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.
+Notez que vous pouvez également [vous enregistrer depuis Galette](https://doc.galette.eu/fr/develop/usermanual/generalites.html#telemetrie) (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.
 
 ## Fortunes
 

@@ -1,37 +1,26 @@
+L'[ALDIL](https://www.aldil.org/), GULL de Lyon, se cherchait un système de gestion des adhérents (vers 2000 ~ 2001). Après avoir testé PhpLugMembers et quelques autres outils, rien ne convenait.
+Le président de l'ALDIL de l'époque (Loïs, aka GruiicK) a alors décidé de lancer un appel d'offre sur les listes de l'ALDIL.
 ## Histoire de la Galette
 
+Le premier projet, nommé GAELLE, est rapidement mort. Code un peu compliqué et developpeurs pas trés motivés/présents.
 
-<p>L'<a href="http://www.aldil.org/">ALDIL</a>, GULL de Lyon, se cherchait un système de gestion des adhérents (vers 2000 ~ 2001). Après avoir testé PhpLugMembers et quelques autres outils, rien ne convenait.<br />
-Le président de l'ALDIL de l'époque (Loïs, aka GruiicK) a alors décidé de lancer un appel d'offre sur les listes de l'ALDIL.</p>
+En 2003, Frédéric (aka Deelight) repart de zéro et commence à coder une appli jolie, sans prétention, et, comme il le disait lui-même à l'époque : « fait ce qu'on lui demande ».
 
+La première version "stable" a du être la version 0.37b. Jusqu'en 2005, le projet évolue tranquillement, par l'ajout de nouvelles fonctionnalités, et par l'arrivé de nouveaux developpeurs / traducteurs / relecteurs / béta-testeurs (merci à eux).
 
-<p>Le premier projet, nommé GAELLE, est rapidement mort. Code un peu compliqué et developpeurs pas trés motivés/présents.</p>
+Début 2007, Johan (aka trashy) rejoint le projet. En avril, Loïs lui cède les "clefs du camion" et Johan prend la responsabilité du projet Galette.
 
+Le projet est herbégé sur `Gna!` depuis 2004. Début 2005, un projet Galette a également été créé chez [TuxFamilyi](https://tuxfamily.org).
+Gna est en charge de l'hébergement du dépôt SVN, des listes de diffusion et des tracker ; tandis que TuxFamily se charge de l'hébergement du site web et des téléchargements.
 
-<p>En 2003, Frédéric (aka Deelight) repart de zéro et commence à coder une appli jolie, sans prétention, et, comme il le disait lui-même à l'époque : « fait ce qu'on lui demande ».</p>
+Courant 2012, le code source du projet passe à Git ; l'hébergement des dépôts de fait chez Tuxfamily également. Le tracker Gna! est également abandonné.
 
-
-<p>La première version "stable" a du être la version 0.37b. Jusqu'en 2005, le projet évolue tranquillement, par l'ajout de nouvelles fonctionnalités, et par l'arrivé de nouveaux developpeurs / traducteurs / relecteurs / béta-testeurs (merci à eux).</p>
-
-
-<p>Début 2007, Johan (aka trashy) rejoint le projet. En avril, Loïs lui cède les "clefs du camion" et Johan prend la responsabilité du projet Galette.</p>
-
-
-<p>Le projet est herbégé sur <a href="http://gna.org/projects/galette/" hreflang="gna">Gna!</a> depuis 2004. Début 2005, un projet Galette a également été créé chez <a href="http://tuxfamily.org">TuxFamily</a>.<br />
-Gna est en charge de l'hébergement du dépôt SVN, des listes de diffusion et des tracker ; tandis que TuxFamily se charge de l'hébergement du site web et des téléchargements.</p>
-
-
-<p>Courant 2012, le code source du projet passe à Git ; l'hébergement des dépôts de fait chez Tuxfamily également. Le tracker Gna! est également abandonné.</p>
-
-
-<p>Début 2017, les listes de diffusion passent également chez Tuxfamily, Gna ayant annoncé la fin de leurs bons et loyaux services.</p>
-
+Début 2017, les listes de diffusion passent également chez Tuxfamily, Gna ayant annoncé la fin de leurs bons et loyaux services.
 
 ## Mail Originel
 
-
-<p>Ceci est le <strong>mail originel</strong> annonçant la création de Galette. Depuis, la liste Code de l'<a href="http://www.aldil.org">ALDIL</a> a disparue, ses archives aussi.
-De même, le premier site wiki du projet a disparu aussi...</p>
+Ceci est le **mail originel** annonçant la création de Galette. Depuis, la liste Code de l'[ALDIL](https://www.aldil.org) a disparu, ses archives aussi.
+De même, le premier site wiki du projet a disparu aussi...
 
 <pre>
 Message-ID: &lt;033501c3afbf$e6f954a0$0200a8c0@deetanic&gt;
@@ -73,12 +62,11 @@ ALDIL - Code (Code _AT_ listes.aldil.org)
 https://listes.aldil.org/mailman/listinfo/code
 </pre>
 
-
 ## D'où vient le nom Galette
 
+Les membres de l'[ALDIL](https://www.aldil.org/) ont longuement cherché un nom pour ce logiciel. Voici un rapide résumé.
 
-<p>Les membres de l'<a href="http://www.aldil.org/">ALDIL</a> ont longuement cherché un nom pour ce logiciel. Voici un rapide résumé :</p>
-
+Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galette, GruiicK (Président : Celui qui dit banco) a dit banco.
 
 <pre>  TATMonMembre : Trafic Admin Threaders &amp; Monitor of Members,
   GAMELL : Gestion et Administration des Membres En-Ligne de LUG,
@@ -114,4 +102,3 @@ https://listes.aldil.org/mailman/listinfo/code
   GALIA : Gestion et Administration L(inuxienne et) Interactive d'Association.</pre>
 
 
-<p>Deelight (Développeur : Celui qui a raison) a choisi Galette, GruiicK (Président : Celui qui dit banco) a dit banco.</p>

@@ -1,37 +1,26 @@
+[ALDIL](https://www.aldil.org), LUG from Lyon (France), was looking for a membership management application (around 2000~2001). After tests of PhpLugMembers and some other tools, nothing was doing the trick.
+ALDIL's former president (Loïs, aka GruiicK) decided to invite tenders on ALDIL lists.
 ## History of the Galette
 
+The first project, whose name was GAELLE, dies quickly. Code was a bit complex, and developpers were not very involved/presents.
 
-<p><a href="http://www.aldil.org/">ALDIL</a>, LUG from Lyon (France), was looking for a membership management application (around 2000~2001). After tests of PhpLugMembers and some other tools, nothing was doing the trick.<br />
-ALDIL's former president (Loïs, aka GruiicK) decided to invite tenders on ALDIL lists.</p>
+In 2003, Frédéric (aka Deelight) started from scratch a nice application, unpretentious, and, as he said himself: « do what it gotta do ».
 
+The first "stable" version has probably been version 0.37b. Since, project continues quietely to change, by adding new functionnalities, and by receiving new developpers / translators / reviewers / testers (many thanks to them).
 
-<p>The first project, whose name was GAELLE, dies quickly. Code was a bit complex, and developpers were not very involved/presents.</p>
+In early 2007, Johan (aka trashy) joined the project. In April, Loïs gives him the "keys of the truck" and Johan took charge of the project Galette.
 
+Project is hosted on `Gna!` since 2004. Early 2005, a project Galette is also opened at [TuxFamily](https://tuxfamily.org)>.
+Gna is in charge of the hosting of SVN repository, mailing lists and trackers; while TuxFamily is in charge of website and downloads hosting.
 
-<p>In 2003, Frédéric (aka Deelight) started from scratch a nice application, unpretentious, and, as he said himself: « do what it gotta do ».</p>
+In 2012, project source code is switched to Git ; and repositories are moved to Tuxfamily. Gna! tracker is abandoned as well.
 
-
-<p>The first "stable" version has probably been version 0.37b. Since, project continues quietely to change, by adding new functionnalities, and by receiving new developpers / translators / reviewers / testers (many thanks to them).</p>
-
-
-<p>In early 2007, Johan (aka trashy) joined the project. In April, Loïs gives him the "keys of the truck" and Johan took charge of the project Galette.</p>
-
-
-<p>Project is hosted on <a href="http://gna.org/projects/galette/">Gna!</a> since 2004. Early 2005, a project Galette is also opened at <a href="http://tuxfamily.org">TuxFamily</a>.<br />
-Gna is in charge of the hosting of SVN repository, mailing lists and trackers; while TuxFamily is in charge of website and downloads hosting.</p>
-
-
-<p>In 2012, project source code is switched to Git ; and repositories are moved to Tuxfamily. Gna! tracker is abandoned as well.</p>
-
-
-<p>At the begining of 2017, mailing lists are also switched to Tuxfamily, since Gna has announced the end of their services.</p>
-
+At the begining of 2017, mailing lists are also switched to Tuxfamily, since Gna has announced the end of their services.
 
 ## Original Email
 
-
-<p>This is the <strong>original mail</strong> (in french) which anounce Galette creation. Since then, the Code mailing-list from <a href="http://www.aldil.org">ALDIL</a> as disappeared, archives too.
-Also, first wiki website as disappeared too.</p>
+This is the **original email** (in french) which anounce Galette creation. Since then, the Code mailing-list from [ALDIL](https://www.aldil.org) has disappeared, archives too.
+Also, first wiki website as disappeared too.
 
 <pre>
 Message-ID: &lt;033501c3afbf$e6f954a0$0200a8c0@deetanic&gt;
@@ -73,12 +62,11 @@ ALDIL - Code (Code _AT_ listes.aldil.org)
 https://listes.aldil.org/mailman/listinfo/code
 </pre>
 
-
 ## From where Galette's name come?
 
+[ALDIL](https://www.aldil.org/) members have long sought a name for this software. Here's a quick summary (in frenglish):
 
-<p><a href="http://www.aldil.org/">ALDIL</a> members have long sought a name for this software. Here's a quick summary (in frenglish):</p>
-
+You must know that finally, Deelight (Lead developer: One who's right) choose Galette, GruiicK (President: One who said banco) said banco.
 
 <pre>  TATMonMembre : Trafic Admin Threaders &amp; Monitor of Members,
   GAMELL : Gestion et Administration des Membres En-Ligne de LUG,
@@ -112,6 +100,3 @@ https://listes.aldil.org/mailman/listinfo/code
   SELMA : Suivi En Ligne des Membres d'Associations,
   SALAMI : Systeme d'Administration en Ligne d'Association et ses Membres Interactifs,
   GALIA : Gestion et Administration L(inuxienne et) Interactive d'Association.</pre>
-
-
-<p>Deelight (Lead developer: One who's right) choose Galette, GruiicK (President: One who said banco) said banco.</p>
