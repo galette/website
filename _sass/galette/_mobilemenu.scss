@@ -170,15 +170,21 @@ aside#sidebar .main-menu li a {
         display: block;
     }
 
-    aside#sidebar .main-menu a {
+    aside#sidebar .main-menu li a {
         color: $text-color;
-        padding-top: .2em;
-        padding-bottom: .2em;
+        padding: .2em .3em;
         border-bottom: none;
+
+        &:hover {
+            color: $galette-blue;
+        }
+
     }
 
     .main-menu ul {
         background: none;
+        box-shadow: none;
+        padding: .5em 1em;
     }
 
     .mainmnulnk {
