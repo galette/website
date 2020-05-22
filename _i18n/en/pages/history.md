@@ -1,6 +1,5 @@
 [ALDIL](https://www.aldil.org), LUG from Lyon (France), was looking for a membership management application (around 2000~2001). After tests of PhpLugMembers and some other tools, nothing was doing the trick.
 ALDIL's former president (Loïs, aka GruiicK) decided to invite tenders on ALDIL lists.
-## History of the Galette
 
 The first project, whose name was GAELLE, dies quickly. Code was a bit complex, and developpers were not very involved/presents.
 

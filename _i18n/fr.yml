@@ -24,6 +24,8 @@ pages:
   notfound: Page non trouvée :'(
   descriptions:
     home: Open source web membership management application for associations
+  titles:
+    history: Histoire de la Galette
 menus:
   main: Navigation
   faq: Foire Aux Questions

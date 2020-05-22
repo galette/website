@@ -25,6 +25,8 @@ pages:
   notfound: Page not found :(
   descriptions:
     home: Open source web membership management application for associations
+  titles:
+    history: History of the Galette
 menus:
   main: Navigate
   faq: Frequently Asked Questions

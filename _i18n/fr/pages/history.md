@@ -1,6 +1,5 @@
 L'[ALDIL](https://www.aldil.org/), GULL de Lyon, se cherchait un système de gestion des adhérents (vers 2000 ~ 2001). Après avoir testé PhpLugMembers et quelques autres outils, rien ne convenait.
 Le président de l'ALDIL de l'époque (Loïs, aka GruiicK) a alors décidé de lancer un appel d'offre sur les listes de l'ALDIL.
-## Histoire de la Galette
 
 Le premier projet, nommé GAELLE, est rapidement mort. Code un peu compliqué et developpeurs pas trés motivés/présents.
 
