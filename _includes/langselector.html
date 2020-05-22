@@ -15,7 +15,12 @@
             {%- endif -%}
         {% endif %}
 
-        <a href="{{ site.baseurl_root }}{{ plink }}"{% if site.lang == lang %} class="active"{% endif %}>{% t langs.{{ lang }} %}</a>
+        <a href="{{ site.baseurl_root }}{{ plink }}"{% if site.lang == lang %} class="active"{% endif %} title="{% t langs.{{ lang }} %}">
+            <span class="long">{% t langs.{{ lang }} %}</span>
+            <span class="separator">(</span>
+            <span class="short">{{ lang }}</span>
+            <span class="separator">)</span>
+        </a>
         {%- if forloop.last != true -%}
             <span class="separator"> &bull; </span>
         {%- endif -%}
