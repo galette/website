@@ -10,7 +10,7 @@ global:
   of: of
   license: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
   built: Built with
-  subscribe_rss: RSS feed subscription
+  subscribe_rss: RSS feed
   toc: Table of contents
 langs:
   en: English
