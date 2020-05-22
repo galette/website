@@ -1,60 +1,42 @@
-<p>There are numerous ways to contribute to a project like Galette. Here is a non exhaustive list:</p>
+There are numerous ways to contribute to a project like Galette. Here is a non exhaustive list:
 
-<ul>
-<li>user support on <a href="/dc/index.php/pages/Contact#listes">mailing lists</a> or, more rarely, on the <a href="/dc/index.php/pages/Contact#irc">IRC channel</a>,</li>
-<li><a href="https://hosted.weblate.org/projects/galette/galette/">translate</a> (Galette, but also documentation),</li>
-<li><a href="http://doc.galette.eu/en/develop/development/index.html">hack the code itself</a>,</li>
-<li>write various documentations (<a href="https://doc.galette.eu/en/master/installation/index.html">installation guide</a>, <a href="https://doc.galette.eu/en/develop/usermanual/index.html">user guide</a>, <a href="https://doc.galette.eu/en/develop/development/index.html">developer guide</a>, <a href="https://doc.galette.eu/en/develop/faq/index.html">frequently asked questions</a>, ...),</li>
-<li><a href="http://doc.galette.eu/en/master/plugins/index.html">hack, document and test plugins</a>,</li>
-<li>test development versions,</li>
-<li><a href="https://www.paypal.me/galettesoft">make a donation to Galette's developper</a> (contact him if you prefer to use a check or a transfer),</li>
-<li>...</li>
-</ul>
+* user support on [mailing lists]({% tl contact %}#mailing-lists) or, more rarely, on the [IRC channel]({% tl contact %}#irc),
+* [translate](https://hosted.weblate.org/projects/galette/galette/) (Galette, but also documentation),
+* [hack the code itself]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/index.html),
+* write various documentations ([installation guide]({{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html),[user guide]({{ site.galette.doc_url }}/{{ site.lang }}/develop/usermanual/index.html), [developer guide]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/index.html), [frequently asked questions]({{ site.galette.doc_url }}/{{ site.lang }}/develop/faq/index.html), ...),
+* [hack, document and test plugins]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/index.html),
+* test development versions,
+* [make a donation to Galette's developer](https://www.paypal.me/galettesoft) (contact him if you prefer to use a check or a transfer),
+* ...
 
+If you want to participate to Galette, do not hesitate any longer!
 
-<p>If you want to participate to Galette, do not hesitate any longer!</p>
-
-
-<p>There a a few things you've got to know about Galette before you begin... :)</p>
-
+There a a few things you've got to know about Galette before you begin... :)
 
 ## Galette's code
 
-
-<p>All <a href="https://doc.galette.eu/en/develop/development/git.html">informations about Galette or plugins source code are available in the development documentation</a>.</p>
-
+All [informations about Galette or plugins source code are available in the development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/git.html).
 
 ### Test
 
+Testing Galette's code is generally as simple as installing and using it :-) No specific knowledge is required.
 
-<p>Testing Galette's code is generally as simple as installing and using it :-) No specific knowledge is required.</p>
-
-
-<p>Various contact methods are offered for you to get help or advices, trackers will permit you to report bugs, possibly ask for new functionnalities, and even to submit patches.</p>
-
+Various contact methods are offered for you to get help or advices, trackers will permit you to report bugs, possibly ask for new functionnalities, and even to submit patches.
 
 ## Galette's documentation
 
+Galette's documentation sourcecode is hosted on a GIT repository, [see documentation for more details]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/git.html).
 
-<p>Galette's documentation sourcecode is hosted on a GIT repository,  <a href="https://doc.galette.eu/en/develop/development/git.html">see documentation or more details</a>.</p>
+The documentation is written using [reStructuredText](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) format and built with [Sphinx](https://sphinx-doc.org/).
 
-
-<p>The documentation is written using <a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">reStructuredText</a> format and built with <a href="http://sphinx.pocoo.org/">Sphinx</a></p>
-
-
-<p>All these informations may seems a bit technical, but in reality, documentation is simply written in a bunch of text files with a specific syntax (really well documented) which looks like a wiki syntax; while offering many additionnal possibilities. There is no need for any particular knowledge here.</p>
-
+All these informations may seems a bit technical, but in reality, documentation is simply written in a bunch of text files with a specific syntax (really well documented) which looks like a wiki syntax; while offering many additionnal possibilities. There is no need for any particular knowledge here.
 
 ## Galette's website
 
-
-<p>Galette's website is powered by DotClear. <a href="https://bitbucket.org/trashy/galette_dc_theme">Galette's DotClear theme is available on a GIT repository</a>. If you fix something, I'll be happy to integrate it ;-)</p>
-
+Galette's website is powered by DotClear. [Galette's DotClear theme is available on a GIT repository](https://bitbucket.org/trashy/galette_dc_theme). If you fix something, I'll be happy to integrate it ;-)
 
 ## Translations
 
+Translations in Galette are built on top of gettext and po files. There are various PO files editors; which let you find quickly new, fuzzy or missing strings. Part of [Galette's documentation is about internationalization]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/i18n.html), if you want to get more.
 
-<p>Translations in Galette are built on top of gettext and po files. There are various PO files editors; which let you find quickly new, fuzzy or missing strings. Part of <a href="https://doc.galette.eu/fr/develop/development/i18n.html" hreflang="fr">Galette's documentation is about internationalization </a>, if you want to get more.</p>
-
-
-<p>You may <a href="https://hosted.weblate.org/projects/galette/galette/">help on translations</a> themselves from the translation platform!</p>
+You may [help on translations](https://hosted.weblate.org/projects/galette/galette/) themselves from the translation platform!
