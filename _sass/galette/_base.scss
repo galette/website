@@ -35,7 +35,6 @@ body {
 }
 
 section#content {
-    padding: 0 .5em;
     h2, h3, h4, h5, h6 {
         border-bottom: 1px dotted $galette-blue;
         display: inline-block;
@@ -115,6 +114,18 @@ pre {
   float: right;
 }*/
 
+svg.orange {
+    fill: $galette-orange;
+
+    &:hover {
+        fill: $galette-dark-orange;
+    }
+}
+
+a:hover svg.orange {
+    fill: $galette-dark-orange;
+}
+
 .social-media-list a {
     margin: 0 .5em;
 }
@@ -124,6 +135,15 @@ pre {
     height: 18px;
     vertical-align: middle;
     padding-right: .2em
+}
+
+.post-content pre, .post-excerpt pre {
+  padding: 0 1em;
+  font: 1em 'courier new', courier, monospace;
+  border: 1px dashed #C4C4C4;
+  color: #666;
+  overflow: auto;
+  background-color: #EEFFCC;
 }
 
 /** Galette BOX */
