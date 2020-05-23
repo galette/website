@@ -1,6 +1,6 @@
 Vous souhaitez contribuer, mais vous ne savez pas quoi faire ? Peut-être même pensez-vous ne pas pouvoir aider du tout...
 
-Pas de panique, il existe bien des manières de contribuer à un projet comme Galette, et beaucoup ne demandent pas dêtre développeur ;-)
+Pas de panique, il existe bien des manières de contribuer à un projet comme Galette, il n'est pas nécessaire d'être développeur ;-)
 
 ## Utiliser / Tester
 
@@ -8,7 +8,7 @@ Utiliser Galette, c'est déjà soutenir le projet. Assez facile, non ? Allez, me
 
 Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de pair. Donc si vous rencontrez un bogue, ouvrez un ticket avec tous les détails possibles pour qu'un développeur puisse comprendre le problème et le reproduire également, ou utilisez [l'un des canaux de communication]({% tl contact %}) proposés pour exposer votre problème.
 
-Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalité en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{ site.galette.nightly_url }}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
+Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{ site.galette.nightly_url }}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
 
 Bien entendu, il en va de même pour les [plugins officiels]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/) :-)
 
@@ -56,7 +56,7 @@ Hormis pour les plugins, il n'est pas nécessaire de comprendre [l'international
 
 ## Rédiger
 
-Certaines fonctionnalité de Galette sont absentes dans la documentation, ou vraiment détaillées à minima. Là aussi, vous pouvez éventuellement aider en rédigeant de la documentation, ou des articles sur le site. Les principaux manques se situent dans le manuel de l'utilisateur ; parties qui justement devraient pour le mieux être rédigées par des utilisateurs (souvent, la développeur peine à ne pas ajouter moult détails techniques).
+Certaines fonctionnalité de Galette sont absentes dans la documentation, ou vraiment détaillées à minima. Là aussi, vous pouvez éventuellement aider en rédigeant de la documentation, ou des articles sur le site. Les principaux manques se situent dans le manuel de l'utilisateur ; parties qui justement devraient pour le mieux être rédigées par des utilisateurs (souvent, le développeur peine à ne pas ajouter moult détails techniques).
 
 La principale contrainte, c'est que les contenus originaux doivent être en anglais. Le but n'est pas d'écrire de grands textes, nul besoin d'être totalement bilingue. Et si vous ne parlez pas du tout anglais, il est toujours possible de vous apporter de l'aide sur ce point.
 Les contributions sont dans tous les cas relues et commentées au besoin, permettant d'éventuels ajustements de votre part ou d'un autre participant.
