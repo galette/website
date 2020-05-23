@@ -11,6 +11,8 @@ global:
   built: Construit par
   subscribe_rss: Flux RSS
   toc: Table des matières
+  nextpost: Aller au billet suivant
+  prevpost: Aller au billet précédent
 langs:
   en: English
   fr: Français

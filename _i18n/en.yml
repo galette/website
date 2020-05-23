@@ -12,6 +12,8 @@ global:
   built: Built with
   subscribe_rss: RSS feed
   toc: Table of contents
+  nextpost: Go to next post
+  prevpost: Go to previous post
 langs:
   en: English
   fr: Français

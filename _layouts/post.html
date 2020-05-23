@@ -2,7 +2,23 @@
 layout: default
 permalink: /post/:year/:month/:day/:title:output_ext
 ---
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{% if page.next or page.previous %}
+    <nav class="posts-navigation">
+    {%- if page.next -%}
+        <!-- Link previous post -->
+        <a href="{{ site.baseurl }}{{ page.next.url }}" title="{% t global.prevpost %}">« {{ page.next.title }}</a>
+    {%- endif -%}
+
+    {%- if page.previous -%}
+        {%- if page.next %} - {% endif -%}
+        <!-- Link next post -->
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" title="{% t global.nextpost %}">{{ page.previous.title }} »</a>
+    {%- endif -%}
+    </nav>
+{% endif %}
+
 
   <header class="post-header">
     <h1 itemprop="name headline">{{ page.title }}</h1>
