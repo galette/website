@@ -14,11 +14,8 @@ permalink: /post/:year/:month/:day/:title:output_ext
         {%- if page.previous %} - {% endif -%}
         <a href="{{ site.baseurl }}{{ page.next.url }}" title="{% t global.prevpost %}">{{ page.next.title }} »</a>
     {%- endif -%}
-
-
     </nav>
 {% endif %}
-
 
   <header class="post-header">
     <h1 itemprop="name headline">{{ page.title }}</h1>
