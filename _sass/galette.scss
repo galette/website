@@ -67,6 +67,7 @@ $action-color:      #279ac4 !default;
 $galette-light-orange: lighten($galette-orange, 20%) !default;
 $galette-dark-orange:  darken($galette-orange, 15%) !default;
 $galette-blue:      #0486b5 !default;
+$galette-light-grey:   lighten($galette-grey, 1%) !default;
 
 $galette-max-width: 1024px;
 $content-width:    800px !default;

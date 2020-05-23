@@ -51,7 +51,7 @@ pagination:
   sort_reverse: true
   per_page: 5
 
-#exclude: ["LICENSE.txt", "README.md"]
+exclude: ["LICENSE", "seo-tag-galette-fix.patch", "README.md"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 responsive_image:

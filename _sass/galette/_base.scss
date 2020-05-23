@@ -86,6 +86,11 @@ pre {
   text-align: left;
 }
 
+code, kbd, samp {
+    font-size: $small-font-size;
+    background: $galette-light-orange;
+}
+
 /* Screen reader only */
 .sr-only {
     position: absolute;
@@ -144,6 +149,20 @@ a:hover svg.orange {
   color: #666;
   overflow: auto;
   background-color: #EEFFCC;
+}
+
+.footnotes {
+    border-top: 1px solid $galette-grey;
+    background: $galette-light-grey;
+    padding: .5em;
+
+    ol, p {
+        margin: 0;
+    }
+
+    ol {
+        padding-left: 1.2em;
+    }
 }
 
 /** Galette BOX */
