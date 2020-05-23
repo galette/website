@@ -131,12 +131,14 @@
         {% endif %}
     {% endfor %}
 
-    <p class="rss-subscribe">
-        <a href="{{ "/feed.xml" | relative_url }}">
+    <p>
+    <ul>
+        <li>
+        <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
             </svg><span>{% t global.subscribe_rss %}</span>
         </a>
+    </ul>
     </p>
-
 </aside>
