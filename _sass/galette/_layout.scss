@@ -16,9 +16,10 @@
 */
 
 /** main header */
+$galette-header-h: 100px !default;
 body > header:first-child {
   position: relative;
-  height: 100px;
+  height: $galette-header-h;
   width: auto;
   padding: 0;
   margin: 0 auto;
@@ -34,7 +35,7 @@ body > header:first-child {
       text-decoration: none;
       display: inline-block;
       width: 208px;
-      height: 100px;
+      height: $galette-header-h;
       background: url(img/galette.png) top left no-repeat;
       text-indent: 210px;
       overflow: hidden;
@@ -68,6 +69,12 @@ section#content {
         line-height: 1.2em;
         margin: .4em 0;
     }
+}
+
+.langselector {
+    position: absolute;
+    top: $galette-header-h;
+    left: .5em;
 }
 
 /** pagination */
@@ -204,6 +211,10 @@ body > footer:last-child {
     section#content {
         padding: 0 1em;
         z-index: 2;
+    }
+
+    .langselector {
+        top: 0;
     }
 }
 
