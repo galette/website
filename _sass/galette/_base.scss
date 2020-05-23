@@ -88,7 +88,8 @@ pre {
 
 code, kbd, samp {
     font-size: $small-font-size;
-    background: $galette-light-orange;
+    background: rgba(0, 0, 0, .1);
+    padding: .1em .2em;
 }
 
 /* Screen reader only */
