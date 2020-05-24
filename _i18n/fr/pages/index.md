@@ -10,15 +10,15 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
 
     <div>
         <ul>
-            <li>Gestion des adhérents</li>
+            <li><strong>Gestion des adhérents</strong></li>
             <li>Gestion des cotisations et transactions</li>
             <li>Gestion de groupes et de responsables</li>
-            <li>Imports et exports (formats ouverts)</li>
-            <li>Accessibilité accrue (utilisation et respect des standards du web)</li>
+            <li>Imports et exports (<strong>formats ouverts</strong>)</li>
+            <li>Accessibilité accrue (utilisation et <strong>respect des standards</strong> du web)</li>
             <li>Configuration des fiches et des listes</li>
-            <li>Ajout de champs aux fiches adhérents, contributions et transactions</li>
+            <li>Ajout de <strong>champs dynamiques</strong> aux fiches adhérents, contributions et transactions</li>
             <li>Multilingue</li>
-            <li>Support de plugins</li>
+            <li><strong>Support de plugins</strong></li>
             <li>...</li>
         </ul>
         <figure>
@@ -27,13 +27,13 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
     </div>
     <div>
         <ul>
-            <li>Recherche simple et avancée</li>
-            <li>Calcul de l'échéance des adhésions</li>
-            <li>Mailings adhérents</li>
+            <li><strong>Recherche</strong> simple et avancée</li>
+            <li>Calcul de <strong>l'échéance des adhésions</strong></li>
+            <li><strong>Mailings</strong> adhérents</li>
             <li>Edition d'étiquettes (pour envois postaux)</li>
             <li>Fiches adhérents avec photo (facultative)</li>
             <li>Chaque adhérent peut modifier sa fiche</li>
-            <li>Filtres d'affichage multi-critères</li>
+            <li><strong>Filtres</strong> d'affichage multi-critères</li>
             <li>Historique d'utilisation</li>
             <li>Fonctionne avec MariaDB ou PostgreSQL</li>
             <li>...</li>
