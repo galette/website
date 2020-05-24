@@ -41,7 +41,11 @@ N'hésitez pas à utiliser les [canaux de contact]({% tl contact %}) mis à disp
 
 Si donc vous souhaitez aider à traduire Galette, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
 
+{% responsive_image path: assets/images/screenshots/weblate.png alt: "Weblate interface" title: "Weblate interface" %}
+
 Pour la documentation, le principe est le même, à la différence que les traduction s'effectuent toujours sur l'ancienne [plateforme de traduction (Zanata)](https://translate.zanata.org/project/view/galettedoc/) (plate forme similaire à Weblate ou Transifex ; mais qui est vieillissante).
+
+{% responsive_image path: assets/images/screenshots/zanata.png alt: "Zanata interface" title: "Zanata interface" %}
 
 Et enfin les plugins... Aucun d'entre eux n'utilise actuellement de système de traduction externe. Le processus nécessite les outils et éditeurs sur le poste de travail, là où un simple navigateur web suffit pour Galette ou la documentation.
 
