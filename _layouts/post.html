@@ -6,10 +6,16 @@ permalink: /post/:year/:month/:day/:title:output_ext
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <h1 itemprop="name headline" class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
+      {% for tag in page.tags %}
+        <span class="tag {{ tag }}">
+            {% t {{ "tags.TAG" | replace: "TAG", tag }} %}
+        </span>
+      {% endfor %}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- capture date_format %}{% t global.date_format %}{% endcapture -%}
+        {%- if date_format == '' %}{% assign date_format = '%Y-%m-%d' %}{% endif -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}

@@ -13,6 +13,7 @@ global:
   toc: Table des matières
   nextpost: Aller au billet suivant
   prevpost: Aller au billet précédent
+  date_format: '%d/%m/%Y'
 langs:
   en: English
   fr: Français
@@ -38,3 +39,8 @@ menus:
   docinstall: Guide d'installation
   docuser: Manuel de l'utilisateur
   docplugins: Plugins
+tags:
+  release: Stable
+  rc: Test
+  sponsored: Sponsorisée
+  poissons: 1er avril

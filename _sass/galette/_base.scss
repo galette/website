@@ -116,6 +116,26 @@ code, kbd, samp {
   float: right;
 }*/
 
+.tag {
+    font-size: $small-font-size;
+    display: inline-block;
+    padding: .2em .5em;
+    background-color: $galette-light-grey;
+    color: $light-text-color;
+
+    &.release {
+        background-color: $release-color;
+    }
+
+    &.rc {
+        background-color: $rc-color;
+    }
+
+    &.sponsored {
+        background-color: $sponsored-color;
+    }
+}
+
 svg.orange {
     fill: $galette-orange;
 
@@ -137,6 +157,10 @@ a:hover svg.orange {
     height: 18px;
     vertical-align: middle;
     padding-right: .2em
+}
+
+.post-meta {
+    margin: 0;
 }
 
 .post-content pre, .post-excerpt pre {

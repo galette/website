@@ -76,6 +76,10 @@ $sidebar-width:    200px !default;
 $galette-large:     767px !default;
 $galette-large-lang: 1080px !default; //lang selector is placed on the side.
 
+$release-color: $galette-blue !default;
+$sponsored-color: green !default;
+$rc-color: $galette-dark-orange !default;
+
 // Import partials.
 @import
   "galette/normalize",

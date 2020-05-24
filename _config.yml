@@ -94,3 +94,12 @@ galette:
         url: DOC_URL/master/usermanual/
       - name: menus.docplugins
         url: DOC_URL/master/plugins/
+
+#Templating defaults
+defaults:
+  -
+    scope:
+      path: ""
+      category: "post"
+    values:
+      author: "Johan C."

@@ -69,6 +69,10 @@ section#content {
         line-height: 1.2em;
         margin: .4em 0;
     }
+
+    h2.post-title {
+        margin: .4em 0
+    }
 }
 
 .langselector {
@@ -244,7 +248,7 @@ body > footer:last-child {
 
             &:hover {
                 text-decoration: none;
-                color: white;
+                color: $light-text-color;
                 background: $galette-blue;
             }
         }
