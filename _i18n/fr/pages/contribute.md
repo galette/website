@@ -23,7 +23,7 @@ Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne de
 
 ## Faire un don
 
-Et enfin, une autre manière de contribuer, c'est de faire un don au développeur de Galette, Johan, pour essayer de le motiver un brin ;-)
+Une autre manière de contribuer, c'est de faire un don au développeur de Galette, Johan, pour essayer de le motiver un brin ;-)
 
 Vous pouvez ainsi :
 
