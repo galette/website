@@ -68,7 +68,7 @@
                     {% assign tkeys = p.title | split: "." %}
                     {% assign tkey = tkeys[1] %}
 
-                    <li{% if p.url == page.url or tkey == 'posts' and page.url contains '/page/' %} class="active"{% endif %}>
+                    <li{% if p.url == page.url or tkey == 'posts' and (page.url contains '/page/' or page.categories contains 'post') %} class="active"{% endif %}>
                         <a href="{{ site.baseurl }}{{ p.url }}">{{ site.translations[site.lang]['pages'][tkey]}}</a>
                     </li>
                 {% endunless %}{% endif %}

@@ -73,7 +73,7 @@ Si vous souhaitez compléter la documentation ou y apporter une correction, le f
 
 Avant de vraiment vous lancer, veillez à vous assurer que votre fonctionnalité serait acceptée, ainsi que la manière dont vous souhaitez l'implémenter. Les [différents canaux de communication]({% tl contact %}) servent à ça, n'hésitez surtout pas :)
 
-Nous vous conseillons vivement de lire la [documentation de développement de Galette](({{ site.galette.doc_url }}{{ page.lang }}/develop/development/) afin de vous familiariser un peu avec le code et les règles suivies.
+Nous vous conseillons vivement de lire la [documentation de développement de Galette]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) afin de vous familiariser un peu avec le code et les règles suivies.
 
 Mettre le nez dans le code, c'est la possibilité de contribution la plus technique. Les plugins seront certainement plus faciles à appréhender que Galette elle-même, la majorité d'entre eux est assez simple ; mais vous pouvez bien sûr proposer des modifications sur le cœur :)
 Dans tous les cas de figure, essayez de vous rapprocher du ou des développeur(s) qui sont certainement les personnes les plus à-même de vous aider.

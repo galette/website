@@ -8,15 +8,5 @@ layout: default
         {{ content }}
     </div>
 
-    <div id="news">
-    <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="post-content">
-        {{ post.content }}
-      </div>
-    {% endfor %}
-    </div>
-
-    {%- include pagination.html -%}
+    {%- include posts.html -%}
 </div>
