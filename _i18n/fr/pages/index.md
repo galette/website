@@ -9,4 +9,4 @@ Chaque adhérent dispose par ailleurs d'identifiants personnels lui permettant d
 
 Coté technique, il vous faut juste un serveur web supportant PHP 7.1 minimum et une base de données (MySQL ou PostgreSQL) ([voir les pré-requis](https://doc.galette.eu/fr/master/installation/prerequis.html)).
 
-Galette est un projet libre, les <a href="/dc/index.php/pages/Contribuer">personnes qui souhaitent participer</a> sont toujours les bienvenues ;-)
+Galette est un projet libre, les <a href="{% tl contribute %}">personnes qui souhaitent participer</a> sont toujours les bienvenues ;-)
