@@ -8,9 +8,45 @@
     {%- include header.html -%}
 
     <section class="wrapper">
-        {%- include galettebar.html -%}
+        <header>
+            <div class="ghead">
+                <h1>
+                    {% assign the_title="" %}
+
+                    {%- if page.layout == 'posts' -%}
+                        {%- if page.title -%}
+                            {%- if page.autogen != nil %}
+                                {% assign parts = page.title | split: ' - ' %}
+                                {% capture the_title %}{% t parts[0] %} - {{ parts[1] | join: ' - ' }}{% endcapture %}
+                            {%- else -%}
+                                {% capture the_title %}{% t page.title %}{% endcapture %}
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- else -%}
+                        {% if page.categories contains 'post' -%}
+                            {% assign the_title=page.title %}
+                        {%- else -%}
+                            {% if page.page_title -%}
+                                {% capture the_title %}{% t page.page_title %}{% endcapture %}
+                                {% if the_title == '' %}
+                                    {% assign the_title=page.title %}
+                                {% endif %}
+                            {% else %}
+                                {% capture the_title %}{% t page.title %}{% endcapture %}
+                                {% if the_title == '' %}
+                                    {% assign the_title=page.title %}
+                                {% endif %}
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                    {{ the_title | default: page.title }}
+
+                </h1>
+                {%- include langselector.html -%}
+            </div>
+            {%- include galettebar.html -%}
+        </header>
         <section id="content" aria-label="Content">
-            {%- include langselector.html -%}
             {{ content }}
         </section>
         {%- include sidebar.html -%}

@@ -3,10 +3,6 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
-      <h1>{% if page.page_title %}{% t page.page_title %}{% else %}{% t page.title %}{% endif %}</h1>
-  </header>
-
   <div class="post-content">
     {%- if page.toc -%}
         <h4 class="toc">{% t global.toc %}</h4>

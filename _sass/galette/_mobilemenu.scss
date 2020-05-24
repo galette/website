@@ -43,12 +43,10 @@
   display: none;
   top: 0;
   height: 100%;
-  /*overflow-y: scroll;
-  overflow-x: visible;*/
-  transition: left 0.3s ease,
-              box-shadow 0.3s ease;
+  width: 100%;
   z-index: 999;
   font-size: 1.2em;
+  background: $text-color;
 }
 
 .main-menu ul {
@@ -57,12 +55,11 @@
      -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
           box-shadow: -8px 0 8px rgba(0,0,0,.5);
   min-height: 100%;
-  background: $text-color; // #1a1a1a;
 }
 
 aside#sidebar .main-menu li a {
   color: #fff;
-  padding: .5em 1em;
+  padding: 5vw 15vw;
   border-bottom: 1px solid $galette-dark-orange;
 
   &:hover {
@@ -76,16 +73,12 @@ aside#sidebar .main-menu li a {
 }
 
 .main-menu .menu-close {
-  position: absolute;
-  right: -2.1em;
-  top: 0;
-  background: $text-color; //#1a1a1a;
   color: white;
   display: block;
-  z-index:1000;
 
   &:hover {
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
   }
 
   span[aria-hidden] {
@@ -169,6 +162,7 @@ aside#sidebar .main-menu li a {
         height: auto;
         display: block;
         font-size: 1em;
+        background: none;
     }
 
     aside#sidebar .main-menu li a {
@@ -183,7 +177,6 @@ aside#sidebar .main-menu li a {
     }
 
     .main-menu ul {
-        background: none;
         box-shadow: none;
         padding: .5em 1em;
     }
