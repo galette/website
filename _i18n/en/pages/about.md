@@ -69,7 +69,7 @@ Note that you can also [register from Galette]("https://doc.galette.eu/en/develo
 </pre>
 
 <pre>
-&lt;hertay&gt; Trashy, dans http://galette.tuxfamily.org/dc/?navlang=fr c'est toujours la 0755 qui est en téléchargement (lien) ;-)
+&lt;hertay&gt; Trashy, dans https://galette.eu c'est toujours la 0755 qui est en téléchargement (lien) ;-)
 &lt;trashy_&gt; c'est la faute à GruiicK ! :p
 &lt;GruiicK&gt; mééé heu !!
 &lt;trashy_&gt; :o)

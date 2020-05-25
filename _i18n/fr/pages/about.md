@@ -164,7 +164,7 @@ Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galett
 </pre>
 
 <pre>
-&lt;hertay&gt; Trashy, dans http://galette.tuxfamily.org/dc/?navlang=fr c'est toujours la 0755 qui est en téléchargement (lien) ;-)
+&lt;hertay&gt; Trashy, dans http://galette.eu c'est toujours la 0755 qui est en téléchargement (lien) ;-)
 &lt;trashy_&gt; c'est la faute à GruiicK ! :p
 &lt;GruiicK&gt; mééé heu !!
 &lt;trashy_&gt; :o)
