@@ -16,6 +16,8 @@ De nouvelles fonctionnalités sont tout de même ajoutées régulièrement, fais
 
 Le projet n'a pas de cycle de sortie défini : « ça sort quand c'est prêt ». Toutefois, la sortie de versions correctives est faite assez régulièrement, soit lorsqu'un problème important est détecté, soit lorsque plusieurs problèmes ont déjà été réglés, ou encore si c'était demandé (ça n'est encore jamais arrivé).
 
+Enfin, notez qu'une seule version majeure n'est supportée à la fois. Ainsi, depuis la sorte de Galette 0.9 ; la version 0.8 n'est plus supportée. La seule exception à cette règle, ce serait pour corriger une faille de sécurité, si toutefois la nouvelle majeure est assez récente. La question ne s'est posée qu'une seule foir pour le moment.
+
 ## Ils utilisent Galette
 
 La <a href="https://telemetry.galette.eu/reference" hreflang="en">liste des utilisateurs de Galette</a> peut être consultée sur notre application de télémétrie :)
