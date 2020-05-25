@@ -24,13 +24,12 @@ pages:
   contribute: Contribute
   contact: Contact
   posts: Posts
-  history: History
   notfound: Page not found :(
   descriptions:
     home: Open source web membership management application for associations
   titles:
-    history: History of the Galette
     contribute: Contribute to Galette
+    about: About and history of the Galette
 menus:
   main: Navigate
   faq: Frequently Asked Questions

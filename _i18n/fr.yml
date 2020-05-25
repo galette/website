@@ -23,13 +23,12 @@ pages:
   contribute: Contribuer
   contact: Contact
   posts: Publications
-  history: Historique
   notfound: Page non trouvée :'(
   descriptions:
     home: Open source web membership management application for associations
   titles:
-    history: Histoire de la Galette
     contribute: Contribuer à Galette
+    about: À propos et histoire de la Galette
 menus:
   main: Navigation
   faq: Foire Aux Questions
