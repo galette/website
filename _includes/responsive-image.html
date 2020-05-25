@@ -10,4 +10,6 @@ Usage:
 {%- endfor -%}
 {% endcapture %}
 
-<img src="{{ site.baseurl_root }}/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} {{ site.baseurl_root }}/{{ path }} {{ original.width }}w" sizes="100vw" />
+<a data-fancybox="gallery" href="{{ site.baseurl_root }}/{{ path }}">
+    <img src="{{ site.baseurl_root }}/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} {{ site.baseurl_root }}/{{ path }} {{ original.width }}w" sizes="100vw" />
+</a>
