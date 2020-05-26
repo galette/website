@@ -3,7 +3,8 @@
 Galette est une application web de gestion d'adhérents et de cotisations en ligne à destination des associations.<br/>
 C'est avant toute chose un <strong>logiciel libre</strong>, communautaire, et gratuit !
 
-Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir les pré-requis]({{ site.galette.doc_url }}/{{ site.lang }}/master/installation/prerequis.html)). En cas de besoin, nous proposons [différents moyens de nous contacter]({% tl contact %}) :)
+Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir les pré-requis]({{ site.galette.doc_url }}/{{ site.lang }}/master/installation/prerequis.html)). En cas de besoin, nous proposons [différents moyens de nous contacter]({% tl contact %}) :)<br/>
+[Les personnes qui souhaitent participer](({% tl contribute %})) sont évidemment les bienvenues :-)
 
 <div id="home">
     <div>
@@ -41,5 +42,3 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
         </figure>
     </div>
 </div>
-
-Galette est un projet libre, les <a href="{% tl contribute %}">personnes qui souhaitent participer</a> sont toujours les bienvenues ;-)
