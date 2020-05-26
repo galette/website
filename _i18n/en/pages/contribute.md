@@ -6,7 +6,7 @@ Don't panic, there are numerous ways to contribute to a project like Galette, no
 
 Using Galette is already a kind of support. Quite easy, no? Well, thanks for coming :D
 
-For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer cans understand the issue and reproduce it, or use [one of our communication channels]({% tl contact %}) to expose your issue.
+For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer can understand the issue and reproduce it, or use [one of our communication channels]({% tl contact %}) to expose your issue.
 
 If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{ site.galette.nightly_url }}). Do not forget this is an unstable version; even if instability is a relative concept.
 
@@ -17,9 +17,9 @@ Of course, this is the same for [official plugins]({{ site.galette.doc_url }}/{{
 Another possible way to contribute to the project is to help to install, configure or take in hand the tool.
 
 That can be for your neighbour's association to which Galette can be helpful, or if he cannot achieve to install it, for example.
-ut that can also be a answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
+But that can also be a answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
 
-To communicate about Galette is also a good way to contribute, and does not require any specific skill. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
+To communicate about Galette is also a good way to contribute, and does not require any specific skills. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
 
 ## Make a donation
 
@@ -43,7 +43,7 @@ So, if you want to help translating Galette, that is quite simple: go to the [tr
 
 {% responsive_image path: assets/images/screenshots/weblate.png alt: "Weblate interface" title: "Weblate interface" %}
 
-For the documentation, this is the same with the difference translation are done on the old [translation platform (Zanata)](https://translate.zanata.org/project/view/galettedoc/) (similar platform as Weblate or Transifex; but ageing).
+For the documentation, this is the same with the difference that translations are done on the old [translation platform (Zanata)](https://translate.zanata.org/project/view/galettedoc/) (similar platform as Weblate or Transifex; but ageing).
 
 {% responsive_image path: assets/images/screenshots/zanata.png alt: "Zanata interface" title: "Zanata interface" %}
 
@@ -54,7 +54,7 @@ And finally plugins... None of them use currently any external translation syste
 If we take Galette example, new strings are regularly added to the source code. From time to time, strings are extracted from source code (and English updated de facto, nothing should differ between source code and English translation).
 This operation ends in a commit on the source code repository, that will be automatically detected from translation system once pushed. All languages files are then automatically updated.
 
-Once the language files has been updated, you can translate in the language you choose. Applied changes are stored on the system, until developers pull them back in the soft repository (manual step). All translations are then available from Galette!
+Once the language files has been updated, you can translate in the language that you choose. Applied changes are stored on the system, until developers pull them back in the soft repository (manual step). All translations are then available from Galette!
 
 Except for plugins, there is no need to understand [internationalisation in Galette](https://translate.zanata.org/project/view/galettedoc/) to help translating, but the paragraph on lang files generation gives maybe a few technical precisions.
 
@@ -71,13 +71,13 @@ If you want to complete documentation or add a fix, the way to go is the same as
 
 ## Hack / fix
 
-Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This s the goal of [different communication channels]({% tl contact %}), do not hesitate :)
+Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This is the goal of [different communication channels]({% tl contact %}), do not hesitate :)
 
 We advice you to read the [Galette development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) in order to get familiar with code and followed rules.
 
-Deep in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
-Anyway, try to ask with developer(s) who is certainly the more appropriate on to help you.
+Dive in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
+Anyway, try to ask with developer(s) who is certainly the more appropriate to help you on.
 
-Source code of all projects  (Galette, plugins, documentation, website) is hosted on Git repositories, any Git applicable patch of any method would be OK. If you do not know how to proceed, maybe could you take a look on the corresponding GitHub mirror, some of them are already used for experimental features to prevent mess on the main repository. In GitHub case, we will use a PR (Pull Request) that will be reviewed by the development team.
+Source code of all projects (Galette, plugins, documentation, website) is hosted on Git repositories, any Git applicable patch of any method would be OK. If you do not know how to proceed, maybe could you take a look on the corresponding GitHub mirror, some of them are already used for experimental features to prevent mess on the main repository. In GitHub case, we will use a PR (Pull Request) that will be reviewed by the development team.
 
 All [really useful information for Galette source code or plugins are available in development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/git.html).
