@@ -8,7 +8,7 @@ The name Galette is a French acronym for “Gestionnaire d’Adhérents en Ligne
 
 Since the beginning, it has been defined that the main project axis is to manage members and membership. The question of integrating as example accounting features has been asked, but declined, because too far in our minds from this axis (without taking into account the cost it can have on development and maintenance).
 
-Apart this kind of "limit", features that reach Galette core try to be as geenric as possible, to suit the most of the needs. Some more specific features does not have place in core, but can be added from plugins: therefore it is possible form Galette to [manage an automobile club]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/auto.html) or use a [loan objects system]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/objectslend.html).
+Apart this kind of "limit", features that reach Galette core try to be as generic as possible, to suit the most of the needs. Some more specific features does not have place in core, but can be added from plugins: therefore it is possible form Galette to [manage an automobile club]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/auto.html) or use a [loan objects system]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/objectslend.html).
 
 [Bug tracking system]({{ site.galette.tracker_url }}) as well as [voting system]({{ site.galette.vote_url }}) let you influence future features, but you can of course [add them yourself]({% tl contribute %}) :-)
 
@@ -16,9 +16,9 @@ Some of requested features (link to third party services as example) would have 
 
 New features are still regularly added, reducing the todo list (which always gets bigger ;)).
 
-The project does not have any release cycle: "It's released when it's finished". Anyway, bugfixes releases are quite regular, when a major issue has been found, or when several ones has been addressed, or if we were asked for (it has never happen yet).
+The project does not have any release cycle: "It's released when it's cooked". Anyway, bugfixes releases are quite regular, when a major issue has been found, or when several ones has been addressed, or if we were asked for (it has never happen yet).
 
-Finally, note that only one major release is supported. The, since Galette 0.9 has been released, 0.8 is no longer supported. The only exception to this rule would be a fix for a security issue, if new major is quite recent. This happened only once for now.
+Finally, note that only one major release is supported. Then, since Galette 0.9 has been released, 0.8 is no longer supported. The only exception to this rule would be a fix for a security issue, if new major is quite recent. This happened only once for now.
 
 ## They use Galette
 
@@ -255,35 +255,35 @@ You must know that finally, Deelight (Lead developer: One who's right) choose Ga
 &lt;stephS&gt; ouiii :)
 </pre>
 
-## Outils utilisés
+## Used tools
 
-La gestion d'un projet comme Galette requiert qu'un certain nombre de solutions techniques soient mises en oeuvre : [moyens de communication]({% tl contact %}), [hébergement du code source](https://git.tuxfamily.org/galette/), [gestion des tickets]({{ site.galette.tracker_url }}), ...). Voici ce qui est utilisé :
+Managing a project like Galette requires that a certain number of technical solutions be implemented: [communication medium]({% tl contact %}), [source code web hosting](https://git.tuxfamily.org/galette/), [issues]({{ site.galette.tracker_url }}), ... Here's whhat's used:
 
-* [code source](https://git.tuxfamily.org/galette/) : [Git](https://git-scm.com/), hébergé chez [TuxFamily](https://tuxfamily.org),
-* site web : généré par [Jekyll](https://jekyllrb.com)[^1], hébergé chez TuxFamily,
-* [gestionnaire de tickets]({{ site.galette.tracker_url }}) : [Redmine](https://redmine.org)[^2], hébergé sur un serveur dédié,
-* [démo](https://demo.galette.eu) : [Galette](https://galette.eu), hébergée sur un serveur dédié,
-* [listes de diffusion]({% tl contact %}#listes-de-discussion) : [VHFFS](https://vhffs.org)[^3], fournies par TuxFamily,
-* [système de vote]({{ site.galette.vote_url }}) : [Fider](https://fider.io), hébergé sur Fider,
-* [documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master) : générée par [Sphinx](https://www.sphinx-doc.org)[^4], hébergée chez [ReadTheDocs](https://rtfd.org),
-* [traductions]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org)[^5], hébergé chez Weblate.
-* [traduction documentation](https://translate.zanata.org/project/view/galettedoc/) : [Zanata](http://zanata.org)[^6], hébergé chez Zanata.
-* Johan, hébergé chez lui :p
+* [source code](https://git.tuxfamily.org/galette/): [Git](https://git-scm.com/), hosted by [TuxFamily](https://tuxfamily.org),
+* web site: built by [Jekyll](https://jekyllrb.com)[^1], webhosted by TuxFamily,
+* [issues system]({{ site.galette.tracker_url }}) : [Redmine](https://redmine.org)[^2], hosted on a dedicated server,
+* [démo](https://demo.galette.eu) : [Galette](https://galette.eu), hosted on a dedicated server,
+* [discussion and broadcast lists]({% tl contact %}#listes-de-discussion) : [VHFFS](https://vhffs.org)[^3], provided by TuxFamily,
+* [voting system]({{ site.galette.vote_url }}) : [Fider](https://fider.io), hosted by Fider,
+* [documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master) : built by [Sphinx](https://www.sphinx-doc.org)[^4], hosted by [ReadTheDocs](https://rtfd.org),
+* [translations]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org)[^5], hosted by Weblate.
+* [documentation translation](https://translate.zanata.org/project/view/galettedoc/) : [Zanata](http://zanata.org)[^6], hosted by Zanata.
+* Johan, hosted by himself :p
 
-Bien que ce ne soit pas un outil libre, [Galette possède des miroirs officiels sur GitHub](https://github.com/galette), pour plusieurs raisons :
+Although not being a free tool, [Galette has an official mirror on GitHub](https://github.com/galette), for multiple reasons:
 
-* l'espace est limité chez TuxFamily. En utilisant GitHub pour les branches de développement, on évite ainsi de grossir inutilement le dépôt Git principal,
-* beaucoup de gens ont un compte GitHub, très peu un compte TuxFamily,
-* proposer une modification est aisé pour les utilisateurs,
-* le système de revue est pratique,
-* pas besoin de gérer un service supplémentaire (la liste est déjà longue),
-* services d'intégration continue (les tests sont lancés à chaque commit),
-* l'interface web aide à chercher/naviguer dans le code, c'est moins évident avec le CGIT du dépôt officiel,
-* il n'est pas possible de créer des hooks git chez TuxFamily, or c'est utilisé pour mettre à jour les traductions et la documentation ainsi que pour lancer les tests :/
+* space is limited at TuxFamily. By using GitHub for developement branches, we avoid unnecessarily enlargement of our main repository,
+* many have a GitHub account, not much a TuxFamily one,
+* suggest a modification is more easy for users,
+* revue system is handy,
+* no need to manage on more system (as the actual list is already endless),
+* continuous integration is there (tests are run each commit),
+* code navigation is more easy than on TuxFamily,
+* there's no git hooks at TuxFamily, and that's used for translation and documentation updates, and for test runs.
 
-[^1]: depuis 2020. Le site était propulsé par [Dotclear](https://dotclear.org) entre 2012 et 2020, et par [dokuwiki](https://dokuwiki.org) avant 2012
-[^2]: depuis 2012. Avant cela, le système proposé par Gna! était utilisé
-[^3]: depuis 2017. Avant cela, les listes étaient gérées par [Mailman](https://list.org/) chez Gna! jusqu'à la fermeture de lerus services
-[^4]: depuis 2012. Tout était sur le site web avant cette date
-[^5]: depuis 2019. Les traductions étaient gérées entièrement en local auparavant
-[^6]: depuis 2019. La documentation n'était disponible qu'en français avant cela
+[^1]: from 2020. Web site was using [Dotclear](https://dotclear.org) from 2012 to 2020, by [dokuwiki](https://dokuwiki.org) before 2012.
+[^2]: from 2012. Before that, Gna! system was used.
+[^3]: from 2017. Before that, lists were handled by [Mailman](https://list.org/) at Gna! until closure.
+[^4]: from 2012. Everything was on the main web site before.
+[^5]: from 2019. Translations were manually handled before.
+[^6]: from 2019. Only French documentation was available.
