@@ -14,7 +14,7 @@ Galette works on any web server that handle PHP ([see prerequisites]({{ site.gal
             <li>Manage groups and their managers</li>
             <li>Import and Export (<strong>open formats</strong>)</li>
             <li>Improved accessibility (use and <strong>follow web standards</strong>)</li>
-            <li>COnfigure lists and forms</li>
+            <li>Configure lists and forms</li>
             <li>Add <strong>dynamic fields</strong> to members, contributions and transactions forms</li>
             <li>Multilingual</li>
             <li><strong>Plugins support</strong></li>
