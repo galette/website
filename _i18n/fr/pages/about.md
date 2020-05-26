@@ -281,7 +281,7 @@ Bien que ce ne soit pas un outil libre, [Galette possède des miroirs officiels 
 
 [^1]: depuis 2020. Le site était propulsé par [Dotclear](https://dotclear.org) entre 2012 et 2020, et par [dokuwiki](https://dokuwiki.org) avant 2012
 [^2]: depuis 2012. Avant cela, le système proposé par Gna! était utilisé
-[^3]: depuis 2017. Avant cela, les listes étaient gérées par [Mailman](https://list.org/) chez Gna! jusqu'à la fermeture de lerus services
+[^3]: depuis 2017. Avant cela, les listes étaient gérées par [Mailman](https://list.org/) chez Gna! jusqu'à la fermeture de leurs services
 [^4]: depuis 2012. Tout était sur le site web avant cette date
 [^5]: depuis 2019. Les traductions étaient gérées entièrement en local auparavant
 [^6]: depuis 2019. La documentation n'était disponible qu'en français avant cela
