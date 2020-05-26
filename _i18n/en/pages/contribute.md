@@ -6,7 +6,7 @@ Don't panic, there are numerous ways to contribute to a project like Galette, no
 
 Using Galette is already a kind of support. Quite easy, no? Well, thanks for coming :D
 
-For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer cans understand the issue and reproduce it, or use [one of our communication channels]{% tl contact %} to expose your issue.
+For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer cans understand the issue and reproduce it, or use [one of our communication channels]({% tl contact %}) to expose your issue.
 
 If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{ site.galette.nightly_url }}). Do not forget this is an unstable version; even if instability is a relative concept.
 
@@ -19,7 +19,7 @@ Another possible way to contribute to the project is to help to install, configu
 That can be for your neighbour's association to which Galette can be helpful, or if he cannot achieve to install it, for example.
 ut that can also be a answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
 
-To communicate about Galette is also a good way to contribute, and does not require any specific skill. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#url-inutiles) are listed on contact page), during your LUG meetings or else.
+To communicate about Galette is also a good way to contribute, and does not require any specific skill. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
 
 ## Make a donation
 
