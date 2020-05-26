@@ -63,7 +63,7 @@ Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes 
 Les listes de diffusion possèdent deux adresses différentes :
 
 * l'adresse de la liste, <users@lists.galette.eu> par exemple, que vous utiliserez pour envoyer un message à la liste, et qui sera l'expéditeur des messages que vous recevrez,
-* l'adresse administrative, composée du nom de la liste suivi de `-request`, <users-request@lists.galette.eu> par exemple, que vous utiliserez pour vous abonner ou vous désabonner.
+* l'adresse administrative, composée du nom de la liste suivi de `-request`, <users-request@lists.galette.eu> par exemple, que vous utiliserez **pour vous abonner ou vous désabonner**.
 
 Lorsque vous envoyez un courriel à l’adresse administrative de la liste pour vous abonner ou vous désabonner, vous devez recevoir un message de confirmation auquel vous devrez répondre pour que l'opération soit finalisée.
 
