@@ -2,6 +2,8 @@ Galette est une application web de gestion d'adhérents pour les associations. G
 
 Depuis 2007 (voir ci-dessous [l'histoire de Galette](#histoire-de-galette)), Johan est le développeur, mainteneur et homme à tout faire. Des contributions externes ont toujours été régulièrement intégrées.
 
+Le nom Galette est un acronyme pour « Gestionnaire d’Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace ». Le mot « galette » peut également vouloir dire (populaire) « argent ».
+
 ## Le projet
 
 Depuis le début, il a été défini que l'axe principal du projet serait la gestion des adhérents et adhésions. La question par exemple d'inclure des notions de comptabilité a été évoquée, mais refusée, car trop éloignée à notre sens de cet axe (sans compter la charge supplémentaire que ça impliquerait en termes de développements et de maintenance).
@@ -166,7 +168,7 @@ Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galett
 </pre>
 
 <pre>
-&lt;hertay&gt; Trashy, dans http://galette.eu c'est toujours la 0755 qui est en téléchargement (lien) ;-)
+&lt;hertay&gt; Trashy, dans https://galette.eu c'est toujours la 0755 qui est en téléchargement (lien) ;-)
 &lt;trashy_&gt; c'est la faute à GruiicK ! :p
 &lt;GruiicK&gt; mééé heu !!
 &lt;trashy_&gt; :o)

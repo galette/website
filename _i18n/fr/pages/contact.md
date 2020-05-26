@@ -3,7 +3,7 @@ Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)
 Et fonction du besoin :
 
 * vous pouvez utiliser les canaux [IRC](#irc) et [Matrix](#matrix) pour absolument tous les sujets, ou même juste pour dire bonjour,
-* vous pouvez également aborder tous les sujets sur les listes de diffusion, mais préférez la liste de développement pour les sujets liés au... développement,
+* vous pouvez également aborder tous les sujets sur les [listes de discussion](#listes-de-discussion), mais préférez la liste de développement pour les sujets liés au... développement,
 * en cas de bogue ou de demande d'évolution, utilisez le gestionnaire de bogues (« bug tracker » en anglais, et « tracker » de son petit nom généralement utilisé),
 * vous pouvez aussi proposer une nouvelle possibilité, si elle fait sens.
 
