@@ -92,6 +92,7 @@ Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'ex
 
 ## Réseaux sociaux
 
+* IRC : [#galette sur OFTC](irc://irc.oftc.net/#galette)
 * Twitter : [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
 * Salon Matrix : [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org) et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
