@@ -1,34 +1,135 @@
-Galette is, first of all, a **free software**, under GPL version 3 license, hacked, tested and maintained by volunteers.
+Galette is a web application to manage adherents for associations. Galette is written in PHP and rely on [MariaDB](https://mariadb.org) or [PostgreSQL](https://postgresql.org). This is a **free software** (as in free speech), under the terms of the [GPL licence](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html).
 
-## Galette features
+Since 2007 (see below [the history of Galette](#galettes-history)), Johan is the developer, maintainer and handyman. External contributions has always been integrated regularly.
 
-* Calculate contributions deadlines
-* Members mailings
-* Print labels (for sending letters)
-* Members cards with (facultative) photo
-* Each member may change his own card
-* Multi-criteria filtering
-* Multilingual
-* Usage history
-* ...
+The name Galette is a French acronym for “Gestionnaire d’Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace”, freely translated to “Extremely Sophisticated but so Efficient On-Line Membership Manager”. The french word “galette” also means (popular) “Money”. Unfortunately, the translation removes all the fun!
 
-## From a technical point of view...
+## The project
 
-* Works as well with MySQL and PostgreSQL (databases)
-* Increased accessibility (use and respect of Web Standards)
-* Ergonomic installation script
-* ...
+Since the beginning, it has been defined that the main project axis is to manage members and membership. The question of integrating as example accounting features has been asked, but declined, because too far in our minds from this axis (without taking into account the cost it can have on development and maintenance).
 
-## Galette's history
+Apart this kind of "limit", features that reach Galette core try to be as geenric as possible, to suit the most of the needs. Some more specific features does not have place in core, but can be added from plugins: therefore it is possible form Galette to [manage an automobile club]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/auto.html) or use a [loan objects system]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/objectslend.html).
 
-History of Galette project is detailled <a href="{{ site.baseurl }}/history">here</a>
+[Bug tracking system]({{ site.galette.tracker_url }}) as well as [voting system]({{ site.galette.vote_url }}) let you influence future features, but you can of course [add them yourself]({% tl contribute %}) :-)
+
+Some of requested features (link to third party services as example) would have their place into Galette, but are complex tasks for which it has not been yet possible to find time.
+
+New features are still regularly added, reducing the todo list (which always gets bigger ;)).
+
+The project does not have any release cycle: "It's released when it's finished". Anyway, bugfixes releases are quite regular, when a major issue has been found, or when several ones has been addressed, or if we were asked for (it has never happen yet).
+
+Finally, note that only one major release is supported. The, since Galette 0.9 has been released, 0.8 is no longer supported. The only exception to this rule would be a fix for a security issue, if new major is quite recent. This happened only once for now.
 
 ## They use Galette
 
 [Galette's users list](https://telemetry.galette.eu/reference) is available from our telemetry application :)
 [Register yourself if you use Galette](https://telemetry.galette.eu/reference?showmodal)
 
-Note that you can also [register from Galette]("https://doc.galette.eu/en/develop/usermanual/generalites.html#telemetrie) (since 0.9); you will be able to edit your data using this.
+Note that you can also [register from Galette]({{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/generalites.html#telemetry) (since 0.9); you will be able to edit your data using this.
+
+## Galette's history
+
+[ALDIL](https://www.aldil.org), LUG from Lyon (France), was looking for a membership management application (around 2000~2001). After tests of PhpLugMembers and some other tools, nothing was doing the trick.
+ALDIL's former president (Loïs, aka GruiicK) decided to invite tenders on ALDIL lists.
+
+The first project, whose name was GAELLE, dies quickly. Code was a bit complex, and developpers were not very involved/presents.
+
+In 2003, Frédéric (aka Deelight) started from scratch a nice application, unpretentious, and, as he said himself: « do what it gotta do ».
+
+The first "stable" version has probably been version 0.37b. Since, project continues quietely to change, by adding new functionnalities, and by receiving new developpers / translators / reviewers / testers (many thanks to them).
+
+In early 2007, Johan (aka trashy) joined the project. In April, Loïs gives him the "keys of the truck" and Johan took charge of the project Galette.
+
+Project is hosted on `Gna!` since 2004. Early 2005, a project Galette is also opened at [TuxFamily](https://tuxfamily.org).
+Gna is in charge of the hosting of SVN repository, mailing lists and trackers; while TuxFamily is in charge of website and downloads hosting.
+
+In 2012, project source code is switched to Git ; and repositories are moved to Tuxfamily. Gna! tracker is abandoned as well.
+
+At the begining of 2017, mailing lists are also switched to Tuxfamily, since Gna has announced the end of their services.
+
+### Original Email
+
+This is the **original email** (in french) which anounce Galette creation. Since then, the Code mailing-list from [ALDIL](https://www.aldil.org) has disappeared, archives too.
+Also, first wiki website as disappeared too.
+
+<pre>
+Message-ID: &lt;033501c3afbf$e6f954a0$0200a8c0@deetanic&gt;
+From: Frédéric Jacquot &lt;deelight _AT_ poulet.org&gt;
+To: &lt;code _AT_ listes.aldil.org&gt;
+Subject: [Code] Une petite Galette pour la route ?
+Date: Fri, 21 Nov 2003 00:41:58 +0100
+
+Hello,
+
+Comme je n'ai toujours pas posté ici concernant Galette, je le fais.
+Comme il est assez tard, je serai bref, quitte à être plus bavard par la
+suite :)
+
+Tout est dispo sur le wiki de Galette (sources, un peu de doc, demo...) :
+http://www.zopeuse.org/projets/galette/Wiki_galette/FrontPage
+
+C'est certainement assez brut de décoffrage mais ça fait ce qu'on lui
+demande. Si certains se sentent de fouiller un peu de le code pour voir s'il
+peuvent y apporter leur touche personelle, n'hésitez pas à me le dire et je
+mettrai les mains dans le camboui pour monter un CVS pour l'occasion si
+nécessaire.
+
+Comme le montre la Todolist du wiki, il reste pas mal de choses, notamment
+essayer de tuner tout ça pour que ca tourne sur du PostgresSQL (j'utilise la
+librairie ADODB donc à priori, on doit pouvoir y arriver sans trop de mal),
+puisque c'est ce qui sera utilisé en définitif.
+
+Actuellement, ça s'installe et sa tourne sans problème apparent sur du
+MySQL.
+Je serais vraiment content d'avoir des retours constructifs pour pouvoir
+améliorer l'appli et plus globalement ma façon de coder.
+
+Wiki, mail, forum... il y a le choix ;)
+
+Deelight
+----
+ALDIL - Code (Code _AT_ listes.aldil.org)
+https://listes.aldil.org/mailman/listinfo/code
+</pre>
+
+### From where Galette's name come?
+
+[ALDIL](https://www.aldil.org/) members have long sought a name for this software. Here's a quick summary (in frenglish):
+
+You must know that finally, Deelight (Lead developer: One who's right) choose Galette, GruiicK (President: One who said banco) said banco.
+
+<pre>  TATMonMembre : Trafic Admin Threaders &amp; Monitor of Members,
+  GAMELL : Gestion et Administration des Membres En-Ligne de LUG,
+  MAEL : Management et Administration En-ligne d'un Lug,
+  SUGEM : Systeme Universel de Gestion En_ligne des Membres,
+  SAGEM : Systeme d'Administration et de Gestion En ligne des Membres,
+  SAGIMP : Systeme d'Administration Gestion Interactive des Membres en Php,
+  ALP : Administration d'un Lug en Php,
+  SCALP : Systeme Complet d' Administration d'un Lug en Php,
+  LAT : Lug Administration ToolKit,
+  SALUG : Systeme d'Administration LUG (&lt;= acronyme déjà pris, LUG existant),
+  AGMA : Aide à la Gestion de Membres d'Association,
+  GIM : Gestion Interactive de Membres,
+  SAL : Systeme d'Administration Libre,
+  GAIA : Gestion Administration Interactive d'Association,
+  SASGLUG : Systeme d'Administration Simplifié pour la Gestion d'un LUG,
+  LUGDUNUM : LUG Data User NUmeric Manager (also the latin name of Lyon),
+  LATeK : Lug Administration Tool e-Kit  (ou, e-ToolKit ?),
+  LArT  : Lug Administration Tool  (spécial BOFH),
+  SIGMA : Special Interests Groups Management Application,
+  KATMANDOU : Kit d'Administration et Trésorerie des Membres d'Association Nonlucrative,
+  GELA : Gestion En Ligne d'Association,
+  GASEL : Gestion Administration Simplifiée En Ligne &lt;= acronyme déjà pris (linux-nante),
+  GASOL : Gestion Administration Simplifiée On-Line,
+  GIM : Gestion Interactive de Membres,
+  SAL : Systeme d'Administration Libre, qui assemblés donnent :
+  SALGIM : Systeme d'Administration Libre de Gestion Interactive de Membres,
+  GAIMA : Gestion Administration Interactive de Membres d'Association,
+  GALETTE : Gestionnaire d'Adhérents en Ligne Extrèmement Tarabiscoté mais Tellement Efficace,
+  GAELLE : Gestion d'Association En Ligne pour Lug Et autres,
+  SELMA : Suivi En Ligne des Membres d'Associations,
+  SALAMI : Systeme d'Administration en Ligne d'Association et ses Membres Interactifs,
+  GALIA : Gestion et Administration L(inuxienne et) Interactive d'Association.</pre>
 
 ## Fortunes
 
@@ -153,3 +254,36 @@ Note that you can also [register from Galette]("https://doc.galette.eu/en/develo
 &lt;Deelight&gt; :)
 &lt;stephS&gt; ouiii :)
 </pre>
+
+## Outils utilisés
+
+La gestion d'un projet comme Galette requiert qu'un certain nombre de solutions techniques soient mises en oeuvre : [moyens de communication]({% tl contact %}), [hébergement du code source](https://git.tuxfamily.org/galette/), [gestion des tickets]({{ site.galette.tracker_url }}), ...). Voici ce qui est utilisé :
+
+* [code source](https://git.tuxfamily.org/galette/) : [Git](https://git-scm.com/), hébergé chez [TuxFamily](https://tuxfamily.org),
+* site web : généré par [Jekyll](https://jekyllrb.com)[^1], hébergé chez TuxFamily,
+* [gestionnaire de tickets]({{ site.galette.tracker_url }}) : [Redmine](https://redmine.org)[^2], hébergé sur un serveur dédié,
+* [démo](https://demo.galette.eu) : [Galette](https://galette.eu), hébergée sur un serveur dédié,
+* [listes de diffusion]({% tl contact %}#listes-de-discussion) : [VHFFS](https://vhffs.org)[^3], fournies par TuxFamily,
+* [système de vote]({{ site.galette.vote_url }}) : [Fider](https://fider.io), hébergé sur Fider,
+* [documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master) : générée par [Sphinx](https://www.sphinx-doc.org)[^4], hébergée chez [ReadTheDocs](https://rtfd.org),
+* [traductions]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org)[^5], hébergé chez Weblate.
+* [traduction documentation](https://translate.zanata.org/project/view/galettedoc/) : [Zanata](http://zanata.org)[^6], hébergé chez Zanata.
+* Johan, hébergé chez lui :p
+
+Bien que ce ne soit pas un outil libre, [Galette possède des miroirs officiels sur GitHub](https://github.com/galette), pour plusieurs raisons :
+
+* l'espace est limité chez TuxFamily. En utilisant GitHub pour les branches de développement, on évite ainsi de grossir inutilement le dépôt Git principal,
+* beaucoup de gens ont un compte GitHub, très peu un compte TuxFamily,
+* proposer une modification est aisé pour les utilisateurs,
+* le système de revue est pratique,
+* pas besoin de gérer un service supplémentaire (la liste est déjà longue),
+* services d'intégration continue (les tests sont lancés à chaque commit),
+* l'interface web aide à chercher/naviguer dans le code, c'est moins évident avec le CGIT du dépôt officiel,
+* il n'est pas possible de créer des hooks git chez TuxFamily, or c'est utilisé pour mettre à jour les traductions et la documentation ainsi que pour lancer les tests :/
+
+[^1]: depuis 2020. Le site était propulsé par [Dotclear](https://dotclear.org) entre 2012 et 2020, et par [dokuwiki](https://dokuwiki.org) avant 2012
+[^2]: depuis 2012. Avant cela, le système proposé par Gna! était utilisé
+[^3]: depuis 2017. Avant cela, les listes étaient gérées par [Mailman](https://list.org/) chez Gna! jusqu'à la fermeture de lerus services
+[^4]: depuis 2012. Tout était sur le site web avant cette date
+[^5]: depuis 2019. Les traductions étaient gérées entièrement en local auparavant
+[^6]: depuis 2019. La documentation n'était disponible qu'en français avant cela
