@@ -5,9 +5,7 @@ C'est avant toute chose un <strong>logiciel libre</strong>, communautaire, et gr
 
 Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir les pré-requis]({{ site.galette.doc_url }}/{{ site.lang }}/master/installation/prerequis.html)). En cas de besoin, nous proposons [différents moyens de nous contacter]({% tl contact %}) :)
 
-<section id="home">
-
-
+<div id="home">
     <div>
         <ul>
             <li><strong>Gestion des adhérents</strong></li>
@@ -42,6 +40,6 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
             {% responsive_image path: assets/images/screenshots/desktop.png alt: "Galette dashboard" title: "Un tableau de bord vous accueille après connexion." %}
         </figure>
     </div>
-</section>
+</div>
 
 Galette est un projet libre, les <a href="{% tl contribute %}">personnes qui souhaitent participer</a> sont toujours les bienvenues ;-)

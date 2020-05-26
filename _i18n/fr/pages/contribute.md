@@ -19,7 +19,7 @@ Une autre piste potentielle pour contribuer au projet, c'est d'aider à l'instal
 Ce peut-être pour l'association de votre voisin à qui Galette pourrait rendre service, ou qui ne parvient pas à l'installer, par exemple.
 Mais ça peut aussi être de réponse à une demande sur les listes ou n'importe quel autre canal de demande d'entre aide. D'ailleurs, si vous connaissez des canaux d'aide Galette existants qui ne sont pas listés dans la page contact, merci de nous les signaler que cela y soit ajouté.
 
-Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({% tl contact%}#url-inutiles) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
+Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({% tl contact%}#réseaux-sociaux) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
 
 ## Faire un don
 
@@ -28,8 +28,8 @@ Une autre manière de contribuer, c'est de faire un don au développeur de Galet
 Vous pouvez ainsi :
 
 * participer à la [cagnotte Galette en cours](https://www.paypal.com/pools/c/8krlYNjX1j) sur PayPal[^1],
-* effectuer un [don PayPal](https://www.paypal.me/galettesoft)[^2]
 * le contacter pour tout autre moyen (virement, chèque, éventuelle autre plateforme, ...)
+* effectuer un [don PayPal](https://www.paypal.me/galettesoft)[^2] (si possible, en dernier recours)
 
 [^1]: Pas de frais appliqués
 [^2]: Des frais sont appliqués (environ 1 euro pour un don de 25)

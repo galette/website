@@ -1,4 +1,4 @@
-<aside id="sidebar" role="nav">
+<aside id="sidebar">
 {% comment %}
     {% for menu in site.galette.menus %}
         {% assign key = menu[0] %}
@@ -90,7 +90,7 @@
                 <a href="#main-menu-toggle"
                     class="backdrop"
                     tabindex="-1"
-                    aria-hidden="true" hidden></a>
+                    aria-hidden="true"></a>
             </header>
         {% endif %}
     {% endfor %}
@@ -131,14 +131,13 @@
         {% endif %}
     {% endfor %}
 
-    <p>
-    <ul>
+    <ul class="rss">
         <li>
-        <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>{% t global.subscribe_rss %}</span>
-        </a>
+            <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}">
+                <svg class="svg-icon orange">
+                <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                </svg><span>{% t global.subscribe_rss %}</span>
+            </a>
+        </li>
     </ul>
-    </p>
 </aside>

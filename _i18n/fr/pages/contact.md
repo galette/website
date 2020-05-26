@@ -84,14 +84,15 @@ Si vous souhaitez [rechercher dans les archives des listes]({{ site.galette.doc_
 
 Des entrées de FAQ spécifiques traitent respectivement des procédures de [rapport d'anomalies et de demande d'évolution]({{ site.galette.doc_url }}/{{ site.lang }}/master/faq/index.html#how-to-report-a-bug-or-ask-for-a-feature).
 
-Avant de [rapporter un bogue](http://bugs.galette.eu/projects/galette) ou [d'exprimer une demande de fonctionnalité](http://bugs.galette.eu/projects/galette/), assurez-vous que personne ne vous ait devancé :-)
+Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'exprimer une demande de fonctionnalité](https://bugs.galette.eu/projects/galette/), assurez-vous que personne ne vous ait devancé :-)
 
-* [liste des bogues ouverts](http://bugs.galette.eu/projects/galette/issues?query_id=2)
-* [liste des tâches ouvertes](http://bugs.galette.eu/projects/galette/issues?query_id=3)
+* [liste des bogues ouverts](https://bugs.galette.eu/projects/galette/issues?query_id=2)
+* [liste des tâches ouvertes](https://bugs.galette.eu/projects/galette/issues?query_id=3)
 * [demandes soumises au vote](https://vote.galette.eu)
 
 ## Réseaux sociaux
 
+* IRC : [#galette sur OFTC](irc://irc.oftc.net/#galette)
 * Twitter : [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
 * Salon Matrix : [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org) et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
