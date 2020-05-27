@@ -1,0 +1,7 @@
+---
+---
+[
+{% for lang in site.languages %}
+    "{{ lang }}"{% if forloop.last != true %},{% endif %}
+{% endfor %}
+]
