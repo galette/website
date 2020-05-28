@@ -17,7 +17,7 @@ title: Galette
 email: contact@galette.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
-baseurl: "/new" # the subpath of your site, e.g. /blog
+baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://galette.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
 author: Johan Cwiklinski
