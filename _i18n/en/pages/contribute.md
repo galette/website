@@ -21,6 +21,7 @@ But that can also be a answering a question on the mailing lists or any other co
 
 To communicate about Galette is also a good way to contribute, and does not require any specific skills. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
 
+<a name="donate"></a>
 ## Make a donation
 
 Another way to contribute is to give the main Galette developer, Johan, a donation; trying to motivate him a bit ;-)
