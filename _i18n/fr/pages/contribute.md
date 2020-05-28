@@ -21,6 +21,7 @@ Mais ça peut aussi être de réponse à une demande sur les listes ou n'importe
 
 Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({% tl contact%}#réseaux-sociaux) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
 
+<a name="donate"></a>
 ## Faire un don
 
 Une autre manière de contribuer, c'est de faire un don au développeur de Galette, Johan, pour essayer de le motiver un brin ;-)

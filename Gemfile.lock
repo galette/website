@@ -44,6 +44,8 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-toc (0.14.0)
       jekyll (>= 3.8)
       nokogiri (~> 1.10)
@@ -87,6 +89,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-responsive-image
   jekyll-seo-tag
+  jekyll-sitemap
   jekyll-toc
 
 BUNDLED WITH

@@ -15,6 +15,12 @@ global:
   nextpost: Go to next post
   prevpost: Go to previous post
   date_format: '%Y-%m-%d'
+  donate: Donate
+  tosupport: to support!
+share:
+  facebook: Share via Facebook
+  twitter: Share via Twitter
+  email: Share by email
 langs:
   en: English
   fr: Français

@@ -24,6 +24,7 @@ permalink: /post/:year/:month/:day/:title:output_ext
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {%- include share.html -%}
 
   {%- if page.next or page.previous -%}
     <footer class="posts-navigation">

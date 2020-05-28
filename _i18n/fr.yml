@@ -8,12 +8,18 @@ global:
   page: Page
   of: de
   license: Attribution - Pas de Modification 4.0 International (CC BY-ND 4.0)
-  built: Construit par
+  built: Construit avec
   subscribe_rss: Flux RSS
   toc: Table des matières
   nextpost: Aller au billet suivant
   prevpost: Aller au billet précédent
   date_format: '%d/%m/%Y'
+  donate: Donner
+  tosupport: en soutien !
+share:
+  facebook: Partager via Facebook
+  twitter: Partager via Twitter
+  email: Partager par courriel
 langs:
   en: English
   fr: Français
