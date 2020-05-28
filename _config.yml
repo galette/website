@@ -40,6 +40,7 @@ plugins:
   - jekyll-responsive-image
   - jekyll-redirect-from
   - jekyll-toc
+  - jekyll-sitemap
 
 languages: ["en", "fr"]
 
