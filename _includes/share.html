@@ -1,17 +1,22 @@
 {% assign share_url = site.url |append: site.baseurl |append: page.url %}
+{% if post.title %}
+    {% assign share_title = post.title %}
+{% else %}
+    {% assign share_title = page.title %}
+{% endif %}
 <ul class="share-buttons">
     <li>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url |url_encode }}&text={{ page.title |url_encode }}&quote=Galette" title="{% t share.facebook %}" target="_blank">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url |url_encode }}&text={{ share_title |url_encode }}&quote=Galette" title="{% t share.facebook %}" target="_blank">
             <img alt="{% t share.facebook %}" src="{{ '/assets/img/social/Facebook.svg' | relative_url }}" />
         </a>
     </li>
     <li>
-    <a href="https://twitter.com/intent/tweet?source={{ share_url |url_encode }}&text={{ page.title |url_encode }}%20-%20{{ share_url |url_encode}}&via={{ site.twitter_username }}" target="_blank" title="{% t share.twitter %}">
+    <a href="https://twitter.com/intent/tweet?source={{ share_url |url_encode }}&text={{ share_title |url_encode }}%20-%20{{ share_url |url_encode}}&via={{ site.twitter_username }}" target="_blank" title="{% t share.twitter %}">
             <img alt="{% t share.twitter %}" src="{{ '/assets/img/social/Twitter.svg' |relative_url }}" />
         </a>
     </li>
     <li>
-    <a href="mailto:?subject={{ page.title |url_encode }}&body={{ page.title |url_encode }}%20-%20{{ share_url |url_encode}}" target="_blank" title="{% t share.email %}">
+    <a href="mailto:?subject={{ share_title }}&body={{ share_title }}%20-%20{{ share_url |url_encode}}" target="_blank" title="{% t share.email %}">
             <img alt="{% t share.email %}" src="{{ '/assets/img/social/Email.svg' | relative_url }}" />
         </a>
     </li>
