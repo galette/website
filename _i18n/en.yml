@@ -1,0 +1,52 @@
+global:
+  tagline: English
+  twitter: Twitter
+  About: About
+  slogan: Galette membership management
+  slogan: Galette - Web mangement of members and memberships for associations
+  next: Next
+  previous: Previous
+  page: Page
+  of: of
+  license: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+  built: Built with
+  subscribe_rss: RSS feed
+  toc: Table of contents
+  nextpost: Go to next post
+  prevpost: Go to previous post
+  date_format: '%Y-%m-%d'
+  donate: Donate
+  tosupport: to support!
+share:
+  facebook: Share via Facebook
+  twitter: Share via Twitter
+  email: Share by email
+langs:
+  en: English
+  fr: Français
+pages:
+  about: About
+  home: Home
+  contribute: Contribute
+  contact: Contact
+  posts: Posts
+  notfound: Page not found :(
+  descriptions:
+    home: Open source web membership management application for associations
+  titles:
+    contribute: Contribute to Galette
+    about: About and history of the Galette
+menus:
+  main: Navigate
+  faq: Frequently Asked Questions
+  bugs: Bugs and Tasks
+  demo: Demo
+  doc: Documentation
+  docinstall: Installation guide
+  docuser: User manual
+  docplugins: Plugins
+tags:
+  release: Stable
+  rc: Test
+  sponsored: Sponsored
+  poissons: 1st of april

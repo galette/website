@@ -1,0 +1,27 @@
+---
+title:          pages.home
+layout:         home
+date:           2012-02-16 18:25:08 +0100
+tags:           []
+weight:         1
+category:       pages
+namespace:      index
+images:
+  - name: desktop.png
+    path: screenshots/
+pagination:
+  permalink: '/posts/page/:num/'
+  enabled:
+    true
+
+redirect_from:
+  - /pages/Accueil
+---
+
+{% translate_file pages/index.md %}
+
+<div style="text-align:center;">
+  <a href="https://hosted.weblate.org/engage/galette/?utm_source=widget">
+    <img src="https://hosted.weblate.org/widgets/galette/-/galette/287x66-white.png" alt="Translation status" />
+  </a>
+</div>

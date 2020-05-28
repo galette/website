@@ -1,0 +1,109 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Galette
+email: contact@galette.eu
+description: >- # this means to ignore newlines until "baseurl:"
+  Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
+baseurl: "/site" # the subpath of your site, e.g. /blog
+url: "https://galette.eu" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: Johan Cwiklinski
+twitter_username: galette_soft
+twitter:
+  username: galette_soft
+  card: summary
+github_username:  galette
+mastodon:
+  - username: galette
+    instance: framapiaf.org
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-responsive-image
+  - jekyll-redirect-from
+  - jekyll-toc
+  - jekyll-sitemap
+
+languages: ["en", "fr"]
+
+# Paginate v2
+pagination:
+  enabled: true
+  debug: false
+  permalink: '/page/:num/'
+  sort_reverse: true
+  per_page: 5
+
+exclude: ["LICENSE", "seo-tag-galette-fix.patch", "README.md"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 800
+    - width: 400
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+galette:
+  last_release: 0.9.3.1
+  stable_url: http://download.tuxfamily.org/galette/galette-0.9.3.1.tar.bz2
+  nightly_url: http://download.tuxfamily.org/galette/galette-dev.tar.bz2
+  doc_url: https://doc.galette.eu
+  tracker_url: https://bugs.galette.eu/projects/galette/
+  vote_url: https://vote.galette.eu
+  trad_url: https://hosted.weblate.org/projects/galette/galette/
+  menus:
+    main:
+      - name: menus.faq
+        url: DOC_URL/develop/faq/index.html
+      - name: menus.bugs
+        url: https://bugs.galette.eu/projects/galette/
+      - name: menus.demo
+        url: https://demo.galette.eu
+    doc:
+      - name: menus.doc
+        url: DOC_URL/master
+      - name: menus.docinstall
+        url: DOC_URL/master/installation/
+      - name: menus.docuser
+        url: DOC_URL/master/usermanual/
+      - name: menus.docplugins
+        url: DOC_URL/master/plugins/
+
+#Templating defaults
+defaults:
+  -
+    scope:
+      path: ""
+      category: "post"
+    values:
+      author: "Johan C."

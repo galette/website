@@ -1,0 +1,39 @@
+diff -up vendor/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1/lib/template.html.patch vendor/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1/lib/template.html
+--- vendor/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1/lib/template.html.patch	2020-05-18 08:51:40.592899025 +0200
++++ vendor/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1/lib/template.html	2020-05-26 23:32:49.938357011 +0200
+@@ -5,7 +5,7 @@
+ 
+ <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+ 
+-{% if seo_tag.page_title %}
++{% if seo_tag.page_title and seo_tag.title? %}
+   <meta property="og:title" content="{{ seo_tag.page_title }}" />
+ {% endif %}
+ 
+@@ -59,7 +59,9 @@
+     <meta name="twitter:card" content="summary" />
+   {% endif %}
+ 
+-  <meta property="twitter:title" content="{{ seo_tag.page_title }}" />
++  {% if seo_tag.page_title and seo_tag.title? %}
++    <meta property="twitter:title" content="{{ seo_tag.page_title }}" />
++  {% endif %}
+   <meta name="twitter:site" content="@{{ site.twitter.username | replace:"@","" }}" />
+ 
+   {% if seo_tag.author.twitter %}
+@@ -106,7 +108,14 @@
+ {% endif %}
+ 
+ <script type="application/ld+json">
+-  {{ seo_tag.json_ld | jsonify }}
++  {% capture repl_1 %}{% t pages.post %}{% endcapture %}
++  {% capture repl_2 %}{% t pages.home %}{% endcapture %}
++  {% capture repl_3 %}{% t pages.about %}{% endcapture %}
++  {% capture repl_4 %}{% t pages.contribute %}{% endcapture %}
++  {% capture repl_5 %}{% t pages.contact %}{% endcapture %}
++  {% capture repl_6 %}{% t pages.notfound %}{% endcapture %}
++
++  {{ seo_tag.json_ld | jsonify | replace: "pages.posts", repl_1 | replace: "pages.home", repl_2 | replace: "pages.about", repl_3 | replace: "pages.contribute", repl_4 | replace: "pages.contact", repl_5 | replace: "pages.notfound", repl_6 }}
+ </script>
+ 
+ <!-- End Jekyll SEO tag -->

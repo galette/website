@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-content">
+    {%- if page.toc -%}
+        <h4 class="toc">{% t global.toc %}</h4>
+    {%- endif -%}
+
+    {{ content | toc }}
+  </div>
+
+</article>

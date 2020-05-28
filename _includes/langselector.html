@@ -1,0 +1,25 @@
+    <nav class="langselector">
+      {%- for lang in site.languages -%}
+        {% if page.permalink %}
+            {% assign pvar = "permalink" %}
+            {% assign plink = page[pvar] %}
+
+            {%- if lang != 'en' -%}
+                {% assign pvar = "permalink_" | append: lang %}
+                {% assign plink = "/" |append: lang | append: page[pvar] %}
+            {%- endif -%}
+        {% else %}
+            {% assign plink = page.url %}
+            {%- if lang != 'en' -%}
+                {% assign plink = "/" |append: lang | append: page.url %}
+            {%- endif -%}
+        {% endif %}
+
+        <a href="{{ site.baseurl_root }}{{ plink }}"{% if site.lang == lang %} class="active"{% endif %} title="{% t langs.{{ lang }} %}">
+            <span class="long">{% t langs.{{ lang }} %}</span>
+            <span class="separator">(</span>
+            <span class="short">{{ lang }}</span>
+            <span class="separator">)</span>
+        </a>
+      {%- endfor -%}
+    </nav>
