@@ -15,7 +15,7 @@ global:
   prevpost: Aller au billet précédent
   date_format: '%d/%m/%Y'
   donate: Donner
-  tosupport: en soutien !
+  tosupport: pour soutenir !
 share:
   facebook: Partager via Facebook
   twitter: Partager via Twitter
