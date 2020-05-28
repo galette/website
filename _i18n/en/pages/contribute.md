@@ -68,7 +68,7 @@ Contributions are anyway always reviewed and commented if needed, allowing adjus
 
 Of course, documentation must fit some technical constraints to be published, but this is not mandatory for new contents. If for example you do not know how to make a link, just drop a word in the contents, for example `see xyz article (https://xyz.com)`.
 
-If you want to complete documentation or add a fix, the way to go is the same as Galette's one: you may use [communication channels](% tl contact %) to explain your issue, and in all cases open a bug or feature request on the [bug tracker](https://bugs.galette.eu/projects/documentation-galette), we will adapt according to each level and skills after that.
+If you want to complete documentation or add a fix, the way to go is the same as Galette's one: you may use [communication channels]({% tl contact %}) to explain your issue, and in all cases open a bug or feature request on the [bug tracker](https://bugs.galette.eu/projects/documentation-galette), we will adapt according to each level and skills after that.
 
 ## Hack / fix
 
