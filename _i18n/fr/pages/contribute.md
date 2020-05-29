@@ -68,7 +68,7 @@ Les contributions sont dans tous les cas relues et commentées au besoin, permet
 
 Bien entendu, la documentation se doit de respecter certaines contraintes techniques pour être mise en ligne, mais ce n'est pas un impératif pour de nouveaux ajouts. Si, par exemple, vous ne savez pas faire un lien, il suffira de le préciser d'une manière ou d'une autre dans le contenu, par exemple  `voir l'article xyz (https://xyz.com)`.
 
-Si vous souhaitez compléter la documentation ou y apporter une correction, le fonctionnement est le même que pour Galette : utilisez éventuellement les [canaux de communication](% tl contact %) pour exposer votre problématique, dans tous les cas ouvrez un rapport d'anomalie ou une demande d'évolution sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette), pour la suite des opérations  on fera selon les niveaux et les possibilités de chacun.
+Si vous souhaitez compléter la documentation ou y apporter une correction, le fonctionnement est le même que pour Galette : utilisez éventuellement les [canaux de communication]({% tl contact %}) pour exposer votre problématique, dans tous les cas ouvrez un rapport d'anomalie ou une demande d'évolution sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette), pour la suite des opérations  on fera selon les niveaux et les possibilités de chacun.
 
 ## Développer / corriger
 
