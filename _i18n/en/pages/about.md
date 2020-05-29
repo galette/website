@@ -96,7 +96,7 @@ Although not being a free tool, [Galette has an official mirror on GitHub](https
 * code navigation is more easy than on TuxFamily,
 * there's no git hooks at TuxFamily, and that's used for translation and documentation updates, and for test runs.
 
-[^1]: from 2020. Web site was using [Dotclear](https://dotclear.org) from 2012 to 2020, by [dokuwiki](https://dokuwiki.org) before 2012.
+[^1]: from 2020. Web site was using [Dotclear](https://dotclear.org) from 2012 to 2020, and [dokuwiki](https://dokuwiki.org) before 2012.
 [^2]: from 2012. Before that, Gna! system was used.
 [^3]: from 2017. Before that, lists were handled by [Mailman](https://list.org/) at Gna! until closure.
 [^4]: from 2012. Everything was on the main web site before.
