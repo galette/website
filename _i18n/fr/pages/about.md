@@ -136,6 +136,26 @@ Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galett
 (section des fortunes mail/irc/etc, par ordre anti-chronologeek)
 
 <pre>
+&lt;trashy[m]&gt; gniarf, me manque une trad : "**donate** to support" => "**donner** en soutien" ?
+&lt;GruiicK_&gt; "pour soutenir", plutôt, si ça rentre
+&lt;GruiicK_&gt; en un seul mot, j'ai "parrainer"
+&lt;GruiicK_&gt; 3,4,5,8,100, 1
+&lt;GruiicK_&gt; tic-toc-tic-toc-tic-toc
+&lt;GruiicK_&gt; dong
+&lt;GruiicK_&gt; 100+8 = 108
+&lt;GruiicK_&gt; 108+5 = 113
+&lt;trashy[m]&gt; t'as respiré de l'échappement de diesel pour rentrer ?
+&lt;GruiicK_&gt; 113+1 = 114
+&lt;trashy[m]&gt; 🤣🤣🤣
+&lt;GruiicK_&gt; 114/3 = 38
+&lt;GruiicK_&gt; 38+4 = 42
+&lt;GruiicK_&gt; le compte est bon
+&lt;trashy[m]&gt; 42! voilà!
+&lt;trashy[m]&gt; :)
+&lt;GruiicK_&gt; (https://www.langue-au-chat.fr/tricher-au-compte-est-bon/)
+</pre>
+
+<pre>
 * trashy_ en panne d'inspi pour une annonce des 10 ans :'''''(
 &lt;GruiicK&gt; pique un slogan à monoprix
 &lt;GruiicK&gt; ou un martine cover generator
