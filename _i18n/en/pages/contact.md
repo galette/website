@@ -63,7 +63,7 @@ Lists archives between 2004 and 2017 are available at:
 Mailing lists have two distinct email addresses:
 
 * list address, <users@lists.galette.eu> as example, you will use to send a message to the list, and that will be the sender of the messages you will receive,
-* administrative address, which is made up of list name followed by `-request`, <users-request@lists.galette.eu> as example, you will use **to subscribe or unsubscribe **. Action is defined in the email subject; this can be "subscribe", "unsubscribe" or "help".
+* administrative address, which is made up of list name followed by `-request`, <users-request@lists.galette.eu> as example, you will use **to subscribe or unsubscribe**. Action is defined in the email subject; this can be "subscribe", "unsubscribe" or "help" (do not add anything else in the subject).
 
 Therefore, to [unsubscribe from the users mailing list](mailto:users-request@lists.galette.eu?subject=unsubscribe) just send an email with "unsubscribe" as subject (without quotes!) to administrative address.
 To [subscribe to Galette users](mailto:users-request@lists.galette.eu?subject=subscribe), just replace "unsubscribe" in the object with "subscribe" :-)
