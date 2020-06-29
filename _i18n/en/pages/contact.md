@@ -51,6 +51,7 @@ Available lists:
 
 * [users](https://listengine.tuxfamily.org/lists.galette.eu/users/): global discussions, help, FAQ
 * [development](https://listengine.tuxfamily.org/lists.galette.eu/devel): developer mailing list for more technical subjects
+* [translations](https://listengine.tuxfamily.org/galette.eu/translations/): discussions about translations only
 * [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : commits broadcast - *this is not a mailing list*
 
 Lists archives between 2004 and 2017 are available at:

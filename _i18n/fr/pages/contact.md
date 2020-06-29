@@ -51,6 +51,7 @@ Les listes disponibles :
 
 * [utilisateurs](https://listengine.tuxfamily.org/lists.galette.eu/users/) : discussions générales, entraide, FAQ
 * [développement](https://listengine.tuxfamily.org/lists.galette.eu/devel) : liste de discussion développeurs pour les sujets plus techniques
+* [traductions](https://listengine.tuxfamily.org/galette.eu/translations/) : discussion autour des traductions
 * [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : diffusion des commits - *ceci n'est pas un liste de discussion*
 
 Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes :
