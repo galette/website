@@ -51,6 +51,7 @@ Les listes disponibles :
 
 * [utilisateurs](https://listengine.tuxfamily.org/lists.galette.eu/users/) : discussions générales, entraide, FAQ
 * [développement](https://listengine.tuxfamily.org/lists.galette.eu/devel) : liste de discussion développeurs pour les sujets plus techniques
+* [traductions](https://listengine.tuxfamily.org/galette.eu/translations/) : discussion autour des traductions
 * [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : diffusion des commits - *ceci n'est pas un liste de discussion*
 
 Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes :
@@ -63,7 +64,10 @@ Les archives des listes de 2004 à 2017 sont disponibles aux adresses suivantes 
 Les listes de diffusion possèdent deux adresses différentes :
 
 * l'adresse de la liste, <users@lists.galette.eu> par exemple, que vous utiliserez pour envoyer un message à la liste, et qui sera l'expéditeur des messages que vous recevrez,
-* l'adresse administrative, composée du nom de la liste suivi de `-request`, <users-request@lists.galette.eu> par exemple, que vous utiliserez **pour vous abonner ou vous désabonner**.
+* l'adresse administrative, composée du nom de la liste suivi de `-request`, <users-request@lists.galette.eu> par exemple, que vous utiliserez **pour vous abonner ou vous désabonner**. L'action est définie par l'objet du courriel, qui peut être "subscribe", "unsubscribe" ou "help" (n'ajoutez rien d'autre à l'objet).
+
+De cette façon, pour vous [désinscrire de la liste de discussion utilisateurs](mailto:users-request@lists.galette.eu?subject=unsubscribe), envoyez simplement un courriel ayant pour objet "unsubscribe" (sans les guillemets !) à l'adresse administrative.
+Pour vous [inscrire à la liste Galette utilisateurs](mailto:users-request@lists.galette.eu?subject=subscribe), remplacez "unsubscribe" par "subscribe" :-)
 
 Lorsque vous envoyez un courriel à l’adresse administrative de la liste pour vous abonner ou vous désabonner, vous devez recevoir un message de confirmation auquel vous devrez répondre pour que l'opération soit finalisée.
 

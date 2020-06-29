@@ -51,6 +51,7 @@ Available lists:
 
 * [users](https://listengine.tuxfamily.org/lists.galette.eu/users/): global discussions, help, FAQ
 * [development](https://listengine.tuxfamily.org/lists.galette.eu/devel): developer mailing list for more technical subjects
+* [translations](https://listengine.tuxfamily.org/galette.eu/translations/): discussions about translations only
 * [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : commits broadcast - *this is not a mailing list*
 
 Lists archives between 2004 and 2017 are available at:
@@ -63,7 +64,10 @@ Lists archives between 2004 and 2017 are available at:
 Mailing lists have two distinct email addresses:
 
 * list address, <users@lists.galette.eu> as example, you will use to send a message to the list, and that will be the sender of the messages you will receive,
-* administrative address, which is made up of list name followed by `-request`, <users-request@lists.galette.eu> as example, you will use **to subscribe or unsubscribe **.
+* administrative address, which is made up of list name followed by `-request`, <users-request@lists.galette.eu> as example, you will use **to subscribe or unsubscribe**. Action is defined in the email subject; this can be "subscribe", "unsubscribe" or "help" (do not add anything else in the subject).
+
+Therefore, to [unsubscribe from the users mailing list](mailto:users-request@lists.galette.eu?subject=unsubscribe) just send an email with "unsubscribe" as subject (without quotes!) to administrative address.
+To [subscribe to Galette users](mailto:users-request@lists.galette.eu?subject=subscribe), just replace "unsubscribe" in the object with "subscribe" :-)
 
 When you send a message to the administrative address to subscribe or unsubscribe, you must have a confirmation message and you have to answer to it to finalize the operation.
 
