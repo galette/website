@@ -1,15 +1,16 @@
 {% comment %}
 Usage:
     {% responsive_image path: assets/image.jpg alt: "A description of the image" %}
+Optional args:
+- title
+- width
 {% endcomment %}
-
-{% assign largest = resized | sort: 'width' | last %}
-{% capture srcset %}
+{%- assign largest = resized | sort: 'width' | last -%}
+{%- capture srcset -%}
 {%- for i in resized -%}
     {{- site.baseurl_root }}/{{ i.path }} {{ i.width }}w,
 {%- endfor -%}
-{% endcapture %}
-
-<a data-fancybox="gallery" href="{{ site.baseurl_root }}/{{ path }}">
-    <img src="{{ site.baseurl_root }}/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} {{ site.baseurl_root }}/{{ path }} {{ original.width }}w" sizes="100vw" />
+{% endcapture -%}
+<a data-fancybox="gallery" href="{{ site.baseurl_root }}/{{ path }}"{%if (title) %} title="{{ title }}"{% endif %}>
+    <img src="{{ site.baseurl_root }}/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} {{ site.baseurl_root }}/{{ path }} {{ original.width }}w" sizes="100vw"{% if (width) %} style="width: {{ width }}"{% endif %} />
 </a>
