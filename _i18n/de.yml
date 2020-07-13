@@ -1,1 +1,51 @@
-{}
+menus:
+  docinstall: Installationsleitfaden
+  docplugins: Zusatzmodule
+  docuser: Benutzerhandbuch
+  doc: Dokumentation
+  demo: Demo
+  bugs: Fehler und Aufgaben
+  faq: Häufig gestellte Fragen
+  main: Navigation
+global:
+  slogan: Galette – Webverwaltung von Mitgliedern und Beiträgen für Verbände
+  tagline: Deutsch
+  tosupport: um zu unterstützen!
+  donate: Spenden
+  date_format: '%d.%m.%Y'
+  prevpost: Zum vorherigen Beitrag
+  nextpost: Zum nächsten Beitrag
+  toc: Inhaltsverzeichnis
+  subscribe_rss: RSS-Feed
+  built: Gemacht mit
+  license: Namensnennung, keine Bearbeitung 4.0 International (CC BY-ND 4.0)
+  of: von
+  page: Seite
+  previous: Vorherige
+  next: Nächste
+  About: Über
+  twitter: Twitter
+tags:
+  poissons: 1. April
+  sponsored: Gesponsert
+  rc: Test
+  release: Stabil
+pages:
+  titles:
+    about: Über und Geschichte von Galette
+    contribute: Zu Galette beitragen
+  descriptions:
+    home: Quelloffene Web-Anwendung zur Verwaltung von Mitgliedschaften für Verbände
+  notfound: Seite nicht gefunden :(
+  posts: Beiträge
+  contact: Kontakt
+  contribute: Beitragen
+  home: Startseite
+  about: Über
+langs:
+  fr: Français
+  en: English
+share:
+  email: Per E-Mail teilen
+  twitter: Auf Twitter teilen
+  facebook: Auf Facebook teilen
