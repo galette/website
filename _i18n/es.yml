@@ -1,2 +1,10 @@
 share:
   email: Compartir por correo electrónico
+global:
+  of: de
+  page: Página
+  previous: Anterior
+  next: Siguiente
+  About: Acerca de
+  twitter: Twitter
+  tagline: Inglés
