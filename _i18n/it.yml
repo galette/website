@@ -1,1 +1,51 @@
-{}
+global:
+  prevpost: Vai alla pubblicazione precedente
+  nextpost: Vai alla pubblicazione successiva
+  tosupport: per sostenere!
+  donate: Dona
+  date_format: '%d/%m/%Y'
+  toc: Tabella dei contenuti
+  subscribe_rss: Flusso RSS
+  built: Fatto con
+  license: Attribuzione – non opere derivate 4.0 Internationale (CC BY-ND 4.0)
+  slogan: Galette – Gestione web dei membri e delle contribuzioni per le associazioni
+  of: di
+  page: Pagina
+  previous: Precedente
+  next: Successivo
+  About: Informazioni
+  twitter: Twitter
+  tagline: Italiano
+tags:
+  poissons: 1º aprile
+  sponsored: Sponsorizzato
+  rc: Test
+  release: Stabile
+menus:
+  docplugins: Plugin
+  docuser: Manuale utente
+  docinstall: Guida d'installazione
+  doc: Documentazione
+  demo: Demo
+  bugs: Errori e compiti
+  faq: Domande frequenti
+  main: Naviga
+pages:
+  titles:
+    about: Informazioni e storia di Galette
+    contribute: Contribuisci a Galette
+  descriptions:
+    home: Applicazione web a codice aperto di gestione delle adesioni per le associazioni
+  notfound: Pagina non trovata :(
+  posts: Pubblicazioni
+  contact: Contatto
+  contribute: Contribuisci
+  home: Pagina principale
+  about: Informazioni
+langs:
+  fr: Français
+  en: English
+share:
+  email: Condividi via posta elettronica
+  twitter: Condividi via Twitter
+  facebook: Condividi via Facebook

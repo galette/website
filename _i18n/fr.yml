@@ -2,12 +2,12 @@ global:
   tagline: Français
   twitter: Twitter
   About: À propos
-  slogan: Galette - Gestion web des adhérents et contributions pour les associations
+  slogan: Galette – Gestion web des adhérents et des contributions pour les associations
   next: Suivante
   previous: Précédente
   page: Page
-  of: de
-  license: Attribution - Pas de Modification 4.0 International (CC BY-ND 4.0)
+  of: sur
+  license: Attribution – pas de modification 4.0 International (CC BY-ND 4.0)
   built: Construit avec
   subscribe_rss: Flux RSS
   toc: Table des matières
@@ -31,14 +31,14 @@ pages:
   posts: Publications
   notfound: Page non trouvée :'(
   descriptions:
-    home: Application web Open Source de gestion d'adhésions pour les associations
+    home: Application web à code source ouvert de gestion d'adhésions pour les associations
   titles:
     contribute: Contribuer à Galette
     about: À propos et histoire de la Galette
 menus:
   main: Navigation
-  faq: Foire Aux Questions
-  bugs: Bogues et Tâches
+  faq: Foire aux questions
+  bugs: Bogues et tâches
   demo: Démo
   doc: Documentation
   docinstall: Guide d'installation
