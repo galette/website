@@ -1,1 +1,51 @@
-{}
+tags:
+  poissons: 1 квітня
+  sponsored: Спонсорований
+  rc: Випробувальний
+  release: Сталий
+menus:
+  docplugins: Додатки
+  docuser: Посібник користувача
+  docinstall: Посібник зі встановлення
+  doc: Документація
+  demo: Пробник
+  bugs: Хиби та завдання
+  faq: Часто запитуване
+  main: Переміщення
+pages:
+  titles:
+    about: Про нас та нашу історію
+    contribute: Зробити внесок до Galette
+  descriptions:
+    home: Мережевий застосунок для управління членством з відкритим кодом для організацій
+  notfound: Сторінку не знайдено :(
+  posts: Дописи
+  contact: Зв'язок
+  contribute: Зробити внесок
+  home: Домівка
+  about: Про нас
+langs:
+  fr: Французька
+  en: Англійська
+share:
+  email: Поділитися електронною поштою
+  twitter: Поділитися через Twitter
+  facebook: Поділитися через Facebook
+global:
+  tosupport: підтримати!
+  donate: Пожертвувати
+  date_format: '%Y-%m-%d'
+  prevpost: Перейти до попереднього допису
+  nextpost: Перейти до наступного допису
+  toc: Зміст
+  subscribe_rss: RSS-потік
+  built: Побудовано за допомогою
+  license: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+  of: з
+  page: Сторінка
+  previous: Попереднє
+  next: Далі
+  slogan: Galette - Веб-управління членами та членством в організаціях
+  About: Про нас
+  twitter: Twitter
+  tagline: Англійська
