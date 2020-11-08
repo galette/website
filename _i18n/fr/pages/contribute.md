@@ -28,7 +28,7 @@ Une autre manière de contribuer, c'est de faire un don au développeur de Galet
 
 Vous pouvez ainsi :
 
-* participer à la [cagnotte Galette en cours](https://www.paypal.com/pools/c/8krlYNjX1j) sur PayPal[^1],
+* participer à la [cagnotte Galette en cours](https://paypal.me/pools/c/8u4dEPpM0q) sur PayPal[^1],
 * le contacter pour tout autre moyen (virement, chèque, éventuelle autre plateforme, ...)
 * effectuer un [don PayPal](https://www.paypal.me/galettesoft)[^2] (si possible, en dernier recours)
 
