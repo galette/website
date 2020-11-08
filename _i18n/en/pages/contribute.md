@@ -28,7 +28,7 @@ Another way to contribute is to give the main Galette developer, Johan, a donati
 
 So you can:
 
-* participate to the [current Galette pool](https://www.paypal.com/pools/c/8krlYNjX1j) on PayPal[^1],
+* participate to the [current Galette pool](https://paypal.me/pools/c/8u4dEPpM0q) on PayPal[^1],
 * contact him for any other payment method (transfer, check, possible other platform, ...)
 * make a [PayPal donation](https://www.paypal.me/galettesoft)[^2] (last resort, if possible)
 
