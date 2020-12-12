@@ -9,8 +9,8 @@ Nous sommes fiers de vous annoncer le tout nouveau site web de Galette !
 
 Cela faisait un certain temps que l'ancien site n'avait pas reçu de mise à jour, et il posait quelques problèmes sur la localisation (par exemple, le menu n'était plus traduit en anglais).
 
-J'ai donc décidé de mettre à profit une semaine de congés pour travailler là-dessus. L'ancien site web utilisait [Dotclear](https://dotclear.org), nous avons changé pour [Jekyll](https://jekyllrb.com) désormais. Le code source est [disponible publiquement](https://git.tuxfamily.org/galette/website.git) (un [miroir est disponible sur GitHub](https://github.com/galette/website) également). Les pages et publications sont publiées selon les termes de la [licence Creative Commons CC-BY-ND
-4.0](https://creativecommons.org/licenses/by-nd/4.0) et le « code source » selon les termes de la [licence GPL version 3](https://www.gnu.org/licenses/quick-guide-gplv3.en.html).
+J'ai donc décidé de mettre à profit une semaine de congés pour travailler là-dessus. L'ancien site web utilisait [Dotclear](https://dotclear.org), nous avons changé pour [Jekyll](https://jekyllrb.com) désormais. Le code source est [disponible publiquement](https://git.tuxfamily.org/galette/website.git) (un [miroir est disponible sur GitHub](https://github.com/galette/website) également). Les pages et publications sont publiées selon les termes de la [licence Creative Commons CC-BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0) et le « code source » selon les termes de la [licence GPL version 3](https://www.gnu.org/licenses/quick-guide-gplv3.en.html).
 
 Toutes les publications ont été migrées (avec quelques corrections), et les pages ont été entièrement réécrites. J'ai dû régler quelques soucis d’internationalisation, mais il semble que j'en sois venu à bout... Veuillez également noter que le nouveau site a été construit en ayant « mobile d'abord » en tête ; la navigation sur les appareils mobiles devrait être bien plus adaptée.
 
