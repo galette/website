@@ -74,7 +74,7 @@ If you want to complete documentation or add a fix, the way to go is the same as
 
 Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This is the goal of [different communication channels]({% tl contact %}), do not hesitate :)
 
-We advice you to read the [Galette development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) in order to get familiar with code and followed rules.
+We advise you to read the [Galette development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) in order to get familiar with code and followed rules.
 
 Dive in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
 Anyway, try to ask with developer(s) who is certainly the more appropriate to help you on.
