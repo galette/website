@@ -1,5 +1,7 @@
 share:
   email: Compartir por correo electrónico
+  twitter: ''
+  facebook: ''
 global:
   of: de
   page: Página
@@ -9,3 +11,41 @@ global:
   twitter: Twitter
   tagline: Inglés
   license: Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
+  donate: ''
+  nextpost: ''
+  prevpost: ''
+  subscribe_rss: ''
+  toc: ''
+  date_format: ''
+  built: ''
+  tosupport: ''
+  slogan: ''
+menus:
+  demo: ''
+  docplugins: ''
+  bugs: ''
+  faq: ''
+  docinstall: ''
+  docuser: ''
+  main: ''
+  doc: ''
+pages:
+  contribute: ''
+  notfound: ''
+  titles:
+    about: ''
+    contribute: ''
+  descriptions:
+    home: ''
+  about: ''
+  home: ''
+  contact: ''
+  posts: ''
+tags:
+  rc: ''
+  sponsored: ''
+  release: ''
+  poissons: ''
+langs:
+  en: ''
+  fr: ''
