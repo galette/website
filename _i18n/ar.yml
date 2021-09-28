@@ -1,11 +1,15 @@
 pages:
   titles:
     contribute: المساهمة في Galette
+    about: ''
   posts: المنشورات
   contact: للتواصل
   contribute: المساهمة
   home: الرئيسية
   about: عن
+  descriptions:
+    home: ''
+  notfound: ''
 share:
   email: شارك عبر البريد الإلكتروني
   twitter: شارك عبر تويتر
@@ -25,3 +29,23 @@ global:
   twitter: تويتر
   tagline: العربية
   license: نَسب المُصنَّف - الترخيص بالمثل 4.0 دولي (CC BY-SA 4.0)
+  date_format: ''
+  tosupport: ''
+  built: ''
+menus:
+  docuser: ''
+  faq: ''
+  bugs: ''
+  demo: ''
+  docplugins: ''
+  doc: ''
+  docinstall: ''
+  main: ''
+langs:
+  en: ''
+  fr: ''
+tags:
+  release: ''
+  rc: ''
+  sponsored: ''
+  poissons: ''
