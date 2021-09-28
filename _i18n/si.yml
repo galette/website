@@ -1,1 +1,51 @@
-{}
+global:
+  toc: ''
+  subscribe_rss: ''
+  slogan: ''
+  About: ''
+  tosupport: ''
+  prevpost: ''
+  tagline: ''
+  of: ''
+  nextpost: ''
+  donate: ''
+  date_format: ''
+  next: ''
+  page: ''
+  built: ''
+  license: ''
+  twitter: ''
+  previous: ''
+langs:
+  en: ''
+  fr: ''
+pages:
+  posts: ''
+  titles:
+    about: ''
+    contribute: ''
+  home: ''
+  contribute: ''
+  descriptions:
+    home: ''
+  contact: ''
+  notfound: ''
+  about: ''
+menus:
+  docinstall: ''
+  bugs: ''
+  main: ''
+  doc: ''
+  faq: ''
+  demo: ''
+  docplugins: ''
+  docuser: ''
+share:
+  email: ''
+  facebook: ''
+  twitter: ''
+tags:
+  poissons: ''
+  sponsored: ''
+  rc: ''
+  release: ''
