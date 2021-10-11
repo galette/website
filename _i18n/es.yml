@@ -1,7 +1,7 @@
 share:
   email: Compartir por correo electrónico
-  twitter: ''
-  facebook: ''
+  twitter: 'Compartir a través de Twitter'
+  facebook: 'Compartir a través de Facebook'
 global:
   of: de
   page: Página
@@ -11,15 +11,15 @@ global:
   twitter: Twitter
   tagline: Inglés
   license: Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
-  donate: ''
-  nextpost: ''
-  prevpost: ''
-  subscribe_rss: ''
-  toc: ''
-  date_format: ''
-  built: ''
-  tosupport: ''
-  slogan: ''
+  donate: 'Donar'
+  nextpost: 'Ir a la siguiente publicación'
+  prevpost: 'Ir a la publicación anterior'
+  subscribe_rss: 'RSS feed'
+  toc: 'Tabla de contenidos'
+  date_format: '%Y-%m-%d'
+  built: 'Desarrollado con'
+  tosupport: '¡Apoyar!'
+  slogan: 'Galette - Gestión web de miembros y membresías para asociaciones'
 menus:
   demo: ''
   docplugins: ''
@@ -30,22 +30,22 @@ menus:
   main: ''
   doc: ''
 pages:
-  contribute: ''
-  notfound: ''
+  contribute: 'Contribuir'
+  notfound: 'No se encontró la página :('
   titles:
     about: ''
     contribute: ''
   descriptions:
     home: ''
-  about: ''
-  home: ''
-  contact: ''
-  posts: ''
+  about: 'Acerca de'
+  home: 'Inicio'
+  contact: 'Contacto'
+  posts: 'Publicaciones'
 tags:
   rc: ''
   sponsored: ''
   release: ''
   poissons: ''
 langs:
-  en: ''
-  fr: ''
+  en: 'Inglés'
+  fr: 'Francés'
