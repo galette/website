@@ -1,2 +1,51 @@
 global:
   license: Navngivelse-DelPåSammeVilkår 4.0 Internasjonal (CC BY-SA 4.0)
+  toc: ''
+  of: ''
+  donate: ''
+  twitter: ''
+  nextpost: ''
+  prevpost: ''
+  About: ''
+  page: ''
+  tosupport: ''
+  next: ''
+  tagline: ''
+  previous: ''
+  built: ''
+  date_format: ''
+  subscribe_rss: ''
+  slogan: ''
+menus:
+  main: ''
+  faq: ''
+  docplugins: ''
+  doc: ''
+  demo: ''
+  docinstall: ''
+  docuser: ''
+  bugs: ''
+share:
+  email: ''
+  facebook: ''
+  twitter: ''
+pages:
+  descriptions:
+    home: ''
+  posts: ''
+  about: ''
+  notfound: ''
+  home: ''
+  titles:
+    about: ''
+    contribute: ''
+  contribute: ''
+  contact: ''
+tags:
+  release: ''
+  rc: ''
+  sponsored: ''
+  poissons: ''
+langs:
+  en: ''
+  fr: ''

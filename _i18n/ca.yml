@@ -1,2 +1,51 @@
 share:
   email: Compartir per correu electrònic
+  facebook: ''
+  twitter: ''
+menus:
+  faq: ''
+  demo: ''
+  docuser: ''
+  bugs: ''
+  main: ''
+  doc: ''
+  docplugins: ''
+  docinstall: ''
+global:
+  built: ''
+  tosupport: ''
+  nextpost: ''
+  subscribe_rss: ''
+  slogan: ''
+  donate: ''
+  next: ''
+  of: ''
+  twitter: ''
+  prevpost: ''
+  date_format: ''
+  tagline: ''
+  toc: ''
+  license: ''
+  About: ''
+  previous: ''
+  page: ''
+pages:
+  contact: ''
+  posts: ''
+  descriptions:
+    home: ''
+  home: ''
+  notfound: ''
+  titles:
+    contribute: ''
+    about: ''
+  about: ''
+  contribute: ''
+tags:
+  sponsored: ''
+  release: ''
+  rc: ''
+  poissons: ''
+langs:
+  en: ''
+  fr: ''

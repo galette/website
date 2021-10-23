@@ -1,5 +1,7 @@
 share:
   email: Compartir por correo electrónico
+  twitter: 'Compartir a través de Twitter'
+  facebook: 'Compartir a través de Facebook'
 global:
   of: de
   page: Página
@@ -8,3 +10,42 @@ global:
   About: Acerca de
   twitter: Twitter
   tagline: Inglés
+  license: Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
+  donate: 'Donar'
+  nextpost: 'Ir a la siguiente publicación'
+  prevpost: 'Ir a la publicación anterior'
+  subscribe_rss: 'RSS feed'
+  toc: 'Tabla de contenidos'
+  date_format: '%Y-%m-%d'
+  built: 'Desarrollado con'
+  tosupport: '¡Apoyar!'
+  slogan: 'Galette - Gestión web de miembros y membresías para asociaciones'
+menus:
+  demo: ''
+  docplugins: ''
+  bugs: ''
+  faq: ''
+  docinstall: ''
+  docuser: ''
+  main: ''
+  doc: ''
+pages:
+  contribute: 'Contribuir'
+  notfound: 'No se encontró la página :('
+  titles:
+    about: ''
+    contribute: ''
+  descriptions:
+    home: ''
+  about: 'Acerca de'
+  home: 'Inicio'
+  contact: 'Contacto'
+  posts: 'Publicaciones'
+tags:
+  rc: ''
+  sponsored: ''
+  release: ''
+  poissons: ''
+langs:
+  en: 'Inglés'
+  fr: 'Francés'
