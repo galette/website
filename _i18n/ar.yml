@@ -8,7 +8,7 @@ pages:
   home: الرئيسية
   about: عن
   descriptions:
-    home: ''
+    home: 'تطبيق ويب مفتوح المصدر لإدارة العضوية في الجمعيات'
   notfound: ''
 share:
   email: شارك عبر البريد الإلكتروني
@@ -29,23 +29,23 @@ global:
   twitter: تويتر
   tagline: العربية
   license: نَسب المُصنَّف - الترخيص بالمثل 4.0 دولي (CC BY-SA 4.0)
-  date_format: ''
+  date_format: '%d/%m/%Y'
   tosupport: ''
   built: ''
 menus:
-  docuser: ''
-  faq: ''
-  bugs: ''
-  demo: ''
-  docplugins: ''
+  docuser: 'دليل المستخدم'
+  faq: 'الأسئلة المتداولة'
+  bugs: 'العِلل والمهام'
+  demo: 'تجريبي'
+  docplugins: 'الإضافات'
   doc: ''
-  docinstall: ''
-  main: ''
+  docinstall: 'دليل التنصيب'
+  main: 'التنقل'
 langs:
   en: ''
-  fr: ''
+  fr: 'Français'
 tags:
   release: ''
-  rc: ''
+  rc: 'اختبار'
   sponsored: ''
   poissons: ''
