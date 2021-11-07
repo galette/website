@@ -38,15 +38,9 @@ Vous pouvez ainsi :
 Préambule. Toute contribution au projet doit être faite dans la langue principale (anglais `en_GB`). En cas d'erreur sur la langue principale, il faut aller la corriger dans le contenu d'origine (le code en somme).
 N'hésitez pas à utiliser les [canaux de contact]({% tl contact %}) mis à disposition pour trouver de l'aide sur le sujet si vous le souhaitez ;-)
 
-Si donc vous souhaitez aider à traduire Galette, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
+Si donc vous souhaitez aider à traduire Galette, sa documentation ou les plugins officiels, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
 
 {% responsive_image path: assets/images/screenshots/weblate.png alt: "Weblate interface" title: "Weblate interface" %}
-
-Pour la documentation, le principe est le même, à la différence que les traduction s'effectuent toujours sur l'ancienne [plateforme de traduction (Zanata)](https://translate.zanata.org/project/view/galettedoc/) (plate forme similaire à Weblate ou Transifex ; mais qui est vieillissante).
-
-{% responsive_image path: assets/images/screenshots/zanata.png alt: "Zanata interface" title: "Zanata interface" %}
-
-Et enfin les plugins... Aucun d'entre eux n'utilise actuellement de système de traduction externe. Le processus nécessite les outils et éditeurs sur le poste de travail, là où un simple navigateur web suffit pour Galette ou la documentation.
 
 ### Détails du processus
 
@@ -55,11 +49,9 @@ Cette opération prend la forme d'un commit sur le dépôt du code source, qui s
 
 Une fois les fichiers de langue à jour, vous pourrez traduire dans la langue de votre choix. Les modifications apportées sont enregistrées sur le système, jusqu'à ce que les développeurs les récupèrent dans le dépôt du logiciel (opération manuelle). Toutes vos traductions seront alors présentes dans Galette !
 
-Hormis pour les plugins, il n'est pas nécessaire de comprendre [l'internationalisation dans Galette](https://translate.zanata.org/project/view/galettedoc/) pour aider à traduire, le paragraphe sur la génération des fichiers de langue vous apportera peut-être quelques précisions davantage techniques.
-
 ## Rédiger
 
-Certaines fonctionnalité de Galette sont absentes dans la documentation, ou vraiment détaillées à minima. Là aussi, vous pouvez éventuellement aider en rédigeant de la documentation, ou des articles sur le site. Les principaux manques se situent dans le manuel de l'utilisateur ; parties qui justement devraient pour le mieux être rédigées par des utilisateurs (souvent, le développeur peine à ne pas ajouter moult détails techniques).
+Certaines fonctionnalités de Galette sont absentes dans la documentation, ou vraiment détaillées à minima. Là aussi, vous pouvez éventuellement aider en rédigeant de la documentation, ou des articles sur le site. Les principaux manques se situent dans le manuel de l'utilisateur ; parties qui justement devraient pour le mieux être rédigées par des utilisateurs (souvent, le développeur peine à ne pas ajouter moult détails techniques).
 
 La principale contrainte, c'est que les contenus originaux doivent être en anglais. Le but n'est pas d'écrire de grands textes, nul besoin d'être totalement bilingue. Et si vous ne parlez pas du tout anglais, il est toujours possible de vous apporter de l'aide sur ce point.
 Les contributions sont dans tous les cas relues et commentées au besoin, permettant d'éventuels ajustements de votre part ou d'un autre participant.
