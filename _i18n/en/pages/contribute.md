@@ -28,12 +28,10 @@ Another way to contribute is to give the main Galette developer, Johan, a donati
 
 So you can:
 
-* participate to the [current Galette pool](https://paypal.me/pools/c/8u4dEPpM0q) on PayPal[^1],
+* make a [PayPal donation](https://www.paypal.me/galettesoft)[^1] (last resort, if possible)
 * contact him for any other payment method (transfer, check, possible other platform, ...)
-* make a [PayPal donation](https://www.paypal.me/galettesoft)[^2] (last resort, if possible)
 
-[^1]: Free of charge
-[^2]: Some fees are applied (about 1 euro for a 25 donation)
+[^1]: Some fees are applied (about 1 euro for a 25 donation)
 
 ## Translate
 
@@ -58,7 +56,6 @@ This operation ends in a commit on the source code repository, that will be auto
 Once the language files has been updated, you can translate in the language that you choose. Applied changes are stored on the system, until developers pull them back in the soft repository (manual step). All translations are then available from Galette!
 
 Except for plugins, there is no need to understand [internationalisation in Galette](https://translate.zanata.org/project/view/galettedoc/) to help translating, but the paragraph on lang files generation gives maybe a few technical precisions.
-
 ## Write
 
 Some Galette features are missing from documentation (or have very few details). Here also, you can help writing documentation, or publications for the website. Most of the misses are in the user manual; section that should precisely be written from users (more often, developers give too much technical details).
