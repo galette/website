@@ -17,7 +17,7 @@ Of course, this is the same for [official plugins]({{ site.galette.doc_url }}/{{
 Another possible way to contribute to the project is to help to install, configure or take in hand the tool.
 
 That can be for your neighbour's association to which Galette can be helpful, or if he cannot achieve to install it, for example.
-But that can also be a answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
+But that can also be answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
 
 To communicate about Galette is also a good way to contribute, and does not require any specific skills. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
 
@@ -28,27 +28,19 @@ Another way to contribute is to give the main Galette developer, Johan, a donati
 
 So you can:
 
-* participate to the [current Galette pool](https://paypal.me/pools/c/8u4dEPpM0q) on PayPal[^1],
+* make a [PayPal donation](https://www.paypal.me/galettesoft)[^1] (last resort, if possible)
 * contact him for any other payment method (transfer, check, possible other platform, ...)
-* make a [PayPal donation](https://www.paypal.me/galettesoft)[^2] (last resort, if possible)
 
-[^1]: Free of charge
-[^2]: Some fees are applied (about 1 euro for a 25 donation)
+[^1]: Some fees are applied (about 1 euro for a 25 donation)
 
 ## Translate
 
 Preamble. All contribution to the project must be done in the main language (`en_GB` english). In case of mistake in the main language, it must get fixed in the original contents (source code).
 Do not hesitate to use provided [contact channels ]({% tl contact %}) to find help about that if you need ;-)
 
-So, if you want to help translating Galette, that is quite simple: go to the [translation platform (Weblate)](https://hosted.weblate.org/projects/galette/galette/), create or link an account if needed, login and translate!
+So, if you want help to translate Galette, its documentation or official plugins, that is quite simple: go to the [translation platform (Weblate)](https://hosted.weblate.org/projects/galette/), create or link an account if needed, login and translate!
 
 {% responsive_image path: assets/images/screenshots/weblate.png alt: "Weblate interface" title: "Weblate interface" %}
-
-For the documentation, this is the same with the difference that translations are done on the old [translation platform (Zanata)](https://translate.zanata.org/project/view/galettedoc/) (similar platform as Weblate or Transifex; but ageing).
-
-{% responsive_image path: assets/images/screenshots/zanata.png alt: "Zanata interface" title: "Zanata interface" %}
-
-And finally plugins... None of them use currently any external translation system. Process requires tools and editors on the user work station, when just a browser is enough for Galette or its documentation.
 
 ### Process details
 
@@ -56,8 +48,6 @@ If we take Galette example, new strings are regularly added to the source code. 
 This operation ends in a commit on the source code repository, that will be automatically detected from translation system once pushed. All languages files are then automatically updated.
 
 Once the language files has been updated, you can translate in the language that you choose. Applied changes are stored on the system, until developers pull them back in the soft repository (manual step). All translations are then available from Galette!
-
-Except for plugins, there is no need to understand [internationalisation in Galette](https://translate.zanata.org/project/view/galettedoc/) to help translating, but the paragraph on lang files generation gives maybe a few technical precisions.
 
 ## Write
 
