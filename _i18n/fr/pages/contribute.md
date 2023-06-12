@@ -28,10 +28,10 @@ Une autre manière de contribuer, c'est de faire un don au développeur de Galet
 
 Vous pouvez ainsi :
 
-* effectuer un [don PayPal](https://www.paypal.me/galettesoft)[^1] (si possible, en dernier recours)
+* effectuer un [don Stripe](https://donate.stripe.com/dR6bJz7mX1Na0GQ5kk)[^1]
 * le contacter pour tout autre moyen (virement, chèque, éventuelle autre plateforme, ...)
 
-[^1]: Des frais sont appliqués (environ 1 euro pour un don de 25)
+[^1]: Des frais sont appliqués
 
 ## Traduire
 
