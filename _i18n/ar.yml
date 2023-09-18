@@ -1,7 +1,7 @@
 pages:
   titles:
     contribute: المساهمة في Galette
-    about: ''
+    about: 'عن وتاريخ Galette'
   posts: المنشورات
   contact: للتواصل
   contribute: المساهمة
@@ -9,7 +9,7 @@ pages:
   about: عن
   descriptions:
     home: 'تطبيق ويب مفتوح المصدر لإدارة العضوية في الجمعيات'
-  notfound: ''
+  notfound: 'الصفحة غير موجودة :('
 share:
   email: شارك عبر البريد الإلكتروني
   twitter: شارك عبر تويتر
@@ -30,22 +30,22 @@ global:
   tagline: العربية
   license: نَسب المُصنَّف - الترخيص بالمثل 4.0 دولي (CC BY-SA 4.0)
   date_format: '%d/%m/%Y'
-  tosupport: ''
-  built: ''
+  tosupport: 'للدعم!'
+  built: 'بُني بـ'
 menus:
   docuser: 'دليل المستخدم'
   faq: 'الأسئلة المتداولة'
   bugs: 'العِلل والمهام'
   demo: 'تجريبي'
   docplugins: 'الإضافات'
-  doc: ''
+  doc: 'الدليل'
   docinstall: 'دليل التنصيب'
   main: 'التنقل'
 langs:
-  en: ''
+  en: 'الإنجليزية'
   fr: 'Français'
 tags:
-  release: ''
+  release: 'الثابت'
   rc: 'اختبار'
-  sponsored: ''
-  poissons: ''
+  sponsored: 'الرعاة'
+  poissons: 'الأول من أفريل'
