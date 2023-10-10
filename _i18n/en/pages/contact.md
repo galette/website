@@ -96,7 +96,7 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 
 ## Social networks
 
-* IRC: [#galette sur OFTC](irc://irc.oftc.net/#galette)
+**Please do not ask for support on social networks!**
+
 * Twitter: [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
-* Matrix room: [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org) and community: [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
