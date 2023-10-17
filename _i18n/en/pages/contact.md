@@ -96,7 +96,7 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 
 ## Social networks
 
-**Please do not ask for support on social networks!**
+**Please do not ask for support on Twitter and Mastodon!**
 
 * Twitter: [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)

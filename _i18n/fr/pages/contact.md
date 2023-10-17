@@ -96,7 +96,7 @@ Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'ex
 
 ## Réseaux sociaux
 
-**Merci de ne pas faire de demandes de support sur les réseaux sociaux !**
+**Merci de ne pas faire de demandes de support sur Twitter et Mastodon !**
 
 * Twitter : [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
