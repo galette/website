@@ -45,6 +45,7 @@ menus:
   docinstall: Guide d'installation
   docuser: Manuel de l'utilisateur
   docplugins: Plugins
+  forums: Forums
 tags:
   release: Stable
   rc: Test

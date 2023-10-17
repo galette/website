@@ -87,6 +87,8 @@ galette:
         url: DOC_URL/develop/faq/index.html
       - name: menus.bugs
         url: https://bugs.galette.eu/projects/galette/
+      - name: menu.forums
+        url: https://forums.galette.eu/
       - name: menus.demo
         url: https://demo.galette.eu
     doc:
