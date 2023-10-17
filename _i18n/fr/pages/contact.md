@@ -101,3 +101,6 @@ Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'ex
 
 * Twitter : [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
+* Reddit : [r/galette](https://www.reddit.com/r/galette/)
+* Discord : [Galette](https://discord.gg/EsEQmftk)
+* Facebook : [Galette](https://www.facebook.com/galettesoft)

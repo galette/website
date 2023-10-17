@@ -16,4 +16,7 @@
     {%- if site.rss -%}
         <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a>
     {%- endif -%}
+    <a href="https://www.facebook.com/galettesoft" title="Facebook"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg><span class="sr-only">{{ 'galettesoft' | escape }}</span></a>
+    <a href="https://www.reddit.com/r/Galette/" title="Reddit"><img class="svg-icon" src="{{ '/assets/reddit.svg#' | relative_url }}" alt="" /><span class="sr-only">{{ 'r/Galette' | escape }}</span></a>
+    <a href="https://discord.gg/RCwM87DX" title="Discord"><img class="svg-icon" src="{{ '/assets/discord.svg' | relative_url }}" alt=""/><span class="sr-only">{{ '#galette' | escape }}</span></a>
 </nav>
