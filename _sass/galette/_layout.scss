@@ -214,12 +214,12 @@ body > footer {
 
   a {
     color: rgba(255, 255, 255, 0.7);
-    padding: .1em .3em;
+    padding: .1em;
 
     &:hover {
         text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.2);
-        color: rgba(255, 255, 255, 0.7);
+        /*background-color: rgba(255, 255, 255, 0.2);
+        color: rgba(255, 255, 255, 0.7);*/
     }
   }
 
