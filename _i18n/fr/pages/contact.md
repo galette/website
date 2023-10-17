@@ -2,7 +2,7 @@ Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)
 
 Et fonction du besoin :
 
-* vous pouvez utiliser les canaux [IRC](#irc) et [Matrix](#matrix) pour absolument tous les sujets, ou même juste pour dire bonjour,
+* vous pouvez utiliser les canaux [Matrix](#matrix) et [IRC](#irc) pour absolument tous les sujets, ou même juste pour dire bonjour,
 * vous pouvez également aborder tous les sujets sur les [listes de discussion](#listes-de-discussion), mais préférez la liste de développement pour les sujets liés au... développement,
 * en cas de bogue ou de demande d'évolution, utilisez le gestionnaire de bogues (« bug tracker » en anglais, et « tracker » de son petit nom généralement utilisé),
 * vous pouvez poster sur [les forums de Galette](https://forums.galette.eu),
@@ -16,23 +16,9 @@ Posez une question, et obtenez une réponse. C'est simple, et efficace. Ça dema
 
 Il arrive parfois que les discussions instantanées ne le soient pas tant que ça, en fonction de chacun et du contexte... Le développeur principal est généralement toujours présent en pointillés.
 
-### IRC
-
-IRC est un protocole de communication qui existe depuis de nombreuses années (1988), qui fait très bien ce qu'on lui demande (pas grand chose somme toute), et qui est encore actuellement très répandu.
-
-D'un côté, il existe de nombreux réseaux IRC, tels que [Freenode](https://freenode.net), [GIMPNet](https://www.gimp.org/) ou encore [OFTC](https://oftc.net). C'est ce dernier qu'utilise Galette. Sur chaque serveur, il existe de nombreuses salles ; celle de Galette se nomme `#galette`.
-
-D'un autre côté il existe de très nombreux clients IRC, sur toutes les plates formes possibles à priori. Certains logiciels de messagerie instantanées permettent de aussi s'y connecter, tout comme Thunberbird. Le choix ne manque pas :-)
-
-Tout ce dont vous avez besoin, c'est donc d'un client IRC pour vous connecter sur [irc.oftc.net](irc://irc.oftc.net) pour ensuite rejoindre `#galette`.
-
-Notez que lorsque votre client IRC est fermé ou simplement non connecté, aucun message ne vous parviendra. Et vous ne pourrez jamais non plus voir ce que vous avez manqué (aucun log du canal IRC n'est disponible).
-
-Récemment, un lien a été créé entre le salon IRC et l'instance Matrix ; qui devrait apporter une solution efficace à ce problème. En effet, c'est dans ce cas l'instance Matrix qui se connecte sur le canal IRC pour tous les participants.
-
 ### Matrix
 
-Matrix est un protocole de communication bien plus récent, qui se veut ouvert et très interopérable. Le fonctionnement est un peu similaire à IRC, à la différence qu'il faut faudra d'abord un compte Matrix (sur quelque instance que ce soit[^1]), pour ensuite rejoindre le salon de Galette.
+Matrix est un protocole de communication assez récent, qui se veut ouvert et très interopérable. Le fonctionnement est un peu similaire à IRC, à la différence qu'il faut faudra d'abord un compte Matrix (sur quelque instance que ce soit[^1]), pour ensuite rejoindre le salon de Galette.
 
 * salon Matrix : [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org)
 * et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
@@ -41,6 +27,20 @@ L'accès au salon est ouvert à tous, les archives ne sont pas publiques, vous n
 Il est automatiquement lié au salon IRC officiel, vous n'avez rien de plus à faire.
 
 [^1]: la connexion depuis un serveur tiers n'a pour le moment pas été confirmée, faites nous savoir si ça fonctionne ! ;-)
+
+### IRC
+
+IRC est un protocole de communication qui existe depuis de nombreuses années (1988), qui fait très bien ce qu'on lui demande (pas grand chose somme toute), et qui est encore actuellement très répandu.
+
+D'un côté, il existe de nombreux réseaux IRC, tels que [Freenode](https://freenode.net), [GIMPNet](https://www.gimp.org/) ou encore [OFTC](https://oftc.net). C'est ce dernier qu'utilise Galette. Sur chaque serveur, il existe de nombreuses salles ; celle de Galette se nomme `#galette`.
+
+D'un autre côté, il existe de très nombreux clients IRC, sur toutes les plates formes possibles à priori. Certains logiciels de messagerie instantanée permettent aussi s'y connecter, tout comme Thunberbird. Le choix ne manque pas :-)
+
+Tout ce dont vous avez besoin, c'est donc d'un client IRC pour vous connecter sur [irc.oftc.net](irc://irc.oftc.net) pour ensuite rejoindre `#galette`.
+
+Notez que lorsque votre client IRC est fermé ou simplement non connecté, aucun message ne vous parviendra. Et vous ne pourrez jamais non plus voir ce que vous avez manqué (aucun log du canal IRC n'est disponible).
+
+Un lien a été créé entre le salon IRC et l'instance Matrix ; qui devrait apporter une solution efficace à ce problème. En effet, c'est dans ce cas l'instance Matrix qui se connecte sur le canal IRC pour tous les participants.
 
 ## Listes de discussion
 

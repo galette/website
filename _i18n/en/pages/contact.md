@@ -2,7 +2,7 @@ Want to know how to contact us? Ways are multiple ;-)
 
 And depending on needs:
 
-* you can use [IRC](#irc) and [Matrix](#matrix) channels for any subject, or just to say hello,
+* you can use [Matrix](#matrix) and [IRC](#irc) channels for any subject, or just to say hello,
 * you can also talk about everything on [mailing lists](#mailing-lists) but prefer development list to talk about... development,
 * for a bug report or an enhancement request, use the bug tracker,
 * you can post on [Galette Forums](https://forums.galette.eu),
@@ -16,23 +16,9 @@ Ask a question, and get an answer. It's simple and effective. It only requires s
 
 It may happen that instant messaging is not really instant, depending on every one and the context... Main developer is globally always present from time to time.
 
-### IRC
-
-IRC is a communication protocol that does exists from years (1988), which does well what we ask it (not much finally), and which is still widespread.
-
-On one side, numerous IRC networks does exists, like [Freenode](https://freenode.net), [GIMPNet](https://www.gimp.org/) or [OFTC](https://oftc.net). This last one is used for Galette. On each server, there are numerous rooms; Galette one name is `#galette`.
-
-On the other side, numerous IRC clients does exists, on all possible platforms as far as we know. Some other instant messaging software also permit to connect to IRC, like Thunderbird. There is no lack of choice :-)
-
-All you need is an IRC client to connect to [irc.oftc.net](irc://irc.oftc.net) and then join `#galette`.
-
-Note than when your IRC client is closed or just not connected, no message will be sent to you. And you will never be able to see what you've missed (no log of the IRC channel is available).
-
-Recently, a bridge between IRC channel and Matrix room has been created; this should bring a solution to this problem. Indeed, this is the Matrix instance which connects to IRC in that case for all participants.
-
 ### Matrix
 
-Matrix is a way more recent communication protocol, which aims to be open and interoperable. It operate almost like IRC, with the difference you will first have to create a Matrix account (on whatever instance[^1]), to join Galette discussion room.
+Matrix is a quite recent communication protocol, which aims to be open and interoperable. It operates almost like IRC, with the difference you will first have to create a Matrix account (on whatever instance[^1]), to join Galette discussion room.
 
 * Matrix room: [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org)
 * and community: [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
@@ -41,6 +27,20 @@ Room is accessible for everyone, archives are not public, you will just have acc
 It is automatically linked to the official IRC channel, you do not have anything more to do.
 
 [^1]: connecting from a third party server has not been confirmed yet, let us know if that works! ;-)
+
+### IRC
+
+IRC is a communication protocol that does exist from years (1988), which does well what we ask it (not much finally), and which is still widespread.
+
+On one side, numerous IRC networks does exist, like [Freenode](https://freenode.net), [GIMPNet](https://www.gimp.org/) or [OFTC](https://oftc.net). This last one is used for Galette. On each server, there are numerous rooms; Galette one name is `#galette`.
+
+On the other side, numerous IRC clients does exist, on all possible platforms as far as we know. Some other instant messaging software also permit to connect to IRC, like Thunderbird. There is no lack of choice :-)
+
+All you need is an IRC client to connect to [irc.oftc.net](irc://irc.oftc.net) and then join `#galette`.
+
+Note than when your IRC client is closed or just not connected, no message will be sent to you. And you will never be able to see what you've missed (no log of the IRC channel is available).
+
+Recently, a bridge between IRC channel and Matrix room has been created; this should bring a solution to this problem. Indeed, this is the Matrix instance which connects to IRC in that case for all participants.
 
 ## Mailing lists
 
