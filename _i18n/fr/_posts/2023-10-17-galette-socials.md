@@ -12,7 +12,7 @@ Vous pouvez désormais retrouver Galette sur :
 * [Reddit](https://www.reddit.com/r/galette/)
 * [Discord](https://discord.gg/EsEQmftk)
 
-Bien sûr, vous pouvez toujours nous suivre sur [Mastodon](https://mastodon.social/@galette) et [Twitter](https://twitter.com/galette_soft).
+Bien sûr, vous pouvez toujours nous suivre sur [Mastodon](https://framapiaf.org/@galette) et [Twitter](https://twitter.com/galette_soft).
 
 Il s'agit d'une sorte de test, pour voir ce qui sera utilisé ou non.
 
