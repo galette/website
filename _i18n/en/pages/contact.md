@@ -5,7 +5,6 @@ And depending on needs:
 * you can use [Matrix](#matrix) and [IRC](#irc) channels for any subject, or just to say hello,
 * you can also talk about everything on [mailing lists](#mailing-lists) but prefer development list to talk about... development,
 * for a bug report or an enhancement request, use the bug tracker,
-* you can post on [Galette Forums](https://forums.galette.eu),
 * you can also propose a new way, if that makes sense.
 
 On social networks (Mastodon, Twitter), doing support or explain some things can be complicated... We prefer any other of the provided channels as much as possible.
