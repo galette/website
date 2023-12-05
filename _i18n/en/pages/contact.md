@@ -2,7 +2,7 @@ Want to know how to contact us? Ways are multiple ;-)
 
 And depending on needs:
 
-* you can use [Matrix](#matrix) (or [IRC](#irc)) and [Discord](https://discord.gg/EsEQmftk) channels for any subject, or just to say hello,
+* you can use [Matrix](#matrix) (or [IRC](#irc)) and [Discord](https://discord.gg/98g2e3xka8) channels for any subject, or just to say hello,
 * you can also talk about everything on [mailing lists](#mailing-lists) but prefer development list to talk about... development,
 * for a bug report or an enhancement request, use the bug tracker,
 * you can also propose a new way, if that makes sense.
@@ -87,5 +87,5 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 * Twitter: [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
 * Reddit: [r/galette](https://www.reddit.com/r/galette/)
-* Discord: [Galette](https://discord.gg/EsEQmftk)
+* Discord: [Galette](https://discord.gg/98g2e3xka8)
 * Facebook: [Galette](https://www.facebook.com/galettesoft)
