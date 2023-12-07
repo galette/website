@@ -77,12 +77,11 @@ Managing a project like Galette requires that a certain number of technical solu
 * [source code](https://git.tuxfamily.org/galette/): [Git](https://git-scm.com/), hosted by [TuxFamily](https://tuxfamily.org),
 * web site: built by [Jekyll](https://jekyllrb.com)[^1], webhosted by TuxFamily,
 * [issues system]({{ site.galette.tracker_url }}) : [Redmine](https://redmine.org)[^2], hosted on a dedicated server,
-* [démo](https://demo.galette.eu) : [Galette](https://galette.eu), hosted on a dedicated server,
+* [demo](https://demo.galette.eu) : [Galette](https://galette.eu), hosted on a dedicated server,
 * [discussion and broadcast lists]({% tl contact %}#listes-de-discussion) : [VHFFS](https://vhffs.org)[^3], provided by TuxFamily,
 * [voting system]({{ site.galette.vote_url }}) : [Fider](https://fider.io), hosted by Fider,
 * [documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master) : built by [Sphinx](https://www.sphinx-doc.org)[^4], hosted by [ReadTheDocs](https://rtfd.org),
-* [translations]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org)[^5], hosted by Weblate.
-* [documentation translation](https://translate.zanata.org/project/view/galettedoc/) : [Zanata](http://zanata.org)[^6], hosted by Zanata.
+* [translations]({{ site.galette.trad_url }})[^5] and [documentation translation]({{ site.galette.trad_url }})[^6] : [Weblate](https://weblate.org), hosted by Weblate.
 * Johan, hosted by himself :p
 
 Although not being a free tool, [Galette has an official mirror on GitHub](https://github.com/galette), for multiple reasons:

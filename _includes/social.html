@@ -1,19 +1,22 @@
 <nav class="social-media-list">
     {%- if site.github_username -%}
-        <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a>
+        <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" title="Source code"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg><span class="username sr-only">{{ site.github_username| escape }}</span></a>
     {%- endif -%}
     {%- if site.linkedin_username -%}
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">{{ site.linkedin_username| escape }}</span></a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg><span class="username sr-only">{{ site.linkedin_username| escape }}</span></a>
     {%- endif -%}
     {%- for mst in site.mastodon -%}
         {%- if mst.username and mst.instance -%}
-            <a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">{{ mst.username|escape }}</span></a>
+            <a rel="me" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" title="Mastodon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg><span class="username sr-only">{{ mst.username|escape }}</span></a>
         {%- endif -%}
     {%- endfor -%}
     {%- if site.twitter_username -%}
-        <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.twitter_username| escape }}</span></a>
+        <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg><span class="username sr-only">{{ site.twitter_username| escape }}</span></a>
     {%- endif -%}
     {%- if site.rss -%}
         <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a>
     {%- endif -%}
+    <a href="https://www.facebook.com/galettesoft" title="Facebook"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg><span class="sr-only">{{ 'galettesoft' | escape }}</span></a>
+    <a href="https://www.reddit.com/r/Galette/" title="Reddit"><img class="svg-icon" src="{{ '/assets/reddit.svg#' | relative_url }}" alt="" /><span class="sr-only">{{ 'r/Galette' | escape }}</span></a>
+    <a href="https://discord.gg/98g2e3xka8" title="Discord"><img class="svg-icon" src="{{ '/assets/discord.svg' | relative_url }}" alt=""/><span class="sr-only">{{ '#galette' | escape }}</span></a>
 </nav>

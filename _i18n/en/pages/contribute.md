@@ -28,10 +28,10 @@ Another way to contribute is to give the main Galette developer, Johan, a donati
 
 So you can:
 
-* make a [PayPal donation](https://www.paypal.me/galettesoft)[^1] (last resort, if possible)
+* make a [Stripe donation](https://donate.stripe.com/dR6bJz7mX1Na0GQ5kk)[^1]
 * contact him for any other payment method (transfer, check, possible other platform, ...)
 
-[^1]: Some fees are applied (about 1 euro for a 25 donation)
+[^1]: Some fees are applied
 
 ## Translate
 

@@ -74,9 +74,9 @@ responsive_image:
 #   - vendor/ruby/
 
 galette:
-  last_release: 0.9.6
-  stable_url: http://download.tuxfamily.org/galette/galette-0.9.6.tar.bz2
-  nightly_url: http://download.tuxfamily.org/galette/galette-dev.tar.bz2
+  last_release: 1.0.0
+  stable_url: https://download.tuxfamily.org/galette/galette-1.0.0.tar.bz2
+  nightly_url: https://download.tuxfamily.org/galette/galette-dev.tar.bz2
   doc_url: https://doc.galette.eu
   tracker_url: https://bugs.galette.eu/projects/galette/
   vote_url: https://vote.galette.eu

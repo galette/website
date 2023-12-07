@@ -1,0 +1,42 @@
+#redirect old demo
+RedirectMatch 301 ^/demo(.*$)? https://demo.galette.eu/
+
+RewriteEngine On
+
+#force https
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://galette.eu/$1 [R=301,L]
+
+#redirect english FAQ
+RewriteCond %{REQUEST_URI} "^/dc/index.php/pages/FAQ"
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))navlang=(fr|en)&?(.*)&?$"
+RewriteRule "(.*)" "https://doc.galette.eu/%2/develop/faq/index.html?" [R=301,L]
+
+#Redirect french FAQ
+RewriteRule "^dc/index.php/pages/FAQ" "https://doc.galette.eu/fr/develop/faq/index.html?" [R=301,L]
+RewriteRule "^documentation/fr/faq/index.html" "https://doc.galette.eu/fr/develop/faq/index.html?" [R=301,L]
+RewriteRule "^documentation/fr/installation/galette.html" "https://doc.galette.eu/fr/master/installation/index.html" [R=301,L]
+
+#Override 404
+ErrorDocument 404 /site/404.html
+
+#redirect old feed
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))navlang=en&?(.*)&?$"
+RewriteRule "^dc/index.php/feed/atom$" "/site/feed.xml?" [R=301,L]
+RewriteRule "^dc/index.php/feed/atom$" "/site/fr/feed.xml?" [R=301,L]
+
+#redirect old pagination
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))navlang=en&?(.*)&?$"
+RewriteRule "^dc/index.php/page/(.*)$" "/site/posts/page/$1?" [R=301,L]
+RewriteRule "^dc/index.php/page/(.*)$" "/site/fr/posts/page/$1?" [R=301,L]
+
+#redirect old pages
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))navlang=en&?(.*)&?$"
+RewriteRule "^dc/index.php/(.*)$" "/site/$1?" [R=301,L]
+RewriteRule "^dc/index.php/(.*)$" "/site/fr/$1?" [R=301,L]
+
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))navlang=en&?(.*)&?$"
+RewriteRule "^dc/(index.php)?(.*)$" "/site/$2?" [R=301,L]
+RewriteRule "^dc/(index.php)?(.*)$" "/site/fr/$2?" [R=301,L]
+
+RewriteRule "^documentation/fr/(.*)$" "https://doc.galette.eu/fr/develop/$1" [R=301,L]

@@ -79,8 +79,7 @@ La gestion d'un projet comme Galette requiert qu'un certain nombre de solutions 
 * [listes de diffusion]({% tl contact %}#listes-de-discussion) : [VHFFS](https://vhffs.org)[^3], fournies par TuxFamily,
 * [système de vote]({{ site.galette.vote_url }}) : [Fider](https://fider.io), hébergé sur Fider,
 * [documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master) : générée par [Sphinx](https://www.sphinx-doc.org)[^4], hébergée chez [ReadTheDocs](https://rtfd.org),
-* [traductions]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org)[^5], hébergé chez Weblate.
-* [traduction documentation](https://translate.zanata.org/project/view/galettedoc/) : [Zanata](http://zanata.org)[^6], hébergé chez Zanata.
+* [traductions]({{ site.galette.trad_url }})[^5] et [traduction documentation]({{ site.galette.trad_url }})[^6] : [Weblate](https://weblate.org), hébergé chez Weblate.
 * Johan, hébergé chez lui :p
 
 Bien que ce ne soit pas un outil libre, [Galette possède des miroirs officiels sur GitHub](https://github.com/galette), pour plusieurs raisons :
