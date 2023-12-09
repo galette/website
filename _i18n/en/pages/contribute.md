@@ -64,11 +64,9 @@ If you want to complete documentation or add a fix, the way to go is the same as
 
 Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This is the goal of [different communication channels]({% tl contact %}), do not hesitate :)
 
-We advise you to read the [Galette development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) in order to get familiar with code and followed rules.
-
 Dive in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
 Anyway, try to ask with developer(s) who is certainly the more appropriate to help you on.
 
 Source code of all projects (Galette, plugins, documentation, website) is hosted on Git repositories, any Git applicable patch of any method would be OK. If you do not know how to proceed, maybe could you take a look on the corresponding GitHub mirror, some of them are already used for experimental features to prevent mess on the main repository. In GitHub case, we will use a PR (Pull Request) that will be reviewed by the development team.
 
-All [really useful information for Galette source code or plugins are available in development documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/git.html).
+All [really useful information for Galette source code or plugins are available in documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/source_code.html).

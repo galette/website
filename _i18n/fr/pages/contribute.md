@@ -64,11 +64,9 @@ Si vous souhaitez compléter la documentation ou y apporter une correction, le f
 
 Avant de vraiment vous lancer, veillez à vous assurer que votre fonctionnalité serait acceptée, ainsi que la manière dont vous souhaitez l'implémenter. Les [différents canaux de communication]({% tl contact %}) servent à ça, n'hésitez surtout pas :)
 
-Nous vous conseillons vivement de lire la [documentation de développement de Galette]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/) afin de vous familiariser un peu avec le code et les règles suivies.
-
 Mettre le nez dans le code, c'est la possibilité de contribution la plus technique. Les plugins seront certainement plus faciles à appréhender que Galette elle-même, la majorité d'entre eux est assez simple ; mais vous pouvez bien sûr proposer des modifications sur le cœur :)
 Dans tous les cas de figure, essayez de vous rapprocher du ou des développeur(s) qui sont certainement les personnes les plus à-même de vous aider.
 
 Le code source des différents projets (Galette, plugins, documentation site web) est hébergé dans des dépôts Git, n'importe quel patch applicable par Git fourni de n'importe quelle manière ira très bien. Si vous ne savez pas comment faire, peut-être pouvez vous vous tourner vers le miroir GitHub correspondant, certains d'entre eux sont déjà utilisés pour les travaux en incubation pour ne pas encombrer le dépôt principal. Dans le cas de GitHub, on passera par une PR (Pull Request) qui sera revue par l'équipe de développement.
 
-Toutes les [informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation de développement]({{ site.galette.doc_url }}/{{ site.lang }}/develop/development/git.html).
+Toutes les [informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/source_code.html).
