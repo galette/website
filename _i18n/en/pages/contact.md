@@ -25,6 +25,10 @@ Matrix is a quite recent communication protocol, which aims to be open and inter
 Room is accessible for everyone, archives are not public, you will just have access to the discussion which will happen after you've joined.
 It is automatically linked to the official IRC channel, you do not have anything more to do.
 
+### Discord
+
+You can also join [Galette Discord](https://discord.gg/98g2e3xka8) channel :)
+
 ### IRC
 
 IRC is a communication protocol that does exist from years (1988), which does well what we ask it (not much finally), and which is still widespread.
@@ -45,8 +49,6 @@ Available lists:
 
 * [users](https://listengine.tuxfamily.org/lists.galette.eu/users/): global discussions, help, FAQ
 * [development](https://listengine.tuxfamily.org/lists.galette.eu/devel): developer mailing list for more technical subjects
-* [translations](https://listengine.tuxfamily.org/galette.eu/translations/): discussions about translations only
-* [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : commits broadcast - *this is not a mailing list*
 
 ### Subscription/Unsubscription and usage
 
@@ -87,5 +89,4 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 * Twitter: [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
 * Reddit: [r/galette](https://www.reddit.com/r/galette/)
-* Discord: [Galette](https://discord.gg/98g2e3xka8)
 * Facebook: [Galette](https://www.facebook.com/galettesoft)

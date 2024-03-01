@@ -25,6 +25,10 @@ Matrix est un protocole de communication assez récent, qui se veut ouvert et tr
 L'accès au salon est ouvert à tous, les archives ne sont pas publiques, vous n'aurez accès qu'aux conversations qui ont eu lieu après que vous ayez rejoint le salon.
 Il est automatiquement lié au salon IRC officiel, vous n'avez rien de plus à faire.
 
+### Discord
+
+Vous pouvez également rejoindre le canal [Galette Discord](https://discord.gg/98g2e3xka8) :)
+
 ### IRC
 
 IRC est un protocole de communication qui existe depuis de nombreuses années (1988), qui fait très bien ce qu'on lui demande (pas grand chose somme toute), et qui est encore actuellement très répandu.
@@ -45,8 +49,6 @@ Les listes disponibles :
 
 * [utilisateurs](https://listengine.tuxfamily.org/lists.galette.eu/users/) : discussions générales, entraide, FAQ
 * [développement](https://listengine.tuxfamily.org/lists.galette.eu/devel) : liste de discussion développeurs pour les sujets plus techniques
-* [traductions](https://listengine.tuxfamily.org/galette.eu/translations/) : discussion autour des traductions
-* [commits](https://listengine.tuxfamily.org/lists.galette.eu/commits/) : diffusion des commits - *ceci n'est pas une liste de discussion*
 
 ### Inscription/Désinscription et utilisation
 
@@ -87,5 +89,4 @@ Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'ex
 * Twitter : [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
 * Reddit : [r/galette](https://www.reddit.com/r/galette/)
-* Discord : [Galette](https://discord.gg/98g2e3xka8)
 * Facebook : [Galette](https://www.facebook.com/galettesoft)
