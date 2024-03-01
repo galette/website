@@ -47,28 +47,23 @@ In order to send or receive messages from the list, you **absolutely must be sub
 
 Available lists:
 
-* [users](https://listengine.tuxfamily.org/lists.galette.eu/users/): global discussions, help, FAQ
-* [development](https://listengine.tuxfamily.org/lists.galette.eu/devel): developer mailing list for more technical subjects
+* [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/): global discussions, help, FAQ
+* [development](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/): developer mailing list for more technical subjects
 
 ### Subscription/Unsubscription and usage
 
-Mailing lists have two distinct email addresses:
+To subscribe to one of the mailing list, you have several options (see above links):
+* from web UI, create an account on mailman3 and then subscribe to lists you want to;
+* from web UI, just subscribe with your email;
+* send an email to the administrative address.
 
-* list address, <users@lists.galette.eu> as example, you will use to send a message to the list, and that will be the sender of the messages you will receive,
-* administrative address, which is made up of list name followed by `-request`, <users-request@lists.galette.eu> as example, you will use **to subscribe or unsubscribe**. Action is defined in the email subject; this can be "subscribe", "unsubscribe" or "help" (do not add anything else in the subject).
+You can also view and search in lists archives; or even send new messages or answer an existing one using the web UI:
+* [for users list](https://lists.mailman3.com/hyperkitty/list/galette-users@mailman3.com/),
+* [for development list](https://lists.mailman3.com/hyperkitty/list/galette-devel@mailman3.com/).
 
-Therefore, to [unsubscribe from the users mailing list](mailto:users-request@lists.galette.eu?subject=unsubscribe) just send an email with "unsubscribe" as subject (without quotes!) to administrative address.
-To [subscribe to Galette users](mailto:users-request@lists.galette.eu?subject=subscribe), just replace "unsubscribe" in the object with "subscribe" :-)
+### Old archives
 
-When you send a message to the administrative address to subscribe or unsubscribe, you must have a confirmation message you have to answer to finalize the operation.
-
-If you do not receive that message, this is abnormal; operation is not finalized.
-
-Double check you spam directories, and try again. If the problem remains, try to [contact TuxFamily directly](https://www.tuxfamily.org/en/contact) or contact us from another method (we will contact TuxFamily :D).
-
-To use the list, send a message to its main address, and that's all. To start a new discussion thread, please write a new email rather than answering to an existing one (changing email subject does not mislead the list system ;)); just answer otherwise.
-
-When you send a message to the list, you must receive it as well. If you do not, something is wrong.
+Since 2024-03-01, we use a new mailing list system.
 
 The most simple and reliable way to [search on past Galette related discussion](https://www.mail-archive.com/search?l=all&q=galette&a=1) is to make a query on mail archive services.
 

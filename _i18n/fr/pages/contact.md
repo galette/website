@@ -47,28 +47,23 @@ Afin d'envoyer ou de recevoir des messages d'une liste, vous devez **impérative
 
 Les listes disponibles :
 
-* [utilisateurs](https://listengine.tuxfamily.org/lists.galette.eu/users/) : discussions générales, entraide, FAQ
-* [développement](https://listengine.tuxfamily.org/lists.galette.eu/devel) : liste de discussion développeurs pour les sujets plus techniques
+* [utilisateurs](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/) : discussions générales, entraide, FAQ
+* [développement](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/) : liste de discussion développeurs pour les sujets plus techniques
 
 ### Inscription/Désinscription et utilisation
 
-Les listes de diffusion possèdent deux adresses différentes :
+Pour vous inscrire à une liste de difusion, vous avez plusieurs options (voir les liens ci-dessus) :
+* depuis l'interface web, créez un compte sur mailman3 et ensuite abonnez vous aux listes que vous souhaitez ;
+* depuis l'interface web, abonnez vous simplement avec votre email ;
+* envoyez un email à l'adresse administrative.
 
-* l'adresse de la liste, <users@lists.galette.eu> par exemple, que vous utiliserez pour envoyer un message à la liste, et qui sera l'expéditeur des messages que vous recevrez,
-* l'adresse administrative, composée du nom de la liste suivi de `-request`, <users-request@lists.galette.eu> par exemple, que vous utiliserez **pour vous abonner ou vous désabonner**. L'action est définie par l'objet du courriel, qui peut être "subscribe", "unsubscribe" ou "help" (n'ajoutez rien d'autre à l'objet).
+Vous pouvez également consulter et rechercher dans les archives des listes ; ou encore envoyer de nouveau messages ou répondre à un message existant en utlisant l'interface web :
+* [pour la liste des utilisateurs](https://lists.mailman3.com/hyperkitty/list/galette-users@mailman3.com/),
+* [pour la liste développement](https://lists.mailman3.com/hyperkitty/list/galette-devel@mailman3.com/).
 
-De cette façon, pour vous [désinscrire de la liste de discussion utilisateurs](mailto:users-request@lists.galette.eu?subject=unsubscribe), envoyez simplement un courriel ayant pour objet "unsubscribe" (sans les guillemets !) à l'adresse administrative.
-Pour vous [inscrire à la liste Galette utilisateurs](mailto:users-request@lists.galette.eu?subject=subscribe), remplacez "unsubscribe" par "subscribe" :-)
+### Anciennes archives
 
-Lorsque vous envoyez un courriel à l’adresse administrative de la liste pour vous abonner ou vous désabonner, vous devez recevoir un message de confirmation auquel vous devrez répondre pour que l'opération soit finalisée.
-
-Si vous ne recevez pas ce message, ce n'est pas normal ; l'opération n'est pas terminée.
-
-Vérifiez bien vos dossiers de spam, et ré-essayez. Si le problème persiste, essayez de [contacter directement TuxFamily](https://www.tuxfamily.org/fr/contact) ou contactez-nous par un autre biais (nous contacterons TuxFamily :D).
-
-Pour utiliser la liste, envoyez un message à son adresse principale, et c'est tout. Pour commencer une nouvelle conversation, il convient généralement de rédiger un nouveau courriel plutôt que de répondre à un message existant (changer le sujet ne trompe pas la liste ;)) ; il suffit juste de répondre sinon.
-
-Lorsque vous envoyez un message sur la liste, vous devez le recevoir également. Si ce n'est pas le cas, ce n'est pas normal.
+Depuis le 1er mars 2024, nous utilisons un nouveau système de listes de diffusion.
 
 La manière la plus simple et fiable [d'effectuer une recherche dans les discussions passées relatives à Galette](https://www.mail-archive.com/search?l=all&q=galette&a=1>) est de faire une requête via les services de mail archive.
 
