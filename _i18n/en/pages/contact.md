@@ -81,7 +81,6 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 
 **Please do not ask for support!**
 
-* Twitter: [@galette_soft](https://twitter.com/galette_soft)
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
-* Reddit: [r/galette](https://www.reddit.com/r/galette/)
+* Twitter: [@galette_soft](https://twitter.com/galette_soft) (is Twitter still alive?)
 * Facebook: [Galette](https://www.facebook.com/galettesoft)
