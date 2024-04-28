@@ -1,1 +1,51 @@
-{}
+global:
+  next: Seguinte
+  built: Criado com
+  subscribe_rss: Feed RSS
+  toc: Tabela de conteúdos
+  nextpost: Ir para publicação seguinte
+  prevpost: Ir para publicação anterior
+  date_format: '%Y-%m-%d'
+  donate: Doe
+  tosupport: para apoiar!
+  slogan: Galette - Gestão da Web de membros e associações para associações
+  twitter: X
+  About: Sobre
+  tagline: Portuguese (PT)
+  previous: Anterior
+  page: Página
+  of: de
+  license: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+share:
+  facebook: Partilhar via Facebook
+  twitter: Partilhar via X
+  email: Partilhar por ''e-mail''
+langs:
+  en: Inglês
+  fr: Francês
+pages:
+  about: Sobre
+  home: Início
+  contribute: Contribuir
+  contact: Contactar
+  posts: Publicações
+  notfound: Página não encontrada :(
+  descriptions:
+    home: Aplicação de gestão de membros da Web de código aberto para associações
+  titles:
+    contribute: Contribuir para Galette
+    about: Sobre e histórico de Galette
+menus:
+  main: Navegar
+  faq: Perguntas Mais Frequentes
+  bugs: Erros e Tarefas
+  demo: Demonstração
+  doc: Documentação
+  docinstall: Guia de instalação
+  docuser: Manual do utilizador
+  docplugins: Plug-ins
+tags:
+  release: Estável
+  rc: Teste
+  sponsored: Patrocinadas
+  poissons: 1.º de abril
