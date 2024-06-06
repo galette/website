@@ -17,6 +17,32 @@ RewriteRule "^dc/index.php/pages/FAQ" "https://doc.galette.eu/fr/develop/faq/ind
 RewriteRule "^documentation/fr/faq/index.html" "https://doc.galette.eu/fr/develop/faq/index.html?" [R=301,L]
 RewriteRule "^documentation/fr/installation/galette.html" "https://doc.galette.eu/fr/master/installation/index.html" [R=301,L]
 
+#redirect changelog
+RewriteCond %{REQUEST_URI} "^/en/doku.php"
+RewriteCond "%{QUERY_STRING}" "(.*(?:^|&))id=changelog&?(.*)&?$"
+RewriteRule "(.*)" "https://doc.galette.eu/en/master/changelog.html" [R=301,L]
+
+#specific URLs
+RewriteRule "^en/$" "/site/" [R=301,L]
+RewriteRule "^en$" "/site/" [R=301,L]
+RewriteRule "^dc$" "/site/" [R=301,L]
+RewriteRule "^fr/$" "/site/fr/" [R=301,L]
+RewriteRule "^fr$" "/site/fr/" [R=301,L]
+RewriteRule "^dc/index.php/pages/%C3%80-propos?navlang=en" "/site/about/" [R=301,L]
+RewriteRule "^dc/index.php/pages/%C3%80-propos?navlang=fr" "/site/fr/a-propos/" [R=301,L]
+RewriteRule "^site/pages/À-propos" "/site/about/" [R=301,L]
+RewriteRule "^site/fr/pages/À-propos" "/site/fr/a-propos/" [R=301,L]
+RewriteRule "^site/pages/Histoire" "/site/about/" [R=301,L]
+RewriteRule "^site/fr/pages/Histoire" "/site/fr/a-propos/" [R=301,L]
+RewriteRule "^dc/index.php/pages/Contact?navlang=en" "/site/contact/" [R=301,L]
+RewriteRule "^dc/index.php/pages/Contact?navlang=fr" "/site/fr/contact/" [R=301,L]
+RewriteRule "^site/pages/Contact" "/site/contact/" [R=301,L]
+RewriteRule "^site/fr/pages/Contact" "/site/fr/contact/" [R=301,L]
+RewriteRule "^site/fr/post/2013/10/19/Galette-0.7.6-:-subventionnée-par-Lo" "/site/fr/post/2013/10/19/galette-0-7-6-lois-sponsored.html" [R=301,L]
+RewriteRule "^site/fr/post/2012/12/19/Galette-0.7.2.8-:-coup-de-boost" "/site/fr/post/2012/12/19/0-7-2-8-boosted-galette.html" [R=301,L]
+RewriteRule "^site/fr/post/2013/02/23/Galette-0.7.4-:-Exsequenda-re-subventionne-!" "/site/fr/post/2013/02/23/galette-0-7-4-exsequenda-re-sponsored.html" [R=301,L]
+RewriteRule "^site/fr/post/2013/01/01/Galette-0.7.3-:-Exsequenda-subventionne-!" "/site/fr/post/2013/01/01/galette-0-7-3-exsequenda-sponsored.html" [R=301,L]
+
 #Override 404
 ErrorDocument 404 /site/404.html
 
