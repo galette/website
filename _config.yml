@@ -70,9 +70,9 @@ responsive_image:
 #   - vendor/ruby/
 
 galette:
-  last_release: 1.0.4
+  last_release: 1.1.0
   #stable_url: https://download.tuxfamily.org/galette/galette-1.0.4.tar.bz2
-  stable_url: https://galette.eu/download/galette-1.0.4.tar.bz2
+  stable_url: https://galette.eu/download/galette-1.1.0.tar.bz2
   #nightly_url: https://download.tuxfamily.org/galette/galette-dev.tar.bz2
   nightly_url: https://galette.eu/download/galette-dev.tar.bz2
   doc_url: https://doc.galette.eu
