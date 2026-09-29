@@ -38,7 +38,8 @@ body > header:first-child {
       width: 208px;
       height: $galette-header-h;
       background: url(/site/assets/images/galette.png) top left no-repeat;
-      text-indent: 210px;
+      /* contains the .sr-only label, which would otherwise widen the page */
+      position: relative;
       overflow: hidden;
     }
   }
