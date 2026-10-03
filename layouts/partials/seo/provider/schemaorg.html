@@ -16,7 +16,7 @@
                     {{- end }} | {{ .Site.Title }}",
                 "description": "{{ .Description }}",
                 "url": "{{ .Permalink }}",
-                "image": "{{ absURL "assets/images/og_image.jpg" }}",
+                "image": "{{ absURL (.Params.image | default "assets/images/og_image.jpg") }}",
                 "inLanguage": "{{ .Lang }}",
                 {{ if (and .IsPage (eq .Type "posts")) }}
                     "author": {
