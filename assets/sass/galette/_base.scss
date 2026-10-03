@@ -66,6 +66,16 @@ img {
     max-width: 100%;
 }
 
+/* Illustration heading a post, such as a seasonal logo */
+.post-logo {
+    text-align: center;
+    margin: 1em auto;
+
+    img {
+        height: auto;
+    }
+}
+
 .download-badge {
     text-align: center;
     margin: 1.5em auto;
