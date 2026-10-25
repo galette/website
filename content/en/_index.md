@@ -10,7 +10,7 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
     <div>
         <ul>
             <li><a href="{{< relref "members.md" >}}"><strong>Membership management</strong></a></li>
-            <li>Contribution and transaction management</li>
+            <li><a href="{{< relref "fees.md" >}}">Contribution</a> and transaction management</li>
             <li>Group and manager management</li>
             <li>Imports and exports (<strong>open formats</strong>)</li>
             <li>Increased accessibility (use and <strong>respect of web standards</strong>)</li>

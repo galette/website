@@ -27,7 +27,7 @@ Galette runs on your own hosting: your members data is not sold, not used for ad
 
 ## Designed for associations
 
-Galette focuses on the day-to-day life of an association: [membership management]({{< relref "members.md" >}}), contributions and their due dates, reminders, mailings, cards and receipts as PDF. It has been chosen not to make it an accounting software, to keep it simple and good at what it does.
+Galette focuses on the day-to-day life of an association: [membership management]({{< relref "members.md" >}}), [contributions]({{< relref "fees.md" >}}) and their due dates, reminders, mailings, cards and receipts as PDF. It has been chosen not to make it an accounting software, to keep it simple and good at what it does.
 
 What goes beyond this scope comes with {{< doclink path="plugins/index.html" >}}plugins{{< /doclink >}}: online payment, events, objects lending, car club management…
 

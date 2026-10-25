@@ -10,7 +10,7 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
     <div>
         <ul>
             <li><a href="{{< relref "members.md" >}}"><strong>Gestion des adhérents</strong></a></li>
-            <li>Gestion des cotisations et transactions</li>
+            <li><a href="{{< relref "fees.md" >}}">Gestion des cotisations</a> et transactions</li>
             <li>Gestion de groupes et de responsables</li>
             <li>Imports et exports (<strong>formats ouverts</strong>)</li>
             <li>Accessibilité accrue (utilisation et <strong>respect des standards</strong> du web)</li>
