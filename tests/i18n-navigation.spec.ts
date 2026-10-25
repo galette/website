@@ -56,6 +56,7 @@ const pagesEN = [
   { url: '/contribute/', title: 'Contribute' },
   { url: '/posts/', title: 'Posts' },
   { url: '/membership-management/', title: 'Membership management' },
+  { url: '/why-galette/', title: 'Why Galette?' },
 ];
 
 const pagesFR = [
@@ -65,6 +66,7 @@ const pagesFR = [
   { url: '/fr/contribuer/', title: 'Contribuer' },
   { url: '/fr/posts/', title: 'Publications' },
   { url: '/fr/gestion-des-adherents/', title: 'Gestion des adhérents' },
+  { url: '/fr/pourquoi-galette/', title: 'Pourquoi Galette ?' },
 ];
 
 // Menus identifiers to test (except tracker and demo)
