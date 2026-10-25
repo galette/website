@@ -1,5 +1,13 @@
 <title>{{ if .IsHome }}{{ i18n "global.home_title_seo" }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
 <meta name="description" content="{{ .Description }}">
 <link rel="canonical" href="{{ .Permalink }}" />
+{{- if .IsTranslated }}
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+{{- if eq .Lang hugo.Sites.Default.Language.Lang }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+{{- end }}
+{{- end }}
+{{- end }}
 {{ partial "seo/provider/opengraph" . }}
 {{ partial "seo/provider/schemaorg" . }}
