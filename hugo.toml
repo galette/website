@@ -27,6 +27,33 @@ defaultContentLanguage = 'en'
     pageRef = "/"
     weight = 10
   [[menus.main]]
+    identifier = "why"
+    pageRef = "/why"
+    weight = 14
+  [[menus.main]]
+    identifier = "features"
+    weight = 15
+  [[menus.main]]
+    identifier = "members"
+    parent = "features"
+    pageRef = "/members"
+    weight = 2
+  [[menus.main]]
+    identifier = "fees"
+    parent = "features"
+    pageRef = "/fees"
+    weight = 3
+  [[menus.main]]
+    identifier = "communication"
+    parent = "features"
+    pageRef = "/communication"
+    weight = 4
+  [[menus.main]]
+    identifier = "plugins"
+    parent = "features"
+    pageRef = "/plugins"
+    weight = 5
+  [[menus.main]]
     identifier = "about"
     pageRef = "/about"
     weight = 20

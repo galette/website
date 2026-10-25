@@ -73,7 +73,8 @@ aside#sidebar .main-menu {
     ul {
         min-height: 100%;
 
-        li a {
+        li a,
+        li .menu-section {
             color: $light-text-color;
             padding: 5vw 15vw;
             border-bottom: 1px solid $galette-dark-orange;
@@ -83,6 +84,10 @@ aside#sidebar .main-menu {
             &:focus {
               background: rgba(0, 0, 0, 0.1);
             }
+        }
+
+        li li a {
+            padding-left: 22vw;
         }
     }
 
@@ -159,7 +164,8 @@ aside#sidebar .main-menu {
         background: none;
 
         ul {
-            li a {
+            li a,
+            li .menu-section {
                 color: $text-color;
                 padding: .2em .3em;
                 border-bottom: none;
@@ -168,6 +174,10 @@ aside#sidebar .main-menu {
                     color: $galette-blue;
                 }
 
+            }
+
+            li li a {
+                padding-left: 1.3em;
             }
         }
     }

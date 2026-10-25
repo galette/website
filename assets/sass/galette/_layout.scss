@@ -208,9 +208,19 @@ aside#sidebar {
                 background: $galette-light-grey;
             }
         }
+
+        /* Title of a group of entries, which is not a page itself */
+        .menu-section {
+            display: block;
+            padding: .2em .3em;
+        }
+
+        li a {
+            padding-left: 1.3em;
+        }
     }
 
-    .main-menu li.active a {
+    .main-menu li.active > a {
         border-bottom: 1px solid $galette-orange;
     }
 }

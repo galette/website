@@ -72,6 +72,18 @@ menus.main:
   other: "Navigate"
 menus.home:
   other: "Home"
+menus.features:
+  other: "Features"
+menus.why:
+  other: "Why Galette?"
+menus.members:
+  other: "Members"
+menus.fees:
+  other: "Membership fees"
+menus.communication:
+  other: "Communication"
+menus.plugins:
+  other: "Plugins"
 menus.about:
   other: "About"
 menus.posts:
