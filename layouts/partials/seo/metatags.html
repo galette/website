@@ -1,4 +1,4 @@
-<title>{{ if .IsHome }}{{ i18n "global.home_title_seo" }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
+<title>{{ partial "seo/title" . }}</title>
 <meta name="description" content="{{ .Description }}">
 <link rel="canonical" href="{{ .Permalink }}" />
 {{- if .IsTranslated }}

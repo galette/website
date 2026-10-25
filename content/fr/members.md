@@ -1,5 +1,6 @@
 ---
 title: "Gestion des adhérents"
+seo_title: "Logiciel de gestion des adhérents libre et gratuit"
 slug: "gestion-des-adherents"
 description: "Logiciel libre et gratuit de gestion des adhérents pour associations : fiches personnalisables, recherches, groupes, mailings, cartes et étiquettes, espace adhérent et inscription en ligne."
 ---

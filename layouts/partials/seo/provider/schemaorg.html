@@ -8,12 +8,7 @@
                 {{ else }}
                     "@type": "WebPage",
                 {{ end }}
-                "headline": "
-                    {{- if .IsHome -}}
-                        {{ i18n "global.home_title_seo" }}
-                    {{- else -}}
-                        {{ .Title }}
-                    {{- end }} | {{ .Site.Title }}",
+                "headline": "{{ partial "seo/title" . }}",
                 "description": "{{ .Description }}",
                 "url": "{{ .Permalink }}",
                 "image": "{{ absURL (.Params.image | default "assets/images/og_image.jpg") }}",
