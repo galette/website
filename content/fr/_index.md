@@ -17,7 +17,7 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
             <li>Configuration des fiches et des listes</li>
             <li>Ajout de <strong>champs dynamiques</strong> aux fiches adhérents, contributions et transactions</li>
             <li>Multilingue</li>
-            <li><strong>Support de plugins</strong></li>
+            <li><a href="{{< relref "plugins.md" >}}"><strong>Support de plugins</strong></a></li>
             <li>...</li>
         </ul>
         {{< img_link path="/site/assets/images/screenshots/edit_member.png" alt="Capture écran modification adhérent" >}}

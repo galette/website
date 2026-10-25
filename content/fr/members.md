@@ -43,7 +43,7 @@ Si vous l'activez, un **formulaire d'inscription en ligne** permet aux nouveaux 
 
 ## Et après ?
 
-La gestion des adhérents va de pair avec celle des [**cotisations**]({{< relref "fees.md" >}}) : Galette calcule les échéances, relance les retardataires et édite les reçus. Des [plugins]({{< param "galette_doc_url" >}}/fr/master/plugins/index.html) ajoutent le paiement en ligne, la gestion d'événements, le prêt de matériel, et bien d'autres choses.
+La gestion des adhérents va de pair avec celle des [**cotisations**]({{< relref "fees.md" >}}) : Galette calcule les échéances, relance les retardataires et édite les reçus. Des [plugins]({{< relref "plugins.md" >}}) ajoutent le paiement en ligne, la gestion d'événements, le prêt de matériel, et bien d'autres choses.
 
 Pour aller plus loin :
 

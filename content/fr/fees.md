@@ -35,7 +35,7 @@ Vous pouvez envoyer les relances depuis le tableau de bord, ou les **automatiser
 * Une **transaction** regroupe un paiement unique réparti sur plusieurs cotisations : le chèque d'une famille qui paie trois adhésions et un don, par exemple.
 * Les **paiements échelonnés** répartissent une cotisation en plusieurs versements.
 * Chaque cotisation peut produire son **reçu** ou sa **facture** en PDF, sur un modèle que vous personnalisez ; les adhérents les retrouvent dans leur espace.
-* Le **paiement en ligne** s'ajoute avec les plugins [HelloAsso](https://galette-plugins.github.io/plugin-helloasso/) et [Stripe](https://galette-plugins.github.io/plugin-stripe/) : la cotisation est enregistrée dès que le paiement est validé.
+* Le **paiement en ligne** s'ajoute avec les [plugins]({{< relref "plugins.md" >}}) [HelloAsso](https://galette-plugins.github.io/plugin-helloasso/) ou [Stripe](https://galette-plugins.github.io/plugin-stripe/) : la cotisation est enregistrée dès que le paiement est validé.
 
 ## Et le reste ?
 

@@ -29,7 +29,7 @@ Galette tourne sur votre hébergement : les données de vos adhérents ne sont n
 
 Galette se concentre sur ce qui fait le quotidien d'une association : la [gestion des adhérents]({{< relref "members.md" >}}), [les cotisations]({{< relref "fees.md" >}}) et leurs échéances, les relances, [les mailings]({{< relref "communication.md" >}}), les cartes et reçus en PDF. Le choix a été fait de ne pas en faire un logiciel de comptabilité, pour rester simple et bien faire ce qu'il fait.
 
-Ce qui sort de ce périmètre passe par des {{< doclink path="plugins/index.html" >}}plugins{{< /doclink >}} : paiement en ligne, événements, prêt de matériel, gestion d'un club automobile…
+Ce qui sort de ce périmètre passe par des [plugins]({{< relref "plugins.md" >}}) : paiement en ligne, événements, prêt de matériel, gestion d'un club automobile…
 
 Galette est traduit dans une vingtaine de langues par sa communauté, sur [Weblate]({{% param "galette_trad_url" %}}) ; chaque adhérent utilise la langue de son choix.
 
