@@ -29,7 +29,7 @@ Galette runs on your own hosting: your members data is not sold, not used for ad
 
 Galette focuses on the day-to-day life of an association: [membership management]({{< relref "members.md" >}}), [contributions]({{< relref "fees.md" >}}) and their due dates, reminders, [mailings]({{< relref "communication.md" >}}), cards and receipts as PDF. It has been chosen not to make it an accounting software, to keep it simple and good at what it does.
 
-What goes beyond this scope comes with {{< doclink path="plugins/index.html" >}}plugins{{< /doclink >}}: online payment, events, objects lending, car club management…
+What goes beyond this scope comes with [plugins]({{< relref "plugins.md" >}}): online payment, events, objects lending, car club management…
 
 Galette is translated in about twenty languages by its community, on [Weblate]({{% param "galette_trad_url" %}}); each member uses the language of their choice.
 

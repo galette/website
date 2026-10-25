@@ -59,6 +59,7 @@ const pagesEN = [
   { url: '/why-galette/', title: 'Why Galette?' },
   { url: '/membership-fees-management/', title: 'Membership fees management' },
   { url: '/member-communication/', title: 'Communication with members' },
+  { url: '/plugins/', title: 'Plugins' },
 ];
 
 const pagesFR = [
@@ -71,6 +72,7 @@ const pagesFR = [
   { url: '/fr/pourquoi-galette/', title: 'Pourquoi Galette ?' },
   { url: '/fr/gestion-des-cotisations/', title: 'Gestion des cotisations' },
   { url: '/fr/communication-adherents/', title: 'Communication avec les adhérents' },
+  { url: '/fr/plugins/', title: 'Plugins' },
 ];
 
 // Menus identifiers to test (except tracker and demo)

@@ -35,7 +35,7 @@ You can send reminders from the dashboard, or **automate** them with a scheduled
 * A **transaction** groups a single payment dispatched among several contributions: the check of a family paying three memberships and a donation, for example.
 * **Scheduled payments** split a contribution into several installments.
 * Each contribution can produce its **receipt** or **invoice** as PDF, from a model you customize; members find them in their own space.
-* **Online payment** comes with the [HelloAsso](https://galette-plugins.github.io/plugin-helloasso/) and [Stripe](https://galette-plugins.github.io/plugin-stripe/) plugins: the contribution is recorded as soon as the payment is validated.
+* **Online payment** comes with [HelloAsso](https://galette-plugins.github.io/plugin-helloasso/) or [Stripe](https://galette-plugins.github.io/plugin-stripe/) [plugins]({{< relref "plugins.md" >}}): the contribution is recorded as soon as the payment is validated.
 
 ## What about the rest?
 

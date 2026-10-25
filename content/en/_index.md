@@ -17,7 +17,7 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
             <li>Form and list configuration</li>
             <li>Addition of <strong>dynamic fields</strong> to member, contribution, and transaction forms</li>
             <li>Multilingual</li>
-            <li><strong>Plugin support</strong></li>
+            <li><a href="{{< relref "plugins.md" >}}"><strong>Plugin support</strong></a></li>
             <li>...</li>
         </ul>
         {{< img_link path="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot" >}}
