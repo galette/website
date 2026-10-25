@@ -7,7 +7,12 @@
         <header>
             <div class="header-wrapper">
                 <div class="header-title">
+                    {{- /* Home page main heading is the slogan, in the page content */ -}}
+                    {{ if .IsHome }}
+                    <p class="page-title">{{ .Title }}</p>
+                    {{ else }}
                     <h1>{{ .Title }}</h1>
+                    {{ end }}
                 </div>
                 {{ partial "langselector.html" . }}
             </div>

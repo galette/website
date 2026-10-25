@@ -1,7 +1,7 @@
 <footer>
     {{ i18n "global.built" }} <a href="https://gohugo.io/">Hugo</a> -
     <a href="https://creativecommons.org/licenses/by-sa/4.0" title="{{ i18n "global.license" }}">CC BY-SA 4.0</a> -
-    <a rel="cc:attributionURL" href="https://galette.eu"><span rel="cc:attributionName">© Johan Cwiklinski</span></a>
+    <a rel="cc:attributionURL" href="{{ .Site.Home.Permalink }}"><span rel="cc:attributionName">© Johan Cwiklinski</span></a>
     <br/>
     {{ partial "social.html" . }}
 </footer>

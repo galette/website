@@ -67,11 +67,17 @@ main.wrapper {
             gap: 1em;
             flex-wrap: wrap;
 
-            h1 {
+            h1, .page-title {
                 display: inline-block;
                 border-bottom: 1px solid $galette-orange;
                 line-height: 1.2em;
                 margin: .1em 0;
+            }
+
+            /* Looks like the other pages heading, the home page one being the slogan */
+            .page-title {
+                font-size: 2em;
+                font-weight: bold;
             }
         }
     }
