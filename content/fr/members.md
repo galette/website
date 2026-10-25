@@ -27,7 +27,7 @@ Les adhérents se rangent aussi en **groupes** et sous-groupes (sections, équip
 
 ## Agir sur une sélection
 
-Une fois la sélection faite, tout se passe depuis la liste :
+Une fois la sélection faite, tout se passe depuis la liste ([en savoir plus sur la communication]({{< relref "communication.md" >}})) :
 
 * **mailings** aux adhérents, en texte ou HTML, avec pièces jointes, enregistrés pour servir de modèle ; les gros envois sont découpés en lots pour respecter les limites de votre serveur de messagerie,
 * **étiquettes** pour les envois postaux, proposées d'office pour les adhérents sans email,

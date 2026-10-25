@@ -26,7 +26,7 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
         <ul>
             <li><strong>Recherche</strong> simple et avancée</li>
             <li>Calcul de <strong>l'échéance des adhésions</strong></li>
-            <li><strong>Mailings</strong> adhérents</li>
+            <li><a href="{{< relref "communication.md" >}}"><strong>Mailings</strong> adhérents</a></li>
             <li>Edition d'étiquettes (pour envois postaux)</li>
             <li>Fiches adhérents avec photo (facultative)</li>
             <li>Chaque adhérent peut modifier sa fiche</li>

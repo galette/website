@@ -26,7 +26,7 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
         <ul>
             <li>Simple and advanced <strong>search</strong></li>
             <li>Calculation of <strong>membership expiration</strong></li>
-            <li>Member <strong>mailings</strong></li>
+            <li><a href="{{< relref "communication.md" >}}">Member <strong>mailings</strong></a></li>
             <li>Label printing (for postal mailings)</li>
             <li>Member forms with photos (optional)</li>
             <li>Each member can modify their own form</li>
