@@ -55,6 +55,7 @@ const pagesEN = [
   { url: '/contact/', title: 'Contact' },
   { url: '/contribute/', title: 'Contribute' },
   { url: '/posts/', title: 'Posts' },
+  { url: '/membership-management/', title: 'Membership management' },
 ];
 
 const pagesFR = [
@@ -63,6 +64,7 @@ const pagesFR = [
   { url: '/fr/contact/', title: 'Contact' },
   { url: '/fr/contribuer/', title: 'Contribuer' },
   { url: '/fr/posts/', title: 'Publications' },
+  { url: '/fr/gestion-des-adherents/', title: 'Gestion des adhérents' },
 ];
 
 // Menus identifiers to test (except tracker and demo)
