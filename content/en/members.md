@@ -27,7 +27,7 @@ Members can also be sorted into **groups** and sub-groups (sections, teams, comm
 
 ## Act on a selection
 
-Once the selection is made, everything happens from the list:
+Once the selection is made, everything happens from the list ([more about communication]({{< relref "communication.md" >}})):
 
 * **mailings** to members, as text or HTML, with attachments, stored to be used as templates; large mailings are split into batches to respect the limits of your mail server,
 * **labels** for postal mailings, proposed right away for members without an email address,
