@@ -72,6 +72,18 @@ menus.main:
   other: "Navigation"
 menus.home:
   other: "Accueil"
+menus.features:
+  other: "Fonctionnalités"
+menus.why:
+  other: "Pourquoi Galette ?"
+menus.members:
+  other: "Adhérents"
+menus.fees:
+  other: "Cotisations"
+menus.communication:
+  other: "Communication"
+menus.plugins:
+  other: "Plugins"
 menus.about:
   other: "À propos"
 menus.posts:
