@@ -1,10 +1,5 @@
 {{/* Open Graph required properties */}}
-<meta property="og:title" content="
-    {{- if .IsHome -}}
-        {{ i18n "global.home_title_seo" }}
-    {{- else -}}
-        {{ .Title }}
-    {{- end }} | {{ .Site.Title }}">
+<meta property="og:title" content="{{ partial "seo/title" . }}">
 <meta property="og:type" content="
     {{- if (and .IsPage (eq .Type "posts")) -}}
         article

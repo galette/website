@@ -1,0 +1,8 @@
+{{- /* Title for search engines and social networks: a page can set a more descriptive one than its heading with seo_title */ -}}
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = i18n "global.home_title_seo" -}}
+{{- else -}}
+  {{- with .Params.seo_title }}{{ $title = . }}{{ end -}}
+{{- end -}}
+{{- return printf "%s | %s" $title .Site.Title -}}

@@ -1,5 +1,6 @@
 ---
 title: "Membership management"
+seo_title: "Free and open source membership management software"
 slug: "membership-management"
 description: "Free and open source membership management software for associations: customizable member cards, searches, groups, mailings, cards and labels, member area and online registration."
 ---
