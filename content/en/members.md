@@ -43,7 +43,7 @@ When you enable it, an **online registration form** lets newcomers sign up by th
 
 ## What's next?
 
-Membership management goes hand in hand with **contributions** management: Galette computes due dates, reminds late members and generates receipts. [Plugins]({{< param "galette_doc_url" >}}/en/master/plugins/index.html) add online payment, events management, objects lending, and much more.
+Membership management goes hand in hand with [**contributions**]({{< relref "fees.md" >}}) management: Galette computes due dates, reminds late members and generates receipts. [Plugins]({{< param "galette_doc_url" >}}/en/master/plugins/index.html) add online payment, events management, objects lending, and much more.
 
 To go further:
 
