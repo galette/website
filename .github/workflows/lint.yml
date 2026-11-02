@@ -34,6 +34,14 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # Check all Markdown, HTML and reStructuredText files in repo (default)
-          args: --verbose --no-progress './public/**/*.html' -b https://galette.eu/
+          # Pages of the site itself are checked against the build, not online,
+          # so that pages added by a pull request are not reported as missing.
+          # On pull requests, a release tarball is not uploaded yet.
+          args: >-
+            --verbose --no-progress
+            --base-url https://galette.eu/
+            --remap '^https://galette\.eu/site/ file://${{ github.workspace }}/public/'
+            --index-files index.html
+            ${{ github.event_name == 'pull_request' && '--exclude "^https://galette\.eu/download/"' || '' }}
+            './public/**/*.html'
           fail: true
