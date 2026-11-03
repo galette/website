@@ -208,3 +208,38 @@ test.describe('French pages', () => {
   }
 });
 
+
+// ==============================================================================
+// Tests for RSS feeds channel metadata
+// ==============================================================================
+
+test.describe('RSS feeds', () => {
+  const feeds = [
+    { url: '/feed.xml', lang: 'en', translations: translationsEN },
+    { url: '/fr/feed.xml', lang: 'fr', translations: translationsFR },
+  ];
+
+  for (const feed of feeds) {
+    test(`[i18n-${feed.lang.toUpperCase()}] ${feed.url} - valid XML with localized channel`, async ({ page: playwright, request }) => {
+      const response = await request.get(feed.url);
+      expect(response.ok(), `${feed.url} should be reachable`).toBeTruthy();
+      const content = await response.text();
+
+      const channel = await playwright.evaluate((xml) => {
+        const doc = new DOMParser().parseFromString(xml, 'application/xml');
+        return {
+          error: doc.querySelector('parsererror')?.textContent ?? null,
+          description: doc.querySelector('channel > description')?.textContent ?? null,
+          language: doc.querySelector('channel > language')?.textContent ?? null,
+        };
+      }, content);
+
+      expect(channel.error, `${feed.url} should be valid XML`).toBeNull();
+      expect(channel.language, `${feed.url} language should be ${feed.lang}`).toBe(feed.lang);
+
+      const expectedDescription = feed.translations['global.slogan']?.other;
+      expect(expectedDescription, `Translation global.slogan should exist in ${feed.lang}.yaml`).toBeDefined();
+      expect(channel.description, `${feed.url} description should be localized`).toBe(expectedDescription);
+    });
+  }
+});
