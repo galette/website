@@ -6,6 +6,7 @@ aliases:
 date: 2017-10-25 17:58:10 +0100
 layout: post
 title: Ouverture des forums de discussion
+description: "Ouverture des forums de discussion de Galette pour celles et ceux qui n'aiment pas les listes de diffusion ; ils ont depuis été fermés."
 ---
 <p><strong>Trop de spam et trop peu d'intérêt, les forums sont fermés.</strong></p>
 

@@ -3,6 +3,7 @@ slug: "new-website"
 layout: post
 title: "New website for Galette!"
 date: 2020-05-28 19:14:04 +0200
+description: "A brand new website for Galette, in English and French, replacing an old one that had not been updated for years."
 ---
 
 We are proud to announce the brand new Galette website!

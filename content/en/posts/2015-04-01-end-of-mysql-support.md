@@ -7,6 +7,7 @@ layout: post
 ref: end-of-mysql-support
 title: End of MySQL support
 tags: ['poissons']
+description: "April Fool: end of MySQL support in Galette. MySQL and MariaDB are of course still supported."
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

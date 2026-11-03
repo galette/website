@@ -7,6 +7,7 @@ date: 2012-10-29 07:08:20 +0100
 layout: post
 title: 'Galette 0.7.2 : l''AFUL subventionne !'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.2, première version sponsorisée, financée par l'AFUL, association de promotion du logiciel libre et des standards ouverts."
 ---
 <p>L'AFUL et moi même sommes très heureux de vous présenter cette nouvelle mouture de Galette, qui est quelque peu particulière... Il s'agit en effet de la toute première version subventionnée.</p>
 

@@ -5,6 +5,7 @@ aliases:
 date: 2009-10-02 14:14:04 +0100
 layout: post
 title: '"New" design'
+description: "The Galette website gets a new design; Internet Explorer 6 is no longer supported."
 ---
 <p><a href="https://galette.eu">Galette's website</a> gets a new skin!</p>
 

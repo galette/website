@@ -7,6 +7,7 @@ date: 2013-04-01 08:00:00 +0100
 layout: post
 title: Modification de licence
 tags: ['poissons']
+description: "Poisson d'avril : l'annonce d'un changement de licence de Galette. Galette reste un logiciel libre sous licence GPL."
 ---
 <p><strong>EDIT</strong>&nbsp;: Évidemment, personne n'y a cru, il s'agissait d'un poisson d'avril.</p>
 

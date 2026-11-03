@@ -5,6 +5,7 @@ aliases:
 date: 2017-10-25 17:58:10 +0100
 layout: post
 title: Opening Galette forums
+description: "Galette discussion forums opened for users not comfortable with mailing lists; they have since been closed."
 ---
 <p><strong>too much spam and too less interest, forums are now closed.</strong></p>
 

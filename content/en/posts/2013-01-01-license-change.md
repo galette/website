@@ -6,6 +6,7 @@ date: 2013-04-01 08:00:00 +0100
 layout: post
 title: License change
 tags: ['poissons']
+description: "April Fool: Galette license change announcement. Galette remains free software under the GPL."
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

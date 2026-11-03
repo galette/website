@@ -3,6 +3,7 @@ slug: "galette-forums-revival"
 layout: post
 title: "Forums de Galette ressuscités"
 date: 2023-10-17 16:45:00 +0100
+description: "Les forums de Galette sont de retour, propulsés par Flarum, pour poser vos questions et échanger avec la communauté."
 ---
 
 Il y a quelques années, j'ai ouvert un forum pour Galette ; mais il a été fermé assez rapidement, principalement à cause du spam.

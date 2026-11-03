@@ -6,6 +6,7 @@ date: 2013-08-17 07:14:28 +0100
 layout: post
 title: 'Galette 0.7.5: sponsored by Debian France!'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.5, sponsored by the Debian France non profit organization: new features and fixes."
 ---
 <p><a href="https://france.debian.net/" hreflang="fr">Debian France nonprofit organization</a>, who promotes the Debian operating system and myself, are proud to present you <a href="https://galette.eu/download/archives/galette-0.7.5.tar.bz2">Galette 0.7.5</a>!</p>
 

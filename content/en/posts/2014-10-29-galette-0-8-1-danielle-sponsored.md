@@ -6,6 +6,7 @@ date: 2014-10-29 06:52:37 +0100
 layout: post
 title: 'Galette 0.8.1: Danielle sponsored'
 tags: ['release', 'sponsored']
+description: "Galette 0.8.1, sponsored by Danielle C.: a few new features and fixes for bugs found in 0.8."
 ---
 <p>Here is a new Galette release, sponsored by Danielle C. :-)</p>
 

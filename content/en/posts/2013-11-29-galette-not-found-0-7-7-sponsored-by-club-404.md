@@ -6,6 +6,7 @@ date: 2013-11-29 09:05:13 +0100
 layout: post
 title: 'Galette "not found": 0.7.7 sponsored by Club 404'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.7, sponsored by Club 404: attachments in mailings, and permissions changes in the Auto plugin."
 ---
 <p>The <a href="http://www.leclub404.com/" hreflang="fr">404 Club</a> is the original requester of the {{< doclink path="plugins/auto.html" >}}plugin to manage automobile clubs{{< /doclink >}} in 2009.</p>
 

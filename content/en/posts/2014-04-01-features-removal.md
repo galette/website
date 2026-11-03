@@ -6,6 +6,7 @@ date: 2014-04-01 05:04:57 +0100
 layout: post
 title: Features removal
 tags: ['poissons']
+description: "April Fool: mailings removed from Galette to save development time. Of course, mailings are still there."
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

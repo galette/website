@@ -7,6 +7,7 @@ date: 2013-01-01 22:10:58 +0100
 layout: post
 title: 'Galette 0.7.3 : Exsequenda subventionne !'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.3, deuxième version sponsorisée, financée par Exsequenda pour l'un de ses clients."
 ---
 <p>D'abord et avant toute chose, une très bonne et heureuse année 2013 à tous :-) L'épiphanie sera un peu en avance cette année ;-)</p>
 

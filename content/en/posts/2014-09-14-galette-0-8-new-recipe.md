@@ -6,6 +6,7 @@ date: 2014-09-14 06:21:54 +0100
 layout: post
 title: 'Galette 0.8: new recipe!'
 tags: ['release']
+description: "Galette 0.8: installation process rewritten, new database layer, and many other changes in this new recipe."
 ---
 <p>It's been 6 months since last Galette was released...</p>
 

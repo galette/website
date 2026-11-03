@@ -5,6 +5,7 @@ aliases:
 date: 2018-04-16 20:16:18 +0100
 layout: post
 title: New translation system
+description: "Galette translations move to Zanata, an online collaborative platform: open an account and contribute."
 ---
 <p>Galette translations are now handled from an external online collaborative system, Zanata!
 

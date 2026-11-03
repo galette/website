@@ -6,6 +6,7 @@ date: 2012-02-20 13:20:47 +0100
 layout: post
 title: Galette 0.7,  and much more
 tags: ['release']
+description: "Galette 0.7 is released, with migration from older versions, a new website and a refreshed project."
 ---
 <p>Galette 0.7 was on the road for some time now. Bugs and tasks announced for this version are fixed; older versions migration works also.</p>
 

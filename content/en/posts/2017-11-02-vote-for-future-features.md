@@ -5,6 +5,7 @@ aliases:
 date: 2017-11-02 17:16:57 +0100
 layout: post
 title: Vote for future features?
+description: "Vote for the features you want in Galette, directly from the bug tracker."
 ---
 <p>This is something I have in mind for several years; but that has not been implemented yet...</p>
 

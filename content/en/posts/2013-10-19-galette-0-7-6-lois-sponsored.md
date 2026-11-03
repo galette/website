@@ -7,6 +7,7 @@ date: 2013-10-19 08:18:16 +0100
 layout: post
 title: 'Galette 0.7.6: Loïs sponsored'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.6 brings CSV import of members, sponsored by Loïs Taulelle, original creator of Galette."
 ---
 <p>Versions follow one after the other and are all very different...</p>
 

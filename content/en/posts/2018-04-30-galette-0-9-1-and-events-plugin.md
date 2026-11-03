@@ -6,6 +6,7 @@ date: 2018-04-30 06:16:35 +0100
 layout: post
 title: Galette 0.9.1 and Events plugin
 tags: ['release', 'sponsored']
+description: "Galette 0.9.1: batch changes on members, mailing sender, German translation; and the new Events plugin."
 ---
 <p>A few months after the last major release, we are proud to announce the release of <a href="https://galette.eu/download/archives/galette-0.9.1.tar.bz2">Galette 0.9.1</a>!</p>
 

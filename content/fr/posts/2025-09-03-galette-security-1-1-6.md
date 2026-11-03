@@ -4,6 +4,7 @@ layout: post
 title: "Nouvelle version sécurité de Galette (1.1.6) !"
 date: 2025-09-03 16:30:42 +0200
 tags: ['release']
+description: "Galette 1.1.6 corrige une faille de sécurité critique : mettez à jour votre instance au plus vite."
 ---
 
 

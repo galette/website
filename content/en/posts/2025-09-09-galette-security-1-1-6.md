@@ -4,6 +4,7 @@ layout: post
 title: "Galette security release (1.1.6)!"
 date: 2025-09-03 16:30:42 +0200
 tags: ['release']
+description: "Galette 1.1.6 fixes a critical security issue: update your instance as soon as possible."
 ---
 
 A quite important - and old - security issue has been detected and fixed in Galette.

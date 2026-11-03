@@ -3,6 +3,7 @@ slug: "new-website"
 layout: post
 title: "Nouveau site web pour Galette !"
 date: 2020-05-28 19:14:04 +0200
+description: "Un tout nouveau site pour Galette, en anglais et en français, qui remplace un ancien site resté des années sans mise à jour."
 ---
 
 Nous sommes fiers de vous annoncer le tout nouveau site web de Galette !

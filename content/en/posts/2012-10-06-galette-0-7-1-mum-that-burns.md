@@ -6,6 +6,7 @@ date: 2012-10-06 18:31:35 +0100
 layout: post
 title: 'Galette 0.7.1: Mum, that burns!'
 tags: ['release']
+description: "Galette 0.7.1 is out of the oven: new features and fixes for the free membership management software."
 ---
 <p>A few months after the last major update Galette has known; the crew did it again and is proud to present you the new Galette version :-)</p>
 

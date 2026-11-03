@@ -7,6 +7,7 @@ date: 2012-05-13 08:07:07 +0100
 layout: post
 title: 'Galette 0.63x : EOL & mise à jour de sécurité'
 tags: ['release']
+description: "Faille de sécurité CVE-2012-2338 dans Galette 0.63 : passez en 0.63.4 ou appliquez le correctif ; Galette 0.7 n'est pas concernée."
 ---
 <p>Une faille de sécurité a récemment été rapportée pour les versions 0.63 de Galette (<a href="https://bugs.galette.eu/issues/250">https://bugs.galette.eu/issues/250</a> - CVE-2012-2338).</p>
 

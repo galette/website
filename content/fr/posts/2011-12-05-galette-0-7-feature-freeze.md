@@ -6,6 +6,7 @@ aliases:
 date: 2011-12-05 14:27:55 +0100
 layout: post
 title: 'Galette 0.7 : gel des fonctionnalités'
+description: "Gel des fonctionnalités de Galette 0.7 : l'équipe se consacre désormais aux corrections, à la stabilisation du code et à la nouvelle documentation."
 ---
 <p>Comme cela a été récemment annoncé, les fonctionnalités de la future version 0.7 de Galette ont été gelées :-)</p>
 

@@ -5,6 +5,7 @@ aliases:
 date: 2017-05-18 16:31:06 +0100
 layout: post
 title: 10 years, 10 years, Galette is ten years old!
+description: "Ten years since Johan took the lead of Galette, the free membership management software for associations."
 ---
 <p>Dear galette users,</p>
 
