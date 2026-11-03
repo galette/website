@@ -11,7 +11,7 @@
 <meta property="og:image" content="{{ absURL (.Params.image | default "assets/images/og_image.jpg") }}">
 
 {{/* Open Graph optional properties */}}
-<meta property="og:description" content="{{ .Description }}">
+<meta property="og:description" content="{{ partial "seo/description" . }}">
 <meta property="og:locale" content="{{ .Lang }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ if (and .IsPage (eq .Type "posts")) }}

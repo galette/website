@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Comment joindre la communauté Galette : canaux Matrix, IRC et Discord, listes de discussion, et gestionnaire de tickets pour signaler un bogue ou proposer une évolution."
 ---
 {{< toc >}}
 

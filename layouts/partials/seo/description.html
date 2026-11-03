@@ -1,0 +1,9 @@
+{{- /* Description for search engines and social networks: front matter first, then the beginning of the content */ -}}
+{{- $desc := .Description -}}
+{{- if and (not $desc) .IsPage -}}
+  {{- $desc = .Summary | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 160 -}}
+{{- end -}}
+{{- with partial "seo/page-number" . -}}
+  {{- $desc = printf "%s (%s %d)" $desc (i18n "global.page") . -}}
+{{- end -}}
+{{- return $desc -}}

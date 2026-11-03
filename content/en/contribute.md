@@ -1,5 +1,6 @@
 ---
 title: "Contribute"
+description: "No need to be a developer to contribute to Galette: test it, help other users, donate, translate, write documentation or fix bugs."
 ---
 {{< toc >}}
 

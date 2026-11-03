@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Galette is free and open source membership management software for associations, developed since 2007: the project, who uses it, its history and its name."
 ---
 {{< toc >}}
 

@@ -1,6 +1,7 @@
 ---
 title: "Contribuer"
 slug: "contribuer"
+description: "Pas besoin d'être développeur pour contribuer à Galette : tester, aider d'autres utilisateurs, faire un don, traduire, rédiger de la documentation ou corriger des bogues."
 ---
 {{< toc >}}
 

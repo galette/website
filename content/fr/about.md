@@ -1,6 +1,7 @@
 ---
 title: "À propos"
 slug: "a-propos"
+description: "Galette, logiciel libre de gestion des adhérents pour les associations, développé depuis 2007 : le projet, qui l'utilise, son histoire et l'origine de son nom."
 ---
 {{< toc >}}
 

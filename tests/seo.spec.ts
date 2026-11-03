@@ -4,6 +4,7 @@
  * Validates search engines related markup:
  * - a single h1 per page, the slogan on the home page
  * - reciprocal hreflang alternates between EN and FR pages, with an x-default
+ * - a meta description on every page, and distinct titles and descriptions on the posts list pages
  */
 
 import { test, expect } from '@playwright/test';
@@ -50,4 +51,26 @@ test.describe('hreflang', () => {
       });
     }
   }
+});
+
+test.describe('Descriptions', () => {
+  // A page without description in its front matter gets the beginning of its content
+  for (const url of [...pairs.flatMap((pair) => [pair.en, pair.fr]), '/posts/', '/post/2026/11/03/galette-1-3-2/']) {
+    test(`[seo] ${url} - meta description`, async ({ page }) => {
+      await page.goto(url);
+      const description = await page.locator('meta[name="description"]').getAttribute('content');
+      expect(description!.length).toBeGreaterThan(70);
+      expect(await page.locator('meta[property="og:description"]').getAttribute('content')).toBe(description);
+    });
+  }
+
+  test('[seo] posts list pages - distinct title and description', async ({ page }) => {
+    await page.goto('/posts/');
+    const title = await page.title();
+    const description = await page.locator('meta[name="description"]').getAttribute('content');
+
+    await page.goto('/posts/page/2/');
+    expect(await page.title()).not.toBe(title);
+    expect(await page.locator('meta[name="description"]').getAttribute('content')).not.toBe(description);
+  });
 });
