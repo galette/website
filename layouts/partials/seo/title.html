@@ -5,4 +5,7 @@
 {{- else -}}
   {{- with .Params.seo_title }}{{ $title = . }}{{ end -}}
 {{- end -}}
+{{- with partial "seo/page-number" . -}}
+  {{- $title = printf "%s, %s %d" $title (lower (i18n "global.page")) . -}}
+{{- end -}}
 {{- return printf "%s | %s" $title .Site.Title -}}

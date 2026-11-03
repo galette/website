@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "How to reach the Galette community: Matrix, IRC and Discord channels, mailing lists, and the bug tracker for bug reports and feature requests."
 ---
 {{< toc >}}
 

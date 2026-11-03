@@ -9,7 +9,7 @@
                     "@type": "WebPage",
                 {{ end }}
                 "headline": "{{ partial "seo/title" . }}",
-                "description": "{{ .Description }}",
+                "description": "{{ partial "seo/description" . }}",
                 "url": "{{ .Permalink }}",
                 "image": "{{ absURL (.Params.image | default "assets/images/og_image.jpg") }}",
                 "inLanguage": "{{ .Lang }}",

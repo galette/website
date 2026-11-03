@@ -1,0 +1,8 @@
+{{- /* Page number of the posts list beyond the first one, 0 otherwise; other lists are not paginated, calling .Paginator on them would generate pages */ -}}
+{{- $number := 0 -}}
+{{- if and (eq .Kind "section") (eq .Section "posts") -}}
+  {{- if gt .Paginator.PageNumber 1 -}}
+    {{- $number = .Paginator.PageNumber -}}
+  {{- end -}}
+{{- end -}}
+{{- return $number -}}
