@@ -16,6 +16,7 @@ For each language, the tests verify:
 - Menu entry labels are correctly translated
 - Documentation links contain the correct language code (`/en/` or `/fr/`)
 - The RSS feed points to the correct URL (`/feed.xml` or `/fr/feed.xml`)
+- The RSS feeds are valid XML, with the channel language and description of their language
 - The language selector displays the link to the other version
 
 Translations are dynamically read from `i18n/en.yaml` and `i18n/fr.yaml`.
