@@ -6,6 +6,7 @@ aliases:
 date: 2020-05-13 16:20:41 +0100
 layout: post
 title: Import des champs dynamiques et démo !
+description: "L'import des champs dynamiques depuis un fichier CSV, fonctionnalité la plus demandée, arrive en version de développement ; à essayer sur la démo."
 ---
 <p><a href="https://vote.galette.eu/posts/7/import-des-champs-dynamiques">L'import de champs dynamiques via un fichier CSV</a> est une fonctionnalité qui était très demandée. C'est d'ailleurs la <a href="https://vote.galette.eu/?view=most-wanted">demande numéro un</a> du système de votes ;)</p>
 

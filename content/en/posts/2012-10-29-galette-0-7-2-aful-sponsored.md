@@ -6,6 +6,7 @@ date: 2012-10-29 07:08:20 +0100
 layout: post
 title: 'Galette 0.7.2: AFUL sponsored!'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.2, the first sponsored release, funded by AFUL, a French non profit promoting free software and open standards."
 ---
 <p>AFUL and I are really proud to present you that new Galette release, which is quite special... Indeed, that is the first sponsored version.</p>
 

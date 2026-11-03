@@ -6,6 +6,7 @@ aliases:
 date: 2017-11-02 17:16:57 +0100
 layout: post
 title: Voter pour les futures fonctionnalités ?
+description: "Votez pour les fonctionnalités que vous souhaitez dans Galette, directement depuis le gestionnaire de tickets."
 ---
 <p>Voilà quelque chose que j'ai en tête depuis plusieurs années ; mais qui n'a pas été mis en place encore...</p>
 

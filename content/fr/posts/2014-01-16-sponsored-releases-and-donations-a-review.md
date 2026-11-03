@@ -7,6 +7,7 @@ date: 2014-01-16 21:49:21 +0100
 layout: post
 title: 'Versions subventionnées et dons : un bilan'
 tags: ['sponsored']
+description: "Le bilan d'un an et demi de versions sponsorisées et de dons pour le projet Galette."
 ---
 <p>Voici un peu plus d'un an et demi, je décidais de m'établir comme auto-entrepreneur, et à peu près à la même période, j'ajoutais un bouton «&nbsp;dons&nbsp;» sur le site. J'ai communiqué sur l'un et/ou l'autre de ces points à différentes reprises, le temps est venu de faire un petit bilan :-)</p>
 

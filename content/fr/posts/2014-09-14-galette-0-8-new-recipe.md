@@ -7,6 +7,7 @@ date: 2014-09-14 06:21:54 +0100
 layout: post
 title: 'Galette 0.8 : nouvelle recette !'
 tags: ['release']
+description: "Galette 0.8 : processus d'installation réécrit, nouvelle couche d'accès aux données, et bien d'autres changements dans cette nouvelle recette."
 ---
 <p>La dernière version de Galette a vu le jour il y a un peu plus de 6 mois...</p>
 

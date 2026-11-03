@@ -7,6 +7,7 @@ date: 2018-04-30 06:16:35 +0100
 layout: post
 title: Galette 0.9.1 et plugin Évènements
 tags: ['release', 'sponsored']
+description: "Galette 0.9.1 : modification en masse des adhérents, expéditeur des mailings, traduction allemande ; et le nouveau plugin Événements."
 ---
 <p>Quelques mois après la dernière version majeure, nous sommes fiers de vous annoncer la sortie de la <a href="https://galette.eu/download/archives/galette-0.9.1.tar.bz2">version 0.9.1 de Galette</a> !</p>
 

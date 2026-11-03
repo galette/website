@@ -6,6 +6,7 @@ aliases:
 date: 2017-10-26 17:38:07 +0100
 layout: post
 title: Galette sur Telegram
+description: "Ouverture d'un groupe Galette sur Telegram ; il a depuis été fermé."
 ---
 <p><strong>11/05/2019 : trop de spam et trop peu d'intérêt, le groupe est fermé.</strong></p>
 

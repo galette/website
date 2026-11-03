@@ -6,6 +6,7 @@ date: 2013-01-01 22:10:58 +0100
 layout: post
 title: 'Galette 0.7.3: Exsequenda sponsored!'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.3, second sponsored release, funded by Exsequenda for one of its clients."
 ---
 <p>First of all, a very good 2013 year to all :-) Epiphany will be a bit early this year ;-)</p>
 

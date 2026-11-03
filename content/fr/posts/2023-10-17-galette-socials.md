@@ -3,6 +3,7 @@ slug: "galette-socials"
 layout: post
 title: "Galette social networks"
 date: 2023-10-17 17:05:00 +0100
+description: "Suivez Galette sur les réseaux sociaux : Facebook et Discord rejoignent Mastodon et Twitter."
 ---
 
 Quelques nouveaux comptes/pages pour Galette ont été créés sur les réseaux sociaux.

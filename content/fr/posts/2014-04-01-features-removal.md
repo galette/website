@@ -7,6 +7,7 @@ date: 2014-04-01 05:04:57 +0100
 layout: post
 title: Suppression de fonctionnalités
 tags: ['poissons']
+description: "Poisson d'avril : les mailings retirés de Galette pour gagner du temps. Les mailings sont bien sûr toujours là."
 ---
 <p><strong>EDIT</strong>&nbsp;: Évidemment, personne n’y a cru, il s’agissait d’un poisson d’avril.</p>
 

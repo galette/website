@@ -7,6 +7,7 @@ date: 2013-02-23 08:34:38 +0100
 layout: post
 title: 'Galette 0.7.4 : Exsequenda re-subventionne !'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.4, de nouveau sponsorisée par Exsequenda : stockage des mots de passe sécurisé, recherche sur les contributions, civilités, export CSV des adhérents."
 ---
 <p>La société Exsequenda a déjà subventionné la précédente version, et une nouvelle commande complémentaire a été passée :)</p>
 

@@ -5,6 +5,7 @@ aliases:
 date: 2019-12-10 15:30:31 +0100
 layout: post
 title: A new oven for Galette
+description: "A call for donations to replace the computer Galette is developed on, after nine years of good service."
 ---
 <p>For a good Galette we need a good oven...<br />
 Mine has been built more than 9 years ago, a renew will be mandatory, it has been heavily used :)</p>

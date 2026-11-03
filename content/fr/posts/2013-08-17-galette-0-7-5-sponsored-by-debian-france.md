@@ -7,6 +7,7 @@ date: 2013-08-17 07:14:28 +0100
 layout: post
 title: 'Galette 0.7.5 : subventionnée par Debian France !'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.5, sponsorisée par l'association Debian France : nouvelles fonctionnalités et corrections."
 ---
 <p><a href="https://france.debian.net/" hreflang="fr">L'association Debian France</a>, qui promeut l'excellent système d'exploitation Debian, et moi même sommes très heureux de vous présenter la <a href="https://galette.eu/download/archives/galette-0.7.5.tar.bz2">mouture 0.7.5 de Galette</a>&nbsp;!</p>
 

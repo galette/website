@@ -6,6 +6,7 @@ aliases:
 date: 2019-12-10 15:30:31 +0100
 layout: post
 title: Un nouveau four pour Galette
+description: "Un appel aux dons pour remplacer l'ordinateur sur lequel Galette est développé, après neuf ans de bons et loyaux services."
 ---
 <p>Pour faire une bonne Galette, il faut un four en bon état de marche...<br />
 Le mien a été monté il y a plus de 9 ans, un renouvellement va s'imposer, il a été pas mal utilisé :)</p>

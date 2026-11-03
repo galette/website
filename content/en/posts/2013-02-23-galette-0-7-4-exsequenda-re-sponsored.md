@@ -6,6 +6,7 @@ date: 2013-02-23 08:34:38 +0100
 layout: post
 title: 'Galette 0.7.4: Exsequenda re-sponsored!'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.4, sponsored again by Exsequenda: safer passwords storage, search on contributions, titles management, CSV export of members."
 ---
 <p>Exsequenda company already has sponsored previous release, and here is a new order :)</p>
 

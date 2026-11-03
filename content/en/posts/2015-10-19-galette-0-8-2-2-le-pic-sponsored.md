@@ -6,6 +6,7 @@ date: 2015-10-19 18:14:52 +0100
 layout: post
 title: 'Galette 0.8.2.2: Le Pic sponsored'
 tags: ['release', 'sponsored']
+description: "Galette 0.8.2, sponsored by Le Pic: attached members for families, end of SQLite support, and many new features."
 ---
 <p>I have been very busy these months, but Galette has progressed anyway :-)</p>
 

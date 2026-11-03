@@ -8,6 +8,7 @@ layout: post
 ref: end-of-mysql-support
 title: Fin du support MySQL
 tags: ['poissons']
+description: "Poisson d'avril : fin du support de MySQL dans Galette. MySQL et MariaDB sont bien sûr toujours pris en charge."
 ---
 <p><strong>EDIT</strong>&nbsp;: Évidemment, personne n’y a cru, il s’agissait d’un poisson d’avril.</p>
 

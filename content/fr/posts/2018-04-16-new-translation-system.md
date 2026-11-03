@@ -6,6 +6,7 @@ aliases:
 date: 2018-04-16 20:16:18 +0100
 layout: post
 title: Nouveau système de traductions
+description: "Les traductions de Galette passent sur Zanata, une plateforme collaborative en ligne : créez un compte et contribuez."
 ---
 <p>Les traductions de Galette seront désormais gérées par un système de traduction en ligne collaboratif !
 

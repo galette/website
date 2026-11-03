@@ -6,6 +6,7 @@ date: 2012-12-19 19:41:50 +0100
 layout: post
 title: '0.7.2.8 : boosted Galette'
 tags: ['release']
+description: "Galette 0.7.2.8 fixes a performance issue on members lists, profiling figures to prove it."
 ---
 <p>Galette's development has not been frozen after 0.7.2 AFUL sponsored version; 7 corrective releases has been released since.</p>
 

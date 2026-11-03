@@ -6,6 +6,7 @@ date: 2017-12-21 21:57:12 +0100
 layout: post
 title: Galette 0.9 (Galette has come)
 tags: ['release']
+description: "Galette 0.9 is released after years of development, ending the 0.8 series; no database upgrade needed."
 ---
 <p>Months, even years of intensive developments; several candidates releases, a very hard work... And now Galette 0.9 begins!</p>
 

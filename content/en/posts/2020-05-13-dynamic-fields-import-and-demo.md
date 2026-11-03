@@ -5,6 +5,7 @@ aliases:
 date: 2020-05-13 16:20:41 +0100
 layout: post
 title: Dynamic fields import and demo!
+description: "Dynamic fields import from CSV files, the most voted feature, lands in Galette development version; try it on the demo."
 ---
 <p><a href="https://vote.galette.eu/posts/7/import-des-champs-dynamiques">Dynamic fields import from a CSV file</a> is a common asked feature. It is the <a href="https://vote.galette.eu/?view=most-wanted">demand number one </a> on voting system ;)</p>
 

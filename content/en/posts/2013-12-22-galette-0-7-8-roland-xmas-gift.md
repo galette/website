@@ -6,6 +6,7 @@ date: 2013-12-22 00:20:42 +0100
 layout: post
 title: 'Galette 0.7.8: Roland Xmas gift'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.8, sponsored by Roland: plugins can now have public pages, used by new Maps and Paypal plugins releases."
 ---
 <p>A new Galette version, 0.7.8, has been release, it is sponsorised by Roland; as well as Maps and Paypal plugins :-)</p>
 

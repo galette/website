@@ -6,6 +6,7 @@ aliases:
 date: 2017-05-18 16:31:06 +0100
 layout: post
 title: 10 ans, 10 ans, Galette a 10 ans !
+description: "Dix ans que Johan a repris Galette, le logiciel libre de gestion des adhérents pour les associations."
 ---
 <p>Chers utilisateurs de Galette,</p>
 

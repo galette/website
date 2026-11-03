@@ -7,6 +7,7 @@ date: 2012-02-20 13:20:47 +0100
 layout: post
 title: Galette 0.7, et bien plus
 tags: ['release']
+description: "Sortie de Galette 0.7, avec la migration depuis les anciennes versions, un nouveau site et un projet rafraîchi."
 ---
 <p>Galette 0.7 est sur les rails depuis un certain temps maintenant, les bogues et tâches déclarés pour cette version ont été corrigés&nbsp;; la migration des versions antérieures fonctionne elle aussi.</p>
 

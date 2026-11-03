@@ -6,6 +6,7 @@ date: 2017-12-21 21:57:12 +0100
 layout: post
 title: Galette 0.9 (Galette has come)
 tags: ['release']
+description: "Galette 0.9 est sortie après des années de développement et met fin à la série 0.8 ; aucune mise à jour de base nécessaire."
 ---
 <p>Des mois, voire des années de développement intensif ; plusieurs versions intermédiaires, un travail plus qu'acharné... Et voici que Galette 0.9 vient !</p>
 

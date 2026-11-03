@@ -8,6 +8,7 @@ date: 2013-10-19 08:18:16 +0100
 layout: post
 title: 'Galette 0.7.6 : subventionnée par Loïs'
 tags: ['release', 'sponsored']
+description: "Galette 0.7.6 apporte l'import CSV des adhérents, sponsorisé par Loïs Taulelle, créateur originel de Galette."
 ---
 <p>Les versions se suivent, et ne se ressemblent pas...</p>
 

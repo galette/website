@@ -6,6 +6,7 @@ aliases:
 date: 2019-11-07 07:25:16 +0100
 layout: post
 title: Traduction de Galette
+description: "Les traductions de Galette passent sur Weblate, une plateforme web collaborative, pour ouvrir le logiciel à plus de langues."
 ---
 <p>Historiquement, Galette était disponible en Anglais et en Français. Une version espagnole a existé un temps, mais n'était pas maintenue et a été supprimée. Une version allemande a été ajoutée plus récemment (qui elle aussi commence à souffrir d'un manque de suivi malheureusement)...</p>
 

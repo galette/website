@@ -5,6 +5,7 @@ aliases:
 date: 2011-12-05 14:27:55 +0100
 layout: post
 title: 'Galette 0.7: feature freeze'
+description: "Galette 0.7 features are frozen: the team now focuses on bug fixes, code stabilization and the new documentation."
 ---
 <p>As that was recently announced, features for future 0.7 version of Galette has been freezed :-)</p>
 
