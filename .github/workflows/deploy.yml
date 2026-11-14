@@ -22,7 +22,10 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true
+
+      # Hugo 0.170 dropped LibSass and the extended build: Sass needs Dart Sass
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
       - name: Build
         run: hugo --gc --minify --baseURL https://galette.eu/site/
       - name: Deploy to Dedicated Server
