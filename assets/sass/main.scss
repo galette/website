@@ -1,12 +1,3 @@
 // Galette main stylesheet
-// Import partials
-@import "variables";
-// Import components
-@import "galette.scss";
-@import "galette/normalize";
-@import "galette/base";
-@import "galette/layout";
-@import "galette/home";
-@import "galette/mobilemenu";
-@import "galette/share";
-@import "galette/toc";
+// galette.scss loads every partial, which loads the variables itself
+@use "galette";
