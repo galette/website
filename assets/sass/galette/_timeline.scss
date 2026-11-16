@@ -16,7 +16,7 @@
 */
 @use "../variables" as *;
 
-/** Timeline (history page) and collapsible blocks */
+/** Timeline (history page), numbered steps and collapsible blocks */
 section#content {
     ol.timeline {
         list-style: none;
@@ -71,6 +71,36 @@ section#content {
         pre {
             white-space: pre-wrap;
             overflow-wrap: anywhere;
+        }
+    }
+
+    .steps ol {
+        list-style: none;
+        counter-reset: step;
+        margin: 1.2em 0 1.5em;
+        padding: 0;
+
+        li {
+            counter-increment: step;
+            position: relative;
+            min-height: 2em;
+            margin-bottom: 1em;
+            padding-left: 3em;
+
+            &::before {
+                content: counter(step);
+                position: absolute;
+                left: 0;
+                top: -.15em;
+                width: 2em;
+                height: 2em;
+                border-radius: 50%;
+                background: $galette-orange;
+                color: $galette-dark-grey;
+                font-weight: bold;
+                line-height: 2em;
+                text-align: center;
+            }
         }
     }
 }

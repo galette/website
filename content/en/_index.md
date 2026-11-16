@@ -29,7 +29,7 @@ Due dates computed, reminders for late payers, PDF receipts.
 {{< card img="/site/assets/images/screenshots/1.3.2/mailing-recipients-en.png" alt="Choosing the recipients of a mailing" icon="mail" title="Communication" page="communication" button="Learn more" >}}
 Mailings, membership cards, labels and attendance sheets.
 {{< /card >}}
-{{< card img="/site/assets/images/screenshots/1.3.0/plugins-en.png" alt="List of plugins" icon="code" title="Plugins" page="plugins" button="See the plugins" >}}
+{{< card img="/site/assets/images/screenshots/1.3.2/plugins-updates-en.png" alt="List of plugins" icon="code" title="Plugins" page="plugins" button="See the plugins" >}}
 Online payment, events, equipment lending, and much more.
 {{< /card >}}
 {{< /cards >}}
