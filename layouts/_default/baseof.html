@@ -7,10 +7,8 @@
         <header>
             <div class="header-wrapper">
                 <div class="header-title">
-                    {{- /* Home page main heading is the slogan, in the page content */ -}}
-                    {{ if .IsHome }}
-                    <p class="page-title">{{ .Title }}</p>
-                    {{ else }}
+                    {{- /* Home page main heading is the slogan, in the hero */ -}}
+                    {{ if not .IsHome }}
                     <h1>{{ .Title }}</h1>
                     {{ end }}
                 </div>

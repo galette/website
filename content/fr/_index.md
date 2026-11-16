@@ -2,46 +2,42 @@
 title: "Accueil"
 description: "Logiciel libre et gratuit de gestion des adhérents et des cotisations pour les associations : Galette s'utilise depuis votre navigateur web et vos données restent chez vous. Simple. Libre. Gratuit. Pur-beurre."
 ---
-Galette est une application web open source de gestion d'adhérents et de cotisations en ligne à destination des associations.<br/>
-C'est avant toute chose un <strong>logiciel libre</strong>, communautaire, et gratuit ! [Pourquoi Galette ?]({{< relref "why.md" >}})
-Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir les pré-requis]({{< param "galette_doc_url" >}}/fr/master/installation/prerequis.html)). En cas de besoin, nous proposons [différents moyens de nous contacter]({{< ref "contact.md" >}}) :)<br/>
-[Les personnes qui souhaitent participer]({{< ref "contribute.md" >}}) sont évidemment les bienvenues :-)
-<div id="home">
-    <div>
-        <ul>
-            <li><a href="{{< relref "members.md" >}}"><strong>Gestion des adhérents</strong></a></li>
-            <li><a href="{{< relref "fees.md" >}}">Gestion des cotisations</a> et transactions</li>
-            <li>Gestion de groupes et de responsables</li>
-            <li>Imports et exports (<strong>formats ouverts</strong>)</li>
-            <li>Accessibilité accrue (utilisation et <strong>respect des standards</strong> du web)</li>
-            <li>Configuration des fiches et des listes</li>
-            <li>Ajout de <strong>champs dynamiques</strong> aux fiches adhérents, contributions et transactions</li>
-            <li>Multilingue</li>
-            <li><a href="{{< relref "plugins.md" >}}"><strong>Support de plugins</strong></a></li>
-            <li>...</li>
-        </ul>
-        {{< img_link path="/site/assets/images/screenshots/edit_member.png" alt="Capture écran modification adhérent" >}}
-    </div>
-    <div>
-        <ul>
-            <li><strong>Recherche</strong> simple et avancée</li>
-            <li>Calcul de <strong>l'échéance des adhésions</strong></li>
-            <li><a href="{{< relref "communication.md" >}}"><strong>Mailings</strong> adhérents</a></li>
-            <li>Edition d'étiquettes (pour envois postaux)</li>
-            <li>Fiches adhérents avec photo (facultative)</li>
-            <li>Chaque adhérent peut modifier sa fiche</li>
-            <li><strong>Filtres</strong> d'affichage multi-critères</li>
-            <li>Historique d'utilisation</li>
-            <li>Fonctionne avec MariaDB ou PostgreSQL</li>
-            <li>...</li>
-        </ul>
-        {{< img_link path="/site/assets/images/screenshots/desktop.png" alt="Capture écran bureau" >}}
-    </div>
-</div>
+{{< perks >}}
+{{< perk icon="unlock" title="Libre" >}}
+Sous licence GPL, développé en public depuis 2003.
+{{< /perk >}}
+{{< perk icon="gift" title="Gratuit, sans limite" >}}
+Pas d'abonnement, pas de prix par adhérent.
+{{< /perk >}}
+{{< perk icon="server" title="Vos données chez vous" >}}
+Sur votre hébergement, exportables à tout moment.
+{{< /perk >}}
+{{< perk icon="globe" title="Une vingtaine de langues" >}}
+Traduit par sa communauté sur [Weblate]({{% param "galette_trad_url" %}}).
+{{< /perk >}}
+{{< /perks >}}
 
-<div style="text-align:center;">
-  <a href="https://hosted.weblate.org/engage/galette/?utm_source=widget">
-    <img src="https://hosted.weblate.org/widgets/galette/-/galette/287x66-white.png" alt="État de la traduction" />
-  </a>
-</div>
+## Ce que fait Galette
 
+{{< cards class="two-cols" >}}
+{{< card img="/site/assets/images/screenshots/1.3.1/group-members-fr.png" alt="Gestion des membres d'un groupe" icon="users" title="Adhérents" page="members" button="En savoir plus" >}}
+Fiches personnalisables, groupes, recherches enregistrées, espace adhérent.
+{{< /card >}}
+{{< card img="/site/assets/images/screenshots/contributions_list.png" alt="Liste des contributions" icon="gift" title="Cotisations" page="fees" button="En savoir plus" >}}
+Échéances calculées, relances des retardataires, reçus en PDF.
+{{< /card >}}
+{{< card img="/site/assets/images/screenshots/1.3.2/mailing-recipients-fr.png" alt="Choix des destinataires d'un mailing" icon="mail" title="Communication" page="communication" button="En savoir plus" >}}
+Mailings, cartes d'adhérent, étiquettes et feuilles d'émargement.
+{{< /card >}}
+{{< card img="/site/assets/images/screenshots/1.3.0/plugins-fr.png" alt="Liste des plugins" icon="code" title="Plugins" page="plugins" button="Voir les plugins" >}}
+Paiement en ligne, événements, prêt de matériel, et bien plus.
+{{< /card >}}
+{{< /cards >}}
+
+## Comment démarrer ?
+
+* **Sur votre hébergement** : PHP et une base MariaDB ou PostgreSQL suffisent, un hébergement mutualisé fait l'affaire ({{< doclink path="installation/prerequis.html" >}}prérequis{{< /doclink >}}).
+* **Avec Docker ou YunoHost**, si vous gérez déjà votre serveur ({{< doclink path="installation/other_methods.html" >}}autres méthodes d'installation{{< /doclink >}}).
+* **Chez un hébergeur associatif** du collectif [CHATONS](https://www.chatons.org/search/by-service?field_software_target_id=311), clé en main.
+
+Une question avant de vous lancer ? [Nous sommes joignables]({{< ref "contact" >}}).
