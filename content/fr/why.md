@@ -39,7 +39,6 @@ Plusieurs façons d'utiliser Galette, selon vos moyens techniques :
 
 * **sur votre hébergement** : un serveur web avec PHP et une base MariaDB ou PostgreSQL suffisent ; un hébergement mutualisé fait l'affaire ({{< doclink path="installation/prerequis.html" >}}voir les prérequis{{< /doclink >}}),
 * **avec Docker ou YunoHost**, pour celles et ceux qui gèrent déjà leur serveur ({{< doclink path="installation/other_methods.html" >}}autres méthodes d'installation{{< /doclink >}}),
-* **chez un hébergeur associatif** du collectif [CHATONS](https://www.chatons.org/search/by-service?field_software_target_id=311), qui propose Galette clé en main,
-* **avec un accompagnement professionnel** : hébergement, installation, développements sur mesure ([les services proposés]({{< relref "posts/2024-07-09-galette-pro-services.md" >}})).
+* **chez un hébergeur associatif** du collectif [CHATONS](https://www.chatons.org/search/by-service?field_software_target_id=311), qui propose Galette clé en main.
 
 Le plus simple pour vous faire une idée reste [la démo en ligne](https://demo.galette.eu/). Et si vous avez des questions, [nous sommes joignables]({{< relref "contact.md" >}}) :)

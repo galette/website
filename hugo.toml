@@ -15,6 +15,10 @@ defaultContentLanguage = 'en'
   galette_tracker_url = 'https://bugs.galette.eu/projects/galette/'
   galette_trad_url = 'https://hosted.weblate.org/projects/galette/galette/'
   galette_vote_url = 'https://vote.galette.eu/'
+  galette_discussions_url = 'https://github.com/orgs/galette/discussions'
+  # Donations; the recurring button shows up once the Open Collective URL is set
+  donate_stripe_url = 'https://donate.stripe.com/dR6bJz7mX1Na0GQ5kk'
+  # donate_opencollective_url = 'https://opencollective.com/galette'
 [pagination]
   pagerSize = 5
 
