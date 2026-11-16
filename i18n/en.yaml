@@ -6,6 +6,20 @@ global.About:
   other: "About"
 global.slogan:
   other: "Free your association management!"
+home.hero.text:
+  other: "Free and open source software to manage your association's members and membership fees, right from your browser. No limit on members, and your data stays with you."
+home.hero.demo:
+  other: "Try the demo"
+home.hero.download:
+  other: "Download"
+home.hero.alt:
+  other: "Galette dashboard"
+home.community.title:
+  other: "Galette is made by its community"
+home.community.text:
+  other: "Test, translate, document, code or support the project: every helping hand counts."
+home.community.contribute:
+  other: "Contribute"
 global.home_title_seo:
   other: "Free membership management software for associations"
 global.next:

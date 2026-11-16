@@ -1,3 +1,4 @@
-<div class="cards">
+{{- /* Cards grid. Optional param: class (e.g. "two-cols") */ -}}
+<div class="cards{{ with .Get "class" }} {{ . }}{{ end }}">
 {{ .Inner }}
 </div>

@@ -123,6 +123,12 @@ section#content {
         @media screen and (min-width: $galette-large) {
             grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
         }
+
+        &.two-cols {
+            @media screen and (min-width: $galette-large) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     }
 
     .card {
@@ -140,6 +146,17 @@ section#content {
         &:focus-within {
             transform: translateY(-3px);
             box-shadow: 0 6px 16px rgba(0, 0, 0, .1);
+        }
+
+        .card-img {
+            display: block;
+            width: calc(100% + 2.4em);
+            max-width: none;
+            height: 150px;
+            margin: -1.2em -1.2em 1em;
+            object-fit: cover;
+            object-position: top left;
+            border-bottom: 1px solid $galette-light-grey;
         }
 
         .card-header {

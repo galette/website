@@ -1,51 +1,56 @@
 {{ define "main" }}
   <div class="home">
-    <!-- DEBUG: Page Title is {{ .Title }} -->
-    <!-- DEBUG: Page Type is {{ .Type }} -->
-    <!-- DEBUG: Page Kind is {{ .Kind }} -->
-    <!-- HOMEPAGE LAYOUT -->
-    <h1 class="slogan">{{ i18n "global.slogan" }}</h1>
+    <div class="hero">
+      <h1 class="slogan">{{ i18n "global.slogan" }}</h1>
+      <p class="hero-text">{{ i18n "home.hero.text" }}</p>
+      <div class="hero-actions">
+        <a class="hero-button primary" href="https://demo.galette.eu/">{{ i18n "home.hero.demo" }}</a>
+        <a class="hero-button" href="{{ .Site.Params.galette_stable_url }}">{{ i18n "home.hero.download" }} {{ .Site.Params.galette_last_release }}</a>
+        <a class="hero-link" href="{{ relref . "why" }}">{{ i18n "menus.why" }}</a>
+      </div>
+      <figure class="hero-shot">
+        <a href="{{ "assets/images/screenshots/desktop.png" | relURL }}" data-fancybox="gallery">
+          <img src="{{ "assets/images/screenshots/desktop.png" | relURL }}" alt="{{ i18n "home.hero.alt" }}" width="1024" height="640">
+        </a>
+      </figure>
+    </div>
+
     {{ .Content }}
   </div>
-  <div class="post-list">
-    <h2>{{ i18n "pages.posts.recent" }}</h2>
-    {{ $pages := where .Site.RegularPages "Type" "posts" }}
-    <!-- DEBUG: Found {{ len $pages }} posts -->
-    {{ range $pages | first 5 }}
-      <article class="h-entry post-item">
-        <div class="post-header">
+
+  <section class="home-news" aria-labelledby="home-news-title">
+    <h2 id="home-news-title">{{ i18n "pages.posts.recent" }}</h2>
+    <div class="news-list">
+      {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
+        <article class="news-item">
           <p class="post-meta">
-            {{- if .Params.tags -}}
-              {{- if reflect.IsSlice .Params.tags -}}
-                {{- range .Params.tags -}}
-                  {{- $tagKey := printf "tags.%s" . -}}
-                  {{- $translated := i18n $tagKey -}}
-                  <span class="p-category tag {{ . }}">{{ if $translated }}{{ $translated }}{{ else }}{{ . }}{{ end }}</span>
-                {{- end -}}
-              {{- else -}}
-                {{- $tagKey := printf "tags.%s" .Params.tags -}}
-                {{- $translated := i18n $tagKey -}}
-                <span class="p-category tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
+            {{- with .Params.tags -}}
+              {{- range (cond (reflect.IsSlice .) . (slice .)) -}}
+                {{- $translated := i18n (printf "tags.%s" .) -}}
+                <span class="p-category tag {{ . }}">{{ or $translated . }}</span>
               {{- end -}}
             {{- end }}
-            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02" }}">
-              {{ .Date.Format (i18n "global.date_format") }}
-            </time>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (i18n "global.date_format") }}</time>
           </p>
-          <h3 class="p-name">
-            <a class="u-url post-link" href="{{ .RelPermalink }}">
-              {{ .Title }}
-            </a>
-          </h3>
-        </div>
-        <div class="p-summary post-excerpt">
-          {{ .Content }}
-        </div>
-        {{ partial "share.html" . }}
-      </article>
-    {{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ or .Description (.Summary | plainify | truncate 180) }}</p>
+        </article>
+      {{ end }}
+    </div>
     <div class="pagination">
       <a href="{{ "posts" | relLangURL }}" class="buttom">{{ i18n "pages.posts.all" }}</a>
     </div>
-  </div>
+  </section>
+
+  <aside class="community-banner" aria-labelledby="community-title">
+    <div class="community-banner-icon">{{ partial "icon.html" "users" }}</div>
+    <div class="community-banner-text">
+      <p id="community-title" class="community-banner-title">{{ i18n "home.community.title" }}</p>
+      <p>{{ i18n "home.community.text" }}</p>
+    </div>
+    <div class="community-banner-actions">
+      <a class="community-button primary" href="{{ relref . "contribute" }}">{{ i18n "home.community.contribute" }}</a>
+      <a class="community-button" href="{{ relref . "contribute" }}#donate">{{ i18n "global.donate" }}</a>
+    </div>
+  </aside>
 {{ end }}

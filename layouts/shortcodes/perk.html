@@ -1,0 +1,8 @@
+{{- /* A short selling point: icon, title, one line. Params: icon, title */ -}}
+<li class="perk">
+  <span class="perk-icon">{{ partial "icon.html" (.Get "icon") }}</span>
+  <span class="perk-text">
+    <strong>{{ .Get "title" }}</strong>
+    {{ .Inner | markdownify }}
+  </span>
+</li>
