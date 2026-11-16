@@ -1,90 +1,49 @@
 ---
 title: "Contact"
-description: "Comment joindre la communauté Galette : canaux Matrix, IRC et Discord, listes de discussion, et gestionnaire de tickets pour signaler un bogue ou proposer une évolution."
+description: "Comment joindre la communauté Galette : GitHub Discussions pour les questions et les idées, gestionnaire de bogues, salons Matrix, Discord et IRC, listes de diffusion et Mastodon."
 ---
-{{< toc >}}
+<p class="lead">Une question, un bogue, une idée ? Voici où aller.</p>
 
-Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)
+{{< cards >}}
+{{< card icon="question" title="Poser une question" meta="Installation, utilisation, configuration" url="https://github.com/orgs/galette/discussions/categories/q-a" button="Poser ma question" >}}
+Les questions et leurs réponses restent consultables par tous : quelqu'un a peut-être déjà eu le même souci.
+{{< /card >}}
+{{< card icon="bug" title="Signaler un bogue" anchor="bogues-et-évolutions" meta="Un comportement anormal, une erreur" url="https://bugs.galette.eu/projects/galette/" button="Ouvrir un ticket" >}}
+Décrivez ce qui se passe et comment le reproduire.
+{{< /card >}}
+{{< card icon="idea" title="Proposer une idée" meta="Une fonctionnalité qui vous manque" url="https://github.com/orgs/galette/discussions/categories/ideas" button="Partager mon idée" >}}
+Discutons-en ensemble avant d'en faire une demande d'évolution.
+{{< /card >}}
+{{< card icon="chat" title="Discuter en direct" anchor="discussions-instantanées" meta="Matrix · Discord · IRC" url="https://matrix.to/#/%23galette:matrix.org" button="Rejoindre le salon" >}}
+Pour échanger rapidement, ou simplement dire bonjour.
+{{< /card >}}
+{{< card icon="mail" title="Listes de diffusion" anchor="listes-de-discussion" meta="Utilisateurs · développement" url="https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/" button="S'abonner" >}}
+Pour celles et ceux qui préfèrent échanger par courriel.
+{{< /card >}}
+{{< card icon="rss" title="Suivre l'actualité" anchor="réseaux-sociaux" meta="Mastodon · flux RSS" url="https://framapiaf.org/@galette" button="Suivre sur Mastodon" >}}
+Nouvelles versions, annonces et coulisses du projet.
+{{< /card >}}
+{{< /cards >}}
 
-Et fonction du besoin :
+## Discuter en direct {#discussions-instantanées}
 
-* vous pouvez utiliser les canaux [Matrix](#matrix) (ou [IRC](#irc)) et [Discord](https://discord.gg/98g2e3xka8) pour absolument tous les sujets, ou même juste pour dire bonjour,
-* vous pouvez également aborder tous les sujets sur les [listes de discussion](#listes-de-discussion), mais préférez la liste de développement pour les sujets liés au... développement,
-* en cas de bogue ou de demande d'évolution, utilisez le gestionnaire de bogues (« bug tracker » en anglais, et « tracker » de son petit nom généralement utilisé),
-* vous pouvez aussi proposer une nouvelle possibilité, si elle a du sens.
+Les salons sont ouverts à tous et à tous les sujets. Les réponses ne sont pas toujours instantanées : chacun passe quand il peut, le développeur principal compris.
 
-Sur les réseaux sociaux (Mastodon, Twitter), faire du support ou expliquer certaines choses, ça peut être compliqué... Nous préfèrerons privilégier un des autres canaux mis à disposition tant que faire se peut.
+* <span id="matrix"></span>**Matrix** : [#galette:matrix.org](https://matrix.to/#/%23galette:matrix.org), avec n'importe quel compte Matrix. Seuls les messages postés après votre arrivée sont visibles.
+* <span id="discord"></span>**Discord** : [le serveur Galette](https://discord.gg/98g2e3xka8).
+* <span id="irc"></span>**IRC** : `#galette` sur `irc.oftc.net`. Le salon est relié à Matrix ; sans client connecté en permanence, vous ne verrez pas les messages échangés en votre absence.
 
-## Discussions instantanées
+## Listes de diffusion {#listes-de-discussion}
 
-Posez une question, et obtenez une réponse. C'est simple, et efficace. Ça demande juste qu'il y ait quelqu'un en face pour vous répondre, et c'est là que ça se complique un peu :-D
+* [galette-users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/) : entraide et discussions générales,
+* [galette-devel](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/) : sujets techniques et développement.
 
-Il arrive parfois que les discussions instantanées ne le soient pas tant que ça, en fonction de chacun et du contexte... Le développeur principal est généralement toujours présent en pointillés.
+Il faut être abonné pour écrire sur une liste : depuis la page de la liste, inscrivez-vous avec votre adresse ou avec un compte Mailman. Les archives sont consultables en ligne, et vous pouvez aussi y répondre : [utilisateurs](https://lists.mailman3.com/hyperkitty/list/galette-users@mailman3.com/), [développement](https://lists.mailman3.com/hyperkitty/list/galette-devel@mailman3.com/). Les échanges antérieurs à mars 2024 se retrouvent sur [The Mail Archive](https://www.mail-archive.com/search?l=all&q=galette&a=1).
 
-### Matrix
+## Bogues et évolutions {#bogues-et-évolutions}
 
-Matrix est un protocole de communication assez récent, qui se veut ouvert et très interopérable. Le fonctionnement est un peu similaire à IRC, à la différence qu'il faut un compte Matrix, pour ensuite rejoindre le salon de Galette.
+Avant d'ouvrir un ticket sur le [gestionnaire de bogues]({{% param "galette_tracker_url" %}}), vérifiez que personne ne l'a déjà fait : consultez les [bogues ouverts](https://bugs.galette.eu/projects/galette/issues?query_id=2) et les [tâches ouvertes](https://bugs.galette.eu/projects/galette/issues?query_id=3). La FAQ explique {{< doclink path="faq/index.html#how-to-report-a-bug-or-ask-for-a-feature" >}}comment rédiger un bon rapport de bogue ou une demande d'évolution{{< /doclink >}}.
 
-* salon Matrix : [#galette:matrix.org](https://matrix.to/#/%23galette:matrix.org)
-* et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
+## Réseaux sociaux {#réseaux-sociaux}
 
-L'accès au salon est ouvert à tous, les archives ne sont pas publiques, vous n'aurez accès qu'aux conversations qui ont eu lieu après que vous ayez rejoint le salon.
-Il est automatiquement lié au salon IRC officiel, vous n'avez rien de plus à faire.
-
-### Discord
-
-Vous pouvez également rejoindre le canal [Galette Discord](https://discord.gg/98g2e3xka8) :)
-
-### IRC
-
-IRC est un protocole de communication qui existe depuis de nombreuses années (1988), qui fait très bien ce qu'on lui demande (pas grand chose somme toute), et qui est encore actuellement très répandu.
-
-Tout ce dont vous avez besoin, c'est donc d'un client IRC pour vous connecter sur `irc://irc.oftc.net` pour ensuite rejoindre `#galette`.
-
-Notez que lorsque votre client IRC est fermé ou simplement non connecté, aucun message ne vous parviendra. Et vous ne pourrez jamais non plus voir ce que vous avez manqué (aucun log du canal IRC n'est disponible).
-
-Un lien a été créé entre le salon IRC et l'instance Matrix ; qui devrait apporter une solution efficace à ce problème. En effet, c'est dans ce cas l'instance Matrix qui se connecte sur le canal IRC pour tous les participants.
-
-## Listes de discussion
-
-Les listes de discussion sont un ensemble d'échanges par courriel. La liste est désignée par une adresse mail à laquelle vous envoyez un message, qui est ensuite redistribué à tous les abonnés de la liste (vous compris).
-
-Afin d'envoyer ou de recevoir des messages d'une liste, vous devez **impérativement y être inscrit**. La procédure est expliquée sur la page de la liste elle-même et plus bas sur la présente page.
-
-Les listes disponibles :
-
-* [utilisateurs](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/) : discussions générales, entraide, FAQ
-* [développement](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/) : liste de discussion développeurs pour les sujets plus techniques
-
-### Inscription/Désinscription et utilisation
-
-Pour vous inscrire à une liste de difusion, vous avez plusieurs options (voir les liens ci-dessus) :
-* depuis l'interface web, créez un compte sur mailman3 et ensuite abonnez vous aux listes que vous souhaitez ;
-* depuis l'interface web, abonnez vous simplement avec votre email ;
-* envoyez un email à l'adresse administrative.
-
-Vous pouvez également consulter et rechercher dans les archives des listes ; ou encore envoyer de nouveau messages ou répondre à un message existant en utlisant l'interface web :
-* [pour la liste des utilisateurs](https://lists.mailman3.com/hyperkitty/list/galette-users@mailman3.com/),
-* [pour la liste développement](https://lists.mailman3.com/hyperkitty/list/galette-devel@mailman3.com/).
-
-### Anciennes archives
-
-Depuis le 1er mars 2024, nous utilisons un nouveau système de listes de diffusion.
-
-La manière la plus simple et fiable [d'effectuer une recherche dans les discussions passées relatives à Galette](https://www.mail-archive.com/search?l=all&q=galette&a=1>) est de faire une requête via les services de mail archive.
-
-## Rapports de bogues et demandes d'évolutions
-
-Des entrées de FAQ spécifiques traitent respectivement des procédures de {{< doclink path="faq/index.html#how-to-report-a-bug-or-ask-for-a-feature" >}}rapport d'anomalies et de demande d'évolution{{< /doclink >}}.
-
-Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'exprimer une demande de fonctionnalité](https://bugs.galette.eu/projects/galette/), assurez-vous que personne ne vous ait devancé :-)
-
-* [liste des bogues ouverts](https://bugs.galette.eu/projects/galette/issues?query_id=2)
-* [liste des tâches ouvertes](https://bugs.galette.eu/projects/galette/issues?query_id=3)
-* [demandes soumises au vote](https://vote.galette.eu)
-
-## Réseaux sociaux
-
-**Merci de ne pas faire de demandes de support !**
-
-* Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette)
+Suivez le projet sur Mastodon : [@galette@framapiaf.org](https://framapiaf.org/@galette). Ce n'est pas le bon endroit pour demander de l'aide : préférez les canaux ci-dessus, où les réponses profitent à tous.

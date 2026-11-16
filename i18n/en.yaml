@@ -96,8 +96,12 @@ menus.communication:
   other: "Communication"
 menus.plugins:
   other: "Plugins"
-menus.about:
+menus.aboutsection:
   other: "About"
+menus.about:
+  other: "The project"
+menus.history:
+  other: "History"
 menus.posts:
   other: "Posts"
 menus.contribute:

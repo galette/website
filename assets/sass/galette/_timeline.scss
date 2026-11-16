@@ -1,0 +1,76 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use "../variables" as *;
+
+/** Timeline (history page) and collapsible blocks */
+section#content {
+    ol.timeline {
+        list-style: none;
+        margin: 1.5em 0 2em;
+        padding: 0 0 0 1.6em;
+        border-left: 3px solid $galette-orange;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin: 0 0 1.2em;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: calc(-1.6em - 8px);
+            top: .25em;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background: #fff;
+            border: 3px solid $galette-blue;
+        }
+
+        .timeline-date {
+            display: block;
+            font-weight: bold;
+            color: $dark-text-color;
+        }
+
+        .timeline-body p {
+            margin: .2em 0 0;
+        }
+    }
+
+    details {
+        margin: 1em 0 2em;
+        border: 1px solid $galette-light-grey;
+        border-radius: 6px;
+        padding: .6em 1em;
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: $action-color;
+        }
+
+        &[open] summary {
+            margin-bottom: .6em;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+        }
+    }
+}

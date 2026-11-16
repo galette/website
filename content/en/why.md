@@ -8,7 +8,7 @@ There is no shortage of solutions to manage an association, and many of them are
 
 ## Free and open source, for more than twenty years
 
-Galette is published under the [GPL license](https://www.gnu.org/licenses/quick-guide-gplv3.html): anyone can use, study, change and redistribute it. The [source code](https://github.com/galette/galette/) is public, decisions are discussed openly on the [bug tracker]({{% param "galette_tracker_url" %}}) and the [voting system]({{% param "galette_vote_url" %}}).
+Galette is published under the [GPL license](https://www.gnu.org/licenses/quick-guide-gplv3.html): anyone can use, study, change and redistribute it. The [source code](https://github.com/galette/galette/) is public, decisions are discussed openly on the [bug tracker]({{% param "galette_tracker_url" %}}) and on [GitHub Discussions]({{% param "galette_discussions_url" %}}).
 
 In practice, no vendor can raise prices, shut the service down or change the terms overnight. Born in 2003 for the needs of an association in Lyon, the project has been maintained by the same developer since 2007 and keeps evolving: [its history]({{< relref "about.md" >}}) tells more.
 

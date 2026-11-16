@@ -52,6 +52,7 @@ const translationsFR = loadTranslations('fr');
 const pagesEN = [
   { url: '/', title: 'Home' },
   { url: '/about/', title: 'About' },
+  { url: '/history/', title: 'History' },
   { url: '/contact/', title: 'Contact' },
   { url: '/contribute/', title: 'Contribute' },
   { url: '/posts/', title: 'Posts' },
@@ -65,6 +66,7 @@ const pagesEN = [
 const pagesFR = [
   { url: '/fr/', title: 'Accueil' },
   { url: '/fr/a-propos/', title: 'À propos' },
+  { url: '/fr/histoire/', title: 'Histoire' },
   { url: '/fr/contact/', title: 'Contact' },
   { url: '/fr/contribuer/', title: 'Contribuer' },
   { url: '/fr/posts/', title: 'Publications' },
@@ -76,7 +78,7 @@ const pagesFR = [
 ];
 
 // Menus identifiers to test (except tracker and demo)
-const mainMenuItems = ['home', 'about', 'posts', 'contribute', 'contact'];
+const mainMenuItems = ['home', 'about', 'history', 'posts', 'contribute', 'contact'];
 
 // ==============================================================================
 // Tests for EN pages (no language prefix)
