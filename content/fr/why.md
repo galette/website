@@ -8,7 +8,7 @@ Les solutions pour gérer une association ne manquent pas, et beaucoup sont des 
 
 ## Libre et open source, depuis plus de vingt ans
 
-Galette est publié sous [licence GPL](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html) : chacun peut l'utiliser, l'étudier, le modifier et le redistribuer. Le [code source](https://github.com/galette/galette/) est public, les décisions se discutent ouvertement sur le [gestionnaire de tickets]({{% param "galette_tracker_url" %}}) et le [système de vote]({{% param "galette_vote_url" %}}).
+Galette est publié sous [licence GPL](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html) : chacun peut l'utiliser, l'étudier, le modifier et le redistribuer. Le [code source](https://github.com/galette/galette/) est public, les décisions se discutent ouvertement sur le [gestionnaire de tickets]({{% param "galette_tracker_url" %}}) et les [GitHub Discussions]({{% param "galette_discussions_url" %}}).
 
 Concrètement, cela veut dire qu'aucun éditeur ne peut augmenter ses tarifs, fermer le service ou changer les conditions du jour au lendemain. Né en 2003 pour les besoins d'une association lyonnaise, le projet est maintenu par le même développeur depuis 2007 et continue d'évoluer : [son histoire]({{< relref "about.md" >}}) en dit plus.
 

@@ -13,6 +13,7 @@ import { test, expect } from '@playwright/test';
 const pairs = [
   { en: '/', fr: '/fr/' },
   { en: '/about/', fr: '/fr/a-propos/' },
+  { en: '/history/', fr: '/fr/histoire/' },
   { en: '/contribute/', fr: '/fr/contribuer/' },
   { en: '/contact/', fr: '/fr/contact/' },
 ];
