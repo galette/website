@@ -26,7 +26,7 @@ jobs:
 
       # Hugo 0.170 dropped LibSass and the extended build: Sass needs Dart Sass
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        uses: ./.github/actions/setup-dart-sass
       - name: Build
         run: hugo --gc --minify --baseURL https://galette.eu/site/
       - name: HTML5Validator
