@@ -29,7 +29,7 @@ Fiches personnalisables, groupes, recherches enregistrées, espace adhérent.
 {{< card img="/site/assets/images/screenshots/1.3.2/mailing-recipients-fr.png" alt="Choix des destinataires d'un mailing" icon="mail" title="Communication" page="communication" button="En savoir plus" >}}
 Mailings, cartes d'adhérent, étiquettes et feuilles d'émargement.
 {{< /card >}}
-{{< card img="/site/assets/images/screenshots/1.3.0/plugins-fr.png" alt="Liste des plugins" icon="code" title="Plugins" page="plugins" button="Voir les plugins" >}}
+{{< card img="/site/assets/images/screenshots/1.3.2/plugins-updates-fr.png" alt="Liste des plugins" icon="code" title="Plugins" page="plugins" button="Voir les plugins" >}}
 Paiement en ligne, événements, prêt de matériel, et bien plus.
 {{< /card >}}
 {{< /cards >}}
