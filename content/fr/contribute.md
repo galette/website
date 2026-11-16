@@ -1,79 +1,76 @@
 ---
 title: "Contribuer"
 slug: "contribuer"
-description: "Pas besoin d'être développeur pour contribuer à Galette : tester, aider d'autres utilisateurs, faire un don, traduire, rédiger de la documentation ou corriger des bogues."
+description: "Pas besoin d'être développeur pour contribuer à Galette : tester et signaler des bogues, aider d'autres utilisateurs, en parler, traduire, documenter, développer ou faire un don."
 ---
-{{< toc >}}
+<p class="lead">Galette est un logiciel libre qui vit grâce à sa communauté. Pas besoin d'être développeur pour y participer : quelques minutes suffisent souvent pour donner un vrai coup de main.</p>
 
-Vous souhaitez contribuer, mais vous ne savez pas quoi faire ? Peut-être même pensez-vous ne pas pouvoir aider du tout...
+{{< donate >}}
 
-Pas de panique, il existe bien des manières de contribuer à un projet comme Galette, il n'est pas nécessaire d'être développeur ;-)
+## Choisissez comment aider
 
-## Utiliser / Tester
+{{< cards >}}
+{{< card icon="bug" title="Tester" anchor="tester" meta="Quelques minutes · aucune compétence technique" url="https://bugs.galette.eu/projects/galette/" button="Signaler un bogue" >}}
+Vous utilisez Galette ? Un bogue bien décrit, c'est déjà une contribution précieuse.
+{{< /card >}}
+{{< card icon="help" title="Aider" anchor="aider" meta="Ponctuel · connaître Galette" url="https://github.com/orgs/galette/discussions" button="Répondre aux questions" >}}
+Partagez votre expérience avec celles et ceux qui découvrent Galette.
+{{< /card >}}
+{{< card icon="share" title="Faire connaître" anchor="faire-connaitre" meta="Quelques minutes · aucun prérequis" url="https://framapiaf.org/@galette" button="Suivre Galette" >}}
+Parlez de Galette autour de vous : d'autres associations en ont sûrement besoin.
+{{< /card >}}
+{{< card icon="translate" title="Traduire" anchor="traduire" meta="À votre rythme · lire l'anglais" url="https://hosted.weblate.org/projects/galette/" button="Traduire sur Weblate" >}}
+Galette parle une vingtaine de langues grâce à des bénévoles. Pourquoi pas la vôtre ?
+{{< /card >}}
+{{< card icon="write" title="Documenter" anchor="documenter" meta="À votre rythme · écrire en anglais simple" url="https://doc.galette.eu/fr/master/" button="Lire le manuel" >}}
+Le manuel gagne à être écrit par celles et ceux qui utilisent Galette au quotidien.
+{{< /card >}}
+{{< card icon="code" title="Développer" anchor="developper" meta="Projet · PHP, JavaScript" url="https://github.com/galette" button="Voir le code" >}}
+Corrigez un bogue, améliorez un plugin ou proposez une nouvelle fonctionnalité.
+{{< /card >}}
+{{< /cards >}}
 
-Utiliser Galette, c'est déjà soutenir le projet. Assez facile, non ? Allez, merci d'être venus :D
+## Tester et signaler {#tester}
 
-Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de pair. Donc si vous rencontrez un bogue, ouvrez un ticket avec tous les détails possibles pour qu'un développeur puisse comprendre le problème et le reproduire également, ou utilisez [l'un des canaux de communication]({{< ref "contact" >}}) proposés pour exposer votre problème.
+Utiliser Galette, c'est déjà soutenir le projet. Si vous tombez sur un bogue, ouvrez un ticket sur le [gestionnaire de bogues]({{% param "galette_tracker_url" %}}) avec le plus de détails possible (version, étapes pour le reproduire, message d'erreur) : c'est ce qui permet de le corriger vite. Vérifiez d'abord que personne ne l'a signalé avant vous.
 
-Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{% param "galette_nightly_url" %}}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
+Envie d'aller plus loin ? Essayez la [version nightly]({{% param "galette_nightly_url" %}}), qui contient les nouveautés en cours de développement, ou les {{< doclink path="plugins/" >}}plugins officiels{{< /doclink >}}. La nightly est une version instable : testez-la sur une copie de vos données, jamais en production.
 
-Bien entendu, il en va de même pour les {{< doclink path="plugins/" >}}plugins officiels{{< /doclink >}} :-)
+## Aider d'autres utilisateurs {#aider}
 
-## Aider / Communiquer
+Vous connaissez bien Galette ? Répondez aux questions posées sur les [GitHub Discussions]({{% param "galette_discussions_url" %}}), sur les [salons de discussion]({{< ref "contact#discussions-instantanées" >}}) (Matrix, Discord, IRC) ou sur la [liste des utilisateurs]({{< ref "contact#listes-de-discussion" >}}). Aider une association voisine à installer ou prendre en main Galette, c'est aussi contribuer.
 
-Une autre piste potentielle pour contribuer au projet, c'est d'aider à l'installation, à la configuration ou encore à la prise en main de l'outil.
+Vous connaissez un lieu d'entraide autour de Galette qui ne figure pas sur la [page contact]({{< ref "contact" >}}) ? Dites-le nous.
 
-Ce peut-être pour l'association de votre voisin à qui Galette pourrait rendre service, ou qui ne parvient pas à l'installer, par exemple.
-Mais ça peut aussi être de réponse à une demande sur les listes ou n'importe quel autre canal de demande d'entre aide. D'ailleurs, si vous connaissez des canaux d'aide Galette existants qui ne sont pas listés dans la page contact, merci de nous les signaler que cela y soit ajouté.
+## Faire connaître Galette {#faire-connaitre}
 
-Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({{< ref "contact#réseaux-sociaux" >}}) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
+Parlez de Galette sur vos réseaux sociaux, dans votre GULL, lors d'une rencontre entre associations ou d'un salon. Relayez les annonces de nouvelles versions et suivez le projet sur les [réseaux sociaux]({{< ref "contact#réseaux-sociaux" >}}).
 
-<a name="donate"></a>
-## Faire un don
+## Traduire {#traduire}
 
-Une autre manière de contribuer, c'est de faire un don au développeur de Galette, Johan, pour essayer de le motiver un brin ;-)
+Les traductions de Galette, de sa documentation et des plugins officiels se font sur [Weblate](https://hosted.weblate.org/projects/galette/) : créez un compte, choisissez votre langue et traduisez directement dans le navigateur. Vos traductions sont intégrées aux versions suivantes.
 
-Vous pouvez ainsi :
-
-* effectuer un [don Stripe](https://donate.stripe.com/dR6bJz7mX1Na0GQ5kk)[^1]
-* le contacter pour tout autre moyen (virement, chèque, éventuelle autre plateforme, ...)
-
-[^1]: Des frais sont appliqués
-
-## Traduire
-
-Préambule. Toute contribution au projet doit être faite dans la langue principale (anglais `en_GB`). En cas d'erreur sur la langue principale, il faut aller la corriger dans le contenu d'origine (le code en somme).
-N'hésitez pas à utiliser les [canaux de contact]({{< ref "contact" >}}) mis à disposition pour trouver de l'aide sur le sujet si vous le souhaitez ;-)
-
-Si donc vous souhaitez aider à traduire Galette, sa documentation ou les plugins officiels, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
+La langue source est l'anglais : si vous repérez une erreur dans le texte anglais lui-même, signalez-la plutôt que de la corriger dans une traduction.
 
 {{< img_link path="/site/assets/images/screenshots/weblate.png" alt="Capture d'écran de la plateforme de traduction Weblate" >}}
 
-### Détails du processus
+## Documenter {#documenter}
 
-Si l'on prend l'exemple de Galette, de nouvelles chaînes sources sont ajoutées régulièrement dans le code source. De temps en temps, les chaînes sont extraites du code source (et l'anglais est mis à jour de facto, rien ne devrait différer entre le code source et la traduction anglaise).
-Cette opération prend la forme d'un commit sur le dépôt du code source, qui sera automatiquement détecté par le système de traduction une fois publié. La mise à jour de tous les fichiers de langue présents est alors effectuée automatiquement.
+Certaines fonctionnalités sont peu ou pas décrites dans {{< doclink path="" >}}la documentation{{< /doclink >}}, surtout dans le manuel de l'utilisateur, qui gagne à être écrit par des utilisateurs. Inutile d'écrire de longs textes ou d'être bilingue : le contenu d'origine est en anglais, mais nous pouvons vous aider sur ce point, et chaque contribution est relue.
 
-Une fois les fichiers de langue à jour, vous pourrez traduire dans la langue de votre choix. Les modifications apportées sont enregistrées sur le système, jusqu'à ce que les développeurs les récupèrent dans le dépôt du logiciel (opération manuelle). Toutes vos traductions seront alors présentes dans Galette !
+Pas besoin non plus de maîtriser le format de la documentation : proposez votre texte sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette) ou sur les [GitHub Discussions]({{% param "galette_discussions_url" %}}), nous nous occuperons de la mise en forme. Si vous connaissez Git, une [pull request](https://github.com/galette/galettedoc) est la bienvenue.
 
-## Rédiger
+## Développer {#developper}
 
-Certaines fonctionnalités de Galette sont absentes dans la documentation, ou vraiment détaillées à minima. Là aussi, vous pouvez éventuellement aider en rédigeant de la documentation, ou des articles sur le site. Les principaux manques se situent dans le manuel de l'utilisateur ; parties qui justement devraient pour le mieux être rédigées par des utilisateurs (souvent, le développeur peine à ne pas ajouter moult détails techniques).
+Avant de vous lancer, venez en parler sur les [canaux de discussion]({{< ref "contact" >}}) ou les [GitHub Discussions]({{% param "galette_discussions_url" %}}) : vous saurez si la fonctionnalité a sa place dans Galette et comment l'aborder. Les plugins, souvent assez simples, sont une bonne porte d'entrée, mais les contributions au cœur sont tout aussi bienvenues.
 
-La principale contrainte, c'est que les contenus originaux doivent être en anglais. Le but n'est pas d'écrire de grands textes, nul besoin d'être totalement bilingue. Et si vous ne parlez pas du tout anglais, il est toujours possible de vous apporter de l'aide sur ce point.
-Les contributions sont dans tous les cas relues et commentées au besoin, permettant d'éventuels ajustements de votre part ou d'un autre participant.
+Le code de Galette, des plugins, de la documentation et du site est sur [GitHub](https://github.com/galette) ; les pull requests y sont relues par l'équipe. Toutes les informations utiles pour démarrer sont dans {{< doclink path="source_code.html" branch="develop" >}}la documentation du code source{{< /doclink >}}.
 
-Bien entendu, la documentation se doit de respecter certaines contraintes techniques pour être mise en ligne, mais ce n'est pas un impératif pour de nouveaux ajouts. Si, par exemple, vous ne savez pas faire un lien, il suffira de le préciser d'une manière ou d'une autre dans le contenu, par exemple  `voir l'article xyz (https://xyz.com)`.
+## Faire un don {#donate}
 
-Si vous souhaitez compléter la documentation ou y apporter une correction, le fonctionnement est le même que pour Galette : utilisez éventuellement les [canaux de communication]({{< ref "contact" >}}) pour exposer votre problématique, dans tous les cas ouvrez un rapport d'anomalie ou une demande d'évolution sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette), pour la suite des opérations  on fera selon les niveaux et les possibilités de chacun.
+Galette est gratuit, sans version payante ni publicité. Les dons financent le temps consacré à son développement et à sa maintenance, le matériel, et l'hébergement des services du projet (démo, nightly, listes).
 
-## Développer / corriger
+* [Faire un don par carte bancaire]({{% param "donate_stripe_url" %}}) via Stripe (des frais de transaction s'appliquent)
+* pour un virement, un chèque ou un autre moyen, [contactez-nous]({{< ref "contact" >}})
 
-Avant de vraiment vous lancer, veillez à vous assurer que votre fonctionnalité serait acceptée, ainsi que la manière dont vous souhaitez l'implémenter. Les [différents canaux de communication]({{< ref "contact" >}}) servent à ça, n'hésitez surtout pas :)
-
-Mettre le nez dans le code, c'est la possibilité de contribution la plus technique. Les plugins seront certainement plus faciles à appréhender que Galette elle-même, la majorité d'entre eux est assez simple ; mais vous pouvez bien sûr proposer des modifications sur le cœur :)
-Dans tous les cas de figure, essayez de vous rapprocher du ou des développeur(s) qui sont certainement les personnes les plus à-même de vous aider.
-
-Le code source des différents projets (Galette, plugins, documentation site web) est hébergé dans des dépôts GitHub, on peut utiliser leur mécanisme de PR (Pull Request) qui sera revue par l'équipe de développement. N'importe quel patch applicable par Git fourni de n'importe quelle manière ira très bien aussi.
-
-Toutes les {{< doclink path="source_code.html" branch="develop" >}}informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation{{< /doclink >}}.
+Merci pour votre soutien !

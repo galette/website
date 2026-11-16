@@ -54,6 +54,18 @@ pages.home:
   other: "Home"
 pages.contribute:
   other: "Contribute"
+pages.contribute.donate.title:
+  other: "Support Galette"
+pages.contribute.donate.text:
+  other: "Galette is free and will stay free. Donations pay for the time spent maintaining it, for hardware, and for hosting the demo, the nightly builds and the project services."
+pages.contribute.donate.once:
+  other: "Donate"
+pages.contribute.donate.fees:
+  other: "Card payment through Stripe, which charges fees."
+pages.contribute.donate.recurring:
+  other: "Give monthly"
+pages.contribute.donate.more:
+  other: "Bank transfer or check, no fees"
 pages.contact:
   other: "Contact"
 pages.posts:

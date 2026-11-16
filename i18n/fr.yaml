@@ -54,6 +54,18 @@ pages.home:
   other: "Accueil"
 pages.contribute:
   other: "Contribuer"
+pages.contribute.donate.title:
+  other: "Soutenez Galette"
+pages.contribute.donate.text:
+  other: "Galette est gratuit et le restera. Vos dons financent le temps passé à le maintenir, le matériel et l'hébergement de la démo, de la nightly et des services du projet."
+pages.contribute.donate.once:
+  other: "Faire un don"
+pages.contribute.donate.fees:
+  other: "Carte bancaire via Stripe, qui prélève des frais."
+pages.contribute.donate.recurring:
+  other: "Don mensuel"
+pages.contribute.donate.more:
+  other: "Virement ou chèque, sans frais"
 pages.contact:
   other: "Contact"
 pages.posts:

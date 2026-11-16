@@ -1,0 +1,21 @@
+{{- /*
+  Donation banner. The Open Collective button only shows once
+  params.donate_opencollective_url is set in hugo.toml.
+*/ -}}
+<aside class="donate-banner" aria-labelledby="donate-banner-title">
+  <div class="donate-banner-icon" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+  </div>
+  <div class="donate-banner-text">
+    <p id="donate-banner-title" class="donate-banner-title">{{ i18n "pages.contribute.donate.title" }}</p>
+    <p>{{ i18n "pages.contribute.donate.text" }}</p>
+  </div>
+  <div class="donate-banner-actions">
+    <a class="donate-button" href="{{ .Site.Params.donate_stripe_url }}" aria-describedby="donate-fees">{{ i18n "pages.contribute.donate.once" }}</a>
+    <p id="donate-fees" class="donate-fees">{{ i18n "pages.contribute.donate.fees" }}</p>
+    {{- with .Site.Params.donate_opencollective_url }}
+    <a class="donate-button secondary" href="{{ . }}">{{ i18n "pages.contribute.donate.recurring" }}</a>
+    {{- end }}
+    <a class="donate-more" href="#donate">{{ i18n "pages.contribute.donate.more" }}</a>
+  </div>
+</aside>

@@ -1,0 +1,209 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use "../variables" as *;
+
+/** Contribute page: donation banner and "pick your way" cards */
+/* Scoped under section#content to win over the generic content link and heading rules */
+section#content {
+    .lead {
+        font-size: $big-font-size;
+        color: $dark-text-color;
+        text-align: left;
+    }
+
+    .donate-banner {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: 1.5em 0;
+        padding: 1.2em 1.4em;
+        background: $galette-light-orange;
+        color: $dark-text-color;
+        border-left: 6px solid $galette-orange;
+        border-radius: 6px;
+
+        p {
+            margin: 0;
+            text-align: left;
+        }
+
+        .donate-banner-icon svg {
+            width: 2.4em;
+            height: 2.4em;
+            color: $galette-dark-grey;
+        }
+
+        .donate-banner-title {
+            font-size: $big-font-size;
+            font-weight: bold;
+            color: $dark-text-color;
+            margin-bottom: .3em;
+        }
+
+        .donate-banner-actions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: .6em 1em;
+        }
+
+        a.donate-button {
+            display: inline-block;
+            padding: .6em 1.4em;
+            border-radius: 2em;
+            background: $galette-dark-grey;
+            color: $light-text-color;
+            font-weight: bold;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: transform .15s ease, box-shadow .15s ease;
+
+            &:hover,
+            &:focus-visible {
+                transform: translateY(-1px);
+                box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
+            }
+
+            &.secondary {
+                background: transparent;
+                color: $dark-text-color;
+                box-shadow: inset 0 0 0 2px $galette-dark-grey;
+            }
+        }
+
+        .donate-fees {
+            font-size: $small-font-size;
+            max-width: 14em;
+        }
+
+        a.donate-more {
+            color: $dark-text-color;
+        }
+
+        @media screen and (min-width: $galette-large) {
+            flex-direction: row;
+            align-items: center;
+
+            .donate-banner-text {
+                flex: 1;
+            }
+
+            .donate-banner-actions {
+                flex-direction: column;
+                align-items: stretch;
+                text-align: center;
+
+                p.donate-fees {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.2em;
+        margin: 1.5em 0 2.5em;
+
+        @media screen and (min-width: $galette-large) {
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        }
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 1.2em;
+        background: #fff;
+        border: 1px solid $galette-light-grey;
+        border-top: 4px solid $galette-orange;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+        transition: transform .15s ease, box-shadow .15s ease;
+
+        &:hover,
+        &:focus-within {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, .1);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: .6em;
+            margin-bottom: .4em;
+        }
+
+        .card-icon {
+            flex-shrink: 0;
+            line-height: 0;
+
+            svg {
+                width: 2em;
+                height: 2em;
+                color: $galette-blue;
+            }
+        }
+
+        h3.card-title {
+            margin: 0;
+            border-bottom: none;
+
+            a {
+                color: $dark-text-color;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .card-meta {
+            margin: 0 0 .6em;
+            font-size: $small-font-size;
+            color: $galette-grey;
+            text-align: left;
+        }
+
+        .card-body {
+            flex: 1;
+
+            p {
+                margin: 0 0 .8em;
+                text-align: left;
+            }
+        }
+
+        a.card-action {
+            align-self: center;
+            margin-top: 1em;
+            padding: .45em 1.1em;
+            border-radius: 2em;
+            background: $action-color;
+            color: $light-text-color;
+            font-weight: bold;
+            text-decoration: none;
+
+            &:hover,
+            &:focus-visible {
+                background: $galette-dark-blue;
+            }
+        }
+    }
+}
