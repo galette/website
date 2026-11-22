@@ -154,3 +154,49 @@ download.alt:
   other: "Télécharger Galette"
 download.alt_nightly:
   other: "Télécharger la version de développement de Galette (très récente, potentiellement instable)"
+roadmap.updated:
+  other: "Mise à jour le {{ .date }}"
+roadmap.versions:
+  other: "Versions"
+roadmap.released:
+  other: "Publiées"
+roadmap.already_released:
+  other: "Déjà publiées"
+roadmap.done_pct:
+  other: "{{ .pct }} % réalisés"
+roadmap.maintenance:
+  other: "Une version de maintenance : corrections et petites améliorations, sans nouvelle fonctionnalité."
+roadmap.changes_so_far:
+  other: "Changements à ce jour :"
+roadmap.plugin:
+  other: "plugin"
+roadmap.documentation:
+  other: "documentation"
+roadmap.steps:
+  other: "{{ .done }} étapes sur {{ .total }} réalisées"
+roadmap.needs:
+  other: "Nécessite d'abord : {{ .what }}"
+roadmap.bug_fixes:
+  other: "Corrections de bogues"
+roadmap.status.done:
+  other: "Prêt"
+roadmap.status.progress:
+  other: "En cours"
+roadmap.status.planned:
+  other: "Prévu"
+roadmap.status.hold:
+  other: "En pause"
+roadmap.status.idea:
+  other: "Idée"
+roadmap.version.later:
+  other: "Plus tard"
+roadmap.version.next-maintenance-release:
+  other: "Prochaine version de maintenance"
+roadmap.version.next-major-release:
+  other: "Prochaine version majeure"
+roadmap.version.major-release-after-1.4:
+  other: "Version majeure après la 1.4"
+roadmap.version.not-scheduled-yet:
+  other: "Pas encore planifié"
+roadmap.version.released:
+  other: "Publiée"

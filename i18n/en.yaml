@@ -154,3 +154,37 @@ download.alt:
   other: "Download Galette"
 download.alt_nightly:
   other: "Download Galette development version (very recent, potentially unstable)"
+roadmap.updated:
+  other: "Updated {{ .date }}"
+roadmap.versions:
+  other: "Versions"
+roadmap.released:
+  other: "Released"
+roadmap.already_released:
+  other: "Already released"
+roadmap.done_pct:
+  other: "{{ .pct }}% done"
+roadmap.maintenance:
+  other: "A maintenance release: fixes and small improvements, no new features."
+roadmap.changes_so_far:
+  other: "Changes so far:"
+roadmap.plugin:
+  other: "plugin"
+roadmap.documentation:
+  other: "documentation"
+roadmap.steps:
+  other: "{{ .done }} of {{ .total }} steps done"
+roadmap.needs:
+  other: "Needs {{ .what }} first"
+roadmap.bug_fixes:
+  other: "Bug fixes"
+roadmap.status.done:
+  other: "Ready"
+roadmap.status.progress:
+  other: "In progress"
+roadmap.status.planned:
+  other: "Planned"
+roadmap.status.hold:
+  other: "On hold"
+roadmap.status.idea:
+  other: "Idea"

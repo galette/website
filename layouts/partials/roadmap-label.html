@@ -1,0 +1,6 @@
+{{- /*
+  Version name or description from the roadmap project, translated when the
+  language has a roadmap.version.<urlized text> string, as is otherwise.
+*/ -}}
+{{- $key := printf "roadmap.version.%s" (urlize .) }}
+{{- with i18n $key }}{{ . }}{{ else }}{{ $ }}{{ end -}}
