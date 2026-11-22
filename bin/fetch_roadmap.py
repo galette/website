@@ -25,8 +25,10 @@ Reading an organization project needs a token, even for a public project:
 a fine-grained token owned by the galette organization, with the
 "Projects: read-only" organization permission, in ROADMAP_TOKEN.
 
-When anything goes wrong, the committed data/roadmap.json is kept as is and
-the script exits successfully, so that the site is still built and deployed.
+When the project cannot be read, the data published with the site by the
+last deployment (ROADMAP_FALLBACK_URL) is used if it is more recent than the
+committed data/roadmap.json; otherwise the committed file is kept as is. The
+script always exits successfully, so that the site is still built and deployed.
 """
 
 import datetime
@@ -41,6 +43,8 @@ ORG = "galette"
 PROJECT = 5
 CORE_REPO = "galette/galette"
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "roadmap.json"
+# Published by layouts/_default/roadmap.html on each deployment
+FALLBACK_URL = os.environ.get("ROADMAP_FALLBACK_URL", "https://galette.eu/site/roadmap/roadmap.json")
 MAINTENANCE_CARD = re.compile(r"^Bug fixes for (\S+)$")
 # Cards closest to shipping first
 STATUS_ORDER = ["Done", "In progress", "Planned", "On hold", "Idea", "Released"]
@@ -201,18 +205,42 @@ def build(token):
     }
 
 
+def write(data):
+    OUTPUT.parent.mkdir(exist_ok=True)
+    OUTPUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+
+
+def fallback(reason):
+    """Use the data of the last deployment, when more recent than the committed one"""
+    try:
+        committed = json.loads(OUTPUT.read_text()).get("updated", "")
+    except Exception:
+        committed = ""
+    try:
+        deployed = json.loads(http(FALLBACK_URL))
+        if not isinstance(deployed.get("upcoming"), list) or not isinstance(deployed.get("released"), list):
+            raise ValueError("unexpected content")
+    except Exception as e:
+        warn(f"{reason}; deployed data unavailable ({e}), committed {OUTPUT.name} of {committed or '?'} is used")
+        return
+    if deployed.get("updated", "") > committed:
+        write(deployed)
+        warn(f"{reason}; data deployed on {deployed['updated']} is used")
+    else:
+        warn(f"{reason}; committed {OUTPUT.name} of {committed} is used")
+
+
 def main():
     token = os.environ.get("ROADMAP_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
-        warn(f"no ROADMAP_TOKEN, {OUTPUT.name} is not updated")
+        fallback("no ROADMAP_TOKEN")
         return
     try:
         data = build(token)
     except Exception as e:
-        warn(f"cannot read the roadmap project, {OUTPUT.name} is not updated: {e}")
+        fallback(f"cannot read the roadmap project ({e})")
         return
-    OUTPUT.parent.mkdir(exist_ok=True)
-    OUTPUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    write(data)
     print(f"{OUTPUT.name}: {len(data['upcoming'])} upcoming and {len(data['released'])} released versions")
 
 

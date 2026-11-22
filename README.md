@@ -11,6 +11,6 @@ All source code is licensed under the terms of the GLPv3 or later (see LICENSE f
 
 The roadmap page (`content/en/roadmap.md`, `layouts/_default/roadmap.html`) is rendered from `data/roadmap.json`, which `bin/fetch_roadmap.py` builds from the [Galette Roadmap project](https://github.com/orgs/galette/projects/5) and, for the next maintenance release, from `galette/docs/CHANGES` on its maintenance branch.
 
-The deploy workflow refreshes it before each build, the daily one included, with the `ROADMAP_TOKEN` secret: a fine-grained token owned by the galette organization, with the read-only "Projects" organization permission. When the project cannot be read, the committed `data/roadmap.json` is used as is.
+The deploy workflow refreshes it before each build, the daily one included, with the `ROADMAP_TOKEN` secret: a fine-grained token owned by the galette organization, with the read-only "Projects" organization permission. The data is published with the site (`roadmap/roadmap.json`): when the project cannot be read, the data of the last deployment is used, or the committed `data/roadmap.json` when it is more recent.
 
 To refresh it locally: `ROADMAP_TOKEN=$(gh auth token) python3 bin/fetch_roadmap.py`.

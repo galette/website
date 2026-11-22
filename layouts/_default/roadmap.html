@@ -4,6 +4,8 @@
 */ -}}
 {{ define "main" }}
   {{- $data := hugo.Data.roadmap }}
+  {{- /* Published with the site: bin/fetch_roadmap.py falls back on it when the project cannot be read */ -}}
+  {{- with $data }}{{ (resources.FromString "roadmap/roadmap.json" (jsonify (dict "indent" "  ") .)).Publish }}{{ end }}
   {{- $status := dict
       "Done" (slice "done" "Ready")
       "In progress" (slice "progress" "In progress")
