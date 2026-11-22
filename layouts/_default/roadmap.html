@@ -1,17 +1,19 @@
 {{- /*
   Roadmap page, rendered from data/roadmap.json (see bin/fetch_roadmap.py).
   The page text before the roadmap comes from the content file.
+  Interface strings are translated; titles, summaries and changes come from the
+  project and CHANGES, which are written in English: they are marked lang="en".
 */ -}}
 {{ define "main" }}
   {{- $data := hugo.Data.roadmap }}
   {{- /* Published with the site: bin/fetch_roadmap.py falls back on it when the project cannot be read */ -}}
-  {{- with $data }}{{ (resources.FromString "roadmap/roadmap.json" (jsonify (dict "indent" "  ") .)).Publish }}{{ end }}
+  {{- if eq .Lang hugo.Sites.Default.Language.Lang }}{{ with $data }}{{ (resources.FromString "roadmap/roadmap.json" (jsonify (dict "indent" "  ") .)).Publish }}{{ end }}{{ end }}
   {{- $status := dict
-      "Done" (slice "done" "Ready")
-      "In progress" (slice "progress" "In progress")
-      "Planned" (slice "planned" "Planned")
-      "On hold" (slice "hold" "On hold")
-      "Idea" (slice "idea" "Idea")
+      "Done" "done"
+      "In progress" "progress"
+      "Planned" "planned"
+      "On hold" "hold"
+      "Idea" "idea"
   }}
   {{- /* Circumference of the progress rings, r = 19 */ -}}
   {{- $circle := 119.38 }}
@@ -19,16 +21,16 @@
     <div class="content">
       {{ .Content }}
       {{- with $data }}
-      <p class="roadmap-updated">Updated <time datetime="{{ .updated }}">{{ time.Format "2 January 2006" .updated }}</time></p>
+      <p class="roadmap-updated">{{ i18n "roadmap.updated" (dict "date" (printf `<time datetime="%s">%s</time>` .updated (time.Format "2 January 2006" .updated))) | safeHTML }}</p>
 
-      <nav class="roadmap-track" aria-label="Versions" style="--stops: {{ add (len .upcoming) 1 }}">
+      <nav class="roadmap-track" aria-label="{{ i18n "roadmap.versions" }}" style="--stops: {{ add (len .upcoming) 1 }}">
         {{- $released := .released }}
         <a class="roadmap-stop" href="#released">
           <span class="roadmap-disc" aria-hidden="true">
             <svg viewBox="0 0 44 44"><circle class="face" cx="22" cy="22" r="19"/><circle class="ring" cx="22" cy="22" r="19" stroke-dasharray="{{ $circle }} {{ $circle }}"/></svg>
             <b>✓</b>
           </span>
-          <span class="roadmap-vname">Released</span>
+          <span class="roadmap-vname">{{ i18n "roadmap.released" }}</span>
           {{- with $released }}
           <span class="roadmap-vlabel">{{ (index (last 1 .) 0).name }} – {{ (index . 0).name }}</span>
           {{- end }}
@@ -41,8 +43,8 @@
             </svg>
             <b>{{ if .maintenance }}fix{{ else if ne .progress nil }}{{ .progress }}%{{ else }}…{{ end }}</b>
           </span>
-          <span class="roadmap-vname">{{ .name }}</span>
-          <span class="roadmap-vlabel">{{ .description }}</span>
+          <span class="roadmap-vname">{{ partial "roadmap-label" .name }}</span>
+          <span class="roadmap-vlabel">{{ partial "roadmap-label" .description }}</span>
         </a>
         {{- end }}
       </nav>
@@ -51,17 +53,17 @@
       {{- range $index, $version := $upcoming }}
       <section class="roadmap-release{{ if eq (add $index 1) (len $upcoming) }} last{{ end }}" id="v-{{ .name | urlize }}" aria-labelledby="v-{{ .name | urlize }}-title">
         <div class="roadmap-stamp">
-          <h2 class="roadmap-num{{ if not (findRE `^\d` .name) }} unscheduled{{ end }}" id="v-{{ .name | urlize }}-title">{{ .name }}</h2>
-          <div class="roadmap-label">{{ .description }}</div>
+          <h2 class="roadmap-num{{ if not (findRE `^\d` .name) }} unscheduled{{ end }}" id="v-{{ .name | urlize }}-title">{{ partial "roadmap-label" .name }}</h2>
+          <div class="roadmap-label">{{ partial "roadmap-label" .description }}</div>
           {{- if ne .progress nil }}
-          <div class="roadmap-pct">{{ .progress }}% done</div>
+          <div class="roadmap-pct">{{ i18n "roadmap.done_pct" (dict "pct" .progress) }}</div>
           {{- end }}
         </div>
         <div class="roadmap-body">
           {{- if .maintenance }}
-          <p class="roadmap-note">A maintenance release: fixes and small improvements, no new features.{{ with .changes }} Changes so far:{{ end }}</p>
+          <p class="roadmap-note">{{ i18n "roadmap.maintenance" }}{{ with .changes }} {{ i18n "roadmap.changes_so_far" }}{{ end }}</p>
           {{- with .changes }}
-          <ul class="roadmap-changes">
+          <ul class="roadmap-changes" lang="en">
             {{- range . }}
             <li>{{ . }}</li>
             {{- end }}
@@ -70,20 +72,20 @@
           {{- else }}
           <ul class="roadmap-features">
             {{- range .items }}
-            {{- $st := index $status .status | default (slice "idea" .status) }}
+            {{- $st := index $status .status | default "idea" }}
             <li>
-              <h3 class="roadmap-ft">{{ .title }}{{ if eq .area "Plugins" }} <small>plugin</small>{{ else if eq .area "Docs & website" }} <small>documentation</small>{{ end }}</h3>
+              <h3 class="roadmap-ft"><span lang="en">{{ .title }}</span>{{ if eq .area "Plugins" }} <small>{{ i18n "roadmap.plugin" }}</small>{{ else if eq .area "Docs & website" }} <small>{{ i18n "roadmap.documentation" }}</small>{{ end }}</h3>
               <div class="roadmap-state">
-                <span class="roadmap-s {{ index $st 0 }}">{{ index $st 1 }}</span>
+                <span class="roadmap-s {{ $st }}">{{ i18n (printf "roadmap.status.%s" $st) }}</span>
                 {{- if and (ne .progress nil) (ne .status "Done") }}{{ if gt .progress 0 }}
-                <span class="roadmap-bar" role="img" aria-label="{{ .steps_done }} of {{ .steps }} steps done"><i style="width: {{ .progress }}%"></i></span>
+                <span class="roadmap-bar" role="img" aria-label="{{ i18n "roadmap.steps" (dict "done" .steps_done "total" .steps) }}"><i style="width: {{ .progress }}%"></i></span>
                 {{- end }}{{ end }}
               </div>
               {{- with .summary }}
-              <p class="roadmap-summary">{{ . | markdownify }}</p>
+              <p class="roadmap-summary" lang="en">{{ . | markdownify }}</p>
               {{- end }}
               {{- with .depends }}
-              <p class="roadmap-dep">Needs {{ . }} first</p>
+              <p class="roadmap-dep">{{ i18n "roadmap.needs" (dict "what" (printf `<span lang="en">%s</span>` (. | htmlEscape))) | safeHTML }}</p>
               {{- end }}
             </li>
             {{- end }}
@@ -94,11 +96,11 @@
       {{- end }}
 
       <section class="roadmap-past" id="released" aria-labelledby="released-title">
-        <h2 id="released-title">Already released</h2>
+        <h2 id="released-title">{{ i18n "roadmap.already_released" }}</h2>
         <dl>
           {{- range .released }}
           <dt><a href="https://github.com/galette/galette/releases/tag/{{ .name }}">Galette {{ .name }}</a></dt>
-          <dd>{{ if .items }}{{ delimit (apply .items "index" "." "title") " · " }}{{ else }}Bug fixes{{ end }}</dd>
+          <dd>{{ if .items }}<span lang="en">{{ delimit (apply .items "index" "." "title") " · " }}</span>{{ else }}{{ i18n "roadmap.bug_fixes" }}{{ end }}</dd>
           {{- end }}
         </dl>
       </section>
