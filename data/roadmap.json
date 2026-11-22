@@ -1,0 +1,753 @@
+{
+  "updated": "2026-11-22",
+  "released": [
+    {
+      "name": "1.3.3",
+      "description": "Released",
+      "released": true,
+      "maintenance": true,
+      "progress": null,
+      "changes": [],
+      "items": []
+    },
+    {
+      "name": "1.3.2",
+      "description": "Released",
+      "released": true,
+      "maintenance": false,
+      "progress": null,
+      "changes": [],
+      "items": [
+        {
+          "title": "Advanced search: empty fields and members without group",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The advanced search can look for empty or non-empty fields, and members that do not belong to any group can be filtered from the members list and the advanced search.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Company name on member labels",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The company name is printed on member labels, between the name and the address.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Dynamic fields in the members list",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Members dynamic fields can be added as columns of the members list, from the core lists configuration.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Links to documents in mails and PDF models",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Mail and PDF models can include download links to documents, one by one, by document type, or to the public documents page.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Mailing recipients from a members search",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Mailing recipients are picked from a members search dropdown instead of a members table.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Mass change of contributions",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Contributions can be changed in mass from the list: payment type, date, comment and dynamic fields.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "New plugin releases notifications",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "New plugin releases are reported on the plugins page, in the plugins menu and at administrator login. Galette and plugin releases are checked from GitHub.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Unsaved changes flagged in fields and lists configuration",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The core fields and core lists configuration pages flag changed, moved, added and removed fields, and warn when changes are not saved yet; a removed field can be kept back before saving.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "User documentation for 1.3.2 changes",
+          "version": "1.3.2",
+          "status": "Released",
+          "area": "Docs & website",
+          "progress": 100,
+          "depends": null,
+          "summary": "Document the features coming in 1.3.2.",
+          "steps": 2,
+          "steps_done": 2
+        }
+      ]
+    },
+    {
+      "name": "1.3.1",
+      "description": "Released",
+      "released": true,
+      "maintenance": false,
+      "progress": null,
+      "changes": [],
+      "items": [
+        {
+          "title": "Configurable member picture",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The member picture is configured like other fields: its visibility can be set, and it can be made mandatory.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Groups and dynamic fields in CSV import and export",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Members can be attached to groups during a CSV import, and the members CSV export includes dynamic fields.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Groups managed from tables",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "A member's groups, and a group's members and managers, are managed from tables instead of modal windows. The member actions menu is the same on display and edit pages.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Password strength guidance",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The password strength indicator lists the rules and which ones are met, on the member form as well; the web installer gives advice for the super administrator password.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Preview features without debug mode",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Preview features can be turned on from the advanced configuration, or with the new `galette:feature:enable` and `galette:feature:disable` console commands.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Required fields enforced everywhere",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Required fields are checked in the browser on titles and dropdowns, and on the server for dynamic file fields; read-only fields are no longer reported as missing.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Saved searches: relative dates, renaming and updates",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Saved searches can use dates relative to the search day, can be renamed or updated, work in any language, and warn when a criterion refers to something that no longer exists.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Two-factor authentication reset from the command line",
+          "version": "1.3.1",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "The new `galette:twofactor:reset` console command resets the second factor of the super administrator or of a member, or disables two-factor authentication for the whole instance.",
+          "steps": 0,
+          "steps_done": 0
+        }
+      ]
+    },
+    {
+      "name": "1.3.0",
+      "description": "Released",
+      "released": true,
+      "maintenance": false,
+      "progress": null,
+      "changes": [],
+      "items": [
+        {
+          "title": "Advanced configuration page",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "A page lists every preference and tells whether it is default, modified, locked by a constant or unknown. Some settings moved from `behavior.inc.php` to the database, and upload size limits are now set per kind of upload.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Brute-force protection",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Failed logins, password recovery requests and self subscriptions are limited per account and per address. Thresholds are configurable, and a configuration page lists what is being refused and can lift it. Plugins can protect their own forms the same way.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Developer tools",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Routes declared with a `#[Route]` attribute, `AbstractEntity` with `#[Column]`, feature flags, and new tools: `bin/serve`, `galette:check-routes`, `galette:headers-check` and `galette:seed-fixtures`.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Email settings test",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Email settings can be tested from the form values without saving them first, and a button checks the connection without sending anything.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Interface and accessibility rework",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Accessibility improvements throughout, reworked buttons and theme contrasts, better page titles, a reworked language selector with regional languages, and filters and pagination on the documents list.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Mailings sent in batches (experimental)",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "A delay between messages and hourly or daily quotas can be set; sending goes through a queue that can be resumed, reminders included.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "More flexible dynamic fields",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Choice, date and file fields can be repeated, with labels and a maximum number of repetitions; dynamic fields can be added on preferences; up to 10 dynamic fields can be imported from CSV.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Plugins: own database versions, public pages and preferences",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Plugins are updated on their own with their own database version, the plugins page has been reworked, and plugins can declare public pages and preferences.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Security hardening",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "CSRF protection based on HTTP headers, SameSite session cookie, session renewed on login, sanitized stored content, dedicated password recovery tokens, secure random generation, and removal of the legacy md5 password fallback.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Two-factor authentication (experimental)",
+          "version": "1.3.0",
+          "status": "Released",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Optional two-factor authentication with time-based codes from any authenticator application, with recovery codes, reset by administrators, and an optional mandatory policy for staff or everyone.",
+          "steps": 0,
+          "steps_done": 0
+        }
+      ]
+    }
+  ],
+  "upcoming": [
+    {
+      "name": "1.3.4",
+      "description": "Next maintenance release",
+      "released": false,
+      "maintenance": true,
+      "progress": null,
+      "changes": [
+        "New plugin releases were not checked for plugins extracted from the official archives, whose directory was not renamed",
+        "Plugins information page links to the official plugins website",
+        "Two-factor authentication is no longer experimental; making it mandatory is still behind the 'two-factor-required' feature flag",
+        "Fewer database queries: dynamic fields of contributions and transactions, print logo, contextualized plural translations and preferences legend were looked up twice",
+        "Files of dynamic fields were left on disk when their member, contribution, transaction or field was removed",
+        "Documents with an uppercase extension, or a .jpeg one, could not be downloaded",
+        "Stricter checks on uploaded files"
+      ],
+      "items": []
+    },
+    {
+      "name": "1.4.0",
+      "description": "Next major release",
+      "released": false,
+      "maintenance": false,
+      "progress": 63,
+      "changes": [],
+      "items": [
+        {
+          "title": "Content Security Policy",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Tell browsers which scripts Galette pages may run and which sites they may talk to, so that a script injected in a page can neither run nor send members data elsewhere.",
+          "steps": 12,
+          "steps_done": 12
+        },
+        {
+          "title": "Maps built into Galette",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 89,
+          "depends": null,
+          "summary": "Bring the maps plugin into Galette itself: members can place themselves on a map, with a public map page and dashboard integration.",
+          "steps": 9,
+          "steps_done": 8
+        },
+        {
+          "title": "New PDF engine (tc-lib-pdf)",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 57,
+          "depends": null,
+          "summary": "Move PDF generation (member cards, labels, forms, invoices) from TCPDF, which is in maintenance mode, to its successor tc-lib-pdf.",
+          "steps": 7,
+          "steps_done": 4
+        },
+        {
+          "title": "Plugin declaration with a PHP attribute",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Plugins describe themselves with a `#[PluginDefinition]` attribute on their main class instead of a `_define.php` file, which keeps working for now with a deprecation notice.",
+          "steps": 7,
+          "steps_done": 7
+        },
+        {
+          "title": "Remove duplicated SQL queries",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": null,
+          "depends": null,
+          "summary": "The members list sends about 200 SQL queries, a third of them duplicates: preferences and social networks are loaded twice, among others.",
+          "steps": 0,
+          "steps_done": 0
+        },
+        {
+          "title": "Roles and permissions (RBAC)",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Replace the fixed access levels (admin, staff, group manager, member) with configurable roles and fine-grained permissions, so each association decides who can see or edit what.",
+          "steps": 6,
+          "steps_done": 6
+        },
+        {
+          "title": "Routes declared with attributes only",
+          "version": "1.4.0",
+          "status": "Done",
+          "area": "Core",
+          "progress": 100,
+          "depends": null,
+          "summary": "Routes are declared on controllers with the `#[Route]` attribute, introduced in 1.3.0; the separate routes files are gone, for the core and for plugins.",
+          "steps": 3,
+          "steps_done": 3
+        },
+        {
+          "title": "Auto: dynamic fields on vehicles",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Plugins",
+          "progress": 67,
+          "depends": "Dynamic fields for plugin forms",
+          "summary": "Vehicles get dynamic fields, configured with the core ones on the dynamic fields page: frame number, registration card, technical inspection, and whatever a club needs.",
+          "steps": 6,
+          "steps_done": 4
+        },
+        {
+          "title": "Auto: vehicle types",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Plugins",
+          "progress": 71,
+          "depends": null,
+          "summary": "The auto plugin handles other vehicles than cars, such as motorbikes and mopeds. Each vehicle type chooses which fields are shown, optional or required, instead of global preferences.",
+          "steps": 7,
+          "steps_done": 5
+        },
+        {
+          "title": "Dynamic fields for plugin forms",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Core",
+          "progress": 80,
+          "depends": null,
+          "summary": "Plugins can give dynamic fields to their own objects: each form a plugin declares gets its tab on the dynamic fields configuration page, and the core checks, stores and displays its values and files.",
+          "steps": 9,
+          "steps_done": 7
+        },
+        {
+          "title": "Maps beyond members",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Core",
+          "progress": 33,
+          "depends": "Maps built into Galette",
+          "summary": "Put other things than members on the map, such as plugin events or lending places, with layers that can be filtered by type.",
+          "steps": 3,
+          "steps_done": 1
+        },
+        {
+          "title": "Objects lend: new PDF engine",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Plugins",
+          "progress": 33,
+          "depends": "New PDF engine (tc-lib-pdf)",
+          "summary": "The objects lend plugin builds its own PDF documents (objects list and object card). They move to tc-lib-pdf, following the Galette core.",
+          "steps": 3,
+          "steps_done": 1
+        },
+        {
+          "title": "Outgoing webhooks",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Core",
+          "progress": 60,
+          "depends": null,
+          "summary": "Notify external services (automation tools, other applications) when something happens in Galette: member created or updated, contribution recorded…",
+          "steps": 5,
+          "steps_done": 3
+        },
+        {
+          "title": "Plugins: Content Security Policy",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Plugins",
+          "progress": 50,
+          "depends": "Content Security Policy",
+          "summary": "Official plugins carry the nonce on their scripts and declare the external sites their pages need, so that they keep working now that Galette enforces its Content Security Policy.",
+          "steps": 2,
+          "steps_done": 1
+        },
+        {
+          "title": "Simpler plugin installation",
+          "version": "1.4.0",
+          "status": "In progress",
+          "area": "Core",
+          "progress": 71,
+          "depends": null,
+          "summary": "Installing or upgrading a plugin's database becomes a single confirmation: Galette detects what to do, shows the result, and only details the SQL when something goes wrong.",
+          "steps": 7,
+          "steps_done": 5
+        },
+        {
+          "title": "Plugin release and news links declared by plugins",
+          "version": "1.4.0",
+          "status": "Planned",
+          "area": "Core",
+          "progress": 0,
+          "depends": "Plugin declaration with a PHP attribute",
+          "summary": "Galette currently guesses where to look for new plugin releases: the repository defaults to `galette-plugins/<plugin directory>`, and only GitHub is supported. The link shown to users opens the GitHub release page, which also lists the automatically generated source archives. Users often download those instead of the actual plugin package.",
+          "steps": 6,
+          "steps_done": 0
+        },
+        {
+          "title": "Remove global services (dependency injection)",
+          "version": "1.4.0",
+          "status": "Planned",
+          "area": "Core",
+          "progress": 0,
+          "depends": null,
+          "summary": "Finish moving core services to dependency injection: classes receive what they need instead of reaching for global variables. Makes code easier to test, and lets the database layer switch happen on stable constructors.",
+          "steps": 4,
+          "steps_done": 0
+        },
+        {
+          "title": "Shared saved searches",
+          "version": "1.4.0",
+          "status": "Planned",
+          "area": "Core",
+          "progress": 67,
+          "depends": null,
+          "summary": "Saved searches can be kept private, shared with staff, or shared with everyone.",
+          "steps": 3,
+          "steps_done": 2
+        }
+      ]
+    },
+    {
+      "name": "1.5.0",
+      "description": "Major release after 1.4",
+      "released": false,
+      "maintenance": false,
+      "progress": 0,
+      "changes": [],
+      "items": [
+        {
+          "title": "Plugins: migrate to Doctrine DBAL",
+          "version": "1.5.0",
+          "status": "Planned",
+          "area": "Plugins",
+          "progress": 0,
+          "depends": "Switch database layer to Doctrine DBAL",
+          "summary": "Move official plugins from the deprecated laminas-db query API to Doctrine DBAL, once the core provides it. laminas-db is removed in a later major version, announced in advance.",
+          "steps": 3,
+          "steps_done": 0
+        },
+        {
+          "title": "Switch database layer to Doctrine DBAL",
+          "version": "1.5.0",
+          "status": "Planned",
+          "area": "Core",
+          "progress": 0,
+          "depends": "Remove global services (dependency injection)",
+          "summary": "Replace the unmaintained laminas-db with Doctrine DBAL behind the existing database layer. Brings real prepared statements, nested transactions through savepoints, typed database errors, and a single schema definition for MySQL/MariaDB and PostgreSQL. The current query API stays available, deprecated, during the transition.",
+          "steps": 5,
+          "steps_done": 0
+        },
+        {
+          "title": "Plugin uninstall",
+          "version": "1.5.0",
+          "status": "Idea",
+          "area": "Core",
+          "progress": 0,
+          "depends": null,
+          "summary": "Uninstalling a plugin removes what it created: its tables, its preferences, and the dynamic fields of its forms with their values and files.",
+          "steps": 3,
+          "steps_done": 0
+        }
+      ]
+    },
+    {
+      "name": "Later",
+      "description": "Not scheduled yet",
+      "released": false,
+      "maintenance": false,
+      "progress": null,
+      "changes": [],
+      "items": [
+        {
+          "title": "Member page actions built like list actions",
+          "version": "Later",
+          "status": "Planned",
+          "area": "Core",
+          "progress": 0,
+          "depends": null,
+          "summary": "Build the actions of the member page in PHP, as the members list already does, so core and plugins actions follow the same path and the same permission checks.",
+          "steps": 4,
+          "steps_done": 0
+        },
+        {
+          "title": "OAuth2 server",
+          "version": "Later",
+          "status": "On hold",
+          "area": "Core",
+          "progress": 50,
+          "depends": "REST API",
+          "summary": "Let other applications sign users in with their Galette account.",
+          "steps": 2,
+          "steps_done": 1
+        },
+        {
+          "title": "REST API",
+          "version": "Later",
+          "status": "On hold",
+          "area": "Core",
+          "progress": 50,
+          "depends": null,
+          "summary": "An API to read and manage Galette data from other applications.",
+          "steps": 2,
+          "steps_done": 1
+        },
+        {
+          "title": "Step-by-step installer",
+          "version": "Later",
+          "status": "On hold",
+          "area": "Core",
+          "progress": 50,
+          "depends": null,
+          "summary": "Rework the web installer as clear, resumable steps.",
+          "steps": 2,
+          "steps_done": 1
+        },
+        {
+          "title": "Access rules declared with routes",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Core",
+          "progress": 0,
+          "depends": "Roles and permissions (RBAC)",
+          "summary": "Access rules are set next to each route instead of in a separate file, so a route and the permission it requires are declared in one place, on top of roles and permissions.",
+          "steps": 4,
+          "steps_done": 0
+        },
+        {
+          "title": "Activities: places on the map",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Plugins",
+          "progress": 0,
+          "depends": "Maps beyond members",
+          "summary": "Activities have no place yet. Show where they take place on Galette maps, if it proves useful.",
+          "steps": 3,
+          "steps_done": 0
+        },
+        {
+          "title": "Auto: vehicles on the map",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Plugins",
+          "progress": 0,
+          "depends": "Maps beyond members",
+          "summary": "Show vehicles on Galette maps, if it proves useful.",
+          "steps": 3,
+          "steps_done": 0
+        },
+        {
+          "title": "Configurable lists and fields for plugin objects",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Core",
+          "progress": 0,
+          "depends": "Dynamic fields for plugin forms",
+          "summary": "Plugins let administrators choose the columns of their lists, dynamic fields included, and configure the fields of their forms (required, visible, categories), as for members.",
+          "steps": 3,
+          "steps_done": 0
+        },
+        {
+          "title": "Duplicate members detection",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Core",
+          "progress": 33,
+          "depends": null,
+          "summary": "Warn about likely duplicates when a member registers or when importing a CSV file.",
+          "steps": 3,
+          "steps_done": 1
+        },
+        {
+          "title": "Events: places on the map",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Plugins",
+          "progress": 0,
+          "depends": "Maps beyond members",
+          "summary": "Events have an address; they can be shown on Galette maps, so members see where upcoming events take place.",
+          "steps": 3,
+          "steps_done": 0
+        },
+        {
+          "title": "Objects lend: lending places on the map",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Plugins",
+          "progress": 0,
+          "depends": "Maps beyond members",
+          "summary": "Show where objects can be borrowed on Galette maps.",
+          "steps": 4,
+          "steps_done": 0
+        },
+        {
+          "title": "Reliable UTF-8 conversion for old upgrades",
+          "version": "Later",
+          "status": "Idea",
+          "area": "Core",
+          "progress": 0,
+          "depends": null,
+          "summary": "Make upgrades from very old Galette versions (0.7) safer regarding character encoding.",
+          "steps": 3,
+          "steps_done": 0
+        }
+      ]
+    }
+  ]
+}
