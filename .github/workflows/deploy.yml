@@ -26,6 +26,12 @@ jobs:
       # Hugo 0.170 dropped LibSass and the extended build: Sass needs Dart Sass
       - name: Install Dart Sass
         uses: ./.github/actions/setup-dart-sass
+      # Roadmap page data, from the public roadmap project; the committed
+      # data/roadmap.json is kept when the project cannot be read
+      - name: Update roadmap data
+        env:
+          ROADMAP_TOKEN: ${{ secrets.ROADMAP_TOKEN }}
+        run: python3 bin/fetch_roadmap.py
       - name: Build
         run: hugo --gc --minify --baseURL https://galette.eu/site/
       - name: Deploy to Dedicated Server

@@ -1,0 +1,369 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use "../variables" as *;
+
+/** Roadmap page: same orange rail and blue-ringed dots as the history timeline */
+$roadmap-ready:    #2e7d4f;
+$roadmap-progress: #9a6200;
+$roadmap-hold:     #9a4672;
+$roadmap-idea:     $galette-grey;
+$roadmap-disc:     44px;
+
+section#content .roadmap {
+    .roadmap-updated {
+        color: $galette-grey;
+        font-size: $small-font-size;
+        margin: 0 0 1.5em;
+    }
+
+    /* Versions track */
+    .roadmap-track {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(var(--stops), minmax(0, 1fr));
+        gap: .6em;
+        margin: 0 0 2.4em;
+        padding-bottom: 1.4em;
+        border-bottom: 1px solid $galette-light-grey;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: $roadmap-disc * .5;
+            right: $roadmap-disc * .5;
+            top: $roadmap-disc * .5 - 2px;
+            height: 3px;
+            background: $galette-orange;
+        }
+    }
+
+    a.roadmap-stop {
+        position: relative;
+        display: grid;
+        gap: .15em;
+        justify-items: start;
+        min-width: 0;
+        color: inherit;
+        text-decoration: none;
+
+        &:hover .roadmap-vname,
+        &:focus .roadmap-vname {
+            color: $galette-blue;
+        }
+    }
+
+    .roadmap-disc {
+        position: relative;
+        display: grid;
+        place-items: center;
+        width: $roadmap-disc;
+        height: $roadmap-disc;
+
+        svg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+
+        circle {
+            stroke-width: 4;
+        }
+
+        .face {
+            fill: #fff;
+            stroke: $galette-light-grey;
+        }
+
+        .ring {
+            fill: none;
+            stroke: $galette-blue;
+            stroke-linecap: round;
+        }
+
+        b {
+            position: relative;
+            font-size: 11px;
+            color: $dark-text-color;
+        }
+    }
+
+    .roadmap-vname {
+        font-weight: bold;
+        font-size: 1.3em;
+        line-height: 1.1;
+        color: $dark-text-color;
+    }
+
+    .roadmap-vlabel {
+        font-size: $small-font-size;
+        color: $galette-grey;
+    }
+
+    /* Timeline */
+    .roadmap-release {
+        display: grid;
+        grid-template-columns: 6.5em minmax(0, 1fr);
+        gap: 0 1.6em;
+        scroll-margin-top: 1em;
+    }
+
+    .roadmap-stamp {
+        position: sticky;
+        top: 1em;
+        align-self: start;
+        text-align: right;
+    }
+
+    h2.roadmap-num {
+        display: block;
+        margin: 0;
+        border: 0;
+        font-size: 2.1em;
+        line-height: 1;
+        color: $dark-text-color;
+
+        &.unscheduled {
+            font-size: 1.6em;
+            color: $galette-grey;
+        }
+    }
+
+    .roadmap-label {
+        margin-top: .2em;
+        font-size: $small-font-size;
+        line-height: 1.3;
+        color: $galette-grey;
+    }
+
+    .roadmap-pct {
+        margin-top: .35em;
+        font-size: $small-font-size;
+        font-weight: bold;
+        color: $galette-blue;
+    }
+
+    .roadmap-body {
+        position: relative;
+        min-width: 0;
+        padding: 0 0 2em 1.6em;
+        border-left: 3px solid $galette-orange;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: -11px;
+            top: .45em;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background: #fff;
+            border: 3px solid $galette-blue;
+        }
+    }
+
+    .last .roadmap-body {
+        border-left-color: transparent;
+    }
+
+    ul.roadmap-features {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        > li {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            gap: .2em 1em;
+            padding: .7em 0;
+            border-bottom: 1px solid $galette-light-grey;
+
+            &:first-child {
+                padding-top: 0;
+            }
+        }
+    }
+
+    h3.roadmap-ft {
+        grid-column: 1;
+        display: block;
+        margin: 0;
+        border-bottom: 0;
+        font-size: 1.1em;
+        color: $dark-text-color;
+
+        small {
+            margin-left: .3em;
+            font-size: .8em;
+            font-weight: normal;
+            color: $galette-grey;
+        }
+    }
+
+    p.roadmap-summary,
+    p.roadmap-dep {
+        grid-column: 1;
+        margin: 0;
+        text-align: left;
+    }
+
+    p.roadmap-dep {
+        font-size: $small-font-size;
+        font-style: italic;
+        color: $galette-grey;
+    }
+
+    .roadmap-state {
+        grid-row: 1 / span 2;
+        grid-column: 2;
+        justify-self: end;
+        display: grid;
+        justify-items: end;
+        gap: .3em;
+        font-size: $small-font-size;
+        white-space: nowrap;
+    }
+
+    .roadmap-s {
+        display: inline-flex;
+        align-items: center;
+        gap: .4em;
+        font-weight: bold;
+        color: var(--status);
+
+        &::before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: var(--status);
+        }
+
+        &.done { --status: #{$roadmap-ready}; }
+        &.progress { --status: #{$roadmap-progress}; }
+        &.planned { --status: #{$galette-blue}; }
+        &.hold { --status: #{$roadmap-hold}; }
+        &.idea { --status: #{$roadmap-idea}; }
+    }
+
+    .roadmap-bar {
+        width: 80px;
+        height: 4px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: $galette-light-grey;
+
+        i {
+            display: block;
+            height: 100%;
+            background: $galette-orange;
+        }
+    }
+
+    p.roadmap-note {
+        margin: 0 0 .6em;
+        text-align: left;
+    }
+
+    ul.roadmap-changes {
+        display: grid;
+        gap: .35em;
+        margin: 0;
+        padding-left: 1.2em;
+    }
+
+    .roadmap-past {
+        scroll-margin-top: 1em;
+
+        dl {
+            display: grid;
+            grid-template-columns: max-content minmax(0, 1fr);
+            gap: .5em 1.2em;
+            margin: 0;
+        }
+
+        dt a {
+            font-weight: bold;
+        }
+
+        dd {
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .roadmap-track {
+            grid-template-columns: 1fr;
+            gap: .7em;
+
+            &::before {
+                left: $roadmap-disc * .5 - 2px;
+                right: auto;
+                top: $roadmap-disc * .5;
+                bottom: 2.6em;
+                width: 3px;
+                height: auto;
+            }
+        }
+
+        a.roadmap-stop {
+            grid-template-columns: $roadmap-disc 1fr;
+            column-gap: .8em;
+            row-gap: 0;
+            align-items: center;
+
+            .roadmap-disc {
+                grid-row: span 2;
+            }
+        }
+
+        .roadmap-release {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .roadmap-stamp {
+            position: static;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: .6em;
+            margin-bottom: .6em;
+            text-align: left;
+        }
+
+        ul.roadmap-features > li {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .roadmap-state {
+            grid-row: auto;
+            grid-column: 1;
+            justify-self: start;
+            justify-items: start;
+        }
+
+        .roadmap-past dl {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 0;
+
+            dd {
+                margin-bottom: .6em;
+            }
+        }
+    }
+}

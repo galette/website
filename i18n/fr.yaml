@@ -116,6 +116,8 @@ menus.about:
   other: "Le projet"
 menus.history:
   other: "Histoire"
+menus.roadmap:
+  other: "Feuille de route"
 menus.posts:
   other: "Publications"
 menus.contribute:

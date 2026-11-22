@@ -33,12 +33,12 @@
                     <ul>
                         {{- range .Children }}
                         <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL }}">{{ i18n (printf "menus.%s" .Identifier) }}</a>
+                            {{ partial "menu-link.html" . }}
                         </li>
                         {{- end }}
                     </ul>
                     {{- else }}
-                    <a href="{{ .URL }}">{{ i18n (printf "menus.%s" .Identifier) }}</a>
+                    {{ partial "menu-link.html" . }}
                     {{- end }}
                 </li>
                 {{ end }}
